@@ -5,7 +5,7 @@ title: Gemmi - MX project
 
 # Gemmi
 
-#### General Macromolecular I/O
+#### General MacroMolecular I/O
 
 #### (mmCIF, PDB, crystallographic reflections)
 
