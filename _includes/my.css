@@ -7,7 +7,7 @@ body {
 
 @media screen and (min-width: 660px) {
 body {
- margin: 2em 0;
+ margin-top: 2em;
  background: #AF9A7B;
  /* public domain photo from https://www.loc.gov/resource/ppmsc.06867/ */
  background-image: url("loc06867mod.jpg");
@@ -34,7 +34,7 @@ a { color: #04a; text-decoration: none; }
 a:hover, a:focus { text-decoration: underline; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: normal; color: #333; }
-header { font-size: 20px; text-align: center; }
+header { font-size: 22px; text-align: center; }
 @media screen and (min-width: 660px) {
 header { margin: -450px 0 300px; }
 header, header h1 { color: #fff; text-shadow: #333 2px 2px 2px;}
@@ -71,4 +71,5 @@ code { padding: .1em .25em; }
 
 #content img { margin: 0 auto; }
 
-footer { padding-top: 1em; text-align: center; font-size: 85%; }
+footer { padding: 1em 0 2em; text-align: center; font-size: 85%;
+         background-color: inherit;}
