@@ -3,17 +3,16 @@ layout: default
 title: Gemmi - MX project
 ---
 
-# Gemmi
+<header><h1>GEMMI</h1> General MacroMolecular I/O</header>
 
-#### General MacroMolecular I/O
+A new open-source library under development.
+For handling
 
-#### (mmCIF, PDB, crystallographic reflections)
+* mmCIF and PDB files,
+* refinement restraints (monomer library)
+* crystallographic reflections,
+* and maybe more.
 
-## 2016
+For C++, C, Fortran 2003+, Python and maybe JS.
 
-started in autumn, Gemmi like in Gemmi Pass
-
-## 2017
-
-to be revealed under an open-source license (most likely LGPL3)
-
+More details in 2017, 2018 and 2019.
