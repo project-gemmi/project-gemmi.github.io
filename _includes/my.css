@@ -16,17 +16,16 @@ body {
  background-attachment: fixed;
 }}
 
-#content {
+header, #content {
  max-width: 830px;
  margin: 0 auto;
  padding: 8px;
 }
 @media screen and (min-width: 660px) {
 #content {
- background-color: rgba(245, 216, 172, 0.90);
- border: solid 1px #975;
+ background-color: rgba(245, 216, 172, 0.95);
+ border: solid 1px #A09070;
  /*border-radius: 6px;*/
- margin-top: 649px;
  padding: 16px 25px;
 }}
 
@@ -36,21 +35,18 @@ a:hover, a:focus { text-decoration: underline; }
 h1, h2, h3, h4, h5, h6 { font-weight: normal; color: #333; }
 header { font-size: 22px; text-align: center; }
 @media screen and (min-width: 660px) {
-header { margin: -450px 0 300px; }
+header { margin: 230px auto 210px; padding: 30px; }
+header { position: sticky; position: -webkit-sticky; top: 230px; z-index: -1; }
 header, header h1 { color: #fff; text-shadow: #333 2px 2px 2px;}
 }
 
-h1 { font-size: 200%; text-align: center; }
+h1 { font-size: 200%; text-align: center; margin: 0; }
 @media screen and (min-width: 480px) { h1 { font-size: 300%; }}
 
 h2 { font-size: 150%; margin-bottom: 0.4em; }
 @media screen and (min-width: 480px) { h2 { font-size: 180%; }}
 
 h3 { font-size: 130%; margin-bottom: 0.4em; }
-
-h1, h2, h3 { margin-bottom: 0; }
-
-
 
 
 p, dl, table, pre, blockquote { margin: 0.5em 0; }

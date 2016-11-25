@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Gemmi - MX project
+h1: GEMMI
+subh1: General MacroMolecular I/O
 ---
-
-<header><h1>GEMMI</h1> General MacroMolecular I/O</header>
 
 A new open-source library under development.
 For handling
