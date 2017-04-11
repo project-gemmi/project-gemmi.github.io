@@ -29,7 +29,7 @@ header, #content {
  padding: 16px 25px;
 }}
 
-a { color: #04a; text-decoration: none; }
+a { color: #920; text-decoration: none; }
 a:hover, a:focus { text-decoration: underline; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: normal; color: #333; }
