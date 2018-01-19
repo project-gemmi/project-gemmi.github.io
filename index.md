@@ -6,17 +6,17 @@ subh1: General MacroMolecular I/O
 ---
 
 A new open-source library under development.
-For working with
+For working with:
 
-* mmCIF and PDB files,
-* refinement restraints (monomer library)
-* crystallographic reflections,
-* electron density maps,
-* and maybe more.
+* crystallographic symmetry,
+* macromolecular models (in mmCIF, PDB and mmJSON formats),
+* refinement restraints (CIF files),
+* data on a 3D grid (electron density maps, masks, MRC/CCP4 format)
+* and (planned) crystallographic reflections.
 
-For C++, C, Fortran 2003+, Python and maybe JS.
+For C++11, Python 2/3/PyPy, Fortran 2003+ and (planned) JavaScript.
 
-More details in 2017, 2018 and 2019.
+More details in 2018 and 2019.
 
 Code: [github.com/project-gemmi/gemmi](https://github.com/project-gemmi/gemmi)
 
