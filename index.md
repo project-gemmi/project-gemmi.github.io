@@ -26,5 +26,7 @@ Documentation: [gemmi.readthedocs.io](https://gemmi.readthedocs.io/)
 
 * [periodic table](https://project-gemmi.github.io/periodic-table/)
   as an impractical way of searching PDB
-* [PDB statistics](http://project-gemmi.github.io/pdb-stats/) focused
+* [PDB statistics](https://project-gemmi.github.io/pdb-stats/) focused
   on the data collection hardware and software; each plot is an interactive filter
+* [synchrotron work patterns](https://project-gemmi.github.io/pdb-stats/calendar.html) --
+  as seen in the wwPDB data
