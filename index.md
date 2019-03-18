@@ -15,6 +15,12 @@ Open-source library for working with:
 
 For C++11, Python 2/3/PyPy, Fortran 2003+ and (planned) JavaScript.
 
+The library is accompanied by a set of command-line
+[tools](https://gemmi.readthedocs.io/en/latest/utils.html) for converting
+and validating files,
+and&nbsp;for&nbsp;calculation of various properties and metrics
+from models, maps and data.
+
 Code: [github.com/project-gemmi/gemmi](https://github.com/project-gemmi/gemmi)
 
 Documentation: [gemmi.readthedocs.io](https://gemmi.readthedocs.io/)
