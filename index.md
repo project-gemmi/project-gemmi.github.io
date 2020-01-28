@@ -1,4 +1,5 @@
 ---
+redirect_to: "https://gemmi.readthedocs.io/en/latest/"
 layout: default
 title: Gemmi - MX project
 h1: GEMMI
