@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>gemmi.Mtz | Gemmi Python API</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i%7CSource+Code+Pro:400,400i,600" />
+  <link rel="stylesheet" href="m-dark+documentation.compiled.css" />
+  <link rel="icon" href="favicon-dark.png" type="image/png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#22272e" />
+</head>
+<body>
+<header><nav id="navigation">
+  <div class="m-container">
+    <div class="m-row">
+      <span id="m-navbar-brand" class="m-col-t-8 m-col-m-none m-left-m">
+        <a href="..">Gemmi</a> <span class="m-breadcrumb">|</span> <a href="index.html" class="m-thin">Python API</a>
+      </span>
+      <div class="m-col-t-4 m-hide-m m-text-right m-nopadr">
+        <a href="#search" class="m-doc-search-icon" title="Search" onclick="return showSearch()"><svg style="height: 0.9rem;" viewBox="0 0 16 16">
+          <path id="m-doc-search-icon-path" d="m6 0c-3.31 0-6 2.69-6 6 0 3.31 2.69 6 6 6 1.49 0 2.85-0.541 3.89-1.44-0.0164 0.338 0.147 0.759 0.5 1.15l3.22 3.79c0.552 0.614 1.45 0.665 2 0.115 0.55-0.55 0.499-1.45-0.115-2l-3.79-3.22c-0.392-0.353-0.812-0.515-1.15-0.5 0.895-1.05 1.44-2.41 1.44-3.89 0-3.31-2.69-6-6-6zm0 1.56a4.44 4.44 0 0 1 4.44 4.44 4.44 4.44 0 0 1-4.44 4.44 4.44 4.44 0 0 1-4.44-4.44 4.44 4.44 0 0 1 4.44-4.44z"/>
+        </svg></a>
+        <a id="m-navbar-show" href="#navigation" title="Show navigation"></a>
+        <a id="m-navbar-hide" href="#" title="Hide navigation"></a>
+      </div>
+      <div id="m-navbar-collapse" class="m-col-t-12 m-show-m m-col-m-none m-right-m">
+        <div class="m-row">
+          <ol class="m-col-t-12 m-col-m-none">
+            <li><a href="modules.html">Modules</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="https://github.com/project-gemmi/gemmi/">GitHub</a></li>
+            <li><a href="https://gemmi.readthedocs.io/">Docs</a></li>
+          </ol>
+          <ol class="m-col-t-6 m-col-m-none" start="5">
+            <li class="m-show-m"><a href="#search" class="m-doc-search-icon" title="Search" onclick="return showSearch()"><svg style="height: 0.9rem;" viewBox="0 0 16 16">
+              <use href="#m-doc-search-icon-path" />
+            </svg></a></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav></header>
+<main><article>
+  <div class="m-container m-container-inflatable">
+    <div class="m-row">
+      <div class="m-col-l-10 m-push-l-1">
+        <h1>
+          <span class="m-breadcrumb"><a href="gemmi.html">gemmi</a>.<wbr/></span>Mtz <span class="m-thin">class</span>
+        </h1>
+        <div class="m-block m-default">
+          <h3>Contents</h3>
+          <ul>
+            <li>
+              Reference
+              <ul>
+                <li><a href="#classes">Classes</a></li>
+                <li><a href="#methods">Methods</a></li>
+                <li><a href="#dunder-methods">Special methods</a></li>
+                <li><a href="#properties">Properties</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <section id="classes">
+          <h2><a href="#classes">Classes</a></h2>
+          <dl class="m-doc">
+            <dt>class <a href="gemmi.Mtz.Batch.html" class="m-doc">Batch</a></dt>
+            <dd></dd>
+            <dt>class <a href="gemmi.Mtz.Column.html" class="m-doc">Column</a></dt>
+            <dd></dd>
+            <dt>class <a href="gemmi.Mtz.Dataset.html" class="m-doc">Dataset</a></dt>
+            <dd></dd>
+          </dl>
+        </section>
+        <section id="methods">
+          <h2><a href="#methods">Methods</a></h2>
+          <dl class="m-doc">
+            <dt id="add_column">
+              <span class="m-doc-wrap-bumper">def <a href="#add_column" class="m-doc-self">add_column</a>(</span><span class="m-doc-wrap">self,
+              label: str,
+              type: str,
+              dataset_id: int = -1,
+              pos: int = -1,
+              expand_data: bool = True) -&gt; <a href="gemmi.Mtz.Column.html" class="m-doc">Column</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="add_dataset">
+              <span class="m-doc-wrap-bumper">def <a href="#add_dataset" class="m-doc-self">add_dataset</a>(</span><span class="m-doc-wrap">self,
+              name: str) -&gt; <a href="gemmi.Mtz.Dataset.html" class="m-doc">Dataset</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="column_labels">
+              <span class="m-doc-wrap-bumper">def <a href="#column_labels" class="m-doc-self">column_labels</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; typing.List[str]</span>
+            </dt>
+            <dd></dd>
+            <dt id="column_with_label">
+              <span class="m-doc-wrap-bumper">def <a href="#column_with_label" class="m-doc-self">column_with_label</a>(</span><span class="m-doc-wrap">self,
+              label: str,
+              dataset: <a href="gemmi.Mtz.Dataset.html" class="m-doc">Dataset</a> = None) -&gt; <a href="gemmi.Mtz.Column.html" class="m-doc">Column</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="columns_with_type">
+              <span class="m-doc-wrap-bumper">def <a href="#columns_with_type" class="m-doc-self">columns_with_type</a>(</span><span class="m-doc-wrap">self,
+              type: str) -&gt; <a href="gemmi.MtzColumnRefs.html" class="m-doc">MtzColumnRefs</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="count">
+              <span class="m-doc-wrap-bumper">def <a href="#count" class="m-doc-self">count</a>(</span><span class="m-doc-wrap">self,
+              label: str) -&gt; int</span>
+            </dt>
+            <dd></dd>
+            <dt id="data_fits_into">
+              <span class="m-doc-wrap-bumper">def <a href="#data_fits_into" class="m-doc-self">data_fits_into</a>(</span><span class="m-doc-wrap">self,
+              size: typing.List[int[3]]) -&gt; bool</span>
+            </dt>
+            <dd></dd>
+            <dt id="dataset">
+              <span class="m-doc-wrap-bumper">def <a href="#dataset" class="m-doc-self">dataset</a>(</span><span class="m-doc-wrap">self,
+              id: int) -&gt; <a href="gemmi.Mtz.Dataset.html" class="m-doc">Dataset</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="get_cell">
+              <span class="m-doc-wrap-bumper">def <a href="#get_cell" class="m-doc-self">get_cell</a>(</span><span class="m-doc-wrap">self,
+              dataset: int = -1) -&gt; <a href="gemmi.UnitCell.html" class="m-doc">UnitCell</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="get_f_phi_on_grid">
+              <span class="m-doc-wrap-bumper">def <a href="#get_f_phi_on_grid" class="m-doc-self">get_f_phi_on_grid</a>(</span><span class="m-doc-wrap">self,
+              f: str,
+              phi: str,
+              size: typing.List[int[3]],
+              half_l: bool = False,
+              order: <a href="gemmi.html#AxisOrder" class="m-doc">AxisOrder</a> = <a href="gemmi.html#AxisOrder-XYZ" class="m-doc">AxisOrder.XYZ</a>) -&gt; <a href="gemmi.ReciprocalComplexGrid.html" class="m-doc">ReciprocalComplexGrid</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="get_size_for_hkl">
+              <span class="m-doc-wrap-bumper">def <a href="#get_size_for_hkl" class="m-doc-self">get_size_for_hkl</a>(</span><span class="m-doc-wrap">self,
+              min_size: typing.List[int[3]] = [0, 0, 0],
+              sample_rate: float = 0.0) -&gt; typing.List[int[3]]</span>
+            </dt>
+            <dd></dd>
+            <dt id="get_value_on_grid">
+              <span class="m-doc-wrap-bumper">def <a href="#get_value_on_grid" class="m-doc-self">get_value_on_grid</a>(</span><span class="m-doc-wrap">self,
+              label: str,
+              size: typing.List[int[3]],
+              half_l: bool = False,
+              order: <a href="gemmi.html#AxisOrder" class="m-doc">AxisOrder</a> = <a href="gemmi.html#AxisOrder-XYZ" class="m-doc">AxisOrder.XYZ</a>) -&gt; <a href="gemmi.ReciprocalFloatGrid.html" class="m-doc">ReciprocalFloatGrid</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="make_1_d2_array">
+              <span class="m-doc-wrap-bumper">def <a href="#make_1_d2_array" class="m-doc-self">make_1_d2_array</a>(</span><span class="m-doc-wrap">self,
+              dataset: int = -1) -&gt; numpy.ndarray[float32]</span>
+            </dt>
+            <dd></dd>
+            <dt id="make_d_array">
+              <span class="m-doc-wrap-bumper">def <a href="#make_d_array" class="m-doc-self">make_d_array</a>(</span><span class="m-doc-wrap">self,
+              dataset: int = -1) -&gt; numpy.ndarray[float32]</span>
+            </dt>
+            <dd></dd>
+            <dt id="make_miller_array">
+              <span class="m-doc-wrap-bumper">def <a href="#make_miller_array" class="m-doc-self">make_miller_array</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; numpy.ndarray[int32]</span>
+            </dt>
+            <dd></dd>
+            <dt id="resolution_high">
+              <span class="m-doc-wrap-bumper">def <a href="#resolution_high" class="m-doc-self">resolution_high</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; float</span>
+            </dt>
+            <dd></dd>
+            <dt id="resolution_low">
+              <span class="m-doc-wrap-bumper">def <a href="#resolution_low" class="m-doc-self">resolution_low</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; float</span>
+            </dt>
+            <dd></dd>
+            <dt id="set_data-0e2ac">
+              <span class="m-doc-wrap-bumper">def <a href="#set_data-0e2ac" class="m-doc-self">set_data</a>(</span><span class="m-doc-wrap">self,
+              asu_data: <a href="gemmi.ReciprocalComplexGrid.AsuData.html" class="m-doc">ReciprocalComplexGrid.AsuData</a>) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="set_data-6743d">
+              <span class="m-doc-wrap-bumper">def <a href="#set_data-6743d" class="m-doc-self">set_data</a>(</span><span class="m-doc-wrap">self,
+              array: numpy.ndarray[float32]) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="switch_to_asu_hkl">
+              <span class="m-doc-wrap-bumper">def <a href="#switch_to_asu_hkl" class="m-doc-self">switch_to_asu_hkl</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; bool</span>
+            </dt>
+            <dd></dd>
+            <dt id="switch_to_original_hkl">
+              <span class="m-doc-wrap-bumper">def <a href="#switch_to_original_hkl" class="m-doc-self">switch_to_original_hkl</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; bool</span>
+            </dt>
+            <dd></dd>
+            <dt id="transform_f_phi_to_map">
+              <span class="m-doc-wrap-bumper">def <a href="#transform_f_phi_to_map" class="m-doc-self">transform_f_phi_to_map</a>(</span><span class="m-doc-wrap">self,
+              f: str,
+              phi: str,
+              min_size: typing.List[int[3]] = [0, 0, 0],
+              exact_size: typing.List[int[3]] = [0, 0, 0],
+              sample_rate: float = 0.0,
+              order: <a href="gemmi.html#AxisOrder" class="m-doc">AxisOrder</a> = <a href="gemmi.html#AxisOrder-XYZ" class="m-doc">AxisOrder.XYZ</a>) -&gt; <a href="gemmi.FloatGrid.html" class="m-doc">FloatGrid</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="update_reso">
+              <span class="m-doc-wrap-bumper">def <a href="#update_reso" class="m-doc-self">update_reso</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="write_to_file">
+              <span class="m-doc-wrap-bumper">def <a href="#write_to_file" class="m-doc-self">write_to_file</a>(</span><span class="m-doc-wrap">self,
+              path: str) -&gt; None</span>
+            </dt>
+            <dd></dd>
+          </dl>
+        </section>
+        <section id="dunder-methods">
+          <h2><a href="#dunder-methods">Special methods</a></h2>
+          <dl class="m-doc">
+            <dt id="__init__">
+              <span class="m-doc-wrap-bumper">def <a href="#__init__" class="m-doc-self">__init__</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="__repr__">
+              <span class="m-doc-wrap-bumper">def <a href="#__repr__" class="m-doc-self">__repr__</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; str</span>
+            </dt>
+            <dd></dd>
+          </dl>
+        </section>
+        <section id="properties">
+          <h2><a href="#properties">Properties</a></h2>
+          <dl class="m-doc">
+            <dt id="batches">
+              <a href="#batches" class="m-doc-self">batches</a>: <a href="gemmi.MtzBatches.html" class="m-doc">MtzBatches</a> <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
+            <dt id="cell">
+              <a href="#cell" class="m-doc-self">cell</a>: <a href="gemmi.UnitCell.html" class="m-doc">UnitCell</a> <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
+            <dt id="columns">
+              <a href="#columns" class="m-doc-self">columns</a>: <a href="gemmi.MtzColumns.html" class="m-doc">MtzColumns</a> <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
+            <dt id="datasets">
+              <a href="#datasets" class="m-doc-self">datasets</a>: <a href="gemmi.MtzDatasets.html" class="m-doc">MtzDatasets</a> <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
+            <dt id="history">
+              <a href="#history" class="m-doc-self">history</a>: typing.List[str] <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
+            <dt id="max_1_d2">
+              <a href="#max_1_d2" class="m-doc-self">max_1_d2</a>: float <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
+            <dt id="min_1_d2">
+              <a href="#min_1_d2" class="m-doc-self">min_1_d2</a>: float <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
+            <dt id="nreflections">
+              <a href="#nreflections" class="m-doc-self">nreflections</a>: int <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
+            <dt id="nsymop">
+              <a href="#nsymop" class="m-doc-self">nsymop</a>: int <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
+            <dt id="spacegroup">
+              <a href="#spacegroup" class="m-doc-self">spacegroup</a>: <a href="gemmi.SpaceGroup.html" class="m-doc">SpaceGroup</a> <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
+            <dt id="title">
+              <a href="#title" class="m-doc-self">title</a>: str <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
+            <dt id="valm">
+              <a href="#valm" class="m-doc-self">valm</a>: float <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
+          </dl>
+        </section>
+      </div>
+    </div>
+  </div>
+</article></main>
+<div class="m-doc-search" id="search">
+  <a href="#!" onclick="return hideSearch()"></a>
+  <div class="m-container">
+    <div class="m-row">
+      <div class="m-col-m-8 m-push-m-2">
+        <div class="m-doc-search-header m-text m-small">
+          <div><span class="m-label m-default">Tab</span> / <span class="m-label m-default">T</span> to search, <span class="m-label m-default">Esc</span> to close</div>
+          <div id="search-symbolcount">&hellip;</div>
+        </div>
+        <div class="m-doc-search-content">
+          <form>
+            <input type="search" name="q" id="search-input" placeholder="Loading &hellip;" disabled="disabled" autofocus="autofocus" autocomplete="off" spellcheck="false" />
+          </form>
+          <noscript class="m-text m-danger m-text-center">Unlike everything else in the docs, the search functionality <em>requires</em> JavaScript.</noscript>
+          <div id="search-help" class="m-text m-dim m-text-center">
+            <p class="m-noindent">Search for modules, classes, functions and other
+            symbols. You can omit any prefix from the symbol path; adding a <code>.</code>
+            suffix lists all members of given symbol.</p>
+            <p class="m-noindent">Use <span class="m-label m-dim">&darr;</span>
+            / <span class="m-label m-dim">&uarr;</span> to navigate through the list,
+            <span class="m-label m-dim">Enter</span> to go.
+            <span class="m-label m-dim">Tab</span> autocompletes common prefix, you can
+            copy a link to the result using <span class="m-label m-dim">⌘</span>
+            <span class="m-label m-dim">L</span> while <span class="m-label m-dim">⌘</span>
+            <span class="m-label m-dim">M</span> produces a Markdown link.</p>
+          </div>
+          <div id="search-notfound" class="m-text m-warning m-text-center">Sorry, nothing was found.</div>
+          <ul id="search-results"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="search-v1.js"></script>
+<script src="searchdata-v1.js" async="async"></script>
+<footer><nav>
+  <div class="m-container">
+    <div class="m-row">
+      <div class="m-col-l-10 m-push-l-1">
+        <p>Gemmi Python API. Created with <a href="https://mcss.mosra.cz/documentation/python/">m.css Python doc generator</a>.</p>
+      </div>
+    </div>
+  </div>
+</nav></footer>
+</body>
+</html>
