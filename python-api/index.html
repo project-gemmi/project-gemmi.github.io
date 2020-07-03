@@ -48,7 +48,8 @@
         <h1>
           gemmi <span class="m-thin">module</span>
         </h1>
-        <p>GEneral MacroMolecular I/O</p>
+        <p>Python bindings to GEMMI - a library used in macromolecular
+crystallography and related fields</p>
         <div class="m-block m-default">
           <h3>Contents</h3>
           <ul>
@@ -192,7 +193,7 @@
             <dd></dd>
             <dt>class <a href="gemmi.Position.html" class="m-doc">Position</a></dt>
             <dd></dd>
-            <dt>class <a href="gemmi.ReciprocalAsuChecker.html" class="m-doc">ReciprocalAsuChecker</a></dt>
+            <dt>class <a href="gemmi.ReciprocalAsu.html" class="m-doc">ReciprocalAsu</a></dt>
             <dd></dd>
             <dt>class <a href="gemmi.ReciprocalComplexGrid.html" class="m-doc">ReciprocalComplexGrid</a></dt>
             <dd></dd>
@@ -386,6 +387,14 @@
               unknown: float = 0.0) -&gt; float</span>
             </dt>
             <dd></dd>
+            <dt id="count_reflections">
+              <span class="m-doc-wrap-bumper">def <a href="#count_reflections" class="m-doc-self">count_reflections</a>(</span><span class="m-doc-wrap">cell: <a href="gemmi.UnitCell.html" class="m-doc">UnitCell</a>,
+              spacegroup: <a href="gemmi.SpaceGroup.html" class="m-doc">SpaceGroup</a>,
+              dmin: float,
+              dmax: float = 0.0,
+              unique: bool = True) -&gt; int</span>
+            </dt>
+            <dd></dd>
             <dt id="cromer_libermann">
               <span class="m-doc-wrap-bumper">def <a href="#cromer_libermann" class="m-doc-self">cromer_libermann</a>(</span><span class="m-doc-wrap">z: int,
               energy: float) -&gt; typing.Tuple[float, float]</span>
@@ -454,6 +463,14 @@
             <dd></dd>
             <dt id="make_chemcomp_from_block">
               <span class="m-doc-wrap-bumper">def <a href="#make_chemcomp_from_block" class="m-doc-self">make_chemcomp_from_block</a>(</span><span class="m-doc-wrap">arg0: <a href="gemmi.cif.Block.html" class="m-doc">cif.Block</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.ChemComp.html" class="m-doc">ChemComp</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="make_miller_array">
+              <span class="m-doc-wrap-bumper">def <a href="#make_miller_array" class="m-doc-self">make_miller_array</a>(</span><span class="m-doc-wrap">cell: <a href="gemmi.UnitCell.html" class="m-doc">UnitCell</a>,
+              spacegroup: <a href="gemmi.SpaceGroup.html" class="m-doc">SpaceGroup</a>,
+              dmin: float,
+              dmax: float = 0.0,
+              unique: bool = True) -&gt; numpy.ndarray[int32]</span>
             </dt>
             <dd></dd>
             <dt id="make_small_structure_from_block">
