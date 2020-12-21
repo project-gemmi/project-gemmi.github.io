@@ -75,6 +75,8 @@ crystallography and related fields</p>
         <section id="classes">
           <h2><a href="#classes">Classes</a></h2>
           <dl class="m-doc">
+            <dt>class <a href="gemmi.Addends.html" class="m-doc">Addends</a></dt>
+            <dd></dd>
             <dt>class <a href="gemmi.AlignmentResult.html" class="m-doc">AlignmentResult</a></dt>
             <dd></dd>
             <dt>class <a href="gemmi.AlignmentScoring.html" class="m-doc">AlignmentScoring</a></dt>
@@ -90,6 +92,8 @@ crystallography and related fields</p>
             <dt>class <a href="gemmi.AtomGroup.html" class="m-doc">AtomGroup</a></dt>
             <dd></dd>
             <dt>class <a href="gemmi.BondIndex.html" class="m-doc">BondIndex</a></dt>
+            <dd></dd>
+            <dt>class <a href="gemmi.C4322Coef.html" class="m-doc">C4322Coef</a></dt>
             <dd></dd>
             <dt>class <a href="gemmi.CRA.html" class="m-doc">CRA</a></dt>
             <dd></dd>
@@ -129,6 +133,10 @@ crystallography and related fields</p>
             <dd></dd>
             <dt>class <a href="gemmi.CraGenerator.html" class="m-doc">CraGenerator</a></dt>
             <dd></dd>
+            <dt>class <a href="gemmi.DensityCalculatorE.html" class="m-doc">DensityCalculatorE</a></dt>
+            <dd></dd>
+            <dt>class <a href="gemmi.DensityCalculatorX.html" class="m-doc">DensityCalculatorX</a></dt>
+            <dd></dd>
             <dt>class <a href="gemmi.Element.html" class="m-doc">Element</a></dt>
             <dd></dd>
             <dt>class <a href="gemmi.Entity.html" class="m-doc">Entity</a></dt>
@@ -149,6 +157,8 @@ crystallography and related fields</p>
             <dd></dd>
             <dt>class <a href="gemmi.Fractional.html" class="m-doc">Fractional</a></dt>
             <dd></dd>
+            <dt>class <a href="gemmi.FractionalBox.html" class="m-doc">FractionalBox</a></dt>
+            <dd></dd>
             <dt>class <a href="gemmi.GroupOps.html" class="m-doc">GroupOps</a></dt>
             <dd></dd>
             <dt>class <a href="gemmi.IT92Coef.html" class="m-doc">IT92Coef</a></dt>
@@ -168,6 +178,8 @@ crystallography and related fields</p>
             <dt>class <a href="gemmi.MaskedInt8Grid.html" class="m-doc">MaskedInt8Grid</a></dt>
             <dd></dd>
             <dt>class <a href="gemmi.Mat33.html" class="m-doc">Mat33</a></dt>
+            <dd></dd>
+            <dt>class <a href="gemmi.MmcifOutputGroups.html" class="m-doc">MmcifOutputGroups</a></dt>
             <dd></dd>
             <dt>class <a href="gemmi.Model.html" class="m-doc">Model</a></dt>
             <dd></dd>
@@ -192,6 +204,8 @@ crystallography and related fields</p>
             <dt>class <a href="gemmi.Op.html" class="m-doc">Op</a></dt>
             <dd></dd>
             <dt>class <a href="gemmi.Position.html" class="m-doc">Position</a></dt>
+            <dd></dd>
+            <dt>class <a href="gemmi.PositionBox.html" class="m-doc">PositionBox</a></dt>
             <dd></dd>
             <dt>class <a href="gemmi.ReciprocalAsu.html" class="m-doc">ReciprocalAsu</a></dt>
             <dd></dd>
@@ -243,6 +257,12 @@ crystallography and related fields</p>
             <dd></dd>
             <dt>class <a href="gemmi.Structure.html" class="m-doc">Structure</a></dt>
             <dd></dd>
+            <dt>class <a href="gemmi.StructureFactorCalculatorE.html" class="m-doc">StructureFactorCalculatorE</a></dt>
+            <dd></dd>
+            <dt>class <a href="gemmi.StructureFactorCalculatorX.html" class="m-doc">StructureFactorCalculatorX</a></dt>
+            <dd></dd>
+            <dt>class <a href="gemmi.SupResult.html" class="m-doc">SupResult</a></dt>
+            <dd></dd>
             <dt>class <a href="gemmi.SymImage.html" class="m-doc">SymImage</a></dt>
             <dd></dd>
             <dt>class <a href="gemmi.Topo.html" class="m-doc">Topo</a></dt>
@@ -287,6 +307,13 @@ crystallography and related fields</p>
               <a href="#BondType-Metal" class="m-doc-self" id="BondType-Metal">Metal</a> = 6</span>
             </dt>
             <dd>Members:</dd>
+            <dt id="CalcFlag">
+              <span class="m-doc-wrap-bumper">class <a href="#CalcFlag" class="m-doc-self">CalcFlag</a>: </span><span class="m-doc-wrap"><a href="#CalcFlag-NotSet" class="m-doc-self" id="CalcFlag-NotSet">NotSet</a> = 0
+              <a href="#CalcFlag-Determined" class="m-doc-self" id="CalcFlag-Determined">Determined</a> = 1
+              <a href="#CalcFlag-Calculated" class="m-doc-self" id="CalcFlag-Calculated">Calculated</a> = 2
+              <a href="#CalcFlag-Dummy" class="m-doc-self" id="CalcFlag-Dummy">Dummy</a> = 3</span>
+            </dt>
+            <dd>Members:</dd>
             <dt id="ConnectionType">
               <span class="m-doc-wrap-bumper">class <a href="#ConnectionType" class="m-doc-self">ConnectionType</a>: </span><span class="m-doc-wrap"><a href="#ConnectionType-Covale" class="m-doc-self" id="ConnectionType-Covale">Covale</a> = 0
               <a href="#ConnectionType-Disulf" class="m-doc-self" id="ConnectionType-Disulf">Disulf</a> = 1
@@ -308,7 +335,7 @@ crystallography and related fields</p>
               <span class="m-doc-wrap-bumper">class <a href="#EntityType" class="m-doc-self">EntityType</a>: </span><span class="m-doc-wrap"><a href="#EntityType-Unknown" class="m-doc-self" id="EntityType-Unknown">Unknown</a> = 0
               <a href="#EntityType-Polymer" class="m-doc-self" id="EntityType-Polymer">Polymer</a> = 1
               <a href="#EntityType-NonPolymer" class="m-doc-self" id="EntityType-NonPolymer">NonPolymer</a> = 2
-              <a href="#EntityType-Water" class="m-doc-self" id="EntityType-Water">Water</a> = 3</span>
+              <a href="#EntityType-Water" class="m-doc-self" id="EntityType-Water">Water</a> = 4</span>
             </dt>
             <dd>Members:</dd>
             <dt id="HowToNameCopiedChains">
@@ -329,6 +356,11 @@ crystallography and related fields</p>
               <a href="#PolymerType-CyclicPseudoPeptide" class="m-doc-self" id="PolymerType-CyclicPseudoPeptide">CyclicPseudoPeptide</a> = 9
               <a href="#PolymerType-Other" class="m-doc-self" id="PolymerType-Other">Other</a> = 10
               <a href="#PolymerType-Unknown" class="m-doc-self" id="PolymerType-Unknown">Unknown</a> = 0</span>
+            </dt>
+            <dd>Members:</dd>
+            <dt id="SupSelect">
+              <span class="m-doc-wrap-bumper">class <a href="#SupSelect" class="m-doc-self">SupSelect</a>: </span><span class="m-doc-wrap"><a href="#SupSelect-CaP" class="m-doc-self" id="SupSelect-CaP">CaP</a> = 0
+              <a href="#SupSelect-All" class="m-doc-self" id="SupSelect-All">All</a> = 1</span>
             </dt>
             <dd>Members:</dd>
           </dl>
@@ -385,6 +417,15 @@ crystallography and related fields</p>
             <dt id="calculate_sequence_weight">
               <span class="m-doc-wrap-bumper">def <a href="#calculate_sequence_weight" class="m-doc-self">calculate_sequence_weight</a>(</span><span class="m-doc-wrap">sequence: typing.List[str],
               unknown: float = 0.0) -&gt; float</span>
+            </dt>
+            <dd></dd>
+            <dt id="calculate_superposition">
+              <span class="m-doc-wrap-bumper">def <a href="#calculate_superposition" class="m-doc-self">calculate_superposition</a>(</span><span class="m-doc-wrap">fixed: <a href="gemmi.ResidueSpan.html" class="m-doc">ResidueSpan</a>,
+              movable: <a href="gemmi.ResidueSpan.html" class="m-doc">ResidueSpan</a>,
+              ptype: <a href="gemmi.html#PolymerType" class="m-doc">PolymerType</a>,
+              sel: <a href="gemmi.html#SupSelect" class="m-doc">SupSelect</a>,
+              altloc: str = &#x27;\x00&#x27;,
+              current_rmsd: bool = False) -&gt; <a href="gemmi.SupResult.html" class="m-doc">SupResult</a></span>
             </dt>
             <dd></dd>
             <dt id="count_reflections">
@@ -461,6 +502,18 @@ crystallography and related fields</p>
               <span class="m-doc-wrap-bumper">def <a href="#is_pdb_code" class="m-doc-self">is_pdb_code</a>(</span><span class="m-doc-wrap">arg0: str<span class="m-text m-dim">, /</span>) -&gt; bool</span>
             </dt>
             <dd></dd>
+            <dt id="make_address">
+              <span class="m-doc-wrap-bumper">def <a href="#make_address" class="m-doc-self">make_address</a>(</span><span class="m-doc-wrap">arg0: <a href="gemmi.Chain.html" class="m-doc">Chain</a>,
+              arg1: <a href="gemmi.Residue.html" class="m-doc">Residue</a>,
+              arg2: <a href="gemmi.Atom.html" class="m-doc">Atom</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.AtomAddress.html" class="m-doc">AtomAddress</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="make_assembly">
+              <span class="m-doc-wrap-bumper">def <a href="#make_assembly" class="m-doc-self">make_assembly</a>(</span><span class="m-doc-wrap">arg0: <a href="gemmi.Assembly.html" class="m-doc">Assembly</a>,
+              arg1: <a href="gemmi.Model.html" class="m-doc">Model</a>,
+              arg2: <a href="gemmi.html#HowToNameCopiedChains" class="m-doc">HowToNameCopiedChains</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Model.html" class="m-doc">Model</a></span>
+            </dt>
+            <dd></dd>
             <dt id="make_chemcomp_from_block">
               <span class="m-doc-wrap-bumper">def <a href="#make_chemcomp_from_block" class="m-doc-self">make_chemcomp_from_block</a>(</span><span class="m-doc-wrap">arg0: <a href="gemmi.cif.Block.html" class="m-doc">cif.Block</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.ChemComp.html" class="m-doc">ChemComp</a></span>
             </dt>
@@ -470,7 +523,7 @@ crystallography and related fields</p>
               spacegroup: <a href="gemmi.SpaceGroup.html" class="m-doc">SpaceGroup</a>,
               dmin: float,
               dmax: float = 0.0,
-              unique: bool = True) -&gt; numpy.ndarray[int32]</span>
+              unique: bool = True) -&gt; numpy.ndarray[numpy.int32]</span>
             </dt>
             <dd></dd>
             <dt id="make_small_structure_from_block">
@@ -493,6 +546,11 @@ crystallography and related fields</p>
               style: str = &#x27;x&#x27;) -&gt; str</span>
             </dt>
             <dd>Make one of the three parts of a triplet.</dd>
+            <dt id="mx_to_sx_structure">
+              <span class="m-doc-wrap-bumper">def <a href="#mx_to_sx_structure" class="m-doc-self">mx_to_sx_structure</a>(</span><span class="m-doc-wrap">st: <a href="gemmi.Structure.html" class="m-doc">Structure</a>,
+              n: int = 0) -&gt; <a href="gemmi.SmallStructure.html" class="m-doc">SmallStructure</a></span>
+            </dt>
+            <dd></dd>
             <dt id="one_letter_code-649f7">
               <span class="m-doc-wrap-bumper">def <a href="#one_letter_code-649f7" class="m-doc-self">one_letter_code</a>(</span><span class="m-doc-wrap">arg0: typing.List[str]<span class="m-text m-dim">, /</span>) -&gt; str</span>
             </dt>
@@ -557,15 +615,21 @@ crystallography and related fields</p>
             <dt id="read_structure">
               <span class="m-doc-wrap-bumper">def <a href="#read_structure" class="m-doc-self">read_structure</a>(</span><span class="m-doc-wrap">path: str,
               merge_chain_parts: bool = True,
-              format: <a href="gemmi.html#CoorFormat" class="m-doc">CoorFormat</a> = <a href="gemmi.html#CoorFormat-Unknown" class="m-doc">CoorFormat.Unknown</a>) -&gt; <a href="gemmi.Structure.html" class="m-doc">Structure</a></span>
+              format: <a href="gemmi.html#CoorFormat" class="m-doc">CoorFormat</a> = gemmi.<CoorFormat.Unknown: 0>) -&gt; <a href="gemmi.Structure.html" class="m-doc">Structure</a></span>
             </dt>
             <dd>Reads a coordinate file into Structure.</dd>
             <dt id="spacegroup_table">
-              <span class="m-doc-wrap-bumper">def <a href="#spacegroup_table" class="m-doc-self">spacegroup_table</a>(</span><span class="m-doc-wrap">) -&gt; iterator</span>
+              <span class="m-doc-wrap-bumper">def <a href="#spacegroup_table" class="m-doc-self">spacegroup_table</a>(</span><span class="m-doc-wrap">) -&gt; typing.Iterator</span>
             </dt>
             <dd></dd>
             <dt id="spacegroup_table_itb">
-              <span class="m-doc-wrap-bumper">def <a href="#spacegroup_table_itb" class="m-doc-self">spacegroup_table_itb</a>(</span><span class="m-doc-wrap">) -&gt; iterator</span>
+              <span class="m-doc-wrap-bumper">def <a href="#spacegroup_table_itb" class="m-doc-self">spacegroup_table_itb</a>(</span><span class="m-doc-wrap">) -&gt; typing.Iterator</span>
+            </dt>
+            <dd></dd>
+            <dt id="superpose_positions">
+              <span class="m-doc-wrap-bumper">def <a href="#superpose_positions" class="m-doc-self">superpose_positions</a>(</span><span class="m-doc-wrap">pos1: typing.List[<a href="gemmi.Position.html" class="m-doc">Position</a>],
+              pos2: typing.List[<a href="gemmi.Position.html" class="m-doc">Position</a>],
+              weight: typing.List[float] = []) -&gt; <a href="gemmi.SupResult.html" class="m-doc">SupResult</a></span>
             </dt>
             <dd></dd>
             <dt id="symops_from_hall">
@@ -578,7 +642,8 @@ crystallography and related fields</p>
             <dd></dd>
             <dt id="transform_map_to_f_phi">
               <span class="m-doc-wrap-bumper">def <a href="#transform_map_to_f_phi" class="m-doc-self">transform_map_to_f_phi</a>(</span><span class="m-doc-wrap">map: <a href="gemmi.FloatGrid.html" class="m-doc">FloatGrid</a>,
-              half_l: bool = False) -&gt; <a href="gemmi.ReciprocalComplexGrid.html" class="m-doc">ReciprocalComplexGrid</a></span>
+              half_l: bool = False,
+              use_scale: bool = True) -&gt; <a href="gemmi.ReciprocalComplexGrid.html" class="m-doc">ReciprocalComplexGrid</a></span>
             </dt>
             <dd></dd>
           </dl>

@@ -71,7 +71,7 @@
             <dd></dd>
             <dt id="calculate_1_d2_array">
               <span class="m-doc-wrap-bumper">def <a href="#calculate_1_d2_array" class="m-doc-self">calculate_1_d2_array</a>(</span><span class="m-doc-wrap">self,
-              arg0: numpy.ndarray[int32]<span class="m-text m-dim">, /</span>) -&gt; numpy.ndarray[float64]</span>
+              arg0: numpy.ndarray[numpy.int32]<span class="m-text m-dim">, /</span>) -&gt; numpy.ndarray[numpy.float64]</span>
             </dt>
             <dd></dd>
             <dt id="calculate_d">
@@ -81,14 +81,19 @@
             <dd></dd>
             <dt id="calculate_d_array">
               <span class="m-doc-wrap-bumper">def <a href="#calculate_d_array" class="m-doc-self">calculate_d_array</a>(</span><span class="m-doc-wrap">self,
-              arg0: numpy.ndarray[int32]<span class="m-text m-dim">, /</span>) -&gt; numpy.ndarray[float64]</span>
+              arg0: numpy.ndarray[numpy.int32]<span class="m-text m-dim">, /</span>) -&gt; numpy.ndarray[numpy.float64]</span>
+            </dt>
+            <dd></dd>
+            <dt id="calculate_u_eq">
+              <span class="m-doc-wrap-bumper">def <a href="#calculate_u_eq" class="m-doc-self">calculate_u_eq</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.SMat33d.html" class="m-doc">SMat33d</a><span class="m-text m-dim">, /</span>) -&gt; float</span>
             </dt>
             <dd></dd>
             <dt id="find_nearest_image">
               <span class="m-doc-wrap-bumper">def <a href="#find_nearest_image" class="m-doc-self">find_nearest_image</a>(</span><span class="m-doc-wrap">self,
               ref: <a href="gemmi.Position.html" class="m-doc">Position</a>,
               pos: <a href="gemmi.Position.html" class="m-doc">Position</a>,
-              asu: <a href="gemmi.html#Asu" class="m-doc">Asu</a> = <a href="gemmi.html#Asu-Any" class="m-doc">Asu.Any</a>) -&gt; <a href="gemmi.SymImage.html" class="m-doc">SymImage</a></span>
+              asu: <a href="gemmi.html#Asu" class="m-doc">Asu</a> = gemmi.<Asu.Any: 2>) -&gt; <a href="gemmi.SymImage.html" class="m-doc">SymImage</a></span>
             </dt>
             <dd></dd>
             <dt id="fractionalize">
@@ -117,9 +122,21 @@
               max_dist: float) -&gt; int</span>
             </dt>
             <dd></dd>
+            <dt id="metric_tensor">
+              <span class="m-doc-wrap-bumper">def <a href="#metric_tensor" class="m-doc-self">metric_tensor</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.SMat33d.html" class="m-doc">SMat33d</a></span>
+            </dt>
+            <dd></dd>
             <dt id="orthogonalize">
               <span class="m-doc-wrap-bumper">def <a href="#orthogonalize" class="m-doc-self">orthogonalize</a>(</span><span class="m-doc-wrap">self,
               arg0: <a href="gemmi.Fractional.html" class="m-doc">Fractional</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Position.html" class="m-doc">Position</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="reciprocal">
+              <span class="m-doc-wrap-bumper">def <a href="#reciprocal" class="m-doc-self">reciprocal</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.UnitCell.html" class="m-doc">UnitCell</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="reciprocal_metric_tensor">
+              <span class="m-doc-wrap-bumper">def <a href="#reciprocal_metric_tensor" class="m-doc-self">reciprocal_metric_tensor</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.SMat33d.html" class="m-doc">SMat33d</a></span>
             </dt>
             <dd></dd>
             <dt id="set">
@@ -141,6 +158,11 @@
         <section id="dunder-methods">
           <h2><a href="#dunder-methods">Special methods</a></h2>
           <dl class="m-doc">
+            <dt id="__eq__">
+              <span class="m-doc-wrap-bumper">def <a href="#__eq__" class="m-doc-self">__eq__</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.UnitCell.html" class="m-doc">UnitCell</a><span class="m-text m-dim">, /</span>) -&gt; bool</span>
+            </dt>
+            <dd></dd>
             <dt id="__init__-6eef6">
               <span class="m-doc-wrap-bumper">def <a href="#__init__-6eef6" class="m-doc-self">__init__</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
@@ -198,6 +220,10 @@
             <dd></dd>
             <dt id="orthogonalization_matrix">
               <a href="#orthogonalization_matrix" class="m-doc-self">orthogonalization_matrix</a>: <a href="gemmi.Mat33.html" class="m-doc">Mat33</a> <span class="m-label m-flat m-warning">get</span>
+            </dt>
+            <dd></dd>
+            <dt id="parameters">
+              <a href="#parameters" class="m-doc-self">parameters</a>: tuple <span class="m-label m-flat m-warning">get</span>
             </dt>
             <dd></dd>
             <dt id="volume">

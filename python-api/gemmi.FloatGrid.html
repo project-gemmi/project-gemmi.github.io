@@ -107,8 +107,15 @@
             <dd></dd>
             <dt id="interpolate_values">
               <span class="m-doc-wrap-bumper">def <a href="#interpolate_values" class="m-doc-self">interpolate_values</a>(</span><span class="m-doc-wrap">self,
-              arg0: numpy.ndarray[float32],
+              arg0: numpy.ndarray[numpy.float32],
               arg1: <a href="gemmi.Transform.html" class="m-doc">Transform</a><span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="mask_points_in_constant_radius">
+              <span class="m-doc-wrap-bumper">def <a href="#mask_points_in_constant_radius" class="m-doc-self">mask_points_in_constant_radius</a>(</span><span class="m-doc-wrap">self,
+              model: <a href="gemmi.Model.html" class="m-doc">Model</a>,
+              radius: float,
+              value: float) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="point_to_fractional">
@@ -121,9 +128,16 @@
               arg0: <a href="gemmi.FloatGrid.Point.html" class="m-doc">Point</a><span class="m-text m-dim">, /</span>) -&gt; int</span>
             </dt>
             <dd></dd>
-            <dt id="point_to_position">
-              <span class="m-doc-wrap-bumper">def <a href="#point_to_position" class="m-doc-self">point_to_position</a>(</span><span class="m-doc-wrap">self,
+            <dt id="point_to_position-2dc60">
+              <span class="m-doc-wrap-bumper">def <a href="#point_to_position-2dc60" class="m-doc-self">point_to_position</a>(</span><span class="m-doc-wrap">self,
               arg0: <a href="gemmi.FloatGrid.Point.html" class="m-doc">Point</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Position.html" class="m-doc">Position</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="point_to_position-f76fe">
+              <span class="m-doc-wrap-bumper">def <a href="#point_to_position-f76fe" class="m-doc-self">point_to_position</a>(</span><span class="m-doc-wrap">self,
+              u: int,
+              v: int,
+              w: int) -&gt; <a href="gemmi.Position.html" class="m-doc">Position</a></span>
             </dt>
             <dd></dd>
             <dt id="set_points_around">
@@ -174,8 +188,15 @@
               nz: int) -&gt; None</span>
             </dt>
             <dd></dd>
+            <dt id="__init__-1fc69">
+              <span class="m-doc-wrap-bumper">def <a href="#__init__-1fc69" class="m-doc-self">__init__</a>(</span><span class="m-doc-wrap">self,
+              arg0: numpy.ndarray[numpy.float32],
+              cell: <a href="gemmi.UnitCell.html" class="m-doc">UnitCell</a> = None,
+              spacegroup: <a href="gemmi.SpaceGroup.html" class="m-doc">SpaceGroup</a> = None) -&gt; None</span>
+            </dt>
+            <dd></dd>
             <dt id="__iter__">
-              <span class="m-doc-wrap-bumper">def <a href="#__iter__" class="m-doc-self">__iter__</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; iterator</span>
+              <span class="m-doc-wrap-bumper">def <a href="#__iter__" class="m-doc-self">__iter__</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; typing.Iterator</span>
             </dt>
             <dd></dd>
             <dt id="__repr__">
@@ -207,8 +228,16 @@
               <a href="#point_count" class="m-doc-self">point_count</a>: int <span class="m-label m-flat m-warning">get</span>
             </dt>
             <dd></dd>
+            <dt id="shape">
+              <a href="#shape" class="m-doc-self">shape</a>: tuple <span class="m-label m-flat m-warning">get</span>
+            </dt>
+            <dd></dd>
             <dt id="spacegroup">
               <a href="#spacegroup" class="m-doc-self">spacegroup</a>: <a href="gemmi.SpaceGroup.html" class="m-doc">SpaceGroup</a> <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
+            <dt id="spacing">
+              <a href="#spacing" class="m-doc-self">spacing</a>: tuple <span class="m-label m-flat m-warning">get</span>
             </dt>
             <dd></dd>
             <dt id="unit_cell">

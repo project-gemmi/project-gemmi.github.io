@@ -75,9 +75,24 @@
               pos: int = -1) -&gt; <a href="gemmi.Model.html" class="m-doc">Model</a></span>
             </dt>
             <dd></dd>
+            <dt id="assign_label_seq_id">
+              <span class="m-doc-wrap-bumper">def <a href="#assign_label_seq_id" class="m-doc-self">assign_label_seq_id</a>(</span><span class="m-doc-wrap">self,
+              force: bool = False) -&gt; None</span>
+            </dt>
+            <dd></dd>
             <dt id="assign_subchains">
               <span class="m-doc-wrap-bumper">def <a href="#assign_subchains" class="m-doc-self">assign_subchains</a>(</span><span class="m-doc-wrap">self,
               overwrite: bool = False) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="calculate_box">
+              <span class="m-doc-wrap-bumper">def <a href="#calculate_box" class="m-doc-self">calculate_box</a>(</span><span class="m-doc-wrap">self,
+              margin: float = 0.0) -&gt; <a href="gemmi.PositionBox.html" class="m-doc">PositionBox</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="calculate_fractional_box">
+              <span class="m-doc-wrap-bumper">def <a href="#calculate_fractional_box" class="m-doc-self">calculate_fractional_box</a>(</span><span class="m-doc-wrap">self,
+              margin: float = 0.0) -&gt; <a href="gemmi.FractionalBox.html" class="m-doc">FractionalBox</a></span>
             </dt>
             <dd></dd>
             <dt id="clone">
@@ -90,6 +105,11 @@
             <dd></dd>
             <dt id="ensure_entities">
               <span class="m-doc-wrap-bumper">def <a href="#ensure_entities" class="m-doc-self">ensure_entities</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="expand_ncs">
+              <span class="m-doc-wrap-bumper">def <a href="#expand_ncs" class="m-doc-self">expand_ncs</a>(</span><span class="m-doc-wrap">self,
+              how: <a href="gemmi.html#HowToNameCopiedChains" class="m-doc">HowToNameCopiedChains</a>) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="find_connection">
@@ -166,12 +186,14 @@
               <span class="m-doc-wrap-bumper">def <a href="#setup_entities" class="m-doc-self">setup_entities</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
             <dd></dd>
-            <dt id="setup_for_mmcif">
-              <span class="m-doc-wrap-bumper">def <a href="#setup_for_mmcif" class="m-doc-self">setup_for_mmcif</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
-            </dt>
-            <dd></dd>
             <dt id="shorten_chain_names">
               <span class="m-doc-wrap-bumper">def <a href="#shorten_chain_names" class="m-doc-self">shorten_chain_names</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="update_mmcif_block">
+              <span class="m-doc-wrap-bumper">def <a href="#update_mmcif_block" class="m-doc-self">update_mmcif_block</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.cif.Block.html" class="m-doc">cif.Block</a>,
+              arg1: <a href="gemmi.MmcifOutputGroups.html" class="m-doc">MmcifOutputGroups</a><span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="write_minimal_pdb">
@@ -227,7 +249,7 @@
             </dt>
             <dd></dd>
             <dt id="__iter__">
-              <span class="m-doc-wrap-bumper">def <a href="#__iter__" class="m-doc-self">__iter__</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; iterator</span>
+              <span class="m-doc-wrap-bumper">def <a href="#__iter__" class="m-doc-self">__iter__</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; typing.Iterator</span>
             </dt>
             <dd></dd>
             <dt id="__len__">
@@ -269,6 +291,10 @@
             <dd></dd>
             <dt id="ncs">
               <a href="#ncs" class="m-doc-self">ncs</a>: <a href="gemmi.NcsOpList.html" class="m-doc">NcsOpList</a> <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
+            <dt id="raw_remarks">
+              <a href="#raw_remarks" class="m-doc-self">raw_remarks</a>: typing.List[str] <span class="m-label m-flat m-success">get set</span>
             </dt>
             <dd></dd>
             <dt id="resolution">

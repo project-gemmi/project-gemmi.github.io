@@ -131,7 +131,7 @@
               phi: str,
               size: typing.List[int[3]],
               half_l: bool = False,
-              order: <a href="gemmi.html#AxisOrder" class="m-doc">AxisOrder</a> = <a href="gemmi.html#AxisOrder-XYZ" class="m-doc">AxisOrder.XYZ</a>) -&gt; <a href="gemmi.ReciprocalComplexGrid.html" class="m-doc">ReciprocalComplexGrid</a></span>
+              order: <a href="gemmi.html#AxisOrder" class="m-doc">AxisOrder</a> = gemmi.<AxisOrder.XYZ: 1>) -&gt; <a href="gemmi.ReciprocalComplexGrid.html" class="m-doc">ReciprocalComplexGrid</a></span>
             </dt>
             <dd></dd>
             <dt id="get_size_for_hkl">
@@ -145,21 +145,21 @@
               label: str,
               size: typing.List[int[3]],
               half_l: bool = False,
-              order: <a href="gemmi.html#AxisOrder" class="m-doc">AxisOrder</a> = <a href="gemmi.html#AxisOrder-XYZ" class="m-doc">AxisOrder.XYZ</a>) -&gt; <a href="gemmi.ReciprocalFloatGrid.html" class="m-doc">ReciprocalFloatGrid</a></span>
+              order: <a href="gemmi.html#AxisOrder" class="m-doc">AxisOrder</a> = gemmi.<AxisOrder.XYZ: 1>) -&gt; <a href="gemmi.ReciprocalFloatGrid.html" class="m-doc">ReciprocalFloatGrid</a></span>
             </dt>
             <dd></dd>
             <dt id="make_1_d2_array">
               <span class="m-doc-wrap-bumper">def <a href="#make_1_d2_array" class="m-doc-self">make_1_d2_array</a>(</span><span class="m-doc-wrap">self,
-              dataset: int = -1) -&gt; numpy.ndarray[float32]</span>
+              dataset: int = -1) -&gt; numpy.ndarray[numpy.float32]</span>
             </dt>
             <dd></dd>
             <dt id="make_d_array">
               <span class="m-doc-wrap-bumper">def <a href="#make_d_array" class="m-doc-self">make_d_array</a>(</span><span class="m-doc-wrap">self,
-              dataset: int = -1) -&gt; numpy.ndarray[float32]</span>
+              dataset: int = -1) -&gt; numpy.ndarray[numpy.float32]</span>
             </dt>
             <dd></dd>
             <dt id="make_miller_array">
-              <span class="m-doc-wrap-bumper">def <a href="#make_miller_array" class="m-doc-self">make_miller_array</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; numpy.ndarray[int32]</span>
+              <span class="m-doc-wrap-bumper">def <a href="#make_miller_array" class="m-doc-self">make_miller_array</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; numpy.ndarray[numpy.int32]</span>
             </dt>
             <dd></dd>
             <dt id="resolution_high">
@@ -170,14 +170,24 @@
               <span class="m-doc-wrap-bumper">def <a href="#resolution_low" class="m-doc-self">resolution_low</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; float</span>
             </dt>
             <dd></dd>
+            <dt id="set_cell_for_all">
+              <span class="m-doc-wrap-bumper">def <a href="#set_cell_for_all" class="m-doc-self">set_cell_for_all</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.UnitCell.html" class="m-doc">UnitCell</a><span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
             <dt id="set_data-0e2ac">
               <span class="m-doc-wrap-bumper">def <a href="#set_data-0e2ac" class="m-doc-self">set_data</a>(</span><span class="m-doc-wrap">self,
               asu_data: <a href="gemmi.ReciprocalComplexGrid.AsuData.html" class="m-doc">ReciprocalComplexGrid.AsuData</a>) -&gt; None</span>
             </dt>
             <dd></dd>
-            <dt id="set_data-6743d">
-              <span class="m-doc-wrap-bumper">def <a href="#set_data-6743d" class="m-doc-self">set_data</a>(</span><span class="m-doc-wrap">self,
-              array: numpy.ndarray[float32]) -&gt; None</span>
+            <dt id="set_data-c2fc9">
+              <span class="m-doc-wrap-bumper">def <a href="#set_data-c2fc9" class="m-doc-self">set_data</a>(</span><span class="m-doc-wrap">self,
+              asu_data: <a href="gemmi.ReciprocalFloatGrid.AsuData.html" class="m-doc">ReciprocalFloatGrid.AsuData</a>) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="set_data-966e4">
+              <span class="m-doc-wrap-bumper">def <a href="#set_data-966e4" class="m-doc-self">set_data</a>(</span><span class="m-doc-wrap">self,
+              array: numpy.ndarray[numpy.float32]) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="switch_to_asu_hkl">
@@ -195,7 +205,7 @@
               min_size: typing.List[int[3]] = [0, 0, 0],
               exact_size: typing.List[int[3]] = [0, 0, 0],
               sample_rate: float = 0.0,
-              order: <a href="gemmi.html#AxisOrder" class="m-doc">AxisOrder</a> = <a href="gemmi.html#AxisOrder-XYZ" class="m-doc">AxisOrder.XYZ</a>) -&gt; <a href="gemmi.FloatGrid.html" class="m-doc">FloatGrid</a></span>
+              order: <a href="gemmi.html#AxisOrder" class="m-doc">AxisOrder</a> = gemmi.<AxisOrder.XYZ: 1>) -&gt; <a href="gemmi.FloatGrid.html" class="m-doc">FloatGrid</a></span>
             </dt>
             <dd></dd>
             <dt id="update_reso">
@@ -213,7 +223,8 @@
           <h2><a href="#dunder-methods">Special methods</a></h2>
           <dl class="m-doc">
             <dt id="__init__">
-              <span class="m-doc-wrap-bumper">def <a href="#__init__" class="m-doc-self">__init__</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
+              <span class="m-doc-wrap-bumper">def <a href="#__init__" class="m-doc-self">__init__</a>(</span><span class="m-doc-wrap">self,
+              with_base: bool = False) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="__repr__">

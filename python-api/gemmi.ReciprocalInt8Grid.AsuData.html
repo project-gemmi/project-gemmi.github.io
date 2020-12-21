@@ -54,12 +54,30 @@
             <li>
               Reference
               <ul>
+                <li><a href="#methods">Methods</a></li>
                 <li><a href="#dunder-methods">Special methods</a></li>
                 <li><a href="#properties">Properties</a></li>
               </ul>
             </li>
           </ul>
         </div>
+        <section id="methods">
+          <h2><a href="#methods">Methods</a></h2>
+          <dl class="m-doc">
+            <dt id="copy">
+              <span class="m-doc-wrap-bumper">def <a href="#copy" class="m-doc-self">copy</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.ReciprocalInt8Grid.AsuData.html" class="m-doc">AsuData</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="make_1_d2_array">
+              <span class="m-doc-wrap-bumper">def <a href="#make_1_d2_array" class="m-doc-self">make_1_d2_array</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; numpy.ndarray[numpy.float32]</span>
+            </dt>
+            <dd></dd>
+            <dt id="make_d_array">
+              <span class="m-doc-wrap-bumper">def <a href="#make_d_array" class="m-doc-self">make_d_array</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; numpy.ndarray[numpy.float32]</span>
+            </dt>
+            <dd></dd>
+          </dl>
+        </section>
         <section id="dunder-methods">
           <h2><a href="#dunder-methods">Special methods</a></h2>
           <dl class="m-doc">
@@ -68,8 +86,16 @@
               index: int) -&gt; <a href="gemmi.ReciprocalInt8Grid.HklValue.html" class="m-doc">HklValue</a></span>
             </dt>
             <dd></dd>
+            <dt id="__init__">
+              <span class="m-doc-wrap-bumper">def <a href="#__init__" class="m-doc-self">__init__</a>(</span><span class="m-doc-wrap">self,
+              cell: <a href="gemmi.UnitCell.html" class="m-doc">UnitCell</a>,
+              sg: <a href="gemmi.SpaceGroup.html" class="m-doc">SpaceGroup</a>,
+              miller_array: numpy.ndarray[numpy.int32],
+              value_array: numpy.ndarray[numpy.int8]) -&gt; None</span>
+            </dt>
+            <dd></dd>
             <dt id="__iter__">
-              <span class="m-doc-wrap-bumper">def <a href="#__iter__" class="m-doc-self">__iter__</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; iterator</span>
+              <span class="m-doc-wrap-bumper">def <a href="#__iter__" class="m-doc-self">__iter__</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; typing.Iterator</span>
             </dt>
             <dd></dd>
             <dt id="__len__">
@@ -86,11 +112,19 @@
           <h2><a href="#properties">Properties</a></h2>
           <dl class="m-doc">
             <dt id="miller_array">
-              <a href="#miller_array" class="m-doc-self">miller_array</a>: numpy.ndarray[int32] <span class="m-label m-flat m-warning">get</span>
+              <a href="#miller_array" class="m-doc-self">miller_array</a>: numpy.ndarray[numpy.int32] <span class="m-label m-flat m-warning">get</span>
+            </dt>
+            <dd></dd>
+            <dt id="spacegroup">
+              <a href="#spacegroup" class="m-doc-self">spacegroup</a>: <a href="gemmi.SpaceGroup.html" class="m-doc">SpaceGroup</a> <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
+            <dt id="unit_cell">
+              <a href="#unit_cell" class="m-doc-self">unit_cell</a>: <a href="gemmi.UnitCell.html" class="m-doc">UnitCell</a> <span class="m-label m-flat m-success">get set</span>
             </dt>
             <dd></dd>
             <dt id="value_array">
-              <a href="#value_array" class="m-doc-self">value_array</a>: numpy.ndarray[int8] <span class="m-label m-flat m-warning">get</span>
+              <a href="#value_array" class="m-doc-self">value_array</a>: numpy.ndarray[numpy.int8] <span class="m-label m-flat m-warning">get</span>
             </dt>
             <dd></dd>
           </dl>
