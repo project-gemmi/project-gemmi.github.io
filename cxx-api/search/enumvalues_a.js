@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['l1_0',['L1',['../namespacegemmi.html#a6111b8282e1a25c970bb7d742eeae3bca9ec4c0afd450ceac7adb81c3bcfc9732',1,'gemmi']]],
+  ['l2m_1',['L2m',['../namespacegemmi.html#a6111b8282e1a25c970bb7d742eeae3bcafae83cddad5581b4447a5fd0de7f2675',1,'gemmi']]],
+  ['l3_2',['L3',['../namespacegemmi.html#a6111b8282e1a25c970bb7d742eeae3bca842ce6eb510f7e7047da883915ec90e0',1,'gemmi']]],
+  ['l3m_3',['L3m',['../namespacegemmi.html#a6111b8282e1a25c970bb7d742eeae3bca96f659a98c98dbeb8d42d4ed9e04e759',1,'gemmi']]],
+  ['l4m_4',['L4m',['../namespacegemmi.html#a6111b8282e1a25c970bb7d742eeae3bca3045d8fa957e3da3d9a2edadb35c3e8d',1,'gemmi']]],
+  ['l4mmm_5',['L4mmm',['../namespacegemmi.html#a6111b8282e1a25c970bb7d742eeae3bcadc2af84c005fa5bcb6f42a84947675b2',1,'gemmi']]],
+  ['l6m_6',['L6m',['../namespacegemmi.html#a6111b8282e1a25c970bb7d742eeae3bca5ff750778a46e19f83532a50e0fcb061',1,'gemmi']]],
+  ['l6mmm_7',['L6mmm',['../namespacegemmi.html#a6111b8282e1a25c970bb7d742eeae3bca1c495ebd48bc0740bcd8b8441b62dd97',1,'gemmi']]],
+  ['la_8',['La',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a1586bf9a7ebb455f9a1b133d05248a59',1,'gemmi']]],
+  ['lalpha_9',['LAlpha',['../structgemmi_1_1Helix.html#a9c9b50bf17a8580f277a4fb7bc68b008aad70ec5fcd732696ec605ba096da3c43',1,'gemmi::Helix']]],
+  ['lgamma_10',['LGamma',['../structgemmi_1_1Helix.html#a9c9b50bf17a8580f277a4fb7bc68b008a0378757d4509338ea0e6f646d0eff0c9',1,'gemmi::Helix']]],
+  ['li_11',['Li',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a8640d08847fe5e081f0a41c4579bf26a',1,'gemmi']]],
+  ['lm3_12',['Lm3',['../namespacegemmi.html#a6111b8282e1a25c970bb7d742eeae3bca1d7538115bcfba1fbdc835cab09be091',1,'gemmi']]],
+  ['lm3m_13',['Lm3m',['../namespacegemmi.html#a6111b8282e1a25c970bb7d742eeae3bca72f2b3c9ae71bc83fb7f732acf33e56b',1,'gemmi']]],
+  ['lmmm_14',['Lmmm',['../namespacegemmi.html#a6111b8282e1a25c970bb7d742eeae3bca150498ff60a5a8159468443b83d292e2',1,'gemmi']]],
+  ['lomega_15',['LOmega',['../structgemmi_1_1Helix.html#a9c9b50bf17a8580f277a4fb7bc68b008aed7eb2e447726d946c94ecdec44d89f1',1,'gemmi::Helix']]],
+  ['loop_16',['Loop',['../namespacegemmi_1_1cif.html#ae9563ed3b93cf5eef563eef894fc02aea89d7b10cb4238977d2b523dfd9ea7745',1,'gemmi::cif']]],
+  ['lr_17',['Lr',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a3ead81b48a6ebcd3101212eba2431783',1,'gemmi']]],
+  ['lu_18',['Lu',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5ab3a17f7c339aaaad2c632e168123c7bc',1,'gemmi']]],
+  ['lv_19',['Lv',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a1cdcdd2e640dea7e275db214e442264d',1,'gemmi']]]
+];

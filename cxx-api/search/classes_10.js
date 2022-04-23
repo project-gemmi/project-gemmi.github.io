@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['scaling_0',['Scaling',['../structgemmi_1_1Scaling.html',1,'gemmi']]],
+  ['selection_1',['Selection',['../structgemmi_1_1Selection.html',1,'gemmi::Selection'],['../structgemmi_1_1TlsGroup_1_1Selection.html',1,'gemmi::TlsGroup::Selection']]],
+  ['sellingvector_2',['SellingVector',['../structgemmi_1_1SellingVector.html',1,'gemmi']]],
+  ['seqid_3',['SeqId',['../structgemmi_1_1SeqId.html',1,'gemmi']]],
+  ['sequenceid_4',['SequenceId',['../structgemmi_1_1Selection_1_1SequenceId.html',1,'gemmi::Selection']]],
+  ['sheet_5',['Sheet',['../structgemmi_1_1Sheet.html',1,'gemmi']]],
+  ['side_6',['Side',['../structgemmi_1_1ChemLink_1_1Side.html',1,'gemmi::ChemLink']]],
+  ['site_7',['Site',['../structgemmi_1_1SmallStructure_1_1Site.html',1,'gemmi::SmallStructure']]],
+  ['smallstructure_8',['SmallStructure',['../structgemmi_1_1SmallStructure.html',1,'gemmi']]],
+  ['smat33_9',['SMat33',['../structgemmi_1_1SMat33.html',1,'gemmi']]],
+  ['smat33_3c_20double_20_3e_10',['SMat33&lt; double &gt;',['../structgemmi_1_1SMat33.html',1,'gemmi']]],
+  ['smat33_3c_20float_20_3e_11',['SMat33&lt; float &gt;',['../structgemmi_1_1SMat33.html',1,'gemmi']]],
+  ['smat33_3c_20real_20_3e_12',['SMat33&lt; Real &gt;',['../structgemmi_1_1SMat33.html',1,'gemmi']]],
+  ['softwareitem_13',['SoftwareItem',['../structgemmi_1_1SoftwareItem.html',1,'gemmi']]],
+  ['solventmasker_14',['SolventMasker',['../structgemmi_1_1SolventMasker.html',1,'gemmi']]],
+  ['spacegroup_15',['SpaceGroup',['../structgemmi_1_1SpaceGroup.html',1,'gemmi']]],
+  ['spacegroupaltname_16',['SpaceGroupAltName',['../structgemmi_1_1SpaceGroupAltName.html',1,'gemmi']]],
+  ['span_17',['Span',['../structgemmi_1_1Span.html',1,'gemmi']]],
+  ['span_3c_20const_20residue_20_3e_18',['Span&lt; const Residue &gt;',['../structgemmi_1_1Span.html',1,'gemmi']]],
+  ['span_3c_20residue_20_3e_19',['Span&lt; Residue &gt;',['../structgemmi_1_1Span.html',1,'gemmi']]],
+  ['strand_20',['Strand',['../structgemmi_1_1Sheet_1_1Strand.html',1,'gemmi::Sheet']]],
+  ['strideiterpolicy_21',['StrideIterPolicy',['../classgemmi_1_1StrideIterPolicy.html',1,'gemmi']]],
+  ['structure_22',['Structure',['../structgemmi_1_1Structure.html',1,'gemmi']]],
+  ['structurefactorcalculator_23',['StructureFactorCalculator',['../classgemmi_1_1StructureFactorCalculator.html',1,'gemmi']]],
+  ['supresult_24',['SupResult',['../structgemmi_1_1SupResult.html',1,'gemmi']]]
+];

@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['t_0',['T',['../namespacegemmi.html#a40476b27b97bc7ac8284d3b077b36cbfab9ece18c950afbfa6b0fdbfa4ff731d3',1,'gemmi']]],
+  ['ta_1',['Ta',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a86a1ea3adf8fbb53eb7a9b6b6b01c020',1,'gemmi']]],
+  ['tb_2',['Tb',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5abd63cda5e59ddb168ec03847f26b831b',1,'gemmi']]],
+  ['tc_3',['Tc',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a1e165145a97571da936032f6bdc25987',1,'gemmi']]],
+  ['td_4',['Td',['../namespacegemmi.html#a40476b27b97bc7ac8284d3b077b36cbfa7205636bb6ee2cc464c30ce1cda43caa',1,'gemmi']]],
+  ['te_5',['Te',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a2408730ad248ad4e4aa36fb14f5e0631',1,'gemmi']]],
+  ['tetragonal_6',['Tetragonal',['../namespacegemmi.html#aef6247ca0a6a25cc3825d783c8d33cdaa97c0069c1c88eef33e1c1db21d38de43',1,'gemmi']]],
+  ['th_7',['Th',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5aeeeb9a8eb45dd351d9ec0eb4acce66ce',1,'gemmi::Th()'],['../namespacegemmi.html#a40476b27b97bc7ac8284d3b077b36cbfaeeeb9a8eb45dd351d9ec0eb4acce66ce',1,'gemmi::Th()']]],
+  ['ti_8',['Ti',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a5bcf1228cc875c5071ead303f941a4db',1,'gemmi']]],
+  ['tl_9',['Tl',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a0de3ba01184b62b2d8e5b01ca4842f76',1,'gemmi']]],
+  ['tm_10',['Tm',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a0f3526400dc9d9fd89be71e0074ee009',1,'gemmi']]],
+  ['torsion_11',['Torsion',['../structgemmi_1_1Topo.html#aabd72360df0914b2ce2556ac84ae9c37a326dff39a0698a0740c8be77528b89b8',1,'gemmi::Topo']]],
+  ['triclinic_12',['Triclinic',['../namespacegemmi.html#aef6247ca0a6a25cc3825d783c8d33cdaa45d3988e303ecb4da2498e707d28ad39',1,'gemmi']]],
+  ['trigonal_13',['Trigonal',['../namespacegemmi.html#aef6247ca0a6a25cc3825d783c8d33cdaae8ae83920b1b094435999b5380270e72',1,'gemmi']]],
+  ['triple_14',['Triple',['../namespacegemmi.html#ae924d6b4137d52b14f2dee82fe3a1df1a3b973d4da6ce40c0eb65394fb6222971',1,'gemmi']]],
+  ['ts_15',['Ts',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a6a2389c404bc1b338fb35293fd4c19d3',1,'gemmi']]]
+];

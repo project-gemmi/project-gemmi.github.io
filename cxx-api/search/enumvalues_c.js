@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['n_0',['N',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a8d9c307cb7f3c4a32822a51922d1ceaa',1,'gemmi']]],
+  ['na_1',['NA',['../structgemmi_1_1Assembly.html#adfb4b84e9b0eb16fe30c68a00ca9d046ad4cd0dabcf4caa22ad92fab40844c786',1,'gemmi::Assembly']]],
+  ['na_2',['Na',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a91fbc1ffc46dc5e768f6b154bb548e37',1,'gemmi']]],
+  ['nb_3',['Nb',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a04d25f81d9337b5b5c640de788559d87',1,'gemmi']]],
+  ['nd_4',['Nd',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a0f685c57363a378127e7487e5b670d40',1,'gemmi']]],
+  ['ne_5',['Ne',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a4dec99baa99738721da9c9b0c1a92498',1,'gemmi']]],
+  ['negative_6',['Negative',['../namespacegemmi.html#ad29be9c865070ade488f475330fe865eaffb9356ff2b7da85c75c92fa7ea03b8b',1,'gemmi']]],
+  ['nh_7',['Nh',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a7b3cbbec39a24920da9b16e36fc01339',1,'gemmi']]],
+  ['ni_8',['Ni',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5aa26e174e330476756d2601ea5368aec3',1,'gemmi']]],
+  ['no_9',['No',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5abafd7322c6e97d25b6299b5d6fe8920b',1,'gemmi']]],
+  ['noblanklines_10',['NoBlankLines',['../namespacegemmi_1_1cif.html#a6b54a1d9c56c313523815710d3d6ecc1a9a80b6b380ae91ee67dcd7247ab05496',1,'gemmi::cif']]],
+  ['nochange_11',['NoChange',['../namespacegemmi.html#ae2ef1f8409dc39e1db8659008c4f974ba4bac8cdf0a968472b519b3b295d0d48b',1,'gemmi']]],
+  ['none_12',['None',['../structgemmi_1_1OptionalInt.html#ab7e6a66a5390979b8b09b1aa540afe05a35d4d4256d5d257c89d248fc58b9f06a',1,'gemmi::OptionalInt']]],
+  ['nonpolymer_13',['NonPolymer',['../namespacegemmi.html#a4e328d38930c31e66c33f48de737044faddda98f379aa5693e0fe5dde89e9bf8b',1,'gemmi']]],
+  ['nosymmetry_14',['NoSymmetry',['../namespacegemmi.html#a5c0fdfcebc62ef44f47c958eb0d996ffa765ce8616bea3d039f4fe022c4031f69',1,'gemmi']]],
+  ['nothing_15',['Nothing',['../structgemmi_1_1ContactSearch.html#a1bf7d30a60443b9d35e755eb4c4e8a91af80a4ad87fee7c9fdc19b7769495fdb5',1,'gemmi::ContactSearch']]],
+  ['notset_16',['NotSet',['../namespacegemmi.html#acda4e949df56e1ade66401b3d0a37932afaf396cbd83927b72a84d2616fac76ff',1,'gemmi']]],
+  ['np_17',['Np',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a8e8c3fbcf8669ad9e7719b7af696b408',1,'gemmi']]],
+  ['nucleus_18',['Nucleus',['../structgemmi_1_1Restraints.html#a3c1c7de9fe84326d33205f7bc223a153ae0cbf1349b31b63d275d963e611b54c3',1,'gemmi::Restraints']]],
+  ['null_19',['Null',['../structgemmi_1_1ChemLink.html#a3aee918cf4702ab432d3d8b9f65b772eabbb93ef26e3c101ff11cdd21cab08a94',1,'gemmi::ChemLink']]]
+];
