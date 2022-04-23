@@ -1,0 +1,24 @@
+# Difference with default Doxyfile 1.9.3
+PROJECT_NAME           = "Gemmi C++ API"
+EXTRACT_ALL            = YES
+WARN_IF_UNDOCUMENTED   = NO
+INPUT                  = main.md \
+                         ../gemmi/include/gemmi/
+FILE_PATTERNS          = *.hpp
+EXCLUDE_SYMBOLS        = gemmi::impl* \
+                         gemmi::pdb_impl* \
+                         tao::* \
+                         gemmi::cif::*Action* \
+                         gemmi::cif::rule* \
+                         *_
+USE_MDFILE_AS_MAINPAGE = main.md
+SOURCE_BROWSER         = YES
+HTML_OUTPUT            = cxx-api
+GENERATE_LATEX         = NO
+HAVE_DOT               = YES
+COLLABORATION_GRAPH    = NO
+INCLUDE_GRAPH          = NO
+INCLUDED_BY_GRAPH      = NO
+GRAPHICAL_HIERARCHY    = NO
+DIRECTORY_GRAPH        = NO
+DOT_IMAGE_FORMAT       = svg
