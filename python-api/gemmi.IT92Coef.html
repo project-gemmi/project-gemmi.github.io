@@ -48,7 +48,7 @@
         <h1>
           <span class="m-breadcrumb"><a href="gemmi.html">gemmi</a>.<wbr/></span>IT92Coef <span class="m-thin">class</span>
         </h1>
-        <div class="m-block m-default">
+        <nav class="m-block m-default">
           <h3>Contents</h3>
           <ul>
             <li>
@@ -59,19 +59,28 @@
               </ul>
             </li>
           </ul>
-        </div>
+        </nav>
         <section id="methods">
           <h2><a href="#methods">Methods</a></h2>
           <dl class="m-doc">
             <dt id="calculate_density_iso">
               <span class="m-doc-wrap-bumper">def <a href="#calculate_density_iso" class="m-doc-self">calculate_density_iso</a>(</span><span class="m-doc-wrap">self,
-              r2: float,
-              B: float) -&gt; float</span>
+              r2: numpy.ndarray[numpy.float64],
+              B: float) -&gt; object</span>
             </dt>
             <dd></dd>
             <dt id="calculate_sf">
               <span class="m-doc-wrap-bumper">def <a href="#calculate_sf" class="m-doc-self">calculate_sf</a>(</span><span class="m-doc-wrap">self,
-              stol2: float) -&gt; float</span>
+              stol2: numpy.ndarray[numpy.float64]) -&gt; object</span>
+            </dt>
+            <dd></dd>
+            <dt id="get_coefs">
+              <span class="m-doc-wrap-bumper">def <a href="#get_coefs" class="m-doc-self">get_coefs</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; typing.List[float[9]]</span>
+            </dt>
+            <dd></dd>
+            <dt id="set_coefs">
+              <span class="m-doc-wrap-bumper">def <a href="#set_coefs" class="m-doc-self">set_coefs</a>(</span><span class="m-doc-wrap">self,
+              arg0: typing.List[float[9]]<span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
             <dd></dd>
           </dl>
@@ -130,8 +139,8 @@
     </div>
   </div>
 </div>
-<script src="search-v1.js"></script>
-<script src="searchdata-v1.js" async="async"></script>
+<script src="search-v2.js"></script>
+<script src="searchdata-v2.js" async="async"></script>
 <footer><nav>
   <div class="m-container">
     <div class="m-row">

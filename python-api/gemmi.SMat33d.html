@@ -48,7 +48,7 @@
         <h1>
           <span class="m-breadcrumb"><a href="gemmi.html">gemmi</a>.<wbr/></span>SMat33d <span class="m-thin">class</span>
         </h1>
-        <div class="m-block m-default">
+        <nav class="m-block m-default">
           <h3>Contents</h3>
           <ul>
             <li>
@@ -60,10 +60,15 @@
               </ul>
             </li>
           </ul>
-        </div>
+        </nav>
         <section id="methods">
           <h2><a href="#methods">Methods</a></h2>
           <dl class="m-doc">
+            <dt id="added_kI">
+              <span class="m-doc-wrap-bumper">def <a href="#added_kI" class="m-doc-self">added_kI</a>(</span><span class="m-doc-wrap">self,
+              arg0: float<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.SMat33d.html" class="m-doc">SMat33d</a></span>
+            </dt>
+            <dd></dd>
             <dt id="as_mat33">
               <span class="m-doc-wrap-bumper">def <a href="#as_mat33" class="m-doc-self">as_mat33</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Mat33.html" class="m-doc">Mat33</a></span>
             </dt>
@@ -76,12 +81,21 @@
               <span class="m-doc-wrap-bumper">def <a href="#determinant" class="m-doc-self">determinant</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; float</span>
             </dt>
             <dd></dd>
-            <dt id="elements">
-              <span class="m-doc-wrap-bumper">def <a href="#elements" class="m-doc-self">elements</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; typing.List[float[6]]</span>
+            <dt id="elements_pdb">
+              <span class="m-doc-wrap-bumper">def <a href="#elements_pdb" class="m-doc-self">elements_pdb</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; typing.List[float[6]]</span>
+            </dt>
+            <dd></dd>
+            <dt id="elements_voigt">
+              <span class="m-doc-wrap-bumper">def <a href="#elements_voigt" class="m-doc-self">elements_voigt</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; typing.List[float[6]]</span>
             </dt>
             <dd></dd>
             <dt id="inverse">
               <span class="m-doc-wrap-bumper">def <a href="#inverse" class="m-doc-self">inverse</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.SMat33d.html" class="m-doc">SMat33d</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="multiply">
+              <span class="m-doc-wrap-bumper">def <a href="#multiply" class="m-doc-self">multiply</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.Vec3.html" class="m-doc">Vec3</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Vec3.html" class="m-doc">Vec3</a></span>
             </dt>
             <dd></dd>
             <dt id="nonzero">
@@ -112,6 +126,11 @@
         <section id="dunder-methods">
           <h2><a href="#dunder-methods">Special methods</a></h2>
           <dl class="m-doc">
+            <dt id="__add__">
+              <span class="m-doc-wrap-bumper">def <a href="#__add__" class="m-doc-self">__add__</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.SMat33d.html" class="m-doc">SMat33d</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.SMat33d.html" class="m-doc">SMat33d</a></span>
+            </dt>
+            <dd></dd>
             <dt id="__init__">
               <span class="m-doc-wrap-bumper">def <a href="#__init__" class="m-doc-self">__init__</a>(</span><span class="m-doc-wrap">self,
               u11: float,
@@ -120,6 +139,15 @@
               u12: float,
               u13: float,
               u23: float) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="__repr__">
+              <span class="m-doc-wrap-bumper">def <a href="#__repr__" class="m-doc-self">__repr__</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; str</span>
+            </dt>
+            <dd></dd>
+            <dt id="__sub__">
+              <span class="m-doc-wrap-bumper">def <a href="#__sub__" class="m-doc-self">__sub__</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.SMat33d.html" class="m-doc">SMat33d</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.SMat33d.html" class="m-doc">SMat33d</a></span>
             </dt>
             <dd></dd>
           </dl>
@@ -190,8 +218,8 @@
     </div>
   </div>
 </div>
-<script src="search-v1.js"></script>
-<script src="searchdata-v1.js" async="async"></script>
+<script src="search-v2.js"></script>
+<script src="searchdata-v2.js" async="async"></script>
 <footer><nav>
   <div class="m-container">
     <div class="m-row">

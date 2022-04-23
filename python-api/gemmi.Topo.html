@@ -48,7 +48,7 @@
         <h1>
           <span class="m-breadcrumb"><a href="gemmi.html">gemmi</a>.<wbr/></span>Topo <span class="m-thin">class</span>
         </h1>
-        <div class="m-block m-default">
+        <nav class="m-block m-default">
           <h3>Contents</h3>
           <ul>
             <li>
@@ -61,23 +61,46 @@
               </ul>
             </li>
           </ul>
-        </div>
+        </nav>
         <section id="classes">
           <h2><a href="#classes">Classes</a></h2>
           <dl class="m-doc">
+            <dt>class <a href="gemmi.Topo.Angle.html" class="m-doc">Angle</a></dt>
+            <dd></dd>
             <dt>class <a href="gemmi.Topo.Bond.html" class="m-doc">Bond</a></dt>
             <dd></dd>
-            <dt>class <a href="gemmi.Topo.ExtraLink.html" class="m-doc">ExtraLink</a></dt>
+            <dt>class <a href="gemmi.Topo.Chirality.html" class="m-doc">Chirality</a></dt>
+            <dd></dd>
+            <dt>class <a href="gemmi.Topo.Link.html" class="m-doc">Link</a></dt>
+            <dd></dd>
+            <dt>class <a href="gemmi.Topo.Plane.html" class="m-doc">Plane</a></dt>
+            <dd></dd>
+            <dt>class <a href="gemmi.Topo.Torsion.html" class="m-doc">Torsion</a></dt>
             <dd></dd>
           </dl>
         </section>
         <section id="methods">
           <h2><a href="#methods">Methods</a></h2>
           <dl class="m-doc">
-            <dt id="prepare_refmac_topology">
-              <span class="m-doc-wrap-bumper">def <a href="#prepare_refmac_topology" class="m-doc-self">prepare_refmac_topology</a>(</span><span class="m-doc-wrap">self,
-              arg0: <a href="gemmi.Structure.html" class="m-doc">Structure</a>,
-              arg1: <a href="gemmi.MonLib.html" class="m-doc">MonLib</a><span class="m-text m-dim">, /</span>) -&gt; None</span>
+            <dt id="adjust_hydrogen_distances">
+              <span class="m-doc-wrap-bumper">def <a href="#adjust_hydrogen_distances" class="m-doc-self">adjust_hydrogen_distances</a>(</span><span class="m-doc-wrap">self,
+              of: <a href="gemmi.Restraints.html#DistanceOf" class="m-doc">Restraints.DistanceOf</a>,
+              default_scale: float = 1.0) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="first_bond_in_link">
+              <span class="m-doc-wrap-bumper">def <a href="#first_bond_in_link" class="m-doc-self">first_bond_in_link</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.Topo.Link.html" class="m-doc">Link</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Topo.Bond.html" class="m-doc">Bond</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="ideal_chiral_abs_volume">
+              <span class="m-doc-wrap-bumper">def <a href="#ideal_chiral_abs_volume" class="m-doc-self">ideal_chiral_abs_volume</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.Topo.Chirality.html" class="m-doc">Chirality</a><span class="m-text m-dim">, /</span>) -&gt; float</span>
+            </dt>
+            <dd></dd>
+            <dt id="links_to_previous">
+              <span class="m-doc-wrap-bumper">def <a href="#links_to_previous" class="m-doc-self">links_to_previous</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.Residue.html" class="m-doc">Residue</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.TopoLinks.html" class="m-doc">TopoLinks</a></span>
             </dt>
             <dd></dd>
           </dl>
@@ -94,12 +117,28 @@
         <section id="properties">
           <h2><a href="#properties">Properties</a></h2>
           <dl class="m-doc">
+            <dt id="angles">
+              <a href="#angles" class="m-doc-self">angles</a>: <a href="gemmi.TopoAngles.html" class="m-doc">TopoAngles</a> <span class="m-label m-flat m-warning">get</span>
+            </dt>
+            <dd></dd>
             <dt id="bonds">
               <a href="#bonds" class="m-doc-self">bonds</a>: <a href="gemmi.TopoBonds.html" class="m-doc">TopoBonds</a> <span class="m-label m-flat m-warning">get</span>
             </dt>
             <dd></dd>
+            <dt id="chirs">
+              <a href="#chirs" class="m-doc-self">chirs</a>: <a href="gemmi.TopoChirs.html" class="m-doc">TopoChirs</a> <span class="m-label m-flat m-warning">get</span>
+            </dt>
+            <dd></dd>
             <dt id="extras">
-              <a href="#extras" class="m-doc-self">extras</a>: <a href="gemmi.TopoExtraLinks.html" class="m-doc">TopoExtraLinks</a> <span class="m-label m-flat m-warning">get</span>
+              <a href="#extras" class="m-doc-self">extras</a>: <a href="gemmi.TopoLinks.html" class="m-doc">TopoLinks</a> <span class="m-label m-flat m-warning">get</span>
+            </dt>
+            <dd></dd>
+            <dt id="planes">
+              <a href="#planes" class="m-doc-self">planes</a>: <a href="gemmi.TopoPlanes.html" class="m-doc">TopoPlanes</a> <span class="m-label m-flat m-warning">get</span>
+            </dt>
+            <dd></dd>
+            <dt id="torsions">
+              <a href="#torsions" class="m-doc-self">torsions</a>: <a href="gemmi.TopoTorsions.html" class="m-doc">TopoTorsions</a> <span class="m-label m-flat m-warning">get</span>
             </dt>
             <dd></dd>
           </dl>
@@ -141,8 +180,8 @@
     </div>
   </div>
 </div>
-<script src="search-v1.js"></script>
-<script src="searchdata-v1.js" async="async"></script>
+<script src="search-v2.js"></script>
+<script src="searchdata-v2.js" async="async"></script>
 <footer><nav>
   <div class="m-container">
     <div class="m-row">

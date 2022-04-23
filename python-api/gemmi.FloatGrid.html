@@ -48,7 +48,7 @@
         <h1>
           <span class="m-breadcrumb"><a href="gemmi.html">gemmi</a>.<wbr/></span>FloatGrid <span class="m-thin">class</span>
         </h1>
-        <div class="m-block m-default">
+        <nav class="m-block m-default">
           <h3>Contents</h3>
           <ul>
             <li>
@@ -61,7 +61,7 @@
               </ul>
             </li>
           </ul>
-        </div>
+        </nav>
         <section id="classes">
           <h2><a href="#classes">Classes</a></h2>
           <dl class="m-doc">
@@ -72,13 +72,41 @@
         <section id="methods">
           <h2><a href="#methods">Methods</a></h2>
           <dl class="m-doc">
-            <dt id="asu">
-              <span class="m-doc-wrap-bumper">def <a href="#asu" class="m-doc-self">asu</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.MaskedFloatGrid.html" class="m-doc">MaskedFloatGrid</a></span>
+            <dt id="calculate_correlation">
+              <span class="m-doc-wrap-bumper">def <a href="#calculate_correlation" class="m-doc-self">calculate_correlation</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.FloatGridBase.html" class="m-doc">FloatGridBase</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Correlation.html" class="m-doc">Correlation</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="change_values">
+              <span class="m-doc-wrap-bumper">def <a href="#change_values" class="m-doc-self">change_values</a>(</span><span class="m-doc-wrap">self,
+              old_value: float,
+              new_value: float) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="clone">
+              <span class="m-doc-wrap-bumper">def <a href="#clone" class="m-doc-self">clone</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.FloatGrid.html" class="m-doc">FloatGrid</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="copy_metadata_from">
+              <span class="m-doc-wrap-bumper">def <a href="#copy_metadata_from" class="m-doc-self">copy_metadata_from</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.GridMeta.html" class="m-doc">GridMeta</a><span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="fill">
               <span class="m-doc-wrap-bumper">def <a href="#fill" class="m-doc-self">fill</a>(</span><span class="m-doc-wrap">self,
               value: float) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="get_fractional">
+              <span class="m-doc-wrap-bumper">def <a href="#get_fractional" class="m-doc-self">get_fractional</a>(</span><span class="m-doc-wrap">self,
+              arg0: int,
+              arg1: int,
+              arg2: int<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Fractional.html" class="m-doc">Fractional</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="get_nearest_point">
+              <span class="m-doc-wrap-bumper">def <a href="#get_nearest_point" class="m-doc-self">get_nearest_point</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.Position.html" class="m-doc">Position</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.FloatGrid.Point.html" class="m-doc">Point</a></span>
             </dt>
             <dd></dd>
             <dt id="get_point">
@@ -88,11 +116,29 @@
               arg2: int<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.FloatGrid.Point.html" class="m-doc">Point</a></span>
             </dt>
             <dd></dd>
+            <dt id="get_position">
+              <span class="m-doc-wrap-bumper">def <a href="#get_position" class="m-doc-self">get_position</a>(</span><span class="m-doc-wrap">self,
+              arg0: int,
+              arg1: int,
+              arg2: int<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Position.html" class="m-doc">Position</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="get_subarray">
+              <span class="m-doc-wrap-bumper">def <a href="#get_subarray" class="m-doc-self">get_subarray</a>(</span><span class="m-doc-wrap">self,
+              start: typing.List[int[3]],
+              shape: typing.List[int[3]]) -&gt; numpy.ndarray[numpy.float32]</span>
+            </dt>
+            <dd></dd>
             <dt id="get_value">
               <span class="m-doc-wrap-bumper">def <a href="#get_value" class="m-doc-self">get_value</a>(</span><span class="m-doc-wrap">self,
               arg0: int,
               arg1: int,
               arg2: int<span class="m-text m-dim">, /</span>) -&gt; float</span>
+            </dt>
+            <dd></dd>
+            <dt id="index_to_point">
+              <span class="m-doc-wrap-bumper">def <a href="#index_to_point" class="m-doc-self">index_to_point</a>(</span><span class="m-doc-wrap">self,
+              arg0: int<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.FloatGrid.Point.html" class="m-doc">Point</a></span>
             </dt>
             <dd></dd>
             <dt id="interpolate_value-bf545">
@@ -118,6 +164,14 @@
               value: float) -&gt; None</span>
             </dt>
             <dd></dd>
+            <dt id="masked_asu">
+              <span class="m-doc-wrap-bumper">def <a href="#masked_asu" class="m-doc-self">masked_asu</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.MaskedFloatGrid.html" class="m-doc">MaskedFloatGrid</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="normalize">
+              <span class="m-doc-wrap-bumper">def <a href="#normalize" class="m-doc-self">normalize</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
             <dt id="point_to_fractional">
               <span class="m-doc-wrap-bumper">def <a href="#point_to_fractional" class="m-doc-self">point_to_fractional</a>(</span><span class="m-doc-wrap">self,
               arg0: <a href="gemmi.FloatGrid.Point.html" class="m-doc">Point</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Fractional.html" class="m-doc">Fractional</a></span>
@@ -128,23 +182,30 @@
               arg0: <a href="gemmi.FloatGrid.Point.html" class="m-doc">Point</a><span class="m-text m-dim">, /</span>) -&gt; int</span>
             </dt>
             <dd></dd>
-            <dt id="point_to_position-2dc60">
-              <span class="m-doc-wrap-bumper">def <a href="#point_to_position-2dc60" class="m-doc-self">point_to_position</a>(</span><span class="m-doc-wrap">self,
+            <dt id="point_to_position">
+              <span class="m-doc-wrap-bumper">def <a href="#point_to_position" class="m-doc-self">point_to_position</a>(</span><span class="m-doc-wrap">self,
               arg0: <a href="gemmi.FloatGrid.Point.html" class="m-doc">Point</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Position.html" class="m-doc">Position</a></span>
-            </dt>
-            <dd></dd>
-            <dt id="point_to_position-f76fe">
-              <span class="m-doc-wrap-bumper">def <a href="#point_to_position-f76fe" class="m-doc-self">point_to_position</a>(</span><span class="m-doc-wrap">self,
-              u: int,
-              v: int,
-              w: int) -&gt; <a href="gemmi.Position.html" class="m-doc">Position</a></span>
             </dt>
             <dd></dd>
             <dt id="set_points_around">
               <span class="m-doc-wrap-bumper">def <a href="#set_points_around" class="m-doc-self">set_points_around</a>(</span><span class="m-doc-wrap">self,
               position: <a href="gemmi.Position.html" class="m-doc">Position</a>,
               radius: float,
-              value: float) -&gt; None</span>
+              value: float,
+              use_pbc: bool = True) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="set_size">
+              <span class="m-doc-wrap-bumper">def <a href="#set_size" class="m-doc-self">set_size</a>(</span><span class="m-doc-wrap">self,
+              arg0: int,
+              arg1: int,
+              arg2: int<span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="set_subarray">
+              <span class="m-doc-wrap-bumper">def <a href="#set_subarray" class="m-doc-self">set_subarray</a>(</span><span class="m-doc-wrap">self,
+              arr: numpy.ndarray[numpy.float32],
+              start: typing.List[int[3]]) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="set_unit_cell">
@@ -160,8 +221,18 @@
               arg3: float<span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
             <dd></dd>
+            <dt id="setup_from">
+              <span class="m-doc-wrap-bumper">def <a href="#setup_from" class="m-doc-self">setup_from</a>(</span><span class="m-doc-wrap">self,
+              st: <a href="gemmi.Structure.html" class="m-doc">Structure</a>,
+              spacing: float) -&gt; None</span>
+            </dt>
+            <dd></dd>
             <dt id="sum">
               <span class="m-doc-wrap-bumper">def <a href="#sum" class="m-doc-self">sum</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; float</span>
+            </dt>
+            <dd></dd>
+            <dt id="symmetrize_abs_max">
+              <span class="m-doc-wrap-bumper">def <a href="#symmetrize_abs_max" class="m-doc-self">symmetrize_abs_max</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="symmetrize_max">
@@ -170,6 +241,25 @@
             <dd></dd>
             <dt id="symmetrize_min">
               <span class="m-doc-wrap-bumper">def <a href="#symmetrize_min" class="m-doc-self">symmetrize_min</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="symmetrize_sum">
+              <span class="m-doc-wrap-bumper">def <a href="#symmetrize_sum" class="m-doc-self">symmetrize_sum</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="tricubic_interpolation-bf545">
+              <span class="m-doc-wrap-bumper">def <a href="#tricubic_interpolation-bf545" class="m-doc-self">tricubic_interpolation</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.Fractional.html" class="m-doc">Fractional</a><span class="m-text m-dim">, /</span>) -&gt; float</span>
+            </dt>
+            <dd></dd>
+            <dt id="tricubic_interpolation-e0d16">
+              <span class="m-doc-wrap-bumper">def <a href="#tricubic_interpolation-e0d16" class="m-doc-self">tricubic_interpolation</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.Position.html" class="m-doc">Position</a><span class="m-text m-dim">, /</span>) -&gt; float</span>
+            </dt>
+            <dd></dd>
+            <dt id="tricubic_interpolation_der">
+              <span class="m-doc-wrap-bumper">def <a href="#tricubic_interpolation_der" class="m-doc-self">tricubic_interpolation_der</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.Fractional.html" class="m-doc">Fractional</a><span class="m-text m-dim">, /</span>) -&gt; typing.List[float[4]]</span>
             </dt>
             <dd></dd>
           </dl>
@@ -208,6 +298,10 @@
         <section id="properties">
           <h2><a href="#properties">Properties</a></h2>
           <dl class="m-doc">
+            <dt id="array">
+              <a href="#array" class="m-doc-self">array</a>: numpy.ndarray[numpy.float32] <span class="m-label m-flat m-warning">get</span>
+            </dt>
+            <dd></dd>
             <dt id="axis_order">
               <a href="#axis_order" class="m-doc-self">axis_order</a>: <a href="gemmi.html#AxisOrder" class="m-doc">AxisOrder</a> <span class="m-label m-flat m-warning">get</span>
             </dt>
@@ -283,8 +377,8 @@
     </div>
   </div>
 </div>
-<script src="search-v1.js"></script>
-<script src="searchdata-v1.js" async="async"></script>
+<script src="search-v2.js"></script>
+<script src="searchdata-v2.js" async="async"></script>
 <footer><nav>
   <div class="m-container">
     <div class="m-row">

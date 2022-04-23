@@ -48,7 +48,7 @@
         <h1>
           <span class="m-breadcrumb"><a href="gemmi.html">gemmi</a>.<wbr/></span><span class="m-breadcrumb"><a href="gemmi.cif.html">cif</a>.<wbr/></span>Block <span class="m-thin">class</span>
         </h1>
-        <div class="m-block m-default">
+        <nav class="m-block m-default">
           <h3>Contents</h3>
           <ul>
             <li>
@@ -60,7 +60,7 @@
               </ul>
             </li>
           </ul>
-        </div>
+        </nav>
         <section id="methods">
           <h2><a href="#methods">Methods</a></h2>
           <dl class="m-doc">
@@ -70,6 +70,11 @@
               pos: int = -1) -&gt; <a href="gemmi.cif.Item.html" class="m-doc">Item</a></span>
             </dt>
             <dd></dd>
+            <dt id="as_string">
+              <span class="m-doc-wrap-bumper">def <a href="#as_string" class="m-doc-self">as_string</a>(</span><span class="m-doc-wrap">self,
+              style: <a href="gemmi.cif.html#Style" class="m-doc">Style</a> = <a href="gemmi.cif.html#Style-Simple" class="m-doc">Style.Simple</a>) -&gt; str</span>
+            </dt>
+            <dd>Returns a string in CIF format.</dd>
             <dt id="find-37568">
               <span class="m-doc-wrap-bumper">def <a href="#find-37568" class="m-doc-self">find</a>(</span><span class="m-doc-wrap">self,
               prefix: str,
@@ -154,6 +159,11 @@
               tags: typing.List[str]) -&gt; <a href="gemmi.cif.Loop.html" class="m-doc">Loop</a></span>
             </dt>
             <dd></dd>
+            <dt id="item_as_table">
+              <span class="m-doc-wrap-bumper">def <a href="#item_as_table" class="m-doc-self">item_as_table</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.cif.Item.html" class="m-doc">Item</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.cif.Table.html" class="m-doc">Table</a></span>
+            </dt>
+            <dd></dd>
             <dt id="move_item">
               <span class="m-doc-wrap-bumper">def <a href="#move_item" class="m-doc-self">move_item</a>(</span><span class="m-doc-wrap">self,
               old_pos: int,
@@ -173,11 +183,22 @@
               value: str) -&gt; None</span>
             </dt>
             <dd></dd>
+            <dt id="write_file">
+              <span class="m-doc-wrap-bumper">def <a href="#write_file" class="m-doc-self">write_file</a>(</span><span class="m-doc-wrap">self,
+              filename: str,
+              style: <a href="gemmi.cif.html#Style" class="m-doc">Style</a> = <a href="gemmi.cif.html#Style-Simple" class="m-doc">Style.Simple</a>) -&gt; None</span>
+            </dt>
+            <dd>Write data to a CIF file.</dd>
           </dl>
         </section>
         <section id="dunder-methods">
           <h2><a href="#dunder-methods">Special methods</a></h2>
           <dl class="m-doc">
+            <dt id="__getitem__">
+              <span class="m-doc-wrap-bumper">def <a href="#__getitem__" class="m-doc-self">__getitem__</a>(</span><span class="m-doc-wrap">self,
+              index: int) -&gt; <a href="gemmi.cif.Item.html" class="m-doc">Item</a></span>
+            </dt>
+            <dd></dd>
             <dt id="__init__">
               <span class="m-doc-wrap-bumper">def <a href="#__init__" class="m-doc-self">__init__</a>(</span><span class="m-doc-wrap">self,
               arg0: str<span class="m-text m-dim">, /</span>) -&gt; None</span>
@@ -239,8 +260,8 @@
     </div>
   </div>
 </div>
-<script src="search-v1.js"></script>
-<script src="searchdata-v1.js" async="async"></script>
+<script src="search-v2.js"></script>
+<script src="searchdata-v2.js" async="async"></script>
 <footer><nav>
   <div class="m-container">
     <div class="m-row">

@@ -48,7 +48,7 @@
         <h1>
           <span class="m-breadcrumb"><a href="gemmi.html">gemmi</a>.<wbr/></span>NeighborSearch <span class="m-thin">class</span>
         </h1>
-        <div class="m-block m-default">
+        <nav class="m-block m-default">
           <h3>Contents</h3>
           <ul>
             <li>
@@ -57,10 +57,11 @@
                 <li><a href="#classes">Classes</a></li>
                 <li><a href="#methods">Methods</a></li>
                 <li><a href="#dunder-methods">Special methods</a></li>
+                <li><a href="#properties">Properties</a></li>
               </ul>
             </li>
           </ul>
-        </div>
+        </nav>
         <section id="classes">
           <h2><a href="#classes">Classes</a></h2>
           <dl class="m-doc">
@@ -79,6 +80,12 @@
               n_atom: int) -&gt; None</span>
             </dt>
             <dd>Lower-level alternative to populate()</dd>
+            <dt id="add_chain">
+              <span class="m-doc-wrap-bumper">def <a href="#add_chain" class="m-doc-self">add_chain</a>(</span><span class="m-doc-wrap">self,
+              chain: <a href="gemmi.Chain.html" class="m-doc">Chain</a>,
+              include_h: bool = True) -&gt; None</span>
+            </dt>
+            <dd></dd>
             <dt id="dist">
               <span class="m-doc-wrap-bumper">def <a href="#dist" class="m-doc-self">dist</a>(</span><span class="m-doc-wrap">self,
               arg0: <a href="gemmi.Position.html" class="m-doc">Position</a>,
@@ -90,6 +97,11 @@
               pos: <a href="gemmi.Position.html" class="m-doc">Position</a>,
               alt: str = &#x27;\x00&#x27;,
               radius: float = 0) -&gt; <a href="gemmi.VectorMarkPtr.html" class="m-doc">VectorMarkPtr</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="find_nearest_atom">
+              <span class="m-doc-wrap-bumper">def <a href="#find_nearest_atom" class="m-doc-self">find_nearest_atom</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.Position.html" class="m-doc">Position</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.NeighborSearch.Mark.html" class="m-doc">Mark</a></span>
             </dt>
             <dd></dd>
             <dt id="find_neighbors">
@@ -104,6 +116,11 @@
               atom: <a href="gemmi.SmallStructure.Site.html" class="m-doc">SmallStructure.Site</a>,
               min_dist: float = 0,
               max_dist: float = 0) -&gt; <a href="gemmi.VectorMarkPtr.html" class="m-doc">VectorMarkPtr</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="get_image_transformation">
+              <span class="m-doc-wrap-bumper">def <a href="#get_image_transformation" class="m-doc-self">get_image_transformation</a>(</span><span class="m-doc-wrap">self,
+              arg0: int<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.FTransform.html" class="m-doc">FTransform</a></span>
             </dt>
             <dd></dd>
             <dt id="populate">
@@ -138,6 +155,19 @@
             <dd></dd>
             <dt id="__repr__">
               <span class="m-doc-wrap-bumper">def <a href="#__repr__" class="m-doc-self">__repr__</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; str</span>
+            </dt>
+            <dd></dd>
+          </dl>
+        </section>
+        <section id="properties">
+          <h2><a href="#properties">Properties</a></h2>
+          <dl class="m-doc">
+            <dt id="grid_cell">
+              <a href="#grid_cell" class="m-doc-self">grid_cell</a>: <a href="gemmi.UnitCell.html" class="m-doc">UnitCell</a> <span class="m-label m-flat m-warning">get</span>
+            </dt>
+            <dd></dd>
+            <dt id="radius_specified">
+              <a href="#radius_specified" class="m-doc-self">radius_specified</a>: float <span class="m-label m-flat m-warning">get</span>
             </dt>
             <dd></dd>
           </dl>
@@ -179,8 +209,8 @@
     </div>
   </div>
 </div>
-<script src="search-v1.js"></script>
-<script src="searchdata-v1.js" async="async"></script>
+<script src="search-v2.js"></script>
+<script src="searchdata-v2.js" async="async"></script>
 <footer><nav>
   <div class="m-container">
     <div class="m-row">

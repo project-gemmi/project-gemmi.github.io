@@ -48,7 +48,7 @@
         <h1>
           <span class="m-breadcrumb"><a href="gemmi.html">gemmi</a>.<wbr/></span><span class="m-breadcrumb"><a href="gemmi.cif.html">cif</a>.<wbr/></span>Document <span class="m-thin">class</span>
         </h1>
-        <div class="m-block m-default">
+        <nav class="m-block m-default">
           <h3>Contents</h3>
           <ul>
             <li>
@@ -60,7 +60,7 @@
               </ul>
             </li>
           </ul>
-        </div>
+        </nav>
         <section id="methods">
           <h2><a href="#methods">Methods</a></h2>
           <dl class="m-doc">
@@ -78,12 +78,13 @@
             <dd></dd>
             <dt id="as_json">
               <span class="m-doc-wrap-bumper">def <a href="#as_json" class="m-doc-self">as_json</a>(</span><span class="m-doc-wrap">self,
-              mmjson: bool = False) -&gt; str</span>
+              mmjson: bool = False,
+              lowercase_names: bool = True) -&gt; str</span>
             </dt>
             <dd>Returns JSON representation in a string.</dd>
             <dt id="as_string">
               <span class="m-doc-wrap-bumper">def <a href="#as_string" class="m-doc-self">as_string</a>(</span><span class="m-doc-wrap">self,
-              style: <a href="gemmi.cif.html#Style" class="m-doc">Style</a> = gemmi.cif.<Style.Simple: 0>) -&gt; str</span>
+              style: <a href="gemmi.cif.html#Style" class="m-doc">Style</a> = <a href="gemmi.cif.html#Style-Simple" class="m-doc">Style.Simple</a>) -&gt; str</span>
             </dt>
             <dd>Returns a string in CIF format.</dd>
             <dt id="check_for_duplicates">
@@ -120,7 +121,7 @@
             <dt id="write_file">
               <span class="m-doc-wrap-bumper">def <a href="#write_file" class="m-doc-self">write_file</a>(</span><span class="m-doc-wrap">self,
               filename: str,
-              style: <a href="gemmi.cif.html#Style" class="m-doc">Style</a> = gemmi.cif.<Style.Simple: 0>) -&gt; None</span>
+              style: <a href="gemmi.cif.html#Style" class="m-doc">Style</a> = <a href="gemmi.cif.html#Style-Simple" class="m-doc">Style.Simple</a>) -&gt; None</span>
             </dt>
             <dd>Write data to a CIF file.</dd>
           </dl>
@@ -212,8 +213,8 @@
     </div>
   </div>
 </div>
-<script src="search-v1.js"></script>
-<script src="searchdata-v1.js" async="async"></script>
+<script src="search-v2.js"></script>
+<script src="searchdata-v2.js" async="async"></script>
 <footer><nav>
   <div class="m-container">
     <div class="m-row">

@@ -48,7 +48,7 @@
         <h1>
           <span class="m-breadcrumb"><a href="gemmi.html">gemmi</a>.<wbr/></span>SmallStructure <span class="m-thin">class</span>
         </h1>
-        <div class="m-block m-default">
+        <nav class="m-block m-default">
           <h3>Contents</h3>
           <ul>
             <li>
@@ -61,7 +61,7 @@
               </ul>
             </li>
           </ul>
-        </div>
+        </nav>
         <section id="classes">
           <h2><a href="#classes">Classes</a></h2>
           <dl class="m-doc">
@@ -74,12 +74,39 @@
         <section id="methods">
           <h2><a href="#methods">Methods</a></h2>
           <dl class="m-doc">
+            <dt id="add_site">
+              <span class="m-doc-wrap-bumper">def <a href="#add_site" class="m-doc-self">add_site</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.SmallStructure.Site.html" class="m-doc">Site</a><span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="change_occupancies_to_crystallographic">
+              <span class="m-doc-wrap-bumper">def <a href="#change_occupancies_to_crystallographic" class="m-doc-self">change_occupancies_to_crystallographic</a>(</span><span class="m-doc-wrap">self,
+              max_dist: float = 0.4) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="find_spacegroup">
+              <span class="m-doc-wrap-bumper">def <a href="#find_spacegroup" class="m-doc-self">find_spacegroup</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.SpaceGroup.html" class="m-doc">SpaceGroup</a></span>
+            </dt>
+            <dd></dd>
             <dt id="get_all_unit_cell_sites">
               <span class="m-doc-wrap-bumper">def <a href="#get_all_unit_cell_sites" class="m-doc-self">get_all_unit_cell_sites</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; typing.List[<a href="gemmi.SmallStructure.Site.html" class="m-doc">Site</a>]</span>
             </dt>
             <dd></dd>
+            <dt id="get_atom_type">
+              <span class="m-doc-wrap-bumper">def <a href="#get_atom_type" class="m-doc-self">get_atom_type</a>(</span><span class="m-doc-wrap">self,
+              arg0: str<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.SmallStructure.AtomType.html" class="m-doc">AtomType</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="make_cif_block">
+              <span class="m-doc-wrap-bumper">def <a href="#make_cif_block" class="m-doc-self">make_cif_block</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.cif.Block.html" class="m-doc">cif.Block</a></span>
+            </dt>
+            <dd></dd>
             <dt id="remove_hydrogens">
               <span class="m-doc-wrap-bumper">def <a href="#remove_hydrogens" class="m-doc-self">remove_hydrogens</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="setup_cell_images">
+              <span class="m-doc-wrap-bumper">def <a href="#setup_cell_images" class="m-doc-self">setup_cell_images</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
             <dd></dd>
           </dl>
@@ -117,7 +144,11 @@
             </dt>
             <dd></dd>
             <dt id="spacegroup_hm">
-              <a href="#spacegroup_hm" class="m-doc-self">spacegroup_hm</a>: str <span class="m-label m-flat m-warning">get</span>
+              <a href="#spacegroup_hm" class="m-doc-self">spacegroup_hm</a>: str <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
+            <dt id="wavelength">
+              <a href="#wavelength" class="m-doc-self">wavelength</a>: float <span class="m-label m-flat m-success">get set</span>
             </dt>
             <dd></dd>
           </dl>
@@ -159,8 +190,8 @@
     </div>
   </div>
 </div>
-<script src="search-v1.js"></script>
-<script src="searchdata-v1.js" async="async"></script>
+<script src="search-v2.js"></script>
+<script src="searchdata-v2.js" async="async"></script>
 <footer><nav>
   <div class="m-container">
     <div class="m-row">

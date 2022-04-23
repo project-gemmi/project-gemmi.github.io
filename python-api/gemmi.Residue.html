@@ -48,7 +48,7 @@
         <h1>
           <span class="m-breadcrumb"><a href="gemmi.html">gemmi</a>.<wbr/></span>Residue <span class="m-thin">class</span>
         </h1>
-        <div class="m-block m-default">
+        <nav class="m-block m-default">
           <h3>Contents</h3>
           <ul>
             <li>
@@ -60,7 +60,7 @@
               </ul>
             </li>
           </ul>
-        </div>
+        </nav>
         <section id="methods">
           <h2><a href="#methods">Methods</a></h2>
           <dl class="m-doc">
@@ -77,11 +77,20 @@
             <dt id="find_atom">
               <span class="m-doc-wrap-bumper">def <a href="#find_atom" class="m-doc-self">find_atom</a>(</span><span class="m-doc-wrap">self,
               name: str,
-              altloc: str) -&gt; <a href="gemmi.Atom.html" class="m-doc">Atom</a></span>
+              altloc: str,
+              el: <a href="gemmi.Element.html" class="m-doc">Element</a> = gemmi.Element) -&gt; <a href="gemmi.Atom.html" class="m-doc">Atom</a></span>
             </dt>
             <dd></dd>
             <dt id="first_conformer">
               <span class="m-doc-wrap-bumper">def <a href="#first_conformer" class="m-doc-self">first_conformer</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.FirstConformerAtoms.html" class="m-doc">FirstConformerAtoms</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="get_ca">
+              <span class="m-doc-wrap-bumper">def <a href="#get_ca" class="m-doc-self">get_ca</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Atom.html" class="m-doc">Atom</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="get_p">
+              <span class="m-doc-wrap-bumper">def <a href="#get_p" class="m-doc-self">get_p</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Atom.html" class="m-doc">Atom</a></span>
             </dt>
             <dd></dd>
             <dt id="is_water">
@@ -91,7 +100,12 @@
             <dt id="remove_atom">
               <span class="m-doc-wrap-bumper">def <a href="#remove_atom" class="m-doc-self">remove_atom</a>(</span><span class="m-doc-wrap">self,
               name: str,
-              altloc: str) -&gt; None</span>
+              altloc: str,
+              el: <a href="gemmi.Element.html" class="m-doc">Element</a> = gemmi.Element) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="remove_hydrogens">
+              <span class="m-doc-wrap-bumper">def <a href="#remove_hydrogens" class="m-doc-self">remove_hydrogens</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="sole_atom">
@@ -123,6 +137,11 @@
               arg0: slice<span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
             <dd></dd>
+            <dt id="__eq__">
+              <span class="m-doc-wrap-bumper">def <a href="#__eq__" class="m-doc-self">__eq__</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.ResidueId.html" class="m-doc">ResidueId</a><span class="m-text m-dim">, /</span>) -&gt; bool</span>
+            </dt>
+            <dd></dd>
             <dt id="__getitem__-745a3">
               <span class="m-doc-wrap-bumper">def <a href="#__getitem__-745a3" class="m-doc-self">__getitem__</a>(</span><span class="m-doc-wrap">self,
               index: int) -&gt; <a href="gemmi.Atom.html" class="m-doc">Atom</a></span>
@@ -131,6 +150,10 @@
             <dt id="__getitem__-6315e">
               <span class="m-doc-wrap-bumper">def <a href="#__getitem__-6315e" class="m-doc-self">__getitem__</a>(</span><span class="m-doc-wrap">self,
               name: str) -&gt; <a href="gemmi.AtomGroup.html" class="m-doc">AtomGroup</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="__getstate__">
+              <span class="m-doc-wrap-bumper">def <a href="#__getstate__" class="m-doc-self">__getstate__</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; tuple</span>
             </dt>
             <dd></dd>
             <dt id="__init__">
@@ -149,6 +172,11 @@
               <span class="m-doc-wrap-bumper">def <a href="#__repr__" class="m-doc-self">__repr__</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; str</span>
             </dt>
             <dd></dd>
+            <dt id="__setstate__">
+              <span class="m-doc-wrap-bumper">def <a href="#__setstate__" class="m-doc-self">__setstate__</a>(</span><span class="m-doc-wrap">self,
+              arg0: tuple<span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
             <dt id="__str__">
               <span class="m-doc-wrap-bumper">def <a href="#__str__" class="m-doc-self">__str__</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; str</span>
             </dt>
@@ -158,6 +186,10 @@
         <section id="properties">
           <h2><a href="#properties">Properties</a></h2>
           <dl class="m-doc">
+            <dt id="entity_id">
+              <a href="#entity_id" class="m-doc-self">entity_id</a>: str <span class="m-label m-flat m-warning">get</span>
+            </dt>
+            <dd></dd>
             <dt id="entity_type">
               <a href="#entity_type" class="m-doc-self">entity_type</a>: <a href="gemmi.html#EntityType" class="m-doc">EntityType</a> <span class="m-label m-flat m-success">get set</span>
             </dt>
@@ -229,8 +261,8 @@
     </div>
   </div>
 </div>
-<script src="search-v1.js"></script>
-<script src="searchdata-v1.js" async="async"></script>
+<script src="search-v2.js"></script>
+<script src="searchdata-v2.js" async="async"></script>
 <footer><nav>
   <div class="m-container">
     <div class="m-row">

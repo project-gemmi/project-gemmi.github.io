@@ -48,7 +48,7 @@
         <h1>
           <span class="m-breadcrumb"><a href="gemmi.html">gemmi</a>.<wbr/></span>Mat33 <span class="m-thin">class</span>
         </h1>
-        <div class="m-block m-default">
+        <nav class="m-block m-default">
           <h3>Contents</h3>
           <ul>
             <li>
@@ -59,7 +59,7 @@
               </ul>
             </li>
           </ul>
-        </div>
+        </nav>
         <section id="methods">
           <h2><a href="#methods">Methods</a></h2>
           <dl class="m-doc">
@@ -67,6 +67,11 @@
               <span class="m-doc-wrap-bumper">def <a href="#approx" class="m-doc-self">approx</a>(</span><span class="m-doc-wrap">self,
               other: <a href="gemmi.Mat33.html" class="m-doc">Mat33</a>,
               epsilon: float) -&gt; bool</span>
+            </dt>
+            <dd></dd>
+            <dt id="column_copy">
+              <span class="m-doc-wrap-bumper">def <a href="#column_copy" class="m-doc-self">column_copy</a>(</span><span class="m-doc-wrap">self,
+              arg0: int<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Vec3.html" class="m-doc">Vec3</a></span>
             </dt>
             <dd></dd>
             <dt id="determinant">
@@ -101,8 +106,22 @@
               arg0: <a href="gemmi.Vec3.html" class="m-doc">Vec3</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Vec3.html" class="m-doc">Vec3</a></span>
             </dt>
             <dd></dd>
+            <dt id="multiply_by_diagonal">
+              <span class="m-doc-wrap-bumper">def <a href="#multiply_by_diagonal" class="m-doc-self">multiply_by_diagonal</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.Vec3.html" class="m-doc">Vec3</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Mat33.html" class="m-doc">Mat33</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="row_copy">
+              <span class="m-doc-wrap-bumper">def <a href="#row_copy" class="m-doc-self">row_copy</a>(</span><span class="m-doc-wrap">self,
+              arg0: int<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Vec3.html" class="m-doc">Vec3</a></span>
+            </dt>
+            <dd></dd>
             <dt id="tolist">
               <span class="m-doc-wrap-bumper">def <a href="#tolist" class="m-doc-self">tolist</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; typing.List[typing.List[float[3]][3]]</span>
+            </dt>
+            <dd></dd>
+            <dt id="trace">
+              <span class="m-doc-wrap-bumper">def <a href="#trace" class="m-doc-self">trace</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; float</span>
             </dt>
             <dd></dd>
             <dt id="transpose">
@@ -123,11 +142,28 @@
               arg0: typing.List[typing.List[float[3]][3]]<span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
             <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">def <a href="#__matmul__" class="m-doc">__matmul__</a>(</span><span class="m-doc-wrap">...)</span>
+            </dt>
+            <dd>multiply(*args, **kwargs)
+Overloaded function.</dd>
             <dt id="__repr__">
               <span class="m-doc-wrap-bumper">def <a href="#__repr__" class="m-doc-self">__repr__</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; str</span>
             </dt>
             <dd></dd>
           </dl>
+        </section>
+        <section>
+          <h2>Method documentation</h2>
+          <section class="m-doc-details" id="__matmul__"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">def gemmi.<wbr />Mat33.<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#__matmul__" class="m-doc-self">__matmul__</a>(</span><span class="m-doc-wrap">...)</span></span>
+            </h3>
+            <p>multiply(*args, **kwargs)
+Overloaded function.</p>
+<p>1. multiply(self: gemmi.Mat33, arg0: gemmi.Mat33) -&gt; gemmi.Mat33</p>
+<p>2. multiply(self: gemmi.Mat33, arg0: gemmi.Vec3) -&gt; gemmi.Vec3</p>
+          </div></section>
         </section>
       </div>
     </div>
@@ -166,8 +202,8 @@
     </div>
   </div>
 </div>
-<script src="search-v1.js"></script>
-<script src="searchdata-v1.js" async="async"></script>
+<script src="search-v2.js"></script>
+<script src="searchdata-v2.js" async="async"></script>
 <footer><nav>
   <div class="m-container">
     <div class="m-row">

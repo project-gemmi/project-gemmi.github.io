@@ -48,7 +48,7 @@
         <h1>
           <span class="m-breadcrumb"><a href="gemmi.html">gemmi</a>.<wbr/></span>MonLib <span class="m-thin">class</span>
         </h1>
-        <div class="m-block m-default">
+        <nav class="m-block m-default">
           <h3>Contents</h3>
           <ul>
             <li>
@@ -60,7 +60,7 @@
               </ul>
             </li>
           </ul>
-        </div>
+        </nav>
         <section id="methods">
           <h2><a href="#methods">Methods</a></h2>
           <dl class="m-doc">
@@ -74,9 +74,52 @@
               arg0: <a href="gemmi.cif.Document.html" class="m-doc">cif.Document</a><span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
             <dd></dd>
-            <dt id="find_link">
-              <span class="m-doc-wrap-bumper">def <a href="#find_link" class="m-doc-self">find_link</a>(</span><span class="m-doc-wrap">self,
+            <dt id="find_mod">
+              <span class="m-doc-wrap-bumper">def <a href="#find_mod" class="m-doc-self">find_mod</a>(</span><span class="m-doc-wrap">self,
+              name: str) -&gt; <a href="gemmi.ChemMod.html" class="m-doc">ChemMod</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="find_residue_info">
+              <span class="m-doc-wrap-bumper">def <a href="#find_residue_info" class="m-doc-self">find_residue_info</a>(</span><span class="m-doc-wrap">self,
+              name: str) -&gt; <a href="gemmi.ResidueInfo.html" class="m-doc">ResidueInfo</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="get_link">
+              <span class="m-doc-wrap-bumper">def <a href="#get_link" class="m-doc-self">get_link</a>(</span><span class="m-doc-wrap">self,
               link_id: str) -&gt; <a href="gemmi.ChemLink.html" class="m-doc">ChemLink</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="insert_chemlinks">
+              <span class="m-doc-wrap-bumper">def <a href="#insert_chemlinks" class="m-doc-self">insert_chemlinks</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.cif.Document.html" class="m-doc">cif.Document</a><span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="insert_chemmods">
+              <span class="m-doc-wrap-bumper">def <a href="#insert_chemmods" class="m-doc-self">insert_chemmods</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.cif.Document.html" class="m-doc">cif.Document</a><span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="insert_comp_list">
+              <span class="m-doc-wrap-bumper">def <a href="#insert_comp_list" class="m-doc-self">insert_comp_list</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.cif.Document.html" class="m-doc">cif.Document</a><span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="match_link">
+              <span class="m-doc-wrap-bumper">def <a href="#match_link" class="m-doc-self">match_link</a>(</span><span class="m-doc-wrap">self,
+              comp1: str,
+              atom1: str,
+              comp2: str,
+              atom2: str) -&gt; typing.Tuple[<a href="gemmi.ChemLink.html" class="m-doc">ChemLink</a>, bool]</span>
+            </dt>
+            <dd></dd>
+            <dt id="path">
+              <span class="m-doc-wrap-bumper">def <a href="#path" class="m-doc-self">path</a>(</span><span class="m-doc-wrap">self,
+              code: str = None) -&gt; str</span>
+            </dt>
+            <dd></dd>
+            <dt id="read_monomer_cif">
+              <span class="m-doc-wrap-bumper">def <a href="#read_monomer_cif" class="m-doc-self">read_monomer_cif</a>(</span><span class="m-doc-wrap">self,
+              arg0: str<span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
             <dd></dd>
           </dl>
@@ -105,8 +148,16 @@
               <a href="#modifications" class="m-doc-self">modifications</a>: <a href="gemmi.ChemModMap.html" class="m-doc">ChemModMap</a> <span class="m-label m-flat m-warning">get</span>
             </dt>
             <dd></dd>
+            <dt id="mon_lib_list">
+              <a href="#mon_lib_list" class="m-doc-self">mon_lib_list</a>: <a href="gemmi.cif.Document.html" class="m-doc">cif.Document</a> <span class="m-label m-flat m-warning">get</span>
+            </dt>
+            <dd></dd>
             <dt id="monomers">
               <a href="#monomers" class="m-doc-self">monomers</a>: <a href="gemmi.ChemCompMap.html" class="m-doc">ChemCompMap</a> <span class="m-label m-flat m-warning">get</span>
+            </dt>
+            <dd></dd>
+            <dt id="residue_infos">
+              <a href="#residue_infos" class="m-doc-self">residue_infos</a>: <a href="gemmi.ResidueInfoMap.html" class="m-doc">ResidueInfoMap</a> <span class="m-label m-flat m-warning">get</span>
             </dt>
             <dd></dd>
           </dl>
@@ -148,8 +199,8 @@
     </div>
   </div>
 </div>
-<script src="search-v1.js"></script>
-<script src="searchdata-v1.js" async="async"></script>
+<script src="search-v2.js"></script>
+<script src="searchdata-v2.js" async="async"></script>
 <footer><nav>
   <div class="m-container">
     <div class="m-row">

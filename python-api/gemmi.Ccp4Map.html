@@ -48,7 +48,7 @@
         <h1>
           <span class="m-breadcrumb"><a href="gemmi.html">gemmi</a>.<wbr/></span>Ccp4Map <span class="m-thin">class</span>
         </h1>
-        <div class="m-block m-default">
+        <nav class="m-block m-default">
           <h3>Contents</h3>
           <ul>
             <li>
@@ -60,10 +60,30 @@
               </ul>
             </li>
           </ul>
-        </div>
+        </nav>
         <section id="methods">
           <h2><a href="#methods">Methods</a></h2>
           <dl class="m-doc">
+            <dt id="axis_positions">
+              <span class="m-doc-wrap-bumper">def <a href="#axis_positions" class="m-doc-self">axis_positions</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; typing.List[int[3]]</span>
+            </dt>
+            <dd></dd>
+            <dt id="full_cell">
+              <span class="m-doc-wrap-bumper">def <a href="#full_cell" class="m-doc-self">full_cell</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; bool</span>
+            </dt>
+            <dd></dd>
+            <dt id="get_extent">
+              <span class="m-doc-wrap-bumper">def <a href="#get_extent" class="m-doc-self">get_extent</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.FractionalBox.html" class="m-doc">FractionalBox</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="get_skew_transformation">
+              <span class="m-doc-wrap-bumper">def <a href="#get_skew_transformation" class="m-doc-self">get_skew_transformation</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Transform.html" class="m-doc">Transform</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="has_skew_transformation">
+              <span class="m-doc-wrap-bumper">def <a href="#has_skew_transformation" class="m-doc-self">has_skew_transformation</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; bool</span>
+            </dt>
+            <dd></dd>
             <dt id="header_float">
               <span class="m-doc-wrap-bumper">def <a href="#header_float" class="m-doc-self">header_float</a>(</span><span class="m-doc-wrap">self,
               arg0: int<span class="m-text m-dim">, /</span>) -&gt; float</span>
@@ -105,7 +125,8 @@
             <dd></dd>
             <dt id="setup">
               <span class="m-doc-wrap-bumper">def <a href="#setup" class="m-doc-self">setup</a>(</span><span class="m-doc-wrap">self,
-              default_value: float = nan) -&gt; None</span>
+              default_value: float,
+              mode: <a href="gemmi.html#MapSetup" class="m-doc">MapSetup</a> = <a href="gemmi.html#MapSetup-Full" class="m-doc">MapSetup.Full</a>) -&gt; float</span>
             </dt>
             <dd></dd>
             <dt id="update_ccp4_header">
@@ -180,8 +201,8 @@
     </div>
   </div>
 </div>
-<script src="search-v1.js"></script>
-<script src="searchdata-v1.js" async="async"></script>
+<script src="search-v2.js"></script>
+<script src="searchdata-v2.js" async="async"></script>
 <footer><nav>
   <div class="m-container">
     <div class="m-row">

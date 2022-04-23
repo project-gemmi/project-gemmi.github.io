@@ -48,7 +48,7 @@
         <h1>
           <span class="m-breadcrumb"><a href="gemmi.html">gemmi</a>.<wbr/></span>Structure <span class="m-thin">class</span>
         </h1>
-        <div class="m-block m-default">
+        <nav class="m-block m-default">
           <h3>Contents</h3>
           <ul>
             <li>
@@ -60,7 +60,7 @@
               </ul>
             </li>
           </ul>
-        </div>
+        </nav>
         <section id="methods">
           <h2><a href="#methods">Methods</a></h2>
           <dl class="m-doc">
@@ -109,7 +109,7 @@
             <dd></dd>
             <dt id="expand_ncs">
               <span class="m-doc-wrap-bumper">def <a href="#expand_ncs" class="m-doc-self">expand_ncs</a>(</span><span class="m-doc-wrap">self,
-              how: <a href="gemmi.html#HowToNameCopiedChains" class="m-doc">HowToNameCopiedChains</a>) -&gt; None</span>
+              how: <a href="gemmi.html#HowToNameCopiedChain" class="m-doc">HowToNameCopiedChain</a>) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="find_connection">
@@ -121,6 +121,10 @@
             <dt id="find_or_add_model">
               <span class="m-doc-wrap-bumper">def <a href="#find_or_add_model" class="m-doc-self">find_or_add_model</a>(</span><span class="m-doc-wrap">self,
               name: str) -&gt; <a href="gemmi.Model.html" class="m-doc">Model</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="find_spacegroup">
+              <span class="m-doc-wrap-bumper">def <a href="#find_spacegroup" class="m-doc-self">find_spacegroup</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.SpaceGroup.html" class="m-doc">SpaceGroup</a></span>
             </dt>
             <dd></dd>
             <dt id="get_entity">
@@ -137,8 +141,14 @@
               <span class="m-doc-wrap-bumper">def <a href="#make_minimal_pdb" class="m-doc-self">make_minimal_pdb</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; str</span>
             </dt>
             <dd></dd>
+            <dt id="make_mmcif_block">
+              <span class="m-doc-wrap-bumper">def <a href="#make_mmcif_block" class="m-doc-self">make_mmcif_block</a>(</span><span class="m-doc-wrap">self,
+              groups: <a href="gemmi.MmcifOutputGroups.html" class="m-doc">MmcifOutputGroups</a> = MmcifOutputGroups(True)) -&gt; <a href="gemmi.cif.Block.html" class="m-doc">cif.Block</a></span>
+            </dt>
+            <dd></dd>
             <dt id="make_mmcif_document">
-              <span class="m-doc-wrap-bumper">def <a href="#make_mmcif_document" class="m-doc-self">make_mmcif_document</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.cif.Document.html" class="m-doc">cif.Document</a></span>
+              <span class="m-doc-wrap-bumper">def <a href="#make_mmcif_document" class="m-doc-self">make_mmcif_document</a>(</span><span class="m-doc-wrap">self,
+              groups: <a href="gemmi.MmcifOutputGroups.html" class="m-doc">MmcifOutputGroups</a> = MmcifOutputGroups(True)) -&gt; <a href="gemmi.cif.Document.html" class="m-doc">cif.Document</a></span>
             </dt>
             <dd></dd>
             <dt id="make_mmcif_headers">
@@ -192,8 +202,8 @@
             <dd></dd>
             <dt id="update_mmcif_block">
               <span class="m-doc-wrap-bumper">def <a href="#update_mmcif_block" class="m-doc-self">update_mmcif_block</a>(</span><span class="m-doc-wrap">self,
-              arg0: <a href="gemmi.cif.Block.html" class="m-doc">cif.Block</a>,
-              arg1: <a href="gemmi.MmcifOutputGroups.html" class="m-doc">MmcifOutputGroups</a><span class="m-text m-dim">, /</span>) -&gt; None</span>
+              block: <a href="gemmi.cif.Block.html" class="m-doc">cif.Block</a>,
+              groups: <a href="gemmi.MmcifOutputGroups.html" class="m-doc">MmcifOutputGroups</a> = MmcifOutputGroups(True)) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="write_minimal_pdb">
@@ -260,6 +270,12 @@
               <span class="m-doc-wrap-bumper">def <a href="#__repr__" class="m-doc-self">__repr__</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; str</span>
             </dt>
             <dd></dd>
+            <dt id="__setitem__">
+              <span class="m-doc-wrap-bumper">def <a href="#__setitem__" class="m-doc-self">__setitem__</a>(</span><span class="m-doc-wrap">self,
+              arg0: int,
+              arg1: <a href="gemmi.Model.html" class="m-doc">Model</a><span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
           </dl>
         </section>
         <section id="properties">
@@ -281,8 +297,20 @@
               <a href="#entities" class="m-doc-self">entities</a>: <a href="gemmi.EntityList.html" class="m-doc">EntityList</a> <span class="m-label m-flat m-success">get set</span>
             </dt>
             <dd></dd>
+            <dt id="helices">
+              <a href="#helices" class="m-doc-self">helices</a>: <a href="gemmi.HelixList.html" class="m-doc">HelixList</a> <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
             <dt id="info">
               <a href="#info" class="m-doc-self">info</a>: <a href="gemmi.InfoMap.html" class="m-doc">InfoMap</a> <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
+            <dt id="input_format">
+              <a href="#input_format" class="m-doc-self">input_format</a>: <a href="gemmi.html#CoorFormat" class="m-doc">CoorFormat</a> <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
+            <dt id="meta">
+              <a href="#meta" class="m-doc-self">meta</a>: <a href="gemmi.Metadata.html" class="m-doc">Metadata</a> <span class="m-label m-flat m-success">get set</span>
             </dt>
             <dd></dd>
             <dt id="name">
@@ -299,6 +327,10 @@
             <dd></dd>
             <dt id="resolution">
               <a href="#resolution" class="m-doc-self">resolution</a>: float <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
+            <dt id="sheets">
+              <a href="#sheets" class="m-doc-self">sheets</a>: <a href="gemmi.SheetList.html" class="m-doc">SheetList</a> <span class="m-label m-flat m-success">get set</span>
             </dt>
             <dd></dd>
             <dt id="spacegroup_hm">
@@ -344,8 +376,8 @@
     </div>
   </div>
 </div>
-<script src="search-v1.js"></script>
-<script src="searchdata-v1.js" async="async"></script>
+<script src="search-v2.js"></script>
+<script src="searchdata-v2.js" async="async"></script>
 <footer><nav>
   <div class="m-container">
     <div class="m-row">

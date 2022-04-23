@@ -48,7 +48,7 @@
         <h1>
           <span class="m-breadcrumb"><a href="gemmi.html">gemmi</a>.<wbr/></span>Mtz <span class="m-thin">class</span>
         </h1>
-        <div class="m-block m-default">
+        <nav class="m-block m-default">
           <h3>Contents</h3>
           <ul>
             <li>
@@ -61,7 +61,7 @@
               </ul>
             </li>
           </ul>
-        </div>
+        </nav>
         <section id="classes">
           <h2><a href="#classes">Classes</a></h2>
           <dl class="m-doc">
@@ -105,6 +105,13 @@
               type: str) -&gt; <a href="gemmi.MtzColumnRefs.html" class="m-doc">MtzColumnRefs</a></span>
             </dt>
             <dd></dd>
+            <dt id="copy_column">
+              <span class="m-doc-wrap-bumper">def <a href="#copy_column" class="m-doc-self">copy_column</a>(</span><span class="m-doc-wrap">self,
+              dest_idx: int,
+              src_col: <a href="gemmi.Mtz.Column.html" class="m-doc">Column</a>,
+              trailing_cols: typing.List[str] = []) -&gt; <a href="gemmi.Mtz.Column.html" class="m-doc">Column</a></span>
+            </dt>
+            <dd></dd>
             <dt id="count">
               <span class="m-doc-wrap-bumper">def <a href="#count" class="m-doc-self">count</a>(</span><span class="m-doc-wrap">self,
               label: str) -&gt; int</span>
@@ -120,9 +127,20 @@
               id: int) -&gt; <a href="gemmi.Mtz.Dataset.html" class="m-doc">Dataset</a></span>
             </dt>
             <dd></dd>
+            <dt id="ensure_asu">
+              <span class="m-doc-wrap-bumper">def <a href="#ensure_asu" class="m-doc-self">ensure_asu</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
             <dt id="get_cell">
               <span class="m-doc-wrap-bumper">def <a href="#get_cell" class="m-doc-self">get_cell</a>(</span><span class="m-doc-wrap">self,
               dataset: int = -1) -&gt; <a href="gemmi.UnitCell.html" class="m-doc">UnitCell</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="get_f_phi">
+              <span class="m-doc-wrap-bumper">def <a href="#get_f_phi" class="m-doc-self">get_f_phi</a>(</span><span class="m-doc-wrap">self,
+              f: str,
+              phi: str,
+              as_is: bool = False) -&gt; <a href="gemmi.ComplexAsuData.html" class="m-doc">ComplexAsuData</a></span>
             </dt>
             <dd></dd>
             <dt id="get_f_phi_on_grid">
@@ -131,7 +149,19 @@
               phi: str,
               size: typing.List[int[3]],
               half_l: bool = False,
-              order: <a href="gemmi.html#AxisOrder" class="m-doc">AxisOrder</a> = gemmi.<AxisOrder.XYZ: 1>) -&gt; <a href="gemmi.ReciprocalComplexGrid.html" class="m-doc">ReciprocalComplexGrid</a></span>
+              order: <a href="gemmi.html#AxisOrder" class="m-doc">AxisOrder</a> = <a href="gemmi.html#AxisOrder-XYZ" class="m-doc">AxisOrder.XYZ</a>) -&gt; <a href="gemmi.ReciprocalComplexGrid.html" class="m-doc">ReciprocalComplexGrid</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="get_float">
+              <span class="m-doc-wrap-bumper">def <a href="#get_float" class="m-doc-self">get_float</a>(</span><span class="m-doc-wrap">self,
+              col: str,
+              as_is: bool = False) -&gt; <a href="gemmi.FloatAsuData.html" class="m-doc">FloatAsuData</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="get_int">
+              <span class="m-doc-wrap-bumper">def <a href="#get_int" class="m-doc-self">get_int</a>(</span><span class="m-doc-wrap">self,
+              col: str,
+              as_is: bool = False) -&gt; <a href="gemmi.IntAsuData.html" class="m-doc">IntAsuData</a></span>
             </dt>
             <dd></dd>
             <dt id="get_size_for_hkl">
@@ -145,7 +175,14 @@
               label: str,
               size: typing.List[int[3]],
               half_l: bool = False,
-              order: <a href="gemmi.html#AxisOrder" class="m-doc">AxisOrder</a> = gemmi.<AxisOrder.XYZ: 1>) -&gt; <a href="gemmi.ReciprocalFloatGrid.html" class="m-doc">ReciprocalFloatGrid</a></span>
+              order: <a href="gemmi.html#AxisOrder" class="m-doc">AxisOrder</a> = <a href="gemmi.html#AxisOrder-XYZ" class="m-doc">AxisOrder.XYZ</a>) -&gt; <a href="gemmi.ReciprocalFloatGrid.html" class="m-doc">ReciprocalFloatGrid</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="get_value_sigma">
+              <span class="m-doc-wrap-bumper">def <a href="#get_value_sigma" class="m-doc-self">get_value_sigma</a>(</span><span class="m-doc-wrap">self,
+              f: str,
+              sigma: str,
+              as_is: bool = False) -&gt; <a href="gemmi.ValueSigmaAsuData.html" class="m-doc">ValueSigmaAsuData</a></span>
             </dt>
             <dd></dd>
             <dt id="make_1_d2_array">
@@ -162,6 +199,23 @@
               <span class="m-doc-wrap-bumper">def <a href="#make_miller_array" class="m-doc-self">make_miller_array</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; numpy.ndarray[numpy.int32]</span>
             </dt>
             <dd></dd>
+            <dt id="reindex">
+              <span class="m-doc-wrap-bumper">def <a href="#reindex" class="m-doc-self">reindex</a>(</span><span class="m-doc-wrap">self,
+              op: <a href="gemmi.Op.html" class="m-doc">Op</a>) -&gt; str</span>
+            </dt>
+            <dd></dd>
+            <dt id="remove_column">
+              <span class="m-doc-wrap-bumper">def <a href="#remove_column" class="m-doc-self">remove_column</a>(</span><span class="m-doc-wrap">self,
+              index: int) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="replace_column">
+              <span class="m-doc-wrap-bumper">def <a href="#replace_column" class="m-doc-self">replace_column</a>(</span><span class="m-doc-wrap">self,
+              dest_idx: int,
+              src_col: <a href="gemmi.Mtz.Column.html" class="m-doc">Column</a>,
+              trailing_cols: typing.List[str] = []) -&gt; <a href="gemmi.Mtz.Column.html" class="m-doc">Column</a></span>
+            </dt>
+            <dd></dd>
             <dt id="resolution_high">
               <span class="m-doc-wrap-bumper">def <a href="#resolution_high" class="m-doc-self">resolution_high</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; float</span>
             </dt>
@@ -170,24 +224,32 @@
               <span class="m-doc-wrap-bumper">def <a href="#resolution_low" class="m-doc-self">resolution_low</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; float</span>
             </dt>
             <dd></dd>
+            <dt id="rfree_column">
+              <span class="m-doc-wrap-bumper">def <a href="#rfree_column" class="m-doc-self">rfree_column</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Mtz.Column.html" class="m-doc">Column</a></span>
+            </dt>
+            <dd></dd>
             <dt id="set_cell_for_all">
               <span class="m-doc-wrap-bumper">def <a href="#set_cell_for_all" class="m-doc-self">set_cell_for_all</a>(</span><span class="m-doc-wrap">self,
               arg0: <a href="gemmi.UnitCell.html" class="m-doc">UnitCell</a><span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
             <dd></dd>
-            <dt id="set_data-0e2ac">
-              <span class="m-doc-wrap-bumper">def <a href="#set_data-0e2ac" class="m-doc-self">set_data</a>(</span><span class="m-doc-wrap">self,
-              asu_data: <a href="gemmi.ReciprocalComplexGrid.AsuData.html" class="m-doc">ReciprocalComplexGrid.AsuData</a>) -&gt; None</span>
+            <dt id="set_data-95cb4">
+              <span class="m-doc-wrap-bumper">def <a href="#set_data-95cb4" class="m-doc-self">set_data</a>(</span><span class="m-doc-wrap">self,
+              asu_data: <a href="gemmi.ComplexAsuData.html" class="m-doc">ComplexAsuData</a>) -&gt; None</span>
             </dt>
             <dd></dd>
-            <dt id="set_data-c2fc9">
-              <span class="m-doc-wrap-bumper">def <a href="#set_data-c2fc9" class="m-doc-self">set_data</a>(</span><span class="m-doc-wrap">self,
-              asu_data: <a href="gemmi.ReciprocalFloatGrid.AsuData.html" class="m-doc">ReciprocalFloatGrid.AsuData</a>) -&gt; None</span>
+            <dt id="set_data-74af9">
+              <span class="m-doc-wrap-bumper">def <a href="#set_data-74af9" class="m-doc-self">set_data</a>(</span><span class="m-doc-wrap">self,
+              asu_data: <a href="gemmi.FloatAsuData.html" class="m-doc">FloatAsuData</a>) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="set_data-966e4">
               <span class="m-doc-wrap-bumper">def <a href="#set_data-966e4" class="m-doc-self">set_data</a>(</span><span class="m-doc-wrap">self,
               array: numpy.ndarray[numpy.float32]) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="sort">
+              <span class="m-doc-wrap-bumper">def <a href="#sort" class="m-doc-self">sort</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; bool</span>
             </dt>
             <dd></dd>
             <dt id="switch_to_asu_hkl">
@@ -205,7 +267,7 @@
               min_size: typing.List[int[3]] = [0, 0, 0],
               exact_size: typing.List[int[3]] = [0, 0, 0],
               sample_rate: float = 0.0,
-              order: <a href="gemmi.html#AxisOrder" class="m-doc">AxisOrder</a> = gemmi.<AxisOrder.XYZ: 1>) -&gt; <a href="gemmi.FloatGrid.html" class="m-doc">FloatGrid</a></span>
+              order: <a href="gemmi.html#AxisOrder" class="m-doc">AxisOrder</a> = <a href="gemmi.html#AxisOrder-XYZ" class="m-doc">AxisOrder.XYZ</a>) -&gt; <a href="gemmi.FloatGrid.html" class="m-doc">FloatGrid</a></span>
             </dt>
             <dd></dd>
             <dt id="update_reso">
@@ -236,6 +298,14 @@
         <section id="properties">
           <h2><a href="#properties">Properties</a></h2>
           <dl class="m-doc">
+            <dt id="appended_text">
+              <a href="#appended_text" class="m-doc-self">appended_text</a>: str <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
+            <dt id="array">
+              <a href="#array" class="m-doc-self">array</a>: numpy.ndarray[numpy.float32] <span class="m-label m-flat m-warning">get</span>
+            </dt>
+            <dd></dd>
             <dt id="batches">
               <a href="#batches" class="m-doc-self">batches</a>: <a href="gemmi.MtzBatches.html" class="m-doc">MtzBatches</a> <span class="m-label m-flat m-success">get set</span>
             </dt>
@@ -269,11 +339,23 @@
             </dt>
             <dd></dd>
             <dt id="nsymop">
-              <a href="#nsymop" class="m-doc-self">nsymop</a>: int <span class="m-label m-flat m-success">get set</span>
+              <a href="#nsymop" class="m-doc-self">nsymop</a>: int <span class="m-label m-flat m-warning">get</span>
+            </dt>
+            <dd></dd>
+            <dt id="sort_order">
+              <a href="#sort_order" class="m-doc-self">sort_order</a>: typing.List[int[5]] <span class="m-label m-flat m-success">get set</span>
             </dt>
             <dd></dd>
             <dt id="spacegroup">
               <a href="#spacegroup" class="m-doc-self">spacegroup</a>: <a href="gemmi.SpaceGroup.html" class="m-doc">SpaceGroup</a> <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
+            <dt id="spacegroup_name">
+              <a href="#spacegroup_name" class="m-doc-self">spacegroup_name</a>: str <span class="m-label m-flat m-warning">get</span>
+            </dt>
+            <dd></dd>
+            <dt id="spacegroup_number">
+              <a href="#spacegroup_number" class="m-doc-self">spacegroup_number</a>: int <span class="m-label m-flat m-warning">get</span>
             </dt>
             <dd></dd>
             <dt id="title">
@@ -323,8 +405,8 @@
     </div>
   </div>
 </div>
-<script src="search-v1.js"></script>
-<script src="searchdata-v1.js" async="async"></script>
+<script src="search-v2.js"></script>
+<script src="searchdata-v2.js" async="async"></script>
 <footer><nav>
   <div class="m-container">
     <div class="m-row">

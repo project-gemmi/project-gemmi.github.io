@@ -48,7 +48,7 @@
         <h1>
           <span class="m-breadcrumb"><a href="gemmi.html">gemmi</a>.<wbr/></span>GroupOps <span class="m-thin">class</span>
         </h1>
-        <div class="m-block m-default">
+        <nav class="m-block m-default">
           <h3>Contents</h3>
           <ul>
             <li>
@@ -60,17 +60,26 @@
               </ul>
             </li>
           </ul>
-        </div>
+        </nav>
         <section id="methods">
           <h2><a href="#methods">Methods</a></h2>
           <dl class="m-doc">
+            <dt id="add_missing_elements">
+              <span class="m-doc-wrap-bumper">def <a href="#add_missing_elements" class="m-doc-self">add_missing_elements</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
             <dt id="centric_flag_array">
               <span class="m-doc-wrap-bumper">def <a href="#centric_flag_array" class="m-doc-self">centric_flag_array</a>(</span><span class="m-doc-wrap">self,
               arg0: numpy.ndarray[numpy.int32]<span class="m-text m-dim">, /</span>) -&gt; numpy.ndarray[bool]</span>
             </dt>
             <dd></dd>
-            <dt id="change_basis">
-              <span class="m-doc-wrap-bumper">def <a href="#change_basis" class="m-doc-self">change_basis</a>(</span><span class="m-doc-wrap">self,
+            <dt id="change_basis_backward">
+              <span class="m-doc-wrap-bumper">def <a href="#change_basis_backward" class="m-doc-self">change_basis_backward</a>(</span><span class="m-doc-wrap">self,
+              cob: <a href="gemmi.Op.html" class="m-doc">Op</a>) -&gt; None</span>
+            </dt>
+            <dd>Applies inverse of the change-of-basis operator (in place).</dd>
+            <dt id="change_basis_forward">
+              <span class="m-doc-wrap-bumper">def <a href="#change_basis_forward" class="m-doc-self">change_basis_forward</a>(</span><span class="m-doc-wrap">self,
               cob: <a href="gemmi.Op.html" class="m-doc">Op</a>) -&gt; None</span>
             </dt>
             <dd>Applies the change-of-basis operator (in place).</dd>
@@ -102,6 +111,16 @@
               <span class="m-doc-wrap-bumper">def <a href="#find_grid_factors" class="m-doc-self">find_grid_factors</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; typing.List[int[3]]</span>
             </dt>
             <dd>Minimal multiplicity for real-space grid (e.g. 1,1,6 for P61).</dd>
+            <dt id="has_same_centring">
+              <span class="m-doc-wrap-bumper">def <a href="#has_same_centring" class="m-doc-self">has_same_centring</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.GroupOps.html" class="m-doc">GroupOps</a><span class="m-text m-dim">, /</span>) -&gt; bool</span>
+            </dt>
+            <dd></dd>
+            <dt id="has_same_rotations">
+              <span class="m-doc-wrap-bumper">def <a href="#has_same_rotations" class="m-doc-self">has_same_rotations</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.GroupOps.html" class="m-doc">GroupOps</a><span class="m-text m-dim">, /</span>) -&gt; bool</span>
+            </dt>
+            <dd></dd>
             <dt id="is_centric">
               <span class="m-doc-wrap-bumper">def <a href="#is_centric" class="m-doc-self">is_centric</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; bool</span>
             </dt>
@@ -150,7 +169,7 @@
           <h2><a href="#properties">Properties</a></h2>
           <dl class="m-doc">
             <dt id="cen_ops">
-              <a href="#cen_ops" class="m-doc-self">cen_ops</a>: <a href="gemmi.TranList.html" class="m-doc">TranList</a> <span class="m-label m-flat m-success">get set</span>
+              <a href="#cen_ops" class="m-doc-self">cen_ops</a>: typing.List[typing.List[int[3]]] <span class="m-label m-flat m-success">get set</span>
             </dt>
             <dd>Centering vectors.</dd>
             <dt id="sym_ops">
@@ -196,8 +215,8 @@
     </div>
   </div>
 </div>
-<script src="search-v1.js"></script>
-<script src="searchdata-v1.js" async="async"></script>
+<script src="search-v2.js"></script>
+<script src="searchdata-v2.js" async="async"></script>
 <footer><nav>
   <div class="m-container">
     <div class="m-row">

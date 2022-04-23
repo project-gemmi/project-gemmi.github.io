@@ -48,7 +48,7 @@
         <h1>
           <span class="m-breadcrumb"><a href="gemmi.html">gemmi</a>.<wbr/></span>Model <span class="m-thin">class</span>
         </h1>
-        <div class="m-block m-default">
+        <nav class="m-block m-default">
           <h3>Contents</h3>
           <ul>
             <li>
@@ -60,14 +60,15 @@
               </ul>
             </li>
           </ul>
-        </div>
+        </nav>
         <section id="methods">
           <h2><a href="#methods">Methods</a></h2>
           <dl class="m-doc">
-            <dt id="add_chain-23e6b">
-              <span class="m-doc-wrap-bumper">def <a href="#add_chain-23e6b" class="m-doc-self">add_chain</a>(</span><span class="m-doc-wrap">self,
+            <dt id="add_chain-12a4f">
+              <span class="m-doc-wrap-bumper">def <a href="#add_chain-12a4f" class="m-doc-self">add_chain</a>(</span><span class="m-doc-wrap">self,
               chain: <a href="gemmi.Chain.html" class="m-doc">Chain</a>,
-              pos: int = -1) -&gt; <a href="gemmi.Chain.html" class="m-doc">Chain</a></span>
+              pos: int = -1,
+              unique_name: bool = False) -&gt; <a href="gemmi.Chain.html" class="m-doc">Chain</a></span>
             </dt>
             <dd></dd>
             <dt id="add_chain-6315e">
@@ -95,6 +96,10 @@
               <span class="m-doc-wrap-bumper">def <a href="#count_atom_sites" class="m-doc-self">count_atom_sites</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; int</span>
             </dt>
             <dd></dd>
+            <dt id="count_hydrogen_sites">
+              <span class="m-doc-wrap-bumper">def <a href="#count_hydrogen_sites" class="m-doc-self">count_hydrogen_sites</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; int</span>
+            </dt>
+            <dd></dd>
             <dt id="count_occupancies">
               <span class="m-doc-wrap-bumper">def <a href="#count_occupancies" class="m-doc-self">count_occupancies</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; float</span>
             </dt>
@@ -106,7 +111,8 @@
             <dd></dd>
             <dt id="find_cra">
               <span class="m-doc-wrap-bumper">def <a href="#find_cra" class="m-doc-self">find_cra</a>(</span><span class="m-doc-wrap">self,
-              arg0: <a href="gemmi.AtomAddress.html" class="m-doc">AtomAddress</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.CRA.html" class="m-doc">CRA</a></span>
+              arg0: <a href="gemmi.AtomAddress.html" class="m-doc">AtomAddress</a>,
+              ignore_segment: bool = False) -&gt; <a href="gemmi.CRA.html" class="m-doc">CRA</a></span>
             </dt>
             <dd></dd>
             <dt id="find_last_chain">
@@ -129,9 +135,25 @@
               name: str) -&gt; <a href="gemmi.ResidueSpan.html" class="m-doc">ResidueSpan</a></span>
             </dt>
             <dd></dd>
+            <dt id="remove_alternative_conformations">
+              <span class="m-doc-wrap-bumper">def <a href="#remove_alternative_conformations" class="m-doc-self">remove_alternative_conformations</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
             <dt id="remove_chain">
               <span class="m-doc-wrap-bumper">def <a href="#remove_chain" class="m-doc-self">remove_chain</a>(</span><span class="m-doc-wrap">self,
               name: str) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="remove_hydrogens">
+              <span class="m-doc-wrap-bumper">def <a href="#remove_hydrogens" class="m-doc-self">remove_hydrogens</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="remove_ligands_and_waters">
+              <span class="m-doc-wrap-bumper">def <a href="#remove_ligands_and_waters" class="m-doc-self">remove_ligands_and_waters</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="remove_waters">
+              <span class="m-doc-wrap-bumper">def <a href="#remove_waters" class="m-doc-self">remove_waters</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="sole_residue">
@@ -140,8 +162,23 @@
               seqid: <a href="gemmi.SeqId.html" class="m-doc">SeqId</a>) -&gt; <a href="gemmi.Residue.html" class="m-doc">Residue</a></span>
             </dt>
             <dd></dd>
+            <dt id="split_chains_by_segments">
+              <span class="m-doc-wrap-bumper">def <a href="#split_chains_by_segments" class="m-doc-self">split_chains_by_segments</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.html#HowToNameCopiedChain" class="m-doc">HowToNameCopiedChain</a><span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
             <dt id="subchains">
               <span class="m-doc-wrap-bumper">def <a href="#subchains" class="m-doc-self">subchains</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; typing.List[<a href="gemmi.ResidueSpan.html" class="m-doc">ResidueSpan</a>]</span>
+            </dt>
+            <dd></dd>
+            <dt id="transform">
+              <span class="m-doc-wrap-bumper">def <a href="#transform" class="m-doc-self">transform</a>(</span><span class="m-doc-wrap">self,
+              tr: <a href="gemmi.Transform.html" class="m-doc">Transform</a>) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="transform_pos_and_adp">
+              <span class="m-doc-wrap-bumper">def <a href="#transform_pos_and_adp" class="m-doc-self">transform_pos_and_adp</a>(</span><span class="m-doc-wrap">self,
+              tr: <a href="gemmi.Transform.html" class="m-doc">Transform</a>) -&gt; None</span>
             </dt>
             <dd></dd>
           </dl>
@@ -239,8 +276,8 @@
     </div>
   </div>
 </div>
-<script src="search-v1.js"></script>
-<script src="searchdata-v1.js" async="async"></script>
+<script src="search-v2.js"></script>
+<script src="searchdata-v2.js" async="async"></script>
 <footer><nav>
   <div class="m-container">
     <div class="m-row">

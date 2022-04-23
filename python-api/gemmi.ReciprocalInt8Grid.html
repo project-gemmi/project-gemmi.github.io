@@ -48,7 +48,7 @@
         <h1>
           <span class="m-breadcrumb"><a href="gemmi.html">gemmi</a>.<wbr/></span>ReciprocalInt8Grid <span class="m-thin">class</span>
         </h1>
-        <div class="m-block m-default">
+        <nav class="m-block m-default">
           <h3>Contents</h3>
           <ul>
             <li>
@@ -61,22 +61,44 @@
               </ul>
             </li>
           </ul>
-        </div>
+        </nav>
         <section id="classes">
           <h2><a href="#classes">Classes</a></h2>
           <dl class="m-doc">
-            <dt>class <a href="gemmi.ReciprocalInt8Grid.AsuData.html" class="m-doc">AsuData</a></dt>
-            <dd></dd>
-            <dt>class <a href="gemmi.ReciprocalInt8Grid.HklValue.html" class="m-doc">HklValue</a></dt>
+            <dt>class <a href="gemmi.Int8Grid.Point.html" class="m-doc">Point</a></dt>
             <dd></dd>
           </dl>
         </section>
         <section id="methods">
           <h2><a href="#methods">Methods</a></h2>
           <dl class="m-doc">
+            <dt id="calculate_1_d2">
+              <span class="m-doc-wrap-bumper">def <a href="#calculate_1_d2" class="m-doc-self">calculate_1_d2</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.Int8Grid.Point.html" class="m-doc">Int8Grid.Point</a><span class="m-text m-dim">, /</span>) -&gt; float</span>
+            </dt>
+            <dd></dd>
+            <dt id="calculate_d">
+              <span class="m-doc-wrap-bumper">def <a href="#calculate_d" class="m-doc-self">calculate_d</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.Int8Grid.Point.html" class="m-doc">Int8Grid.Point</a><span class="m-text m-dim">, /</span>) -&gt; float</span>
+            </dt>
+            <dd></dd>
             <dt id="fill">
               <span class="m-doc-wrap-bumper">def <a href="#fill" class="m-doc-self">fill</a>(</span><span class="m-doc-wrap">self,
               value: int) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="get_fractional">
+              <span class="m-doc-wrap-bumper">def <a href="#get_fractional" class="m-doc-self">get_fractional</a>(</span><span class="m-doc-wrap">self,
+              arg0: int,
+              arg1: int,
+              arg2: int<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Fractional.html" class="m-doc">Fractional</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="get_position">
+              <span class="m-doc-wrap-bumper">def <a href="#get_position" class="m-doc-self">get_position</a>(</span><span class="m-doc-wrap">self,
+              arg0: int,
+              arg1: int,
+              arg2: int<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Position.html" class="m-doc">Position</a></span>
             </dt>
             <dd></dd>
             <dt id="get_value">
@@ -86,11 +108,28 @@
               arg2: int<span class="m-text m-dim">, /</span>) -&gt; int</span>
             </dt>
             <dd></dd>
+            <dt id="get_value_by_hkl">
+              <span class="m-doc-wrap-bumper">def <a href="#get_value_by_hkl" class="m-doc-self">get_value_by_hkl</a>(</span><span class="m-doc-wrap">self,
+              hkl: numpy.ndarray[numpy.int32],
+              unblur: float = 0,
+              mott_bethe: bool = False) -&gt; numpy.ndarray[numpy.int32]</span>
+            </dt>
+            <dd></dd>
             <dt id="get_value_or_zero">
               <span class="m-doc-wrap-bumper">def <a href="#get_value_or_zero" class="m-doc-self">get_value_or_zero</a>(</span><span class="m-doc-wrap">self,
               arg0: int,
               arg1: int,
               arg2: int<span class="m-text m-dim">, /</span>) -&gt; int</span>
+            </dt>
+            <dd></dd>
+            <dt id="index_to_point">
+              <span class="m-doc-wrap-bumper">def <a href="#index_to_point" class="m-doc-self">index_to_point</a>(</span><span class="m-doc-wrap">self,
+              arg0: int<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Int8Grid.Point.html" class="m-doc">Int8Grid.Point</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="point_to_index">
+              <span class="m-doc-wrap-bumper">def <a href="#point_to_index" class="m-doc-self">point_to_index</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.Int8Grid.Point.html" class="m-doc">Int8Grid.Point</a><span class="m-text m-dim">, /</span>) -&gt; int</span>
             </dt>
             <dd></dd>
             <dt id="prepare_asu_data">
@@ -99,7 +138,7 @@
               unblur: float = 0.0,
               with_000: bool = False,
               with_sys_abs: bool = False,
-              mott_bethe: bool = False) -&gt; <a href="gemmi.ReciprocalInt8Grid.AsuData.html" class="m-doc">AsuData</a></span>
+              mott_bethe: bool = False) -&gt; <a href="gemmi.IntAsuData.html" class="m-doc">IntAsuData</a></span>
             </dt>
             <dd></dd>
             <dt id="set_value">
@@ -155,6 +194,10 @@
         <section id="properties">
           <h2><a href="#properties">Properties</a></h2>
           <dl class="m-doc">
+            <dt id="array">
+              <a href="#array" class="m-doc-self">array</a>: numpy.ndarray[numpy.int8] <span class="m-label m-flat m-warning">get</span>
+            </dt>
+            <dd></dd>
             <dt id="axis_order">
               <a href="#axis_order" class="m-doc-self">axis_order</a>: <a href="gemmi.html#AxisOrder" class="m-doc">AxisOrder</a> <span class="m-label m-flat m-warning">get</span>
             </dt>
@@ -230,8 +273,8 @@
     </div>
   </div>
 </div>
-<script src="search-v1.js"></script>
-<script src="searchdata-v1.js" async="async"></script>
+<script src="search-v2.js"></script>
+<script src="searchdata-v2.js" async="async"></script>
 <footer><nav>
   <div class="m-container">
     <div class="m-row">
