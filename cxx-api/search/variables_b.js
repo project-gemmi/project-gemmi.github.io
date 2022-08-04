@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['mask_0',['mask',['../structgemmi_1_1MaskedGrid.html#ab9344535a48d328930f5a89d4d50c532',1,'gemmi::MaskedGrid::mask()'],['../structgemmi_1_1FloodFill.html#a33cdfbf256d8f9e7b8d865f178992271',1,'gemmi::FloodFill::mask()']]],
+  ['mask_0',['mask',['../structgemmi_1_1FloodFill.html#a33cdfbf256d8f9e7b8d865f178992271',1,'gemmi::FloodFill::mask()'],['../structgemmi_1_1MaskedGrid.html#ab9344535a48d328930f5a89d4d50c532',1,'gemmi::MaskedGrid::mask()']]],
   ['mass_1',['mass',['../structgemmi_1_1CenterOfMass.html#aeb1a5776f1c6f110cf83aae331a59190',1,'gemmi::CenterOfMass']]],
   ['mat_2',['mat',['../structgemmi_1_1Transform.html#a1625f14c2b9e9fa5ec3e7ef3f5248167',1,'gemmi::Transform']]],
   ['match_3',['match',['../structgemmi_1_1AlignmentScoring.html#a30d4ce50a57f058eda52ca1e52dc8a3a',1,'gemmi::AlignmentScoring']]],

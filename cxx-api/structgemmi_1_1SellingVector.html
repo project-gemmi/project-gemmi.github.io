@@ -82,6 +82,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:adceb9e61e6ccb54a75d5065c8202c493"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d192eeb0324b4a27a1350ce096bb2a4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1SellingVector.html#a4d192eeb0324b4a27a1350ce096bb2a4">SellingVector</a> (const <a class="el" href="structgemmi_1_1Mat33.html">Mat33</a> &amp;orth)</td></tr>
 <tr class="separator:a4d192eeb0324b4a27a1350ce096bb2a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d551f3598bcbdf55c81f53042ba8b47"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1SellingVector.html#a4d551f3598bcbdf55c81f53042ba8b47">SellingVector</a> (const <a class="el" href="structgemmi_1_1UnitCell.html">UnitCell</a> &amp;u, char centring)</td></tr>
+<tr class="separator:a4d551f3598bcbdf55c81f53042ba8b47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaead9d52ae48a8b1baff108d59ddcf56"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1SellingVector.html#aaead9d52ae48a8b1baff108d59ddcf56">SellingVector</a> (const <a class="el" href="structgemmi_1_1UnitCell.html">UnitCell</a> &amp;u, const <a class="el" href="structgemmi_1_1SpaceGroup.html">SpaceGroup</a> *sg)</td></tr>
+<tr class="separator:aaead9d52ae48a8b1baff108d59ddcf56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add6a6185984ab0e8510806348395d88c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1SellingVector.html#add6a6185984ab0e8510806348395d88c">sum_b_squared</a> () const</td></tr>
 <tr class="separator:add6a6185984ab0e8510806348395d88c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2851b4b59ed94094d0487a09020f7707"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1SellingVector.html#a2851b4b59ed94094d0487a09020f7707">is_reduced</a> (double eps=1e-9) const</td></tr>
@@ -98,6 +102,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad2db6a93bd05abceb740f3bece8d135e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cb3b2879e185bb1372d68a018a10f80"><td class="memItemLeft" align="right" valign="top">std::array&lt; double, 6 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1SellingVector.html#a8cb3b2879e185bb1372d68a018a10f80">cell_parameters</a> () const</td></tr>
 <tr class="separator:a8cb3b2879e185bb1372d68a018a10f80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ecd87f125eae474f72fefdbd5c0d894"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1UnitCell.html">UnitCell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1SellingVector.html#a7ecd87f125eae474f72fefdbd5c0d894">get_cell</a> () const</td></tr>
+<tr class="separator:a7ecd87f125eae474f72fefdbd5c0d894"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -106,10 +112,10 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00210">210</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00265">265</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="adceb9e61e6ccb54a75d5065c8202c493" name="adceb9e61e6ccb54a75d5065c8202c493"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adceb9e61e6ccb54a75d5065c8202c493">&#9670;&nbsp;</a></span>SellingVector() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adceb9e61e6ccb54a75d5065c8202c493">&#9670;&nbsp;</a></span>SellingVector() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132,12 +138,12 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00214">214</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00269">269</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a4d192eeb0324b4a27a1350ce096bb2a4" name="a4d192eeb0324b4a27a1350ce096bb2a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d192eeb0324b4a27a1350ce096bb2a4">&#9670;&nbsp;</a></span>SellingVector() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d192eeb0324b4a27a1350ce096bb2a4">&#9670;&nbsp;</a></span>SellingVector() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -160,7 +166,83 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00216">216</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00271">271</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a4d551f3598bcbdf55c81f53042ba8b47" name="a4d551f3598bcbdf55c81f53042ba8b47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d551f3598bcbdf55c81f53042ba8b47">&#9670;&nbsp;</a></span>SellingVector() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">gemmi::SellingVector::SellingVector </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1UnitCell.html">UnitCell</a> &amp;&#160;</td>
+          <td class="paramname"><em>u</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>centring</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00284">284</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aaead9d52ae48a8b1baff108d59ddcf56" name="aaead9d52ae48a8b1baff108d59ddcf56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaead9d52ae48a8b1baff108d59ddcf56">&#9670;&nbsp;</a></span>SellingVector() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">gemmi::SellingVector::SellingVector </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1UnitCell.html">UnitCell</a> &amp;&#160;</td>
+          <td class="paramname"><em>u</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1SpaceGroup.html">SpaceGroup</a> *&#160;</td>
+          <td class="paramname"><em>sg</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00286">286</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
 
 </div>
 </div>
@@ -188,7 +270,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00332">332</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00392">392</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
 
 </div>
 </div>
@@ -215,7 +297,34 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00282">282</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00342">342</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a7ecd87f125eae474f72fefdbd5c0d894" name="a7ecd87f125eae474f72fefdbd5c0d894"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ecd87f125eae474f72fefdbd5c0d894">&#9670;&nbsp;</a></span>get_cell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgemmi_1_1UnitCell.html">UnitCell</a> gemmi::SellingVector::get_cell </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00395">395</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
 
 </div>
 </div>
@@ -242,7 +351,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00286">286</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00346">346</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
 
 </div>
 </div>
@@ -270,7 +379,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00234">234</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00294">294</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
 
 </div>
 </div>
@@ -308,7 +417,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00274">274</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00334">334</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
 
 </div>
 </div>
@@ -336,7 +445,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00238">238</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00298">298</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
 
 </div>
 </div>
@@ -364,7 +473,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00289">289</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00349">349</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
 
 </div>
 </div>
@@ -391,7 +500,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00230">230</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00290">290</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
 
 </div>
 </div>
@@ -408,7 +517,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00212">212</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00267">267</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
 
 </div>
 </div>

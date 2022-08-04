@@ -91,55 +91,57 @@ $(function() {
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor"># pragma GCC diagnostic ignored &quot;-Wattributes&quot;</span></div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#if defined(_MSC_VER)</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor"># define GEMMI_NOINLINE __declspec(noinline)</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="fail_8hpp.html#aaeee09b2b9ced574f8b2d57fdd2e399b">   26</a></span><span class="preprocessor"># define GEMMI_NOINLINE __attribute__ ((noinline))</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacegemmi.html">gemmi</a> {</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#if defined(__GNUC__) || defined(__clang__)</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor"># define GEMMI_COLD __attribute__((cold))</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#elif defined(_MSC_VER)</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor"># define GEMMI_COLD __declspec(noinline)</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="fail_8hpp.html#a946256341d2589b01e50666ef73a46ad">   28</a></span><span class="preprocessor"># define GEMMI_COLD __attribute__((noinline))</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>[[noreturn]]</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="namespacegemmi.html#ace5bd65601f8e51653de63a7afa7f380">   32</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacegemmi.html#ace5bd65601f8e51653de63a7afa7f380">fail</a>(<span class="keyword">const</span> std::string&amp; msg) { <span class="keywordflow">throw</span> std::runtime_error(msg); }</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span>... Args&gt; [[noreturn]]</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="namespacegemmi.html#aa06ba7b30a8e5af886e8bfcc05e4ed8f">   35</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacegemmi.html#ace5bd65601f8e51653de63a7afa7f380">fail</a>(std::string&amp;&amp; str, T&amp;&amp; arg1, Args&amp;&amp;... args) {</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>  str += arg1;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>  <a class="code hl_function" href="namespacegemmi.html#ace5bd65601f8e51653de63a7afa7f380">fail</a>(std::move(str), std::forward&lt;Args&gt;(args)...);</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>}</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>[[noreturn]]</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="namespacegemmi.html#a50f159d8d3d8ee2ded30733bbbd1a0ea">   41</a></span><span class="keyword">inline</span> <a class="code hl_define" href="fail_8hpp.html#aaeee09b2b9ced574f8b2d57fdd2e399b">GEMMI_NOINLINE</a> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacegemmi.html#ace5bd65601f8e51653de63a7afa7f380">fail</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* msg) { <span class="keywordflow">throw</span> std::runtime_error(msg); }</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>[[noreturn]]</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="namespacegemmi.html#a000d91b064e661f7fef881c874ab0b5a">   44</a></span><span class="keyword">inline</span> <a class="code hl_define" href="fail_8hpp.html#aaeee09b2b9ced574f8b2d57fdd2e399b">GEMMI_NOINLINE</a> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacegemmi.html#a000d91b064e661f7fef881c874ab0b5a">sys_fail</a>(<span class="keyword">const</span> std::string&amp; msg) {</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  <span class="keywordflow">throw</span> std::system_error(errno, std::system_category(), msg);</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>}</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>[[noreturn]]</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="namespacegemmi.html#afd664835268ab2ce37b7dac3477dd692">   48</a></span><span class="keyword">inline</span> <a class="code hl_define" href="fail_8hpp.html#aaeee09b2b9ced574f8b2d57fdd2e399b">GEMMI_NOINLINE</a> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacegemmi.html#a000d91b064e661f7fef881c874ab0b5a">sys_fail</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* msg) {</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  <span class="keywordflow">throw</span> std::system_error(errno, std::system_category(), msg);</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>}</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="comment">// unreachable() is used to silence GCC -Wreturn-type and hint the compiler</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="namespacegemmi.html#ae0cd7a0e30206b80d444683b512ed0a5">   53</a></span>[[noreturn]] <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacegemmi.html#ae0cd7a0e30206b80d444683b512ed0a5">unreachable</a>() {</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="preprocessor">#if defined(__GNUC__) || defined(__clang__)</span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  __builtin_unreachable();</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="preprocessor">#elif defined(_MSC_VER)</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  __assume(0);</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>}</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">#if defined(__GNUG__) &amp;&amp; !defined(__clang__)</span></div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="preprocessor"># pragma GCC diagnostic pop</span></div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>} <span class="comment">// namespace gemmi</span></div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="afail_8hpp_html_aaeee09b2b9ced574f8b2d57fdd2e399b"><div class="ttname"><a href="fail_8hpp.html#aaeee09b2b9ced574f8b2d57fdd2e399b">GEMMI_NOINLINE</a></div><div class="ttdeci">#define GEMMI_NOINLINE</div><div class="ttdef"><b>Definition:</b> <a href="fail_8hpp_source.html#l00026">fail.hpp:26</a></div></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacegemmi.html">gemmi</a> {</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>[[noreturn]]</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="namespacegemmi.html#ace5bd65601f8e51653de63a7afa7f380">   34</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacegemmi.html#ace5bd65601f8e51653de63a7afa7f380">fail</a>(<span class="keyword">const</span> std::string&amp; msg) { <span class="keywordflow">throw</span> std::runtime_error(msg); }</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span>... Args&gt; [[noreturn]]</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="namespacegemmi.html#aa06ba7b30a8e5af886e8bfcc05e4ed8f">   37</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacegemmi.html#ace5bd65601f8e51653de63a7afa7f380">fail</a>(std::string&amp;&amp; str, T&amp;&amp; arg1, Args&amp;&amp;... args) {</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>  str += arg1;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>  <a class="code hl_function" href="namespacegemmi.html#ace5bd65601f8e51653de63a7afa7f380">fail</a>(std::move(str), std::forward&lt;Args&gt;(args)...);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>}</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>[[noreturn]]</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="namespacegemmi.html#adc4dd708c7ca4909621160ae561ca2aa">   43</a></span><span class="keyword">inline</span> <a class="code hl_define" href="fail_8hpp.html#a946256341d2589b01e50666ef73a46ad">GEMMI_COLD</a> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacegemmi.html#ace5bd65601f8e51653de63a7afa7f380">fail</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* msg) { <span class="keywordflow">throw</span> std::runtime_error(msg); }</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>[[noreturn]]</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="namespacegemmi.html#a96a635d06aa8a594d1af85a42ddaab4b">   46</a></span><span class="keyword">inline</span> <a class="code hl_define" href="fail_8hpp.html#a946256341d2589b01e50666ef73a46ad">GEMMI_COLD</a> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacegemmi.html#a96a635d06aa8a594d1af85a42ddaab4b">sys_fail</a>(<span class="keyword">const</span> std::string&amp; msg) {</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  <span class="keywordflow">throw</span> std::system_error(errno, std::system_category(), msg);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>}</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>[[noreturn]]</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="namespacegemmi.html#ad242b50ca57bc53d59cf19c4cfc55193">   50</a></span><span class="keyword">inline</span> <a class="code hl_define" href="fail_8hpp.html#a946256341d2589b01e50666ef73a46ad">GEMMI_COLD</a> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacegemmi.html#a96a635d06aa8a594d1af85a42ddaab4b">sys_fail</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* msg) {</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>  <span class="keywordflow">throw</span> std::system_error(errno, std::system_category(), msg);</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>}</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="comment">// unreachable() is used to silence GCC -Wreturn-type and hint the compiler</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="namespacegemmi.html#ae0cd7a0e30206b80d444683b512ed0a5">   55</a></span>[[noreturn]] <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacegemmi.html#ae0cd7a0e30206b80d444683b512ed0a5">unreachable</a>() {</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="preprocessor">#if defined(__GNUC__) || defined(__clang__)</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  __builtin_unreachable();</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="preprocessor">#elif defined(_MSC_VER)</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  __assume(0);</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>}</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="preprocessor">#if defined(__GNUG__) &amp;&amp; !defined(__clang__)</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="preprocessor"># pragma GCC diagnostic pop</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>} <span class="comment">// namespace gemmi</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="afail_8hpp_html_a946256341d2589b01e50666ef73a46ad"><div class="ttname"><a href="fail_8hpp.html#a946256341d2589b01e50666ef73a46ad">GEMMI_COLD</a></div><div class="ttdeci">#define GEMMI_COLD</div><div class="ttdef"><b>Definition:</b> <a href="fail_8hpp_source.html#l00028">fail.hpp:28</a></div></div>
 <div class="ttc" id="anamespacegemmi_html"><div class="ttname"><a href="namespacegemmi.html">gemmi</a></div><div class="ttdef"><b>Definition:</b> <a href="addends_8hpp_source.html#l00012">addends.hpp:12</a></div></div>
-<div class="ttc" id="anamespacegemmi_html_a000d91b064e661f7fef881c874ab0b5a"><div class="ttname"><a href="namespacegemmi.html#a000d91b064e661f7fef881c874ab0b5a">gemmi::sys_fail</a></div><div class="ttdeci">GEMMI_NOINLINE void sys_fail(const std::string &amp;msg)</div><div class="ttdef"><b>Definition:</b> <a href="fail_8hpp_source.html#l00044">fail.hpp:44</a></div></div>
-<div class="ttc" id="anamespacegemmi_html_ace5bd65601f8e51653de63a7afa7f380"><div class="ttname"><a href="namespacegemmi.html#ace5bd65601f8e51653de63a7afa7f380">gemmi::fail</a></div><div class="ttdeci">void fail(const std::string &amp;msg)</div><div class="ttdef"><b>Definition:</b> <a href="fail_8hpp_source.html#l00032">fail.hpp:32</a></div></div>
-<div class="ttc" id="anamespacegemmi_html_ae0cd7a0e30206b80d444683b512ed0a5"><div class="ttname"><a href="namespacegemmi.html#ae0cd7a0e30206b80d444683b512ed0a5">gemmi::unreachable</a></div><div class="ttdeci">void unreachable()</div><div class="ttdef"><b>Definition:</b> <a href="fail_8hpp_source.html#l00053">fail.hpp:53</a></div></div>
+<div class="ttc" id="anamespacegemmi_html_a96a635d06aa8a594d1af85a42ddaab4b"><div class="ttname"><a href="namespacegemmi.html#a96a635d06aa8a594d1af85a42ddaab4b">gemmi::sys_fail</a></div><div class="ttdeci">GEMMI_COLD void sys_fail(const std::string &amp;msg)</div><div class="ttdef"><b>Definition:</b> <a href="fail_8hpp_source.html#l00046">fail.hpp:46</a></div></div>
+<div class="ttc" id="anamespacegemmi_html_ace5bd65601f8e51653de63a7afa7f380"><div class="ttname"><a href="namespacegemmi.html#ace5bd65601f8e51653de63a7afa7f380">gemmi::fail</a></div><div class="ttdeci">void fail(const std::string &amp;msg)</div><div class="ttdef"><b>Definition:</b> <a href="fail_8hpp_source.html#l00034">fail.hpp:34</a></div></div>
+<div class="ttc" id="anamespacegemmi_html_ae0cd7a0e30206b80d444683b512ed0a5"><div class="ttname"><a href="namespacegemmi.html#ae0cd7a0e30206b80d444683b512ed0a5">gemmi::unreachable</a></div><div class="ttdeci">void unreachable()</div><div class="ttdef"><b>Definition:</b> <a href="fail_8hpp_source.html#l00055">fail.hpp:55</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

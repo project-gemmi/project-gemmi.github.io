@@ -1,7 +1,7 @@
 var searchData=
 [
   ['v_0',['V',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a5206560a306a2e085a437fd258eb57ce',1,'gemmi']]],
-  ['v_1',['v',['../structgemmi_1_1AsuData.html#ae901da5de879d57d0c9c48c2152f02d4',1,'gemmi::AsuData::v()'],['../structgemmi_1_1FloodFill_1_1Line.html#a9e09b9d1d400f97393789ccdda6a1eb9',1,'gemmi::FloodFill::Line::v()'],['../structgemmi_1_1GridBase_1_1Point.html#a2f7d7041a041c1e75a18ab40ce1a9101',1,'gemmi::GridBase::Point::v()'],['../structgemmi_1_1GridBase_1_1iterator.html#afdbeeebcb7dd10382473dc3c4f2772b9',1,'gemmi::GridBase::iterator::v()'],['../structgemmi_1_1MaskedGrid_1_1iterator.html#aab48d7c456ecc426d51c8853c9ca37c6',1,'gemmi::MaskedGrid::iterator::v()']]],
+  ['v_1',['v',['../structgemmi_1_1AsuData.html#ae901da5de879d57d0c9c48c2152f02d4',1,'gemmi::AsuData::v()'],['../structgemmi_1_1MaskedGrid_1_1iterator.html#aab48d7c456ecc426d51c8853c9ca37c6',1,'gemmi::MaskedGrid::iterator::v()'],['../structgemmi_1_1FloodFill_1_1Line.html#a9e09b9d1d400f97393789ccdda6a1eb9',1,'gemmi::FloodFill::Line::v()'],['../structgemmi_1_1GridBase_1_1Point.html#a2f7d7041a041c1e75a18ab40ce1a9101',1,'gemmi::GridBase::Point::v()'],['../structgemmi_1_1GridBase_1_1iterator.html#afdbeeebcb7dd10382473dc3c4f2772b9',1,'gemmi::GridBase::iterator::v()']]],
   ['val_2',['val',['../structgemmi_1_1cif_1_1Loop.html#a255832b560c3334e158ef915ea69235e',1,'gemmi::cif::Loop']]],
   ['validate_5fmerged_5fintensities_3',['validate_merged_intensities',['../namespacegemmi.html#addf1e9a033ec496a15e9ad992d84c888',1,'gemmi']]],
   ['validate_5fmerged_5fmtz_5fdeposition_5fcolumns_4',['validate_merged_mtz_deposition_columns',['../namespacegemmi.html#a0f3aa59088c7ade5f73f90f89a122db4',1,'gemmi']]],
@@ -29,6 +29,6 @@ var searchData=
   ['version_26',['version',['../structgemmi_1_1SoftwareItem.html#a6c24aaeb636f0ef54fdc599bd549708e',1,'gemmi::SoftwareItem']]],
   ['version_2ehpp_27',['version.hpp',['../version_8hpp.html',1,'']]],
   ['version_5fstamp_28',['version_stamp',['../structgemmi_1_1Mtz.html#ae281519a72aec66769d00f41d660e471',1,'gemmi::Mtz']]],
-  ['volume_29',['volume',['../structgemmi_1_1UnitCell.html#aaee0aa77c5ee6590e971431d5bcd4ee9',1,'gemmi::UnitCell::volume()'],['../structgemmi_1_1Blob.html#a31d070b5688e80d9d15b9e88654f42c2',1,'gemmi::Blob::volume()']]],
+  ['volume_29',['volume',['../structgemmi_1_1UnitCell.html#aaee0aa77c5ee6590e971431d5bcd4ee9',1,'gemmi::UnitCell::volume()'],['../structgemmi_1_1Blob.html#a31d070b5688e80d9d15b9e88654f42c2',1,'gemmi::Blob::volume()'],['../structgemmi_1_1AsuBrick.html#a68c66f3ae0b79f6c405769e328f96e07',1,'gemmi::AsuBrick::volume()']]],
   ['volume_5fper_5fimage_30',['volume_per_image',['../structgemmi_1_1UnitCell.html#a9063e0a55b8198310c66b18f9a53c5c5',1,'gemmi::UnitCell']]]
 ];

@@ -75,8 +75,10 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;ostream&gt;</code><br />
+<code>#include &lt;memory&gt;</code><br />
 <code>#include &quot;<a class="el" href="model_8hpp_source.html">model.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="modify_8hpp_source.html">modify.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="neighbor_8hpp_source.html">neighbor.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="util_8hpp_source.html">util.hpp</a>&quot;</code><br />
 </div>
 <p><a href="assembly_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -105,8 +107,10 @@ Functions</h2></td></tr>
 <tr class="separator:ae0b8fc71213de07974e4c4adaf585ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a080bb534b5ca9453f240e1c3528a3861"><td class="memItemLeft" align="right" valign="top">Model&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a080bb534b5ca9453f240e1c3528a3861">gemmi::make_assembly</a> (const Assembly &amp;assembly, const Model &amp;model, HowToNameCopiedChain how, std::ostream *out)</td></tr>
 <tr class="separator:a080bb534b5ca9453f240e1c3528a3861"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae32e822fc67f814b0198efde71b360d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#ae32e822fc67f814b0198efde71b360d7">gemmi::change_to_assembly</a> (Structure &amp;st, const std::string &amp;assembly_name, HowToNameCopiedChain how, std::ostream *out)</td></tr>
-<tr class="separator:ae32e822fc67f814b0198efde71b360d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7c5ccedc81bc829e864b3135708919b"><td class="memItemLeft" align="right" valign="top">Assembly&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#ad7c5ccedc81bc829e864b3135708919b">gemmi::expand_to_p1</a> (const UnitCell &amp;cell)</td></tr>
+<tr class="separator:ad7c5ccedc81bc829e864b3135708919b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0946b790a8a18e8b2a3490585d4c1d80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a0946b790a8a18e8b2a3490585d4c1d80">gemmi::transform_to_assembly</a> (Structure &amp;st, const std::string &amp;assembly_name, HowToNameCopiedChain how, std::ostream *out)</td></tr>
+<tr class="separator:a0946b790a8a18e8b2a3490585d4c1d80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af844022ff789951ff58167865e3bcf7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#af844022ff789951ff58167865e3bcf7e">gemmi::rename_chain</a> (Structure &amp;st, Chain &amp;chain, const std::string &amp;new_name)</td></tr>
 <tr class="separator:af844022ff789951ff58167865e3bcf7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fad9d05eb1e6fdcaab4c15ba01a8afe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a2fad9d05eb1e6fdcaab4c15ba01a8afe">gemmi::shorten_chain_names</a> (Structure &amp;st)</td></tr>

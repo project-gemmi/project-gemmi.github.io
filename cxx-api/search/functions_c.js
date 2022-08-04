@@ -3,7 +3,7 @@ var searchData=
   ['name_0',['name',['../structgemmi_1_1Element.html#ad8ce9602c2076c05356652f417a49bdb',1,'gemmi::Element']]],
   ['ncs_5fgiven_5fcount_1',['ncs_given_count',['../structgemmi_1_1Structure.html#abed5297ae10c1159252fac7e984c2964',1,'gemmi::Structure']]],
   ['ncs_5fnot_5fexpanded_2',['ncs_not_expanded',['../structgemmi_1_1Structure.html#a287f5c0934d3f3d35edce5c53dc2642f',1,'gemmi::Structure']]],
-  ['negated_3',['negated',['../structgemmi_1_1Vec3.html#a19b2fba3e86a22cc4c3f916e79c3664f',1,'gemmi::Vec3::negated()'],['../structgemmi_1_1Op.html#a666f5bb439b0c2efe5ad04c3108eee43',1,'gemmi::Op::negated() const']]],
+  ['negated_3',['negated',['../structgemmi_1_1Vec3.html#a19b2fba3e86a22cc4c3f916e79c3664f',1,'gemmi::Vec3']]],
   ['negated_5frot_4',['negated_rot',['../structgemmi_1_1Op.html#a38f9206f4ea49cd8fdb57537281a3e11',1,'gemmi::Op']]],
   ['neighborsearch_5',['NeighborSearch',['../structgemmi_1_1NeighborSearch.html#a394bdb01a50ba625902444ca409ae132',1,'gemmi::NeighborSearch::NeighborSearch()=default'],['../structgemmi_1_1NeighborSearch.html#a610fced2ba96afff25278efeaf93cc99',1,'gemmi::NeighborSearch::NeighborSearch(Model &amp;model_, const UnitCell &amp;cell, double max_radius)'],['../structgemmi_1_1NeighborSearch.html#ae6fbbc210af6fbc010d4c1b191bd6a13',1,'gemmi::NeighborSearch::NeighborSearch(SmallStructure &amp;small, double max_radius)']]],
   ['next_6',['next',['../structgemmi_1_1DirWalk_1_1Iter.html#a488571fb8ccb144d2617dc808a27035b',1,'gemmi::DirWalk::Iter']]],

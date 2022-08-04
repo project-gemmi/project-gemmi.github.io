@@ -92,6 +92,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad186b3e121a8f4df4da9e96abadf9f64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff152c4913fb5ca0ebea7e17c2b6a53d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1UnitCell.html#aff152c4913fb5ca0ebea7e17c2b6a53d">approx</a> (const <a class="el" href="structgemmi_1_1UnitCell.html">UnitCell</a> &amp;o, double epsilon) const</td></tr>
 <tr class="separator:aff152c4913fb5ca0ebea7e17c2b6a53d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad81f28ddf1d23aa7577dc3953d7a1bf6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1UnitCell.html#ad81f28ddf1d23aa7577dc3953d7a1bf6">is_similar</a> (const <a class="el" href="structgemmi_1_1UnitCell.html">UnitCell</a> &amp;o, double rel, double <a class="el" href="namespacegemmi.html#a3239b83603656bfd503d27f785435e6f">deg</a>) const</td></tr>
+<tr class="separator:ad81f28ddf1d23aa7577dc3953d7a1bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a285174f1fc3f9899a043d030a33232f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1UnitCell.html#a285174f1fc3f9899a043d030a33232f6">calculate_properties</a> ()</td></tr>
 <tr class="separator:a285174f1fc3f9899a043d030a33232f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83f48b85a524f86a7e5e6cd047b1b0f1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1UnitCell.html#a83f48b85a524f86a7e5e6cd047b1b0f1">cos_alpha</a> () const</td></tr>
@@ -118,6 +120,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab1ee63c474928ebd12c7eb733e4ef60a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9104aa0b4b25e1a7f61783d57ebc83ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1UnitCell.html#a9104aa0b4b25e1a7f61783d57ebc83ad">add_ncs_images_to_cs_images</a> (const std::vector&lt; <a class="el" href="structgemmi_1_1NcsOp.html">NcsOp</a> &gt; &amp;ncs)</td></tr>
 <tr class="separator:a9104aa0b4b25e1a7f61783d57ebc83ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ace14d61e9901240b4fb21175b4afed"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structgemmi_1_1FTransform.html">FTransform</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1UnitCell.html#a1ace14d61e9901240b4fb21175b4afed">get_ncs_transforms</a> () const</td></tr>
+<tr class="separator:a1ace14d61e9901240b4fb21175b4afed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fd2d28ae2df7f3cda3f83427b5337c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1Position.html">Position</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1UnitCell.html#a8fd2d28ae2df7f3cda3f83427b5337c6">orthogonalize</a> (const <a class="el" href="structgemmi_1_1Fractional.html">Fractional</a> &amp;f) const</td></tr>
 <tr class="separator:a8fd2d28ae2df7f3cda3f83427b5337c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ab644d911a45f0b3ebe2f9c54cbdac4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1Fractional.html">Fractional</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1UnitCell.html#a3ab644d911a45f0b3ebe2f9c54cbdac4">fractionalize</a> (const <a class="el" href="structgemmi_1_1Position.html">Position</a> &amp;o) const</td></tr>
@@ -352,7 +356,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00344">344</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00352">352</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -396,7 +400,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00423">423</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00438">438</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -462,7 +466,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00491">491</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00506">506</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -506,7 +510,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00483">483</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00498">498</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -534,7 +538,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00497">497</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00512">512</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -561,7 +565,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00232">232</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00240">240</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -588,7 +592,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00178">178</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00186">186</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -616,7 +620,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00502">502</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00517">517</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -644,7 +648,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00244">244</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00252">252</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -682,7 +686,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00290">290</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00298">298</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -720,7 +724,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00306">306</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00314">314</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -747,7 +751,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00228">228</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00236">236</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -785,7 +789,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00374">374</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00389">389</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -823,7 +827,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00378">378</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00393">393</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -867,7 +871,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00403">403</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00418">418</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -911,7 +915,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00433">433</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00448">448</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -955,7 +959,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00445">445</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00460">460</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -1005,7 +1009,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00456">456</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00471">471</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -1033,7 +1037,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00359">359</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00374">374</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -1061,7 +1065,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00370">370</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00385">385</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -1089,7 +1093,34 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00522">522</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00537">537</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a1ace14d61e9901240b4fb21175b4afed" name="a1ace14d61e9901240b4fb21175b4afed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ace14d61e9901240b4fb21175b4afed">&#9670;&nbsp;</a></span>get_ncs_transforms()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="structgemmi_1_1FTransform.html">FTransform</a> &gt; gemmi::UnitCell::get_ncs_transforms </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00364">364</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -1127,7 +1158,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00310">310</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00318">318</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -1165,7 +1196,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00325">325</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00333">333</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -1193,6 +1224,50 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00164">164</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ad81f28ddf1d23aa7577dc3953d7a1bf6" name="ad81f28ddf1d23aa7577dc3953d7a1bf6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad81f28ddf1d23aa7577dc3953d7a1bf6">&#9670;&nbsp;</a></span>is_similar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gemmi::UnitCell::is_similar </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1UnitCell.html">UnitCell</a> &amp;&#160;</td>
+          <td class="paramname"><em>o</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>rel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>deg</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00179">179</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -1230,7 +1305,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00465">465</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00480">480</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -1268,7 +1343,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00475">475</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00490">490</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -1295,7 +1370,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00507">507</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00522">522</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -1379,7 +1454,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00356">356</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00371">371</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -1407,7 +1482,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00366">366</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00381">381</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -1445,7 +1520,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00450">450</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00465">465</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -1473,7 +1548,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00526">526</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00541">541</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -1500,7 +1575,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00516">516</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00531">531</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -1527,7 +1602,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00512">512</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00527">527</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -1565,7 +1640,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00387">387</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00402">402</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -1627,7 +1702,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00272">272</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00280">280</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -1655,7 +1730,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00329">329</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00337">337</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -1699,7 +1774,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00285">285</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00293">293</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -1727,7 +1802,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00257">257</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00265">265</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>
@@ -1754,7 +1829,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00382">382</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unitcell_8hpp_source.html#l00397">397</a> of file <a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>.</p>
 
 </div>
 </div>

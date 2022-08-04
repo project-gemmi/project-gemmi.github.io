@@ -8,6 +8,7 @@ var searchData=
   ['item_5',['Item',['../structgemmi_1_1AlignmentResult_1_1Item.html',1,'gemmi::AlignmentResult::Item'],['../structgemmi_1_1cif_1_1Item.html',1,'gemmi::cif::Item']]],
   ['itemgroup_6',['ItemGroup',['../structgemmi_1_1ItemGroup.html',1,'gemmi']]],
   ['itemgroup_3c_20atomtype_20_3e_7',['ItemGroup&lt; AtomType &gt;',['../structgemmi_1_1ItemGroup.html',1,'gemmi']]],
-  ['iter_8',['Iter',['../structgemmi_1_1DirWalk_1_1Iter.html',1,'gemmi::DirWalk&lt; FileOnly, Filter &gt;::Iter'],['../structgemmi_1_1GroupOps_1_1Iter.html',1,'gemmi::GroupOps::Iter']]],
-  ['iterator_9',['iterator',['../structgemmi_1_1cif_1_1Table_1_1iterator.html',1,'gemmi::cif::Table::iterator'],['../structgemmi_1_1GridBase_1_1iterator.html',1,'gemmi::GridBase&lt; T &gt;::iterator'],['../structgemmi_1_1ItemGroup_1_1iterator.html',1,'gemmi::ItemGroup&lt; Item &gt;::iterator'],['../structgemmi_1_1MaskedGrid_1_1iterator.html',1,'gemmi::MaskedGrid&lt; T, V &gt;::iterator']]]
+  ['itemspan_8',['ItemSpan',['../structgemmi_1_1cif_1_1ItemSpan.html',1,'gemmi::cif']]],
+  ['iter_9',['Iter',['../structgemmi_1_1DirWalk_1_1Iter.html',1,'gemmi::DirWalk&lt; FileOnly, Filter &gt;::Iter'],['../structgemmi_1_1GroupOps_1_1Iter.html',1,'gemmi::GroupOps::Iter']]],
+  ['iterator_10',['iterator',['../structgemmi_1_1cif_1_1Table_1_1iterator.html',1,'gemmi::cif::Table::iterator'],['../structgemmi_1_1GridBase_1_1iterator.html',1,'gemmi::GridBase&lt; T &gt;::iterator'],['../structgemmi_1_1ItemGroup_1_1iterator.html',1,'gemmi::ItemGroup&lt; Item &gt;::iterator'],['../structgemmi_1_1MaskedGrid_1_1iterator.html',1,'gemmi::MaskedGrid&lt; T, V &gt;::iterator']]]
 ];

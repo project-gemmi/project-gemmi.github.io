@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['w_0',['w',['../structgemmi_1_1GridBase_1_1Point.html#adc44e910f1daab38eedde86f40d7f0e4',1,'gemmi::GridBase::Point']]],
+  ['w_0',['w',['../structgemmi_1_1FloodFill_1_1Line.html#a69610f998426a213075f60475ea5fcf9',1,'gemmi::FloodFill::Line']]],
   ['w_1',['W',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a61e9c06ea9a85a5088a499df6458d276',1,'gemmi']]],
-  ['w_2',['w',['../structgemmi_1_1FloodFill_1_1Line.html#a69610f998426a213075f60475ea5fcf9',1,'gemmi::FloodFill::Line::w()'],['../structgemmi_1_1GridBase_1_1iterator.html#a541c73b12b706a54221f31b7d773ea22',1,'gemmi::GridBase::iterator::w()'],['../structgemmi_1_1MaskedGrid_1_1iterator.html#a594715c0b8660cf9908b3ea59493a164',1,'gemmi::MaskedGrid::iterator::w()']]],
+  ['w_2',['w',['../structgemmi_1_1MaskedGrid_1_1iterator.html#a594715c0b8660cf9908b3ea59493a164',1,'gemmi::MaskedGrid::iterator::w()'],['../structgemmi_1_1GridBase_1_1Point.html#adc44e910f1daab38eedde86f40d7f0e4',1,'gemmi::GridBase::Point::w()'],['../structgemmi_1_1GridBase_1_1iterator.html#a541c73b12b706a54221f31b7d773ea22',1,'gemmi::GridBase::iterator::w()']]],
   ['walk_3',['walk',['../structgemmi_1_1DirWalk_1_1Iter.html#a205d7c15bc598a6d1a70029901c79e8b',1,'gemmi::DirWalk::Iter']]],
   ['warn_4',['warn',['../structgemmi_1_1Mtz.html#a1c69f78c048db911504be9baa75be712',1,'gemmi::Mtz']]],
   ['warnings_5',['warnings',['../structgemmi_1_1Mtz.html#a87d507f57545f1f8885a9508e49b752c',1,'gemmi::Mtz::warnings()'],['../structgemmi_1_1Topo.html#aa1a2078064104ac20635f44f3736bcc9',1,'gemmi::Topo::warnings()']]],

@@ -87,6 +87,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1Assembly.html">Assembly</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1AsuBrick.html">AsuBrick</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1AsuData.html">AsuData</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1Atom.html">Atom</a></td></tr>
@@ -406,6 +408,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a1bd4f55ced5b940a2e1211b021b46276"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af56cc4cb150b34018aade256e92cb4d4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#af56cc4cb150b34018aade256e92cb4d4">spacegroup_tables</a> = impl::Tables_&lt; void &gt;</td></tr>
 <tr class="separator:af56cc4cb150b34018aade256e92cb4d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10fbdeb63d4f00eb3b65da7e46245445"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a10fbdeb63d4f00eb3b65da7e46245445">OpObliquity</a> = std::pair&lt; <a class="el" href="structgemmi_1_1Op.html">Op</a>, double &gt;</td></tr>
+<tr class="separator:a10fbdeb63d4f00eb3b65da7e46245445"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a592f1efb2742477309b5e06590554c21"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a592f1efb2742477309b5e06590554c21">Miller</a> = std::array&lt; int, 3 &gt;</td></tr>
 <tr class="separator:a592f1efb2742477309b5e06590554c21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -778,8 +782,10 @@ Functions</h2></td></tr>
 <tr class="separator:ae0b8fc71213de07974e4c4adaf585ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a080bb534b5ca9453f240e1c3528a3861"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1Model.html">Model</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a080bb534b5ca9453f240e1c3528a3861">make_assembly</a> (const <a class="el" href="structgemmi_1_1Assembly.html">Assembly</a> &amp;assembly, const <a class="el" href="structgemmi_1_1Model.html">Model</a> &amp;model, <a class="el" href="namespacegemmi.html#a4b187c462c241c9de6322f20d798d6b7">HowToNameCopiedChain</a> how, std::ostream *out)</td></tr>
 <tr class="separator:a080bb534b5ca9453f240e1c3528a3861"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae32e822fc67f814b0198efde71b360d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#ae32e822fc67f814b0198efde71b360d7">change_to_assembly</a> (<a class="el" href="structgemmi_1_1Structure.html">Structure</a> &amp;st, const std::string &amp;assembly_name, <a class="el" href="namespacegemmi.html#a4b187c462c241c9de6322f20d798d6b7">HowToNameCopiedChain</a> how, std::ostream *out)</td></tr>
-<tr class="separator:ae32e822fc67f814b0198efde71b360d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7c5ccedc81bc829e864b3135708919b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1Assembly.html">Assembly</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#ad7c5ccedc81bc829e864b3135708919b">expand_to_p1</a> (const <a class="el" href="structgemmi_1_1UnitCell.html">UnitCell</a> &amp;cell)</td></tr>
+<tr class="separator:ad7c5ccedc81bc829e864b3135708919b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0946b790a8a18e8b2a3490585d4c1d80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a0946b790a8a18e8b2a3490585d4c1d80">transform_to_assembly</a> (<a class="el" href="structgemmi_1_1Structure.html">Structure</a> &amp;st, const std::string &amp;assembly_name, <a class="el" href="namespacegemmi.html#a4b187c462c241c9de6322f20d798d6b7">HowToNameCopiedChain</a> how, std::ostream *out)</td></tr>
+<tr class="separator:a0946b790a8a18e8b2a3490585d4c1d80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af844022ff789951ff58167865e3bcf7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#af844022ff789951ff58167865e3bcf7e">rename_chain</a> (<a class="el" href="structgemmi_1_1Structure.html">Structure</a> &amp;st, <a class="el" href="structgemmi_1_1Chain.html">Chain</a> &amp;chain, const std::string &amp;new_name)</td></tr>
 <tr class="separator:af844022ff789951ff58167865e3bcf7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fad9d05eb1e6fdcaab4c15ba01a8afe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a2fad9d05eb1e6fdcaab4c15ba01a8afe">shorten_chain_names</a> (<a class="el" href="structgemmi_1_1Structure.html">Structure</a> &amp;st)</td></tr>
@@ -808,6 +814,17 @@ Functions</h2></td></tr>
 <tr class="memitem:a28d268319c031b4e95e46c518c122fbe"><td class="memTemplParams" colspan="2">template&lt;typename T , typename Data &gt; </td></tr>
 <tr class="memitem:a28d268319c031b4e95e46c518c122fbe"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1AsuData.html">AsuData</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a28d268319c031b4e95e46c518c122fbe">make_asu_data</a> (const Data &amp;data, const std::string &amp;label, bool as_is)</td></tr>
 <tr class="separator:a28d268319c031b4e95e46c518c122fbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9146cd1343ce191a2d86e7db3d0b8dde"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1AsuBrick.html">AsuBrick</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a9146cd1343ce191a2d86e7db3d0b8dde">find_asu_brick</a> (const <a class="el" href="structgemmi_1_1SpaceGroup.html">SpaceGroup</a> *sg)</td></tr>
+<tr class="separator:a9146cd1343ce191a2d86e7db3d0b8dde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef262d20a53f35bf65d603e3ba49a211"><td class="memTemplParams" colspan="2">template&lt;typename V  = std::int8_t&gt; </td></tr>
+<tr class="memitem:aef262d20a53f35bf65d603e3ba49a211"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; V &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#aef262d20a53f35bf65d603e3ba49a211">get_asu_mask</a> (const <a class="el" href="structgemmi_1_1GridMeta.html">GridMeta</a> &amp;grid)</td></tr>
+<tr class="separator:aef262d20a53f35bf65d603e3ba49a211"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a149bd197ba17a0d8a904c4b35fd02b85"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a149bd197ba17a0d8a904c4b35fd02b85"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1MaskedGrid.html">MaskedGrid</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a149bd197ba17a0d8a904c4b35fd02b85">masked_asu</a> (<a class="el" href="structgemmi_1_1Grid.html">Grid</a>&lt; T &gt; &amp;grid)</td></tr>
+<tr class="separator:a149bd197ba17a0d8a904c4b35fd02b85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacfbfa5c10a52e42cd179e394664cf8c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aacfbfa5c10a52e42cd179e394664cf8c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1Box.html">Box</a>&lt; <a class="el" href="structgemmi_1_1Fractional.html">Fractional</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#aacfbfa5c10a52e42cd179e394664cf8c">get_nonzero_extent</a> (const <a class="el" href="structgemmi_1_1GridBase.html">GridBase</a>&lt; T &gt; &amp;grid)</td></tr>
+<tr class="separator:aacfbfa5c10a52e42cd179e394664cf8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a801b053d680702d59a72d9692737a9"><td class="memItemLeft" align="right" valign="top">from_chars_result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a6a801b053d680702d59a72d9692737a9">fast_from_chars</a> (const char *start, const char *end, double &amp;d)</td></tr>
 <tr class="separator:a6a801b053d680702d59a72d9692737a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a520f41c829f349283693a3e58a4c84c8"><td class="memItemLeft" align="right" valign="top">from_chars_result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a520f41c829f349283693a3e58a4c84c8">fast_from_chars</a> (const char *start, double &amp;d)</td></tr>
@@ -956,8 +973,8 @@ Functions</h2></td></tr>
 <tr class="separator:aab84a7c46da248c00101e28c7f243524"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e187b41b472dc1c4d7687b45cf872f5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a7e187b41b472dc1c4d7687b45cf872f5">it92_radius_approx</a> (double b)</td></tr>
 <tr class="separator:a7e187b41b472dc1c4d7687b45cf872f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a9f4b34599ffafe356294a6a4599509"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a0a9f4b34599ffafe356294a6a4599509">get_minimum_b_iso</a> (const <a class="el" href="structgemmi_1_1Model.html">Model</a> &amp;model)</td></tr>
-<tr class="separator:a0a9f4b34599ffafe356294a6a4599509"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c5848fdbd7d18f4fdc3c15ac289d65f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a6c5848fdbd7d18f4fdc3c15ac289d65f">get_minimum_b</a> (const <a class="el" href="structgemmi_1_1Model.html">Model</a> &amp;model)</td></tr>
+<tr class="separator:a6c5848fdbd7d18f4fdc3c15ac289d65f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb588fbc57dade9230054f530ddb044e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#abb588fbc57dade9230054f530ddb044e">as_utf8</a> (const _tinydir_char_t *path)</td></tr>
 <tr class="separator:abb588fbc57dade9230054f530ddb044e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2c14f9c3c31cdb0860397c0751c9c10"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#ab2c14f9c3c31cdb0860397c0751c9c10">glob_match</a> (const std::string &amp;pattern, const std::string &amp;str)</td></tr>
@@ -1007,12 +1024,12 @@ Functions</h2></td></tr>
 <tr class="memitem:aa06ba7b30a8e5af886e8bfcc05e4ed8f"><td class="memTemplParams" colspan="2">template&lt;typename T , typename... Args&gt; </td></tr>
 <tr class="memitem:aa06ba7b30a8e5af886e8bfcc05e4ed8f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#aa06ba7b30a8e5af886e8bfcc05e4ed8f">fail</a> (std::string &amp;&amp;str, T &amp;&amp;arg1, Args &amp;&amp;... args)</td></tr>
 <tr class="separator:aa06ba7b30a8e5af886e8bfcc05e4ed8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50f159d8d3d8ee2ded30733bbbd1a0ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="fail_8hpp.html#aaeee09b2b9ced574f8b2d57fdd2e399b">GEMMI_NOINLINE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a50f159d8d3d8ee2ded30733bbbd1a0ea">fail</a> (const char *msg)</td></tr>
-<tr class="separator:a50f159d8d3d8ee2ded30733bbbd1a0ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a000d91b064e661f7fef881c874ab0b5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="fail_8hpp.html#aaeee09b2b9ced574f8b2d57fdd2e399b">GEMMI_NOINLINE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a000d91b064e661f7fef881c874ab0b5a">sys_fail</a> (const std::string &amp;msg)</td></tr>
-<tr class="separator:a000d91b064e661f7fef881c874ab0b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd664835268ab2ce37b7dac3477dd692"><td class="memItemLeft" align="right" valign="top"><a class="el" href="fail_8hpp.html#aaeee09b2b9ced574f8b2d57fdd2e399b">GEMMI_NOINLINE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#afd664835268ab2ce37b7dac3477dd692">sys_fail</a> (const char *msg)</td></tr>
-<tr class="separator:afd664835268ab2ce37b7dac3477dd692"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc4dd708c7ca4909621160ae561ca2aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="fail_8hpp.html#a946256341d2589b01e50666ef73a46ad">GEMMI_COLD</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#adc4dd708c7ca4909621160ae561ca2aa">fail</a> (const char *msg)</td></tr>
+<tr class="separator:adc4dd708c7ca4909621160ae561ca2aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96a635d06aa8a594d1af85a42ddaab4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="fail_8hpp.html#a946256341d2589b01e50666ef73a46ad">GEMMI_COLD</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a96a635d06aa8a594d1af85a42ddaab4b">sys_fail</a> (const std::string &amp;msg)</td></tr>
+<tr class="separator:a96a635d06aa8a594d1af85a42ddaab4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad242b50ca57bc53d59cf19c4cfc55193"><td class="memItemLeft" align="right" valign="top"><a class="el" href="fail_8hpp.html#a946256341d2589b01e50666ef73a46ad">GEMMI_COLD</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#ad242b50ca57bc53d59cf19c4cfc55193">sys_fail</a> (const char *msg)</td></tr>
+<tr class="separator:ad242b50ca57bc53d59cf19c4cfc55193"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0cd7a0e30206b80d444683b512ed0a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#ae0cd7a0e30206b80d444683b512ed0a5">unreachable</a> ()</td></tr>
 <tr class="separator:ae0cd7a0e30206b80d444683b512ed0a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76da2ac1db08309fd1cb775d884d2cfd"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a76da2ac1db08309fd1cb775d884d2cfd">path_basename</a> (const std::string &amp;path, std::initializer_list&lt; const char * &gt; exts)</td></tr>
@@ -1459,6 +1476,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a065187c0138ec625adfa23d67ae9086f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a065187c0138ec625adfa23d67ae9086f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a065187c0138ec625adfa23d67ae9086f">interpolate_grid_of_aligned_model2</a> (<a class="el" href="structgemmi_1_1Grid.html">Grid</a>&lt; T &gt; &amp;dest, const <a class="el" href="structgemmi_1_1Grid.html">Grid</a>&lt; T &gt; &amp;src, const <a class="el" href="structgemmi_1_1Transform.html">Transform</a> &amp;tr, const <a class="el" href="structgemmi_1_1Model.html">Model</a> &amp;dest_model, double radius)</td></tr>
 <tr class="separator:a065187c0138ec625adfa23d67ae9086f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada7e288c35005235f4856f3a7f63b61e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ada7e288c35005235f4856f3a7f63b61e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#ada7e288c35005235f4856f3a7f63b61e">add_soft_edge_to_mask</a> (<a class="el" href="structgemmi_1_1Grid.html">Grid</a>&lt; T &gt; &amp;grid, double width)</td></tr>
+<tr class="separator:ada7e288c35005235f4856f3a7f63b61e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a745c6801d10171fff5ba69ac3594056a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a745c6801d10171fff5ba69ac3594056a">to_str</a> (double d)</td></tr>
 <tr class="separator:a745c6801d10171fff5ba69ac3594056a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5920a785e8c2c8d6c39d192581332b8a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a5920a785e8c2c8d6c39d192581332b8a">to_str</a> (float d)</td></tr>
@@ -1577,6 +1597,16 @@ Functions</h2></td></tr>
 <tr class="separator:a23f8ad0660cfc53e95a4310dc38a77cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8965343ae79dae5c18efe87ea5f8c48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1Restraints_1_1Bond.html">Restraints::Bond</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#ab8965343ae79dae5c18efe87ea5f8c48">bond_restraint_from_connection</a> (const <a class="el" href="structgemmi_1_1Connection.html">Connection</a> &amp;conn)</td></tr>
 <tr class="separator:ab8965343ae79dae5c18efe87ea5f8c48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a262cc706e182776c50a7f29cdf37b52a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a262cc706e182776c50a7f29cdf37b52a">calculate_cos_obliquity</a> (const <a class="el" href="structgemmi_1_1UnitCell.html">UnitCell</a> &amp;reduced_cell, const <a class="el" href="structgemmi_1_1Vec3.html">Vec3</a> &amp;d_axis, const <a class="el" href="structgemmi_1_1Vec3.html">Vec3</a> &amp;r_axis)</td></tr>
+<tr class="separator:a262cc706e182776c50a7f29cdf37b52a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a716f5226587a2a39f853e940d3dff49c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespacegemmi.html#a10fbdeb63d4f00eb3b65da7e46245445">OpObliquity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a716f5226587a2a39f853e940d3dff49c">find_lattice_2fold_ops</a> (const <a class="el" href="structgemmi_1_1UnitCell.html">UnitCell</a> &amp;reduced_cell, double max_obliq)</td></tr>
+<tr class="separator:a716f5226587a2a39f853e940d3dff49c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5112ccad69351127d242008e544fc20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1GroupOps.html">GroupOps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#ac5112ccad69351127d242008e544fc20">find_lattice_symmetry_r</a> (const <a class="el" href="structgemmi_1_1UnitCell.html">UnitCell</a> &amp;reduced_cell, double max_obliq)</td></tr>
+<tr class="separator:ac5112ccad69351127d242008e544fc20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a326a46d960740de9327308baf778c217"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1GroupOps.html">GroupOps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a326a46d960740de9327308baf778c217">find_lattice_symmetry</a> (const <a class="el" href="structgemmi_1_1UnitCell.html">UnitCell</a> &amp;cell, char centring, double max_obliq)</td></tr>
+<tr class="separator:a326a46d960740de9327308baf778c217"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ad13a88c3505e2deab0cbde40cfe1c2"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structgemmi_1_1Op.html">Op</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a1ad13a88c3505e2deab0cbde40cfe1c2">find_twin_laws</a> (const <a class="el" href="structgemmi_1_1UnitCell.html">UnitCell</a> &amp;cell, const <a class="el" href="structgemmi_1_1SpaceGroup.html">SpaceGroup</a> *sg, double max_obliq, bool all_ops)</td></tr>
+<tr class="separator:a1ad13a88c3505e2deab0cbde40cfe1c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f83d0e8c15ad5d55ba73657d4eeff2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1Mat33.html">Mat33</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a5f83d0e8c15ad5d55ba73657d4eeff2f">rot_as_mat33</a> (const <a class="el" href="structgemmi_1_1Op.html#a357d6e9ead530e2471f5d5048c5abe49">Op::Rot</a> &amp;rot)</td></tr>
 <tr class="separator:a5f83d0e8c15ad5d55ba73657d4eeff2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32657cd31a9686ba84e89405e694a481"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1Mat33.html">Mat33</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a32657cd31a9686ba84e89405e694a481">rot_as_mat33</a> (const <a class="el" href="structgemmi_1_1Op.html">Op</a> &amp;op)</td></tr>
@@ -1927,6 +1957,22 @@ template&lt;typename Redirect , typename Value &gt; </div>
 
 </div>
 </div>
+<a id="a10fbdeb63d4f00eb3b65da7e46245445" name="a10fbdeb63d4f00eb3b65da7e46245445"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10fbdeb63d4f00eb3b65da7e46245445">&#9670;&nbsp;</a></span>OpObliquity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacegemmi.html#a10fbdeb63d4f00eb3b65da7e46245445">gemmi::OpObliquity</a> = typedef std::pair&lt;<a class="el" href="structgemmi_1_1Op.html">Op</a>, double&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="twin_8hpp_source.html#l00127">127</a> of file <a class="el" href="twin_8hpp_source.html">twin.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a4f5dc26ed4ba0e2359f1d29a94a82ff8" name="a4f5dc26ed4ba0e2359f1d29a94a82ff8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4f5dc26ed4ba0e2359f1d29a94a82ff8">&#9670;&nbsp;</a></span>PdbWalk</h2>
 
@@ -1971,7 +2017,7 @@ template&lt;typename Redirect , typename Value &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l01775">1775</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l01835">1835</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -2096,7 +2142,7 @@ template&lt;typename Vector , typename Value &gt; </div>
 <tr><td class="fieldname"><a id="a08c1cf2e7f12b5ebcea7e4cba808d1f7a6811254e01b3550bdb2dc46f204730dc" name="a08c1cf2e7f12b5ebcea7e4cba808d1f7a6811254e01b3550bdb2dc46f204730dc"></a>ZYX&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00130">130</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00128">128</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
 
 </div>
 </div>
@@ -2282,7 +2328,7 @@ template&lt;typename Vector , typename Value &gt; </div>
 <tr><td class="fieldname"><a id="aef6247ca0a6a25cc3825d783c8d33cdaaec6b5414eb175379ff9efc9b3eef5814" name="aef6247ca0a6a25cc3825d783c8d33cdaaec6b5414eb175379ff9efc9b3eef5814"></a>Cubic&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00854">854</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00906">906</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -2519,7 +2565,7 @@ template&lt;typename Vector , typename Value &gt; </div>
 <tr><td class="fieldname"><a id="a4b187c462c241c9de6322f20d798d6b7a120be0bc58aa2e541a3be4d16b19d828" name="a4b187c462c241c9de6322f20d798d6b7a120be0bc58aa2e541a3be4d16b19d828"></a>Dup&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="assembly_8hpp_source.html#l00017">17</a> of file <a class="el" href="assembly_8hpp_source.html">assembly.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="assembly_8hpp_source.html#l00019">19</a> of file <a class="el" href="assembly_8hpp_source.html">assembly.hpp</a>.</p>
 
 </div>
 </div>
@@ -2587,7 +2633,7 @@ template&lt;typename Vector , typename Value &gt; </div>
 <tr><td class="fieldname"><a id="a6111b8282e1a25c970bb7d742eeae3bca72f2b3c9ae71bc83fb7f732acf33e56b" name="a6111b8282e1a25c970bb7d742eeae3bca72f2b3c9ae71bc83fb7f732acf33e56b"></a>Lm3m&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00882">882</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00934">934</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -2674,7 +2720,7 @@ template&lt;typename Vector , typename Value &gt; </div>
 <tr><td class="fieldname"><a id="a40476b27b97bc7ac8284d3b077b36cbfa8021f7e4b05dada0ad3d47567e52249e" name="a40476b27b97bc7ac8284d3b077b36cbfa8021f7e4b05dada0ad3d47567e52249e"></a>Oh&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00866">866</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00918">918</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -3200,6 +3246,38 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="crd_8hpp_source.html#l00255">255</a> of file <a class="el" href="crd_8hpp_source.html">crd.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ada7e288c35005235f4856f3a7f63b61e" name="ada7e288c35005235f4856f3a7f63b61e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada7e288c35005235f4856f3a7f63b61e">&#9670;&nbsp;</a></span>add_soft_edge_to_mask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void gemmi::add_soft_edge_to_mask </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structgemmi_1_1Grid.html">Grid</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>grid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>width</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="solmask_8hpp_source.html#l00383">383</a> of file <a class="el" href="solmask_8hpp_source.html">solmask.hpp</a>.</p>
 
 </div>
 </div>
@@ -4406,7 +4484,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="calculate_8hpp_source.html#l00106">106</a> of file <a class="el" href="calculate_8hpp_source.html">calculate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="calculate_8hpp_source.html#l00107">107</a> of file <a class="el" href="calculate_8hpp_source.html">calculate.hpp</a>.</p>
 
 </div>
 </div>
@@ -4434,7 +4512,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="calculate_8hpp_source.html#l00100">100</a> of file <a class="el" href="calculate_8hpp_source.html">calculate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="calculate_8hpp_source.html#l00101">101</a> of file <a class="el" href="calculate_8hpp_source.html">calculate.hpp</a>.</p>
 
 </div>
 </div>
@@ -4472,7 +4550,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="calculate_8hpp_source.html#l00072">72</a> of file <a class="el" href="calculate_8hpp_source.html">calculate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="calculate_8hpp_source.html#l00073">73</a> of file <a class="el" href="calculate_8hpp_source.html">calculate.hpp</a>.</p>
 
 </div>
 </div>
@@ -4574,7 +4652,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="calculate_8hpp_source.html#l00136">136</a> of file <a class="el" href="calculate_8hpp_source.html">calculate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="calculate_8hpp_source.html#l00137">137</a> of file <a class="el" href="calculate_8hpp_source.html">calculate.hpp</a>.</p>
 
 </div>
 </div>
@@ -4606,7 +4684,51 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00736">736</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00704">704</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a262cc706e182776c50a7f29cdf37b52a" name="a262cc706e182776c50a7f29cdf37b52a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a262cc706e182776c50a7f29cdf37b52a">&#9670;&nbsp;</a></span>calculate_cos_obliquity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double gemmi::calculate_cos_obliquity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1UnitCell.html">UnitCell</a> &amp;&#160;</td>
+          <td class="paramname"><em>reduced_cell</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1Vec3.html">Vec3</a> &amp;&#160;</td>
+          <td class="paramname"><em>d_axis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1Vec3.html">Vec3</a> &amp;&#160;</td>
+          <td class="paramname"><em>r_axis</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="twin_8hpp_source.html#l00131">131</a> of file <a class="el" href="twin_8hpp_source.html">twin.hpp</a>.</p>
 
 </div>
 </div>
@@ -4684,7 +4806,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="math_8hpp_source.html#l00437">437</a> of file <a class="el" href="math_8hpp_source.html">math.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="math_8hpp_source.html#l00449">449</a> of file <a class="el" href="math_8hpp_source.html">math.hpp</a>.</p>
 
 </div>
 </div>
@@ -4734,7 +4856,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="calculate_8hpp_source.html#l00112">112</a> of file <a class="el" href="calculate_8hpp_source.html">calculate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="calculate_8hpp_source.html#l00113">113</a> of file <a class="el" href="calculate_8hpp_source.html">calculate.hpp</a>.</p>
 
 </div>
 </div>
@@ -4784,7 +4906,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="calculate_8hpp_source.html#l00124">124</a> of file <a class="el" href="calculate_8hpp_source.html">calculate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="calculate_8hpp_source.html#l00125">125</a> of file <a class="el" href="calculate_8hpp_source.html">calculate.hpp</a>.</p>
 
 </div>
 </div>
@@ -4822,7 +4944,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="calculate_8hpp_source.html#l00084">84</a> of file <a class="el" href="calculate_8hpp_source.html">calculate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="calculate_8hpp_source.html#l00085">85</a> of file <a class="el" href="calculate_8hpp_source.html">calculate.hpp</a>.</p>
 
 </div>
 </div>
@@ -5008,7 +5130,7 @@ template&lt;typename T , typename FP  = typename std::iterator_traits&lt;T&gt;::
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="calculate_8hpp_source.html#l00131">131</a> of file <a class="el" href="calculate_8hpp_source.html">calculate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="calculate_8hpp_source.html#l00132">132</a> of file <a class="el" href="calculate_8hpp_source.html">calculate.hpp</a>.</p>
 
 </div>
 </div>
@@ -5052,7 +5174,7 @@ template&lt;typename T , typename FP  = typename std::iterator_traits&lt;T&gt;::
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="calculate_8hpp_source.html#l00141">141</a> of file <a class="el" href="calculate_8hpp_source.html">calculate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="calculate_8hpp_source.html#l00142">142</a> of file <a class="el" href="calculate_8hpp_source.html">calculate.hpp</a>.</p>
 
 </div>
 </div>
@@ -5440,7 +5562,7 @@ template&lt;typename T , typename... Args&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l01043">1043</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l01095">1095</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -5468,57 +5590,7 @@ template&lt;typename T , typename... Args&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00395">395</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ae32e822fc67f814b0198efde71b360d7" name="ae32e822fc67f814b0198efde71b360d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae32e822fc67f814b0198efde71b360d7">&#9670;&nbsp;</a></span>change_to_assembly()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void gemmi::change_to_assembly </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structgemmi_1_1Structure.html">Structure</a> &amp;&#160;</td>
-          <td class="paramname"><em>st</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>assembly_name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespacegemmi.html#a4b187c462c241c9de6322f20d798d6b7">HowToNameCopiedChain</a>&#160;</td>
-          <td class="paramname"><em>how</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::ostream *&#160;</td>
-          <td class="paramname"><em>out</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="assembly_8hpp_source.html#l00166">166</a> of file <a class="el" href="assembly_8hpp_source.html">assembly.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00413">413</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -6608,7 +6680,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00917">917</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00969">969</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -6636,7 +6708,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00930">930</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00982">982</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -6664,7 +6736,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00858">858</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00910">910</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -6836,7 +6908,7 @@ template&lt;typename DataProxy &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mtz_8hpp_source.html#l01159">1159</a> of file <a class="el" href="mtz_8hpp_source.html">mtz.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mtz_8hpp_source.html#l01170">1170</a> of file <a class="el" href="mtz_8hpp_source.html">mtz.hpp</a>.</p>
 
 </div>
 </div>
@@ -7246,7 +7318,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="assembly_8hpp_source.html#l00086">86</a> of file <a class="el" href="assembly_8hpp_source.html">assembly.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="assembly_8hpp_source.html#l00088">88</a> of file <a class="el" href="assembly_8hpp_source.html">assembly.hpp</a>.</p>
 
 </div>
 </div>
@@ -7446,7 +7518,7 @@ template&lt;int N&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="assembly_8hpp_source.html#l00227">227</a> of file <a class="el" href="assembly_8hpp_source.html">assembly.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="assembly_8hpp_source.html#l00255">255</a> of file <a class="el" href="assembly_8hpp_source.html">assembly.hpp</a>.</p>
 
 </div>
 </div>
@@ -7516,8 +7588,8 @@ template&lt;int N&gt; </div>
 
 </div>
 </div>
-<a id="a50f159d8d3d8ee2ded30733bbbd1a0ea" name="a50f159d8d3d8ee2ded30733bbbd1a0ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50f159d8d3d8ee2ded30733bbbd1a0ea">&#9670;&nbsp;</a></span>fail() <span class="overload">[1/3]</span></h2>
+<a id="ad7c5ccedc81bc829e864b3135708919b" name="ad7c5ccedc81bc829e864b3135708919b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7c5ccedc81bc829e864b3135708919b">&#9670;&nbsp;</a></span>expand_to_p1()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7526,7 +7598,35 @@ template&lt;int N&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="fail_8hpp.html#aaeee09b2b9ced574f8b2d57fdd2e399b">GEMMI_NOINLINE</a> void gemmi::fail </td>
+          <td class="memname"><a class="el" href="structgemmi_1_1Assembly.html">Assembly</a> gemmi::expand_to_p1 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1UnitCell.html">UnitCell</a> &amp;&#160;</td>
+          <td class="paramname"><em>cell</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="assembly_8hpp_source.html#l00169">169</a> of file <a class="el" href="assembly_8hpp_source.html">assembly.hpp</a>.</p>
+
+</div>
+</div>
+<a id="adc4dd708c7ca4909621160ae561ca2aa" name="adc4dd708c7ca4909621160ae561ca2aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc4dd708c7ca4909621160ae561ca2aa">&#9670;&nbsp;</a></span>fail() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="fail_8hpp.html#a946256341d2589b01e50666ef73a46ad">GEMMI_COLD</a> void gemmi::fail </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>msg</em></td><td>)</td>
@@ -7540,7 +7640,7 @@ template&lt;int N&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="fail_8hpp_source.html#l00041">41</a> of file <a class="el" href="fail_8hpp_source.html">fail.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="fail_8hpp_source.html#l00043">43</a> of file <a class="el" href="fail_8hpp_source.html">fail.hpp</a>.</p>
 
 </div>
 </div>
@@ -7568,7 +7668,7 @@ template&lt;int N&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="fail_8hpp_source.html#l00032">32</a> of file <a class="el" href="fail_8hpp_source.html">fail.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="fail_8hpp_source.html#l00034">34</a> of file <a class="el" href="fail_8hpp_source.html">fail.hpp</a>.</p>
 
 </div>
 </div>
@@ -7606,7 +7706,7 @@ template&lt;typename T , typename... Args&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="fail_8hpp_source.html#l00035">35</a> of file <a class="el" href="fail_8hpp_source.html">fail.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="fail_8hpp_source.html#l00037">37</a> of file <a class="el" href="fail_8hpp_source.html">fail.hpp</a>.</p>
 
 </div>
 </div>
@@ -7912,6 +8012,34 @@ template&lt;typename T , typename... Args&gt; </div>
 
 </div>
 </div>
+<a id="a9146cd1343ce191a2d86e7db3d0b8dde" name="a9146cd1343ce191a2d86e7db3d0b8dde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9146cd1343ce191a2d86e7db3d0b8dde">&#9670;&nbsp;</a></span>find_asu_brick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgemmi_1_1AsuBrick.html">AsuBrick</a> gemmi::find_asu_brick </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1SpaceGroup.html">SpaceGroup</a> *&#160;</td>
+          <td class="paramname"><em>sg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="asumask_8hpp_source.html#l00065">65</a> of file <a class="el" href="asumask_8hpp_source.html">asumask.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a5536193d7de54a8f67d4e7b4d7c3fa84" name="a5536193d7de54a8f67d4e7b4d7c3fa84"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5536193d7de54a8f67d4e7b4d7c3fa84">&#9670;&nbsp;</a></span>find_best_plane()</h2>
 
@@ -7936,7 +8064,7 @@ template&lt;typename T , typename... Args&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="calculate_8hpp_source.html#l00157">157</a> of file <a class="el" href="calculate_8hpp_source.html">calculate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="calculate_8hpp_source.html#l00158">158</a> of file <a class="el" href="calculate_8hpp_source.html">calculate.hpp</a>.</p>
 
 </div>
 </div>
@@ -7980,7 +8108,7 @@ template&lt;typename T , typename... Args&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="blob_8hpp_source.html#l00081">81</a> of file <a class="el" href="blob_8hpp_source.html">blob.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="blob_8hpp_source.html#l00082">82</a> of file <a class="el" href="blob_8hpp_source.html">blob.hpp</a>.</p>
 
 </div>
 </div>
@@ -8088,6 +8216,126 @@ template&lt;typename T , typename... Args&gt; </div>
 
 </div>
 </div>
+<a id="a716f5226587a2a39f853e940d3dff49c" name="a716f5226587a2a39f853e940d3dff49c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a716f5226587a2a39f853e940d3dff49c">&#9670;&nbsp;</a></span>find_lattice_2fold_ops()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="namespacegemmi.html#a10fbdeb63d4f00eb3b65da7e46245445">OpObliquity</a> &gt; gemmi::find_lattice_2fold_ops </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1UnitCell.html">UnitCell</a> &amp;&#160;</td>
+          <td class="paramname"><em>reduced_cell</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>max_obliq</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="twin_8hpp_source.html#l00146">146</a> of file <a class="el" href="twin_8hpp_source.html">twin.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a326a46d960740de9327308baf778c217" name="a326a46d960740de9327308baf778c217"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a326a46d960740de9327308baf778c217">&#9670;&nbsp;</a></span>find_lattice_symmetry()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgemmi_1_1GroupOps.html">GroupOps</a> gemmi::find_lattice_symmetry </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1UnitCell.html">UnitCell</a> &amp;&#160;</td>
+          <td class="paramname"><em>cell</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>centring</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>max_obliq</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="twin_8hpp_source.html#l00189">189</a> of file <a class="el" href="twin_8hpp_source.html">twin.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ac5112ccad69351127d242008e544fc20" name="ac5112ccad69351127d242008e544fc20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5112ccad69351127d242008e544fc20">&#9670;&nbsp;</a></span>find_lattice_symmetry_r()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgemmi_1_1GroupOps.html">GroupOps</a> gemmi::find_lattice_symmetry_r </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1UnitCell.html">UnitCell</a> &amp;&#160;</td>
+          <td class="paramname"><em>reduced_cell</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>max_obliq</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="twin_8hpp_source.html#l00171">171</a> of file <a class="el" href="twin_8hpp_source.html">twin.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a4220e4a85fc7a4f6357bfc546bc0a590" name="a4220e4a85fc7a4f6357bfc546bc0a590"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4220e4a85fc7a4f6357bfc546bc0a590">&#9670;&nbsp;</a></span>find_spacegroup_by_name()</h2>
 
@@ -8128,7 +8376,7 @@ template&lt;typename T , typename... Args&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l01804">1804</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l01864">1864</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -8156,7 +8404,7 @@ template&lt;typename T , typename... Args&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l01777">1777</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l01837">1837</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -8184,7 +8432,7 @@ template&lt;typename T , typename... Args&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l01897">1897</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l01957">1957</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -8213,6 +8461,56 @@ template&lt;typename T , typename... Args&gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="resinfo_8hpp_source.html#l00051">51</a> of file <a class="el" href="resinfo_8hpp_source.html">resinfo.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a1ad13a88c3505e2deab0cbde40cfe1c2" name="a1ad13a88c3505e2deab0cbde40cfe1c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ad13a88c3505e2deab0cbde40cfe1c2">&#9670;&nbsp;</a></span>find_twin_laws()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="structgemmi_1_1Op.html">Op</a> &gt; gemmi::find_twin_laws </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1UnitCell.html">UnitCell</a> &amp;&#160;</td>
+          <td class="paramname"><em>cell</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1SpaceGroup.html">SpaceGroup</a> *&#160;</td>
+          <td class="paramname"><em>sg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>max_obliq</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>all_ops</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="twin_8hpp_source.html#l00201">201</a> of file <a class="el" href="twin_8hpp_source.html">twin.hpp</a>.</p>
 
 </div>
 </div>
@@ -8490,7 +8788,29 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00802">802</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00854">854</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aef262d20a53f35bf65d603e3ba49a211" name="aef262d20a53f35bf65d603e3ba49a211"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef262d20a53f35bf65d603e3ba49a211">&#9670;&nbsp;</a></span>get_asu_mask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V  = std::int8_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; V &gt; gemmi::get_asu_mask </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1GridMeta.html">GridMeta</a> &amp;&#160;</td>
+          <td class="paramname"><em>grid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="asumask_8hpp_source.html#l00253">253</a> of file <a class="el" href="asumask_8hpp_source.html">asumask.hpp</a>.</p>
 
 </div>
 </div>
@@ -8518,7 +8838,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00986">986</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l01038">1038</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -8584,7 +8904,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="calculate_8hpp_source.html#l00183">183</a> of file <a class="el" href="calculate_8hpp_source.html">calculate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="calculate_8hpp_source.html#l00184">184</a> of file <a class="el" href="calculate_8hpp_source.html">calculate.hpp</a>.</p>
 
 </div>
 </div>
@@ -8660,8 +8980,8 @@ template&lt;typename T , typename FPhi &gt; </div>
 
 </div>
 </div>
-<a id="a0a9f4b34599ffafe356294a6a4599509" name="a0a9f4b34599ffafe356294a6a4599509"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a9f4b34599ffafe356294a6a4599509">&#9670;&nbsp;</a></span>get_minimum_b_iso()</h2>
+<a id="a6c5848fdbd7d18f4fdc3c15ac289d65f" name="a6c5848fdbd7d18f4fdc3c15ac289d65f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c5848fdbd7d18f4fdc3c15ac289d65f">&#9670;&nbsp;</a></span>get_minimum_b()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8670,7 +8990,7 @@ template&lt;typename T , typename FPhi &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double gemmi::get_minimum_b_iso </td>
+          <td class="memname">double gemmi::get_minimum_b </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structgemmi_1_1Model.html">Model</a> &amp;&#160;</td>
           <td class="paramname"><em>model</em></td><td>)</td>
@@ -8685,6 +9005,28 @@ template&lt;typename T , typename FPhi &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="dencalc_8hpp_source.html#l00068">68</a> of file <a class="el" href="dencalc_8hpp_source.html">dencalc.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aacfbfa5c10a52e42cd179e394664cf8c" name="aacfbfa5c10a52e42cd179e394664cf8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacfbfa5c10a52e42cd179e394664cf8c">&#9670;&nbsp;</a></span>get_nonzero_extent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgemmi_1_1Box.html">Box</a>&lt; <a class="el" href="structgemmi_1_1Fractional.html">Fractional</a> &gt; gemmi::get_nonzero_extent </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1GridBase.html">GridBase</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>grid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="asumask_8hpp_source.html#l00329">329</a> of file <a class="el" href="asumask_8hpp_source.html">asumask.hpp</a>.</p>
 
 </div>
 </div>
@@ -8794,7 +9136,7 @@ template&lt;typename DataProxy &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l01886">1886</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l01946">1946</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -8822,7 +9164,7 @@ template&lt;typename DataProxy &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l01786">1786</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l01846">1846</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -8849,7 +9191,7 @@ template&lt;typename DataProxy &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l01893">1893</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l01953">1953</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -8877,7 +9219,7 @@ template&lt;typename DataProxy &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l01794">1794</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l01854">1854</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -9218,7 +9560,7 @@ template&lt;typename T , typename DataProxy &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00725">725</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00777">777</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -9246,7 +9588,7 @@ template&lt;typename T , typename DataProxy &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00695">695</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00747">747</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -9274,7 +9616,7 @@ template&lt;typename T , typename DataProxy &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00709">709</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00761">761</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -9861,7 +10203,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neighbor_8hpp_source.html#l00418">418</a> of file <a class="el" href="neighbor_8hpp_source.html">neighbor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neighbor_8hpp_source.html#l00412">412</a> of file <a class="el" href="neighbor_8hpp_source.html">neighbor.hpp</a>.</p>
 
 </div>
 </div>
@@ -9949,7 +10291,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00231">231</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00240">240</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -10061,7 +10403,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00976">976</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l01028">1028</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -10376,7 +10718,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00971">971</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l01023">1023</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -10432,7 +10774,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00981">981</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l01033">1033</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -10747,7 +11089,7 @@ template&lt;typename T , typename S , typename F &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00913">913</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00965">965</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -10775,7 +11117,7 @@ template&lt;typename T , typename S , typename F &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00904">904</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00956">956</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -10925,7 +11267,7 @@ template&lt;typename T , typename S , typename F &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="assembly_8hpp_source.html#l00094">94</a> of file <a class="el" href="assembly_8hpp_source.html">assembly.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="assembly_8hpp_source.html#l00096">96</a> of file <a class="el" href="assembly_8hpp_source.html">assembly.hpp</a>.</p>
 
 </div>
 </div>
@@ -11597,7 +11939,7 @@ template&lt;typename T , typename Data &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00347">347</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00364">364</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -11745,6 +12087,28 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a149bd197ba17a0d8a904c4b35fd02b85" name="a149bd197ba17a0d8a904c4b35fd02b85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a149bd197ba17a0d8a904c4b35fd02b85">&#9670;&nbsp;</a></span>masked_asu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgemmi_1_1MaskedGrid.html">MaskedGrid</a>&lt; T &gt; gemmi::masked_asu </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structgemmi_1_1Grid.html">Grid</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>grid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="asumask_8hpp_source.html#l00278">278</a> of file <a class="el" href="asumask_8hpp_source.html">asumask.hpp</a>.</p>
+
+</div>
+</div>
 <a id="ab670b8ba1c7fa1aa8f6c41c38f1bd7ae" name="ab670b8ba1c7fa1aa8f6c41c38f1bd7ae"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab670b8ba1c7fa1aa8f6c41c38f1bd7ae">&#9670;&nbsp;</a></span>merge_atoms_in_expanded_model()</h2>
 
@@ -11785,7 +12149,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neighbor_8hpp_source.html#l00361">361</a> of file <a class="el" href="neighbor_8hpp_source.html">neighbor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neighbor_8hpp_source.html#l00355">355</a> of file <a class="el" href="neighbor_8hpp_source.html">neighbor.hpp</a>.</p>
 
 </div>
 </div>
@@ -11977,7 +12341,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00748">748</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00716">716</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
 
 </div>
 </div>
@@ -12111,7 +12475,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00180">180</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00189">189</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -12149,7 +12513,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00182">182</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00191">191</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -12225,7 +12589,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="math_8hpp_source.html#l00099">99</a> of file <a class="el" href="math_8hpp_source.html">math.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="math_8hpp_source.html#l00100">100</a> of file <a class="el" href="math_8hpp_source.html">math.hpp</a>.</p>
 
 </div>
 </div>
@@ -12263,7 +12627,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00183">183</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00192">192</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -12339,7 +12703,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00177">177</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00186">186</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -12405,7 +12769,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00787">787</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00839">839</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -12433,7 +12797,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00291">291</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00300">300</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -12461,7 +12825,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00241">241</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00250">250</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -12686,7 +13050,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00965">965</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l01017">1017</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -12714,7 +13078,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00871">871</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00923">923</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -12742,7 +13106,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00934">934</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00986">986</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -12770,7 +13134,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00886">886</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00938">938</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -13775,7 +14139,7 @@ template&lt;typename Input &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mtz_8hpp_source.html#l01120">1120</a> of file <a class="el" href="mtz_8hpp_source.html">mtz.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mtz_8hpp_source.html#l01131">1131</a> of file <a class="el" href="mtz_8hpp_source.html">mtz.hpp</a>.</p>
 
 </div>
 </div>
@@ -13803,7 +14167,7 @@ template&lt;typename Input &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mtz_8hpp_source.html#l01113">1113</a> of file <a class="el" href="mtz_8hpp_source.html">mtz.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mtz_8hpp_source.html#l01124">1124</a> of file <a class="el" href="mtz_8hpp_source.html">mtz.hpp</a>.</p>
 
 </div>
 </div>
@@ -14734,7 +15098,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neighbor_8hpp_source.html#l00336">336</a> of file <a class="el" href="neighbor_8hpp_source.html">neighbor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neighbor_8hpp_source.html#l00330">330</a> of file <a class="el" href="neighbor_8hpp_source.html">neighbor.hpp</a>.</p>
 
 </div>
 </div>
@@ -14956,7 +15320,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="assembly_8hpp_source.html#l00181">181</a> of file <a class="el" href="assembly_8hpp_source.html">assembly.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="assembly_8hpp_source.html#l00209">209</a> of file <a class="el" href="assembly_8hpp_source.html">assembly.hpp</a>.</p>
 
 </div>
 </div>
@@ -15232,7 +15596,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00208">208</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00217">217</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -15414,7 +15778,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="assembly_8hpp_source.html#l00213">213</a> of file <a class="el" href="assembly_8hpp_source.html">assembly.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="assembly_8hpp_source.html#l00241">241</a> of file <a class="el" href="assembly_8hpp_source.html">assembly.hpp</a>.</p>
 
 </div>
 </div>
@@ -15592,7 +15956,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00674">674</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00726">726</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -15630,7 +15994,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="assembly_8hpp_source.html#l00296">296</a> of file <a class="el" href="assembly_8hpp_source.html">assembly.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="assembly_8hpp_source.html#l00324">324</a> of file <a class="el" href="assembly_8hpp_source.html">assembly.hpp</a>.</p>
 
 </div>
 </div>
@@ -15668,7 +16032,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="assembly_8hpp_source.html#l00331">331</a> of file <a class="el" href="assembly_8hpp_source.html">assembly.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="assembly_8hpp_source.html#l00359">359</a> of file <a class="el" href="assembly_8hpp_source.html">assembly.hpp</a>.</p>
 
 </div>
 </div>
@@ -16338,12 +16702,12 @@ template&lt;typename T , typename S &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00846">846</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00898">898</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
-<a id="afd664835268ab2ce37b7dac3477dd692" name="afd664835268ab2ce37b7dac3477dd692"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd664835268ab2ce37b7dac3477dd692">&#9670;&nbsp;</a></span>sys_fail() <span class="overload">[1/2]</span></h2>
+<a id="ad242b50ca57bc53d59cf19c4cfc55193" name="ad242b50ca57bc53d59cf19c4cfc55193"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad242b50ca57bc53d59cf19c4cfc55193">&#9670;&nbsp;</a></span>sys_fail() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -16352,7 +16716,7 @@ template&lt;typename T , typename S &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="fail_8hpp.html#aaeee09b2b9ced574f8b2d57fdd2e399b">GEMMI_NOINLINE</a> void gemmi::sys_fail </td>
+          <td class="memname"><a class="el" href="fail_8hpp.html#a946256341d2589b01e50666ef73a46ad">GEMMI_COLD</a> void gemmi::sys_fail </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>msg</em></td><td>)</td>
@@ -16366,12 +16730,12 @@ template&lt;typename T , typename S &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="fail_8hpp_source.html#l00048">48</a> of file <a class="el" href="fail_8hpp_source.html">fail.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="fail_8hpp_source.html#l00050">50</a> of file <a class="el" href="fail_8hpp_source.html">fail.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a000d91b064e661f7fef881c874ab0b5a" name="a000d91b064e661f7fef881c874ab0b5a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a000d91b064e661f7fef881c874ab0b5a">&#9670;&nbsp;</a></span>sys_fail() <span class="overload">[2/2]</span></h2>
+<a id="a96a635d06aa8a594d1af85a42ddaab4b" name="a96a635d06aa8a594d1af85a42ddaab4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96a635d06aa8a594d1af85a42ddaab4b">&#9670;&nbsp;</a></span>sys_fail() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -16380,7 +16744,7 @@ template&lt;typename T , typename S &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="fail_8hpp.html#aaeee09b2b9ced574f8b2d57fdd2e399b">GEMMI_NOINLINE</a> void gemmi::sys_fail </td>
+          <td class="memname"><a class="el" href="fail_8hpp.html#a946256341d2589b01e50666ef73a46ad">GEMMI_COLD</a> void gemmi::sys_fail </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>msg</em></td><td>)</td>
@@ -16394,7 +16758,7 @@ template&lt;typename T , typename S &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="fail_8hpp_source.html#l00044">44</a> of file <a class="el" href="fail_8hpp_source.html">fail.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="fail_8hpp_source.html#l00046">46</a> of file <a class="el" href="fail_8hpp_source.html">fail.hpp</a>.</p>
 
 </div>
 </div>
@@ -16836,6 +17200,56 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
+<a id="a0946b790a8a18e8b2a3490585d4c1d80" name="a0946b790a8a18e8b2a3490585d4c1d80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0946b790a8a18e8b2a3490585d4c1d80">&#9670;&nbsp;</a></span>transform_to_assembly()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gemmi::transform_to_assembly </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structgemmi_1_1Structure.html">Structure</a> &amp;&#160;</td>
+          <td class="paramname"><em>st</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>assembly_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacegemmi.html#a4b187c462c241c9de6322f20d798d6b7">HowToNameCopiedChain</a>&#160;</td>
+          <td class="paramname"><em>how</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::ostream *&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="assembly_8hpp_source.html#l00181">181</a> of file <a class="el" href="assembly_8hpp_source.html">assembly.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a8ec5d4b90c5dba12be6e2189e6457c15" name="a8ec5d4b90c5dba12be6e2189e6457c15"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8ec5d4b90c5dba12be6e2189e6457c15">&#9670;&nbsp;</a></span>tred2()</h2>
 
@@ -17076,7 +17490,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="fail_8hpp_source.html#l00053">53</a> of file <a class="el" href="fail_8hpp_source.html">fail.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="fail_8hpp_source.html#l00055">55</a> of file <a class="el" href="fail_8hpp_source.html">fail.hpp</a>.</p>
 
 </div>
 </div>

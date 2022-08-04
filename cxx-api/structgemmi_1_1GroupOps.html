@@ -89,14 +89,18 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a37eb832fd282eafcf660cee81d627449"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36cedc58288d4db3c3b1d21cecc72d80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GroupOps.html#a36cedc58288d4db3c3b1d21cecc72d80">add_missing_elements</a> ()</td></tr>
 <tr class="separator:a36cedc58288d4db3c3b1d21cecc72d80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a993a0c90ecc26f9e40d8a653ad908f9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GroupOps.html#a993a0c90ecc26f9e40d8a653ad908f9c">add_missing_elements_part2</a> (const std::vector&lt; <a class="el" href="structgemmi_1_1Op.html">Op</a> &gt; &amp;gen, size_t max_size, bool ignore_bad_gen)</td></tr>
+<tr class="separator:a993a0c90ecc26f9e40d8a653ad908f9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb58cfefca23654e3e3c3ee22fc15bb4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GroupOps.html#abb58cfefca23654e3e3c3ee22fc15bb4">add_inversion</a> ()</td></tr>
+<tr class="separator:abb58cfefca23654e3e3c3ee22fc15bb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bab475e02dd19259aeb09f13887169b"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GroupOps.html#a2bab475e02dd19259aeb09f13887169b">find_centering</a> () const</td></tr>
 <tr class="separator:a2bab475e02dd19259aeb09f13887169b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a066483c8e95134ca74dedc4fa64baee0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1Op.html">Op</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GroupOps.html#a066483c8e95134ca74dedc4fa64baee0">find_by_rotation</a> (const <a class="el" href="structgemmi_1_1Op.html#a357d6e9ead530e2471f5d5048c5abe49">Op::Rot</a> &amp;r)</td></tr>
 <tr class="separator:a066483c8e95134ca74dedc4fa64baee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07f5902b39145aaa92cf912e3d963cf5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structgemmi_1_1Op.html">Op</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GroupOps.html#a07f5902b39145aaa92cf912e3d963cf5">find_by_rotation</a> (const <a class="el" href="structgemmi_1_1Op.html#a357d6e9ead530e2471f5d5048c5abe49">Op::Rot</a> &amp;r) const</td></tr>
 <tr class="separator:a07f5902b39145aaa92cf912e3d963cf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa209d533883934fbe14a1bef24a347b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GroupOps.html#afa209d533883934fbe14a1bef24a347b">is_centric</a> () const</td></tr>
-<tr class="separator:afa209d533883934fbe14a1bef24a347b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95337869ecc7dbb5eccc40c6419d8572"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GroupOps.html#a95337869ecc7dbb5eccc40c6419d8572">is_centrosymmetric</a> () const</td></tr>
+<tr class="separator:a95337869ecc7dbb5eccc40c6419d8572"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adee645b49da08909149ef6df74d2c64a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GroupOps.html#adee645b49da08909149ef6df74d2c64a">is_reflection_centric</a> (const <a class="el" href="structgemmi_1_1Op.html#a7d45311fd8b04468205b6bf7055febc2">Op::Miller</a> &amp;hkl) const</td></tr>
 <tr class="separator:adee645b49da08909149ef6df74d2c64a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9eb4cd508f4785ba24e8f91835b8ad21"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GroupOps.html#a9eb4cd508f4785ba24e8f91835b8ad21">epsilon_factor_without_centering</a> (const <a class="el" href="structgemmi_1_1Op.html#a7d45311fd8b04468205b6bf7055febc2">Op::Miller</a> &amp;hkl) const</td></tr>
@@ -125,6 +129,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5df55ba75e9fb99688d91a0ca4093420"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a1860c4d7f3199b5333b44f10304038"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GroupOps.html#a9a1860c4d7f3199b5333b44f10304038">are_directions_symmetry_related</a> (int u, int v) const</td></tr>
 <tr class="separator:a9a1860c4d7f3199b5333b44f10304038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2d68eac0383d56bda79d17d5fa9376e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1GroupOps.html">GroupOps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GroupOps.html#ad2d68eac0383d56bda79d17d5fa9376e">derive_symmorphic</a> () const</td></tr>
+<tr class="separator:ad2d68eac0383d56bda79d17d5fa9376e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0b8aa10190064267d6fe70a49043179"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1GroupOps_1_1Iter.html">Iter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GroupOps.html#ab0b8aa10190064267d6fe70a49043179">begin</a> () const</td></tr>
 <tr class="separator:ab0b8aa10190064267d6fe70a49043179"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0c7bbc6e417ca28302d4f75e6d5e7e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1GroupOps_1_1Iter.html">Iter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GroupOps.html#af0c7bbc6e417ca28302d4f75e6d5e7e9">end</a> () const</td></tr>
@@ -144,8 +150,35 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00417">417</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00435">435</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="abb58cfefca23654e3e3c3ee22fc15bb4" name="abb58cfefca23654e3e3c3ee22fc15bb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb58cfefca23654e3e3c3ee22fc15bb4">&#9670;&nbsp;</a></span>add_inversion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gemmi::GroupOps::add_inversion </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00445">445</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a36cedc58288d4db3c3b1d21cecc72d80" name="a36cedc58288d4db3c3b1d21cecc72d80"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a36cedc58288d4db3c3b1d21cecc72d80">&#9670;&nbsp;</a></span>add_missing_elements()</h2>
 
@@ -169,7 +202,51 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00630">630</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00672">672</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a993a0c90ecc26f9e40d8a653ad908f9c" name="a993a0c90ecc26f9e40d8a653ad908f9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a993a0c90ecc26f9e40d8a653ad908f9c">&#9670;&nbsp;</a></span>add_missing_elements_part2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gemmi::GroupOps::add_missing_elements_part2 </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="structgemmi_1_1Op.html">Op</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>gen</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>max_size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>ignore_bad_gen</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00694">694</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -196,7 +273,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00540">540</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00574">574</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -234,7 +311,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00601">601</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00635">635</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -261,7 +338,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00626">626</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00668">668</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -289,7 +366,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00538">538</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00572">572</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -317,7 +394,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00537">537</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00571">571</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -355,7 +432,34 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00495">495</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00529">529</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ad2d68eac0383d56bda79d17d5fa9376e" name="ad2d68eac0383d56bda79d17d5fa9376e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2d68eac0383d56bda79d17d5fa9376e">&#9670;&nbsp;</a></span>derive_symmorphic()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgemmi_1_1GroupOps.html">GroupOps</a> gemmi::GroupOps::derive_symmorphic </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00643">643</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -382,7 +486,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00627">627</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00669">669</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -410,7 +514,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00471">471</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00505">505</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -438,7 +542,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00463">463</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00497">497</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -466,7 +570,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00440">440</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00474">474</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -494,7 +598,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00447">447</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00481">481</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -521,7 +625,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00425">425</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00459">459</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -548,7 +652,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00591">591</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00625">625</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -576,7 +680,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00550">550</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00584">584</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -614,7 +718,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00475">475</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00509">509</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -642,7 +746,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00563">563</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00597">597</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -670,12 +774,12 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00576">576</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00610">610</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
-<a id="afa209d533883934fbe14a1bef24a347b" name="afa209d533883934fbe14a1bef24a347b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa209d533883934fbe14a1bef24a347b">&#9670;&nbsp;</a></span>is_centric()</h2>
+<a id="a95337869ecc7dbb5eccc40c6419d8572" name="a95337869ecc7dbb5eccc40c6419d8572"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95337869ecc7dbb5eccc40c6419d8572">&#9670;&nbsp;</a></span>is_centrosymmetric()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -684,7 +788,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool gemmi::GroupOps::is_centric </td>
+          <td class="memname">bool gemmi::GroupOps::is_centrosymmetric </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -697,7 +801,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00451">451</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00485">485</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -725,7 +829,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00455">455</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00489">489</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -753,7 +857,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00556">556</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00590">590</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -781,7 +885,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00479">479</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00513">513</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -808,7 +912,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00421">421</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00439">439</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -825,7 +929,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00419">419</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00437">437</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>
@@ -841,7 +945,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00418">418</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8hpp_source.html#l00436">436</a> of file <a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>.</p>
 
 </div>
 </div>

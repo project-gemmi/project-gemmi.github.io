@@ -16,7 +16,7 @@ var searchData=
   ['nd_13',['Nd',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a0f685c57363a378127e7487e5b670d40',1,'gemmi']]],
   ['ne_14',['Ne',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a4dec99baa99738721da9c9b0c1a92498',1,'gemmi']]],
   ['nearestimage_15',['NearestImage',['../structgemmi_1_1NearestImage.html',1,'gemmi']]],
-  ['negated_16',['negated',['../structgemmi_1_1Vec3.html#a19b2fba3e86a22cc4c3f916e79c3664f',1,'gemmi::Vec3::negated()'],['../structgemmi_1_1Op.html#a666f5bb439b0c2efe5ad04c3108eee43',1,'gemmi::Op::negated() const']]],
+  ['negated_16',['negated',['../structgemmi_1_1Vec3.html#a19b2fba3e86a22cc4c3f916e79c3664f',1,'gemmi::Vec3']]],
   ['negated_5frot_17',['negated_rot',['../structgemmi_1_1Op.html#a38f9206f4ea49cd8fdb57537281a3e11',1,'gemmi::Op']]],
   ['negative_18',['Negative',['../namespacegemmi.html#ad29be9c865070ade488f475330fe865eaffb9356ff2b7da85c75c92fa7ea03b8b',1,'gemmi']]],
   ['neighbor_2ehpp_19',['neighbor.hpp',['../neighbor_8hpp.html',1,'']]],
