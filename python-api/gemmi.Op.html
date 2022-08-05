@@ -92,13 +92,13 @@
               <span class="m-doc-wrap-bumper">def <a href="#inverse" class="m-doc-self">inverse</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Op.html" class="m-doc">Op</a></span>
             </dt>
             <dd>Returns inverted operator.</dd>
-            <dt id="negated">
-              <span class="m-doc-wrap-bumper">def <a href="#negated" class="m-doc-self">negated</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Op.html" class="m-doc">Op</a></span>
-            </dt>
-            <dd>Returns Op with all elements nagated</dd>
             <dt id="phase_shift">
               <span class="m-doc-wrap-bumper">def <a href="#phase_shift" class="m-doc-self">phase_shift</a>(</span><span class="m-doc-wrap">self,
               hkl: typing.List[int[3]]) -&gt; float</span>
+            </dt>
+            <dd></dd>
+            <dt id="rot_type">
+              <span class="m-doc-wrap-bumper">def <a href="#rot_type" class="m-doc-self">rot_type</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; int</span>
             </dt>
             <dd></dd>
             <dt id="seitz">
@@ -110,10 +110,15 @@
               a: typing.List[int[3]]) -&gt; <a href="gemmi.Op.html" class="m-doc">Op</a></span>
             </dt>
             <dd>Adds a to tran</dd>
-            <dt id="triplet">
-              <span class="m-doc-wrap-bumper">def <a href="#triplet" class="m-doc-self">triplet</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; str</span>
+            <dt id="transposed_rot">
+              <span class="m-doc-wrap-bumper">def <a href="#transposed_rot" class="m-doc-self">transposed_rot</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; typing.List[typing.List[int[3]][3]]</span>
             </dt>
-            <dd>Returns coordinate triplet x,y,z.</dd>
+            <dd></dd>
+            <dt id="triplet">
+              <span class="m-doc-wrap-bumper">def <a href="#triplet" class="m-doc-self">triplet</a>(</span><span class="m-doc-wrap">self,
+              style: str = &#x27;x&#x27;) -&gt; str</span>
+            </dt>
+            <dd></dd>
             <dt id="wrap">
               <span class="m-doc-wrap-bumper">def <a href="#wrap" class="m-doc-self">wrap</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Op.html" class="m-doc">Op</a></span>
             </dt>
@@ -123,6 +128,15 @@
         <section id="dunder-methods">
           <h2><a href="#dunder-methods">Special methods</a></h2>
           <dl class="m-doc">
+            <dt id="__copy__">
+              <span class="m-doc-wrap-bumper">def <a href="#__copy__" class="m-doc-self">__copy__</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Op.html" class="m-doc">Op</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="__deepcopy__">
+              <span class="m-doc-wrap-bumper">def <a href="#__deepcopy__" class="m-doc-self">__deepcopy__</a>(</span><span class="m-doc-wrap">self,
+              memo: dict) -&gt; <a href="gemmi.Op.html" class="m-doc">Op</a></span>
+            </dt>
+            <dd></dd>
             <dt id="__eq__-31905">
               <span class="m-doc-wrap-bumper">def <a href="#__eq__-31905" class="m-doc-self">__eq__</a>(</span><span class="m-doc-wrap">self,
               arg0: <a href="gemmi.Op.html" class="m-doc">Op</a><span class="m-text m-dim">, /</span>) -&gt; bool</span>

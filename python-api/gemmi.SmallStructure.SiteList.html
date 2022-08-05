@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>gemmi.FloatAsuData | Gemmi Python API</title>
+  <title>gemmi.SmallStructure.SiteList | Gemmi Python API</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i%7CSource+Code+Pro:400,400i,600" />
   <link rel="stylesheet" href="m-dark+documentation.compiled.css" />
   <link rel="icon" href="favicon-dark.png" type="image/png" />
@@ -46,7 +46,7 @@
     <div class="m-row">
       <div class="m-col-l-10 m-push-l-1">
         <h1>
-          <span class="m-breadcrumb"><a href="gemmi.html">gemmi</a>.<wbr/></span>FloatAsuData <span class="m-thin">class</span>
+          <span class="m-breadcrumb"><a href="gemmi.html">gemmi</a>.<wbr/></span><span class="m-breadcrumb"><a href="gemmi.SmallStructure.html">SmallStructure</a>.<wbr/></span>SiteList <span class="m-thin">class</span>
         </h1>
         <nav class="m-block m-default">
           <h3>Contents</h3>
@@ -56,7 +56,6 @@
               <ul>
                 <li><a href="#methods">Methods</a></li>
                 <li><a href="#dunder-methods">Special methods</a></li>
-                <li><a href="#properties">Properties</a></li>
               </ul>
             </li>
           </ul>
@@ -64,53 +63,81 @@
         <section id="methods">
           <h2><a href="#methods">Methods</a></h2>
           <dl class="m-doc">
-            <dt id="calculate_correlation">
-              <span class="m-doc-wrap-bumper">def <a href="#calculate_correlation" class="m-doc-self">calculate_correlation</a>(</span><span class="m-doc-wrap">self,
-              arg0: <a href="gemmi.FloatAsuData.html" class="m-doc">FloatAsuData</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Correlation.html" class="m-doc">Correlation</a></span>
+            <dt id="append">
+              <span class="m-doc-wrap-bumper">def <a href="#append" class="m-doc-self">append</a>(</span><span class="m-doc-wrap">self,
+              x: <a href="gemmi.SmallStructure.Site.html" class="m-doc">Site</a>) -&gt; None</span>
             </dt>
-            <dd></dd>
-            <dt id="copy">
-              <span class="m-doc-wrap-bumper">def <a href="#copy" class="m-doc-self">copy</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.FloatAsuData.html" class="m-doc">FloatAsuData</a></span>
+            <dd>Add an item to the end of the list</dd>
+            <dt id="clear">
+              <span class="m-doc-wrap-bumper">def <a href="#clear" class="m-doc-self">clear</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
-            <dd></dd>
-            <dt id="count_equal_values">
-              <span class="m-doc-wrap-bumper">def <a href="#count_equal_values" class="m-doc-self">count_equal_values</a>(</span><span class="m-doc-wrap">self,
-              arg0: <a href="gemmi.FloatAsuData.html" class="m-doc">FloatAsuData</a><span class="m-text m-dim">, /</span>) -&gt; int</span>
+            <dd>Clear the contents</dd>
+            <dt id="extend-7eebe">
+              <span class="m-doc-wrap-bumper">def <a href="#extend-7eebe" class="m-doc-self">extend</a>(</span><span class="m-doc-wrap">self,
+              L: <a href="gemmi.SmallStructure.SiteList.html" class="m-doc">SiteList</a>) -&gt; None</span>
             </dt>
-            <dd></dd>
-            <dt id="ensure_asu">
-              <span class="m-doc-wrap-bumper">def <a href="#ensure_asu" class="m-doc-self">ensure_asu</a>(</span><span class="m-doc-wrap">self,
-              tnt_asu: bool = False) -&gt; None</span>
+            <dd>Extend the list by appending all the items in the given list</dd>
+            <dt id="extend-3cbb5">
+              <span class="m-doc-wrap-bumper">def <a href="#extend-3cbb5" class="m-doc-self">extend</a>(</span><span class="m-doc-wrap">self,
+              L: typing.Iterable) -&gt; None</span>
             </dt>
-            <dd></dd>
-            <dt id="ensure_sorted">
-              <span class="m-doc-wrap-bumper">def <a href="#ensure_sorted" class="m-doc-self">ensure_sorted</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
+            <dd>Extend the list by appending all the items in the given list</dd>
+            <dt id="insert">
+              <span class="m-doc-wrap-bumper">def <a href="#insert" class="m-doc-self">insert</a>(</span><span class="m-doc-wrap">self,
+              i: int,
+              x: <a href="gemmi.SmallStructure.Site.html" class="m-doc">Site</a>) -&gt; None</span>
             </dt>
-            <dd></dd>
-            <dt id="make_1_d2_array">
-              <span class="m-doc-wrap-bumper">def <a href="#make_1_d2_array" class="m-doc-self">make_1_d2_array</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; numpy.ndarray[numpy.float32]</span>
+            <dd>Insert an item at a given position.</dd>
+            <dt id="pop-6eef6">
+              <span class="m-doc-wrap-bumper">def <a href="#pop-6eef6" class="m-doc-self">pop</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.SmallStructure.Site.html" class="m-doc">Site</a></span>
             </dt>
-            <dd></dd>
-            <dt id="make_d_array">
-              <span class="m-doc-wrap-bumper">def <a href="#make_d_array" class="m-doc-self">make_d_array</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; numpy.ndarray[numpy.float32]</span>
+            <dd>Remove and return the last item</dd>
+            <dt id="pop-745a3">
+              <span class="m-doc-wrap-bumper">def <a href="#pop-745a3" class="m-doc-self">pop</a>(</span><span class="m-doc-wrap">self,
+              i: int) -&gt; <a href="gemmi.SmallStructure.Site.html" class="m-doc">Site</a></span>
             </dt>
-            <dd></dd>
+            <dd>Remove and return the item at index ``i``</dd>
           </dl>
         </section>
         <section id="dunder-methods">
           <h2><a href="#dunder-methods">Special methods</a></h2>
           <dl class="m-doc">
-            <dt id="__getitem__">
-              <span class="m-doc-wrap-bumper">def <a href="#__getitem__" class="m-doc-self">__getitem__</a>(</span><span class="m-doc-wrap">self,
-              index: int) -&gt; <a href="gemmi.FloatHklValue.html" class="m-doc">FloatHklValue</a></span>
+            <dt id="__bool__">
+              <span class="m-doc-wrap-bumper">def <a href="#__bool__" class="m-doc-self">__bool__</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; bool</span>
+            </dt>
+            <dd>Check whether the list is nonempty</dd>
+            <dt id="__delitem__-745a3">
+              <span class="m-doc-wrap-bumper">def <a href="#__delitem__-745a3" class="m-doc-self">__delitem__</a>(</span><span class="m-doc-wrap">self,
+              arg0: int<span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd>Delete the list elements at index ``i``</dd>
+            <dt id="__delitem__-62b24">
+              <span class="m-doc-wrap-bumper">def <a href="#__delitem__-62b24" class="m-doc-self">__delitem__</a>(</span><span class="m-doc-wrap">self,
+              arg0: slice<span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd>Delete list elements using a slice object</dd>
+            <dt id="__getitem__-62b24">
+              <span class="m-doc-wrap-bumper">def <a href="#__getitem__-62b24" class="m-doc-self">__getitem__</a>(</span><span class="m-doc-wrap">self,
+              s: slice) -&gt; <a href="gemmi.SmallStructure.SiteList.html" class="m-doc">SiteList</a></span>
+            </dt>
+            <dd>Retrieve list elements using a slice object</dd>
+            <dt id="__getitem__-745a3">
+              <span class="m-doc-wrap-bumper">def <a href="#__getitem__-745a3" class="m-doc-self">__getitem__</a>(</span><span class="m-doc-wrap">self,
+              arg0: int<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.SmallStructure.Site.html" class="m-doc">Site</a></span>
             </dt>
             <dd></dd>
-            <dt id="__init__">
-              <span class="m-doc-wrap-bumper">def <a href="#__init__" class="m-doc-self">__init__</a>(</span><span class="m-doc-wrap">self,
-              cell: <a href="gemmi.UnitCell.html" class="m-doc">UnitCell</a>,
-              sg: <a href="gemmi.SpaceGroup.html" class="m-doc">SpaceGroup</a>,
-              miller_array: numpy.ndarray[numpy.int32],
-              value_array: numpy.ndarray[numpy.float32]) -&gt; None</span>
+            <dt id="__init__-6eef6">
+              <span class="m-doc-wrap-bumper">def <a href="#__init__-6eef6" class="m-doc-self">__init__</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="__init__-7eebe">
+              <span class="m-doc-wrap-bumper">def <a href="#__init__-7eebe" class="m-doc-self">__init__</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.SmallStructure.SiteList.html" class="m-doc">SiteList</a><span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd>Copy constructor</dd>
+            <dt id="__init__-3cbb5">
+              <span class="m-doc-wrap-bumper">def <a href="#__init__-3cbb5" class="m-doc-self">__init__</a>(</span><span class="m-doc-wrap">self,
+              arg0: typing.Iterable<span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="__iter__">
@@ -121,31 +148,18 @@
               <span class="m-doc-wrap-bumper">def <a href="#__len__" class="m-doc-self">__len__</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; int</span>
             </dt>
             <dd></dd>
-            <dt id="__repr__">
-              <span class="m-doc-wrap-bumper">def <a href="#__repr__" class="m-doc-self">__repr__</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; str</span>
+            <dt id="__setitem__-ab553">
+              <span class="m-doc-wrap-bumper">def <a href="#__setitem__-ab553" class="m-doc-self">__setitem__</a>(</span><span class="m-doc-wrap">self,
+              arg0: int,
+              arg1: <a href="gemmi.SmallStructure.Site.html" class="m-doc">Site</a><span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
             <dd></dd>
-          </dl>
-        </section>
-        <section id="properties">
-          <h2><a href="#properties">Properties</a></h2>
-          <dl class="m-doc">
-            <dt id="miller_array">
-              <a href="#miller_array" class="m-doc-self">miller_array</a>: numpy.ndarray[numpy.int32] <span class="m-label m-flat m-warning">get</span>
+            <dt id="__setitem__-36ae8">
+              <span class="m-doc-wrap-bumper">def <a href="#__setitem__-36ae8" class="m-doc-self">__setitem__</a>(</span><span class="m-doc-wrap">self,
+              arg0: slice,
+              arg1: <a href="gemmi.SmallStructure.SiteList.html" class="m-doc">SiteList</a><span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
-            <dd></dd>
-            <dt id="spacegroup">
-              <a href="#spacegroup" class="m-doc-self">spacegroup</a>: <a href="gemmi.SpaceGroup.html" class="m-doc">SpaceGroup</a> <span class="m-label m-flat m-success">get set</span>
-            </dt>
-            <dd></dd>
-            <dt id="unit_cell">
-              <a href="#unit_cell" class="m-doc-self">unit_cell</a>: <a href="gemmi.UnitCell.html" class="m-doc">UnitCell</a> <span class="m-label m-flat m-success">get set</span>
-            </dt>
-            <dd></dd>
-            <dt id="value_array">
-              <a href="#value_array" class="m-doc-self">value_array</a>: numpy.ndarray[numpy.float32] <span class="m-label m-flat m-warning">get</span>
-            </dt>
-            <dd></dd>
+            <dd>Assign list elements using a slice object</dd>
           </dl>
         </section>
       </div>

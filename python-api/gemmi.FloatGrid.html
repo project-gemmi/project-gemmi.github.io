@@ -72,6 +72,11 @@
         <section id="methods">
           <h2><a href="#methods">Methods</a></h2>
           <dl class="m-doc">
+            <dt id="add_soft_edge_to_mask">
+              <span class="m-doc-wrap-bumper">def <a href="#add_soft_edge_to_mask" class="m-doc-self">add_soft_edge_to_mask</a>(</span><span class="m-doc-wrap">self,
+              arg0: float<span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
             <dt id="calculate_correlation">
               <span class="m-doc-wrap-bumper">def <a href="#calculate_correlation" class="m-doc-self">calculate_correlation</a>(</span><span class="m-doc-wrap">self,
               arg0: <a href="gemmi.FloatGridBase.html" class="m-doc">FloatGridBase</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Correlation.html" class="m-doc">Correlation</a></span>
@@ -107,6 +112,10 @@
             <dt id="get_nearest_point">
               <span class="m-doc-wrap-bumper">def <a href="#get_nearest_point" class="m-doc-self">get_nearest_point</a>(</span><span class="m-doc-wrap">self,
               arg0: <a href="gemmi.Position.html" class="m-doc">Position</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.FloatGrid.Point.html" class="m-doc">Point</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="get_nonzero_extent">
+              <span class="m-doc-wrap-bumper">def <a href="#get_nonzero_extent" class="m-doc-self">get_nonzero_extent</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.FractionalBox.html" class="m-doc">FractionalBox</a></span>
             </dt>
             <dd></dd>
             <dt id="get_point">
@@ -154,7 +163,8 @@
             <dt id="interpolate_values">
               <span class="m-doc-wrap-bumper">def <a href="#interpolate_values" class="m-doc-self">interpolate_values</a>(</span><span class="m-doc-wrap">self,
               arg0: numpy.ndarray[numpy.float32],
-              arg1: <a href="gemmi.Transform.html" class="m-doc">Transform</a><span class="m-text m-dim">, /</span>) -&gt; None</span>
+              arg1: <a href="gemmi.Transform.html" class="m-doc">Transform</a>,
+              order: int = 2) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="mask_points_in_constant_radius">
@@ -185,6 +195,12 @@
             <dt id="point_to_position">
               <span class="m-doc-wrap-bumper">def <a href="#point_to_position" class="m-doc-self">point_to_position</a>(</span><span class="m-doc-wrap">self,
               arg0: <a href="gemmi.FloatGrid.Point.html" class="m-doc">Point</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Position.html" class="m-doc">Position</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="resample_to">
+              <span class="m-doc-wrap-bumper">def <a href="#resample_to" class="m-doc-self">resample_to</a>(</span><span class="m-doc-wrap">self,
+              dest: <a href="gemmi.FloatGrid.html" class="m-doc">FloatGrid</a>,
+              order: int) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="set_points_around">
