@@ -79,6 +79,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="to__mmcif_8hpp_source.html">to_mmcif.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sprintf_8hpp_source.html">sprintf.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="calculate_8hpp_source.html">calculate.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="select_8hpp_source.html">select.hpp</a>&quot;</code><br />
 </div>
 <p><a href="crd_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -95,8 +96,8 @@ Functions</h2></td></tr>
 <tr class="separator:a6ac5822736e50e500e41cf346de8e778"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9baa631a13f13e93e806bb95efab041b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a9baa631a13f13e93e806bb95efab041b">gemmi::get_ccp4_mod_id</a> (const std::vector&lt; std::string &gt; &amp;mods)</td></tr>
 <tr class="separator:a9baa631a13f13e93e806bb95efab041b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae151b042c8905f0407ecaec798cc2dd9"><td class="memItemLeft" align="right" valign="top">cif::Block&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#ae151b042c8905f0407ecaec798cc2dd9">gemmi::prepare_crd</a> (const Structure &amp;st, const Topo &amp;topo)</td></tr>
-<tr class="separator:ae151b042c8905f0407ecaec798cc2dd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45a8b97ef6f8d1faf6602e1f6e281e31"><td class="memItemLeft" align="right" valign="top">cif::Block&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a45a8b97ef6f8d1faf6602e1f6e281e31">gemmi::prepare_crd</a> (const Structure &amp;st, const Topo &amp;topo, HydrogenChange h_change)</td></tr>
+<tr class="separator:a45a8b97ef6f8d1faf6602e1f6e281e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a550f74688805e65ac424741e59bf9383"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a550f74688805e65ac424741e59bf9383">gemmi::add_restraint_row</a> (cif::Loop &amp;restr_loop, const char *record, int counter, const std::string &amp;label, const std::string &amp;period, std::initializer_list&lt; const Atom * &gt; atoms, double value, double dev, double value_nucleus, double dev_nucleus, double obs)</td></tr>
 <tr class="separator:a550f74688805e65ac424741e59bf9383"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add86e5892fa6c9d1e8406a2f5cd2abd7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#add86e5892fa6c9d1e8406a2f5cd2abd7">gemmi::add_restraints</a> (const Topo::Rule rule, const Topo &amp;topo, cif::Loop &amp;restr_loop, int(&amp;counters)[6], const UnitCell *cell=nullptr)</td></tr>

@@ -26,7 +26,7 @@ var searchData=
   ['disorder_5fgroup_23',['disorder_group',['../structgemmi_1_1SmallStructure_1_1Site.html#a791242ab172e64570b437257152647d2',1,'gemmi::SmallStructure::Site']]],
   ['dispersion_5fimag_24',['dispersion_imag',['../structgemmi_1_1SmallStructure_1_1AtomType.html#a72d2f42d42637747623b3e613e19177a',1,'gemmi::SmallStructure::AtomType']]],
   ['dispersion_5freal_25',['dispersion_real',['../structgemmi_1_1SmallStructure_1_1AtomType.html#ac456b1eb7764f12cd550dd47f4e7e472',1,'gemmi::SmallStructure::AtomType']]],
-  ['dist_5fsq_26',['dist_sq',['../structgemmi_1_1ContactSearch_1_1Result.html#a8322ace19934a5a6901af50da3c6c682',1,'gemmi::ContactSearch::Result::dist_sq()'],['../structgemmi_1_1NearestImage.html#ab94c43bce4424451b96f939f09274397',1,'gemmi::NearestImage::dist_sq()']]],
+  ['dist_5fsq_26',['dist_sq',['../structgemmi_1_1ContactSearch_1_1Result.html#a8322ace19934a5a6901af50da3c6c682',1,'gemmi::ContactSearch::Result::dist_sq()'],['../structgemmi_1_1NodeInfo.html#ab5e8a45e0ddda45b5cd9a64242927581',1,'gemmi::NodeInfo::dist_sq()'],['../structgemmi_1_1NearestImage.html#ab94c43bce4424451b96f939f09274397',1,'gemmi::NearestImage::dist_sq()']]],
   ['dmax_27',['dmax',['../structgemmi_1_1DataStats.html#a8a615e1c2d4b23b2975975b760a7b2ed',1,'gemmi::DataStats']]],
   ['dmean_28',['dmean',['../structgemmi_1_1DataStats.html#a93248133c23ca2763df40e7e0577e01a',1,'gemmi::DataStats']]],
   ['dmin_29',['dmin',['../structgemmi_1_1DataStats.html#ac9d85410268f9e33f6eb92ccf328a709',1,'gemmi::DataStats']]],

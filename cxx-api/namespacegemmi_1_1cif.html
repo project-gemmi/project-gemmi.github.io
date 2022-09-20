@@ -341,8 +341,115 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a57270553cefbeb2cf8a8029bd8787c45" name="a57270553cefbeb2cf8a8029bd8787c45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a57270553cefbeb2cf8a8029bd8787c45">&#9670;&nbsp;</a></span>as_any() <span class="overload">[1/4]</span></h2>
+<a id="a66b6d262f94ac9d355108d4927099f25" name="a66b6d262f94ac9d355108d4927099f25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66b6d262f94ac9d355108d4927099f25">&#9670;&nbsp;</a></span>error_message()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Rule &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string &amp; gemmi::cif::error_message </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="cif_8hpp_source.html#l00153">153</a> of file <a class="el" href="cif_8hpp_source.html">cif.hpp</a>.</p>
+
+</div>
+</div>
+<a id="acce030a270794ffbb0c6def96869e048" name="acce030a270794ffbb0c6def96869e048"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acce030a270794ffbb0c6def96869e048">&#9670;&nbsp;</a></span>parse_input()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Input &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void gemmi::cif::parse_input </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> &amp;&#160;</td>
+          <td class="paramname"><em>d</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Input &amp;&amp;&#160;</td>
+          <td class="paramname"><em>in</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="cif_8hpp_source.html#l00253">253</a> of file <a class="el" href="cif_8hpp_source.html">cif.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a79954c0481bac298eb5f63a797a7f6e7" name="a79954c0481bac298eb5f63a797a7f6e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79954c0481bac298eb5f63a797a7f6e7">&#9670;&nbsp;</a></span>read_input()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Input &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> gemmi::cif::read_input </td>
+          <td>(</td>
+          <td class="paramtype">Input &amp;&amp;&#160;</td>
+          <td class="paramname"><em>in</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="cif_8hpp_source.html#l00257">257</a> of file <a class="el" href="cif_8hpp_source.html">cif.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a8139e37db35298adcfc2ce1c34ec0ee7" name="a8139e37db35298adcfc2ce1c34ec0ee7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8139e37db35298adcfc2ce1c34ec0ee7">&#9670;&nbsp;</a></span>parse_one_block()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Input &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t gemmi::cif::parse_one_block </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> &amp;&#160;</td>
+          <td class="paramname"><em>d</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Input &amp;&amp;&#160;</td>
+          <td class="paramname"><em>in</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="cif_8hpp_source.html#l00267">267</a> of file <a class="el" href="cif_8hpp_source.html">cif.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ae587583aeadd0982895962a214caac4a" name="ae587583aeadd0982895962a214caac4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae587583aeadd0982895962a214caac4a">&#9670;&nbsp;</a></span>read_file()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -351,21 +458,323 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">char gemmi::cif::as_any </td>
+          <td class="memname"><a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> gemmi::cif::read_file </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>s</em>, </td>
+          <td class="paramname"><em>filename</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="cif_8hpp_source.html#l00282">282</a> of file <a class="el" href="cif_8hpp_source.html">cif.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a4179a4ea3174119a3188dd262802f9e2" name="a4179a4ea3174119a3188dd262802f9e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4179a4ea3174119a3188dd262802f9e2">&#9670;&nbsp;</a></span>read_string()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> gemmi::cif::read_string </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="cif_8hpp_source.html#l00287">287</a> of file <a class="el" href="cif_8hpp_source.html">cif.hpp</a>.</p>
+
+</div>
+</div>
+<a id="afdad28608fccf717d3eecf402715c52d" name="afdad28608fccf717d3eecf402715c52d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdad28608fccf717d3eecf402715c52d">&#9670;&nbsp;</a></span>read_memory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> gemmi::cif::read_memory </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="cif_8hpp_source.html#l00292">292</a> of file <a class="el" href="cif_8hpp_source.html">cif.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aa11024efa90fa186263a62d1acc39730" name="aa11024efa90fa186263a62d1acc39730"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa11024efa90fa186263a62d1acc39730">&#9670;&nbsp;</a></span>read_cstream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> gemmi::cif::read_cstream </td>
+          <td>(</td>
+          <td class="paramtype">std::FILE *&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>bufsize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="cif_8hpp_source.html#l00297">297</a> of file <a class="el" href="cif_8hpp_source.html">cif.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a0f9ad245863e7b1fa83f7d0218e5dc89" name="a0f9ad245863e7b1fa83f7d0218e5dc89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f9ad245863e7b1fa83f7d0218e5dc89">&#9670;&nbsp;</a></span>read_istream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> gemmi::cif::read_istream </td>
+          <td>(</td>
+          <td class="paramtype">std::istream &amp;&#160;</td>
+          <td class="paramname"><em>is</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>bufsize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="cif_8hpp_source.html#l00302">302</a> of file <a class="el" href="cif_8hpp_source.html">cif.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a877e6ffd848a8bedacbcd557c5624b18" name="a877e6ffd848a8bedacbcd557c5624b18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a877e6ffd848a8bedacbcd557c5624b18">&#9670;&nbsp;</a></span>check_syntax()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Input &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gemmi::cif::check_syntax </td>
+          <td>(</td>
+          <td class="paramtype">Input &amp;&amp;&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string *&#160;</td>
+          <td class="paramname"><em>msg</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="cif_8hpp_source.html#l00317">317</a> of file <a class="el" href="cif_8hpp_source.html">cif.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ac32337ff148a7bfb16855d298484aefc" name="ac32337ff148a7bfb16855d298484aefc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac32337ff148a7bfb16855d298484aefc">&#9670;&nbsp;</a></span>read()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> gemmi::cif::read </td>
+          <td>(</td>
+          <td class="paramtype">T &amp;&amp;&#160;</td>
+          <td class="paramname"><em>input</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="cif_8hpp_source.html#l00330">330</a> of file <a class="el" href="cif_8hpp_source.html">cif.hpp</a>.</p>
+
+</div>
+</div>
+<a id="adc5b988ff8b4128362a30b367624d7e6" name="adc5b988ff8b4128362a30b367624d7e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc5b988ff8b4128362a30b367624d7e6">&#9670;&nbsp;</a></span>check_syntax_any()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gemmi::cif::check_syntax_any </td>
+          <td>(</td>
+          <td class="paramtype">T &amp;&amp;&#160;</td>
+          <td class="paramname"><em>input</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string *&#160;</td>
+          <td class="paramname"><em>msg</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="cif_8hpp_source.html#l00339">339</a> of file <a class="el" href="cif_8hpp_source.html">cif.hpp</a>.</p>
+
+</div>
+</div>
+<a id="af99f51a1ba181b0ffd56a669a1d0686f" name="af99f51a1ba181b0ffd56a669a1d0686f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af99f51a1ba181b0ffd56a669a1d0686f">&#9670;&nbsp;</a></span>read_one_block()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t gemmi::cif::read_one_block </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> &amp;&#160;</td>
+          <td class="paramname"><em>d</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;&amp;&#160;</td>
+          <td class="paramname"><em>input</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>limit</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="cif_8hpp_source.html#l00349">349</a> of file <a class="el" href="cif_8hpp_source.html">cif.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ae94de270f749561556b3dfc7bae29a07" name="ae94de270f749561556b3dfc7bae29a07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae94de270f749561556b3dfc7bae29a07">&#9670;&nbsp;</a></span>char_table()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t gemmi::cif::char_table </td>
+          <td>(</td>
           <td class="paramtype">char&#160;</td>
-          <td class="paramname"><em>null</em>&#160;</td>
-        </tr>
-        <tr>
+          <td class="paramname"><em>c</em></td><td>)</td>
           <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -375,12 +784,12 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cifdoc_8hpp_source.html#l00118">118</a> of file <a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cifdoc_8hpp_source.html#l00045">45</a> of file <a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a8d8de92c8064794ea5b51173513b7fe1" name="a8d8de92c8064794ea5b51173513b7fe1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d8de92c8064794ea5b51173513b7fe1">&#9670;&nbsp;</a></span>as_any() <span class="overload">[2/4]</span></h2>
+<a id="a177ba38bf00d6a38d63bfaee0b2e3bcf" name="a177ba38bf00d6a38d63bfaee0b2e3bcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a177ba38bf00d6a38d63bfaee0b2e3bcf">&#9670;&nbsp;</a></span>assert_tag()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -389,21 +798,11 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double gemmi::cif::as_any </td>
+          <td class="memname">void gemmi::cif::assert_tag </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>s</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>tag</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>null</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -413,12 +812,12 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="numb_8hpp_source.html#l00052">52</a> of file <a class="el" href="numb_8hpp_source.html">numb.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cifdoc_8hpp_source.html#l00065">65</a> of file <a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ad4a63320703caa2c7537f618eb440573" name="ad4a63320703caa2c7537f618eb440573"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4a63320703caa2c7537f618eb440573">&#9670;&nbsp;</a></span>as_any() <span class="overload">[3/4]</span></h2>
+<a id="ab9ea00e63acd9bb7aa9312029341427a" name="ab9ea00e63acd9bb7aa9312029341427a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9ea00e63acd9bb7aa9312029341427a">&#9670;&nbsp;</a></span>ensure_mmcif_category()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -427,21 +826,11 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float gemmi::cif::as_any </td>
+          <td class="memname">void gemmi::cif::ensure_mmcif_category </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>s</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>cat</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>null</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -451,12 +840,12 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="numb_8hpp_source.html#l00049">49</a> of file <a class="el" href="numb_8hpp_source.html">numb.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cifdoc_8hpp_source.html#l00070">70</a> of file <a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a20b5c32fa619ae2bc2a351a9c06e5ed1" name="a20b5c32fa619ae2bc2a351a9c06e5ed1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20b5c32fa619ae2bc2a351a9c06e5ed1">&#9670;&nbsp;</a></span>as_any() <span class="overload">[4/4]</span></h2>
+<a id="a4812498831f81a091de7c5248ae2d09a" name="a4812498831f81a091de7c5248ae2d09a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4812498831f81a091de7c5248ae2d09a">&#9670;&nbsp;</a></span>is_null()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -465,21 +854,11 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int gemmi::cif::as_any </td>
+          <td class="memname">bool gemmi::cif::is_null </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>s</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>null</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -489,7 +868,63 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cifdoc_8hpp_source.html#l00117">117</a> of file <a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cifdoc_8hpp_source.html#l00077">77</a> of file <a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a2fa5c5b0c76f1cbae07b880a978b8c5b" name="a2fa5c5b0c76f1cbae07b880a978b8c5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fa5c5b0c76f1cbae07b880a978b8c5b">&#9670;&nbsp;</a></span>as_string() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string gemmi::cif::as_string </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="cifdoc_8hpp_source.html#l00081">81</a> of file <a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a741eb67cda0ba2b5a8110ce96718f69d" name="a741eb67cda0ba2b5a8110ce96718f69d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a741eb67cda0ba2b5a8110ce96718f69d">&#9670;&nbsp;</a></span>as_string() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string gemmi::cif::as_string </td>
+          <td>(</td>
+          <td class="paramtype">const std::string *&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="cifdoc_8hpp_source.html#l00093">93</a> of file <a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>.</p>
 
 </div>
 </div>
@@ -528,34 +963,6 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="cifdoc_8hpp_source.html#l00097">97</a> of file <a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a08f4ab3166941f615e692be4d552dfbb" name="a08f4ab3166941f615e692be4d552dfbb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08f4ab3166941f615e692be4d552dfbb">&#9670;&nbsp;</a></span>as_cif_value()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string gemmi::cif::as_cif_value </td>
-          <td>(</td>
-          <td class="paramtype">const sajson::value &amp;&#160;</td>
-          <td class="paramname"><em>val</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="json_8hpp_source.html#l00039">39</a> of file <a class="el" href="json_8hpp_source.html">json.hpp</a>.</p>
 
 </div>
 </div>
@@ -625,8 +1032,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a29cf3f2d1194a7f53dc598e56184c085" name="a29cf3f2d1194a7f53dc598e56184c085"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29cf3f2d1194a7f53dc598e56184c085">&#9670;&nbsp;</a></span>as_number()</h2>
+<a id="a20b5c32fa619ae2bc2a351a9c06e5ed1" name="a20b5c32fa619ae2bc2a351a9c06e5ed1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20b5c32fa619ae2bc2a351a9c06e5ed1">&#9670;&nbsp;</a></span>as_any() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -635,7 +1042,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double gemmi::cif::as_number </td>
+          <td class="memname">int gemmi::cif::as_any </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>s</em>, </td>
@@ -643,8 +1050,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>nan</em> = <code>NAN</code>&#160;</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>null</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -659,12 +1066,12 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="numb_8hpp_source.html#l00019">19</a> of file <a class="el" href="numb_8hpp_source.html">numb.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cifdoc_8hpp_source.html#l00117">117</a> of file <a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a2fa5c5b0c76f1cbae07b880a978b8c5b" name="a2fa5c5b0c76f1cbae07b880a978b8c5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fa5c5b0c76f1cbae07b880a978b8c5b">&#9670;&nbsp;</a></span>as_string() <span class="overload">[1/2]</span></h2>
+<a id="a57270553cefbeb2cf8a8029bd8787c45" name="a57270553cefbeb2cf8a8029bd8787c45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57270553cefbeb2cf8a8029bd8787c45">&#9670;&nbsp;</a></span>as_any() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -673,184 +1080,16 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string gemmi::cif::as_string </td>
+          <td class="memname">char gemmi::cif::as_any </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>value</em></td><td>)</td>
-          <td></td>
+          <td class="paramname"><em>s</em>, </td>
         </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="cifdoc_8hpp_source.html#l00081">81</a> of file <a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a741eb67cda0ba2b5a8110ce96718f69d" name="a741eb67cda0ba2b5a8110ce96718f69d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a741eb67cda0ba2b5a8110ce96718f69d">&#9670;&nbsp;</a></span>as_string() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
         <tr>
-          <td class="memname">std::string gemmi::cif::as_string </td>
-          <td>(</td>
-          <td class="paramtype">const std::string *&#160;</td>
-          <td class="paramname"><em>value</em></td><td>)</td>
+          <td class="paramkey"></td>
           <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="cifdoc_8hpp_source.html#l00093">93</a> of file <a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a177ba38bf00d6a38d63bfaee0b2e3bcf" name="a177ba38bf00d6a38d63bfaee0b2e3bcf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a177ba38bf00d6a38d63bfaee0b2e3bcf">&#9670;&nbsp;</a></span>assert_tag()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void gemmi::cif::assert_tag </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>tag</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="cifdoc_8hpp_source.html#l00065">65</a> of file <a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ae94de270f749561556b3dfc7bae29a07" name="ae94de270f749561556b3dfc7bae29a07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae94de270f749561556b3dfc7bae29a07">&#9670;&nbsp;</a></span>char_table()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t gemmi::cif::char_table </td>
-          <td>(</td>
           <td class="paramtype">char&#160;</td>
-          <td class="paramname"><em>c</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="cifdoc_8hpp_source.html#l00045">45</a> of file <a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>.</p>
-
-</div>
-</div>
-<a id="aa5c8835bd5a1ecc5f50c87b072d9e17f" name="aa5c8835bd5a1ecc5f50c87b072d9e17f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5c8835bd5a1ecc5f50c87b072d9e17f">&#9670;&nbsp;</a></span>check_for_duplicates()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void gemmi::cif::check_for_duplicates </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> &amp;&#160;</td>
-          <td class="paramname"><em>d</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="cifdoc_8hpp_source.html#l01054">1054</a> of file <a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a0c4b9a2b379489c8830e07efdc7d363e" name="a0c4b9a2b379489c8830e07efdc7d363e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c4b9a2b379489c8830e07efdc7d363e">&#9670;&nbsp;</a></span>check_for_missing_values()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void gemmi::cif::check_for_missing_values </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> &amp;&#160;</td>
-          <td class="paramname"><em>d</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="cifdoc_8hpp_source.html#l01048">1048</a> of file <a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a3eede62357cb085275d5101d8716afb1" name="a3eede62357cb085275d5101d8716afb1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3eede62357cb085275d5101d8716afb1">&#9670;&nbsp;</a></span>check_for_missing_values_in_block()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void gemmi::cif::check_for_missing_values_in_block </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1cif_1_1Block.html">Block</a> &amp;&#160;</td>
-          <td class="paramname"><em>block</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>source</em>&#160;</td>
+          <td class="paramname"><em>null</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -865,71 +1104,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cifdoc_8hpp_source.html#l01035">1035</a> of file <a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a877e6ffd848a8bedacbcd557c5624b18" name="a877e6ffd848a8bedacbcd557c5624b18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a877e6ffd848a8bedacbcd557c5624b18">&#9670;&nbsp;</a></span>check_syntax()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Input &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">bool gemmi::cif::check_syntax </td>
-          <td>(</td>
-          <td class="paramtype">Input &amp;&amp;&#160;</td>
-          <td class="paramname"><em>in</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string *&#160;</td>
-          <td class="paramname"><em>msg</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="cif_8hpp_source.html#l00317">317</a> of file <a class="el" href="cif_8hpp_source.html">cif.hpp</a>.</p>
-
-</div>
-</div>
-<a id="adc5b988ff8b4128362a30b367624d7e6" name="adc5b988ff8b4128362a30b367624d7e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc5b988ff8b4128362a30b367624d7e6">&#9670;&nbsp;</a></span>check_syntax_any()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">bool gemmi::cif::check_syntax_any </td>
-          <td>(</td>
-          <td class="paramtype">T &amp;&amp;&#160;</td>
-          <td class="paramname"><em>input</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string *&#160;</td>
-          <td class="paramname"><em>msg</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="cif_8hpp_source.html#l00339">339</a> of file <a class="el" href="cif_8hpp_source.html">cif.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cifdoc_8hpp_source.html#l00118">118</a> of file <a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>.</p>
 
 </div>
 </div>
@@ -983,8 +1158,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ab9ea00e63acd9bb7aa9312029341427a" name="ab9ea00e63acd9bb7aa9312029341427a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9ea00e63acd9bb7aa9312029341427a">&#9670;&nbsp;</a></span>ensure_mmcif_category()</h2>
+<a id="a3eede62357cb085275d5101d8716afb1" name="a3eede62357cb085275d5101d8716afb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3eede62357cb085275d5101d8716afb1">&#9670;&nbsp;</a></span>check_for_missing_values_in_block()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -993,10 +1168,48 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void gemmi::cif::ensure_mmcif_category </td>
+          <td class="memname">void gemmi::cif::check_for_missing_values_in_block </td>
           <td>(</td>
-          <td class="paramtype">std::string &amp;&#160;</td>
-          <td class="paramname"><em>cat</em></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1cif_1_1Block.html">Block</a> &amp;&#160;</td>
+          <td class="paramname"><em>block</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>source</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="cifdoc_8hpp_source.html#l01035">1035</a> of file <a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a0c4b9a2b379489c8830e07efdc7d363e" name="a0c4b9a2b379489c8830e07efdc7d363e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c4b9a2b379489c8830e07efdc7d363e">&#9670;&nbsp;</a></span>check_for_missing_values()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gemmi::cif::check_for_missing_values </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> &amp;&#160;</td>
+          <td class="paramname"><em>d</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1007,28 +1220,147 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cifdoc_8hpp_source.html#l00070">70</a> of file <a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cifdoc_8hpp_source.html#l01048">1048</a> of file <a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a66b6d262f94ac9d355108d4927099f25" name="a66b6d262f94ac9d355108d4927099f25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66b6d262f94ac9d355108d4927099f25">&#9670;&nbsp;</a></span>error_message()</h2>
+<a id="aa5c8835bd5a1ecc5f50c87b072d9e17f" name="aa5c8835bd5a1ecc5f50c87b072d9e17f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5c8835bd5a1ecc5f50c87b072d9e17f">&#9670;&nbsp;</a></span>check_for_duplicates()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename Rule &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::string &amp; gemmi::cif::error_message </td>
+          <td class="memname">void gemmi::cif::check_for_duplicates </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> &amp;&#160;</td>
+          <td class="paramname"><em>d</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cif_8hpp_source.html#l00153">153</a> of file <a class="el" href="cif_8hpp_source.html">cif.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cifdoc_8hpp_source.html#l01054">1054</a> of file <a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a5de50d7771e86f9f320aa48274b1c7da" name="a5de50d7771e86f9f320aa48274b1c7da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5de50d7771e86f9f320aa48274b1c7da">&#9670;&nbsp;</a></span>is_text_field()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gemmi::cif::is_text_field </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="cifdoc_8hpp_source.html#l01087">1087</a> of file <a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a49ff21e9d31f14246867656307117677" name="a49ff21e9d31f14246867656307117677"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49ff21e9d31f14246867656307117677">&#9670;&nbsp;</a></span>quote()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string gemmi::cif::quote </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="cifdoc_8hpp_source.html#l01092">1092</a> of file <a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a9f1d369d74a52b78570733fab5ea64d5" name="a9f1d369d74a52b78570733fab5ea64d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f1d369d74a52b78570733fab5ea64d5">&#9670;&nbsp;</a></span>json_type_as_string()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string gemmi::cif::json_type_as_string </td>
+          <td>(</td>
+          <td class="paramtype">sajson::type&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="json_8hpp_source.html#l00025">25</a> of file <a class="el" href="json_8hpp_source.html">json.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a08f4ab3166941f615e692be4d552dfbb" name="a08f4ab3166941f615e692be4d552dfbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08f4ab3166941f615e692be4d552dfbb">&#9670;&nbsp;</a></span>as_cif_value()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string gemmi::cif::as_cif_value </td>
+          <td>(</td>
+          <td class="paramtype">const sajson::value &amp;&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="json_8hpp_source.html#l00039">39</a> of file <a class="el" href="json_8hpp_source.html">json.hpp</a>.</p>
 
 </div>
 </div>
@@ -1067,464 +1399,6 @@ template&lt;typename Rule &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="json_8hpp_source.html#l00055">55</a> of file <a class="el" href="json_8hpp_source.html">json.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a4812498831f81a091de7c5248ae2d09a" name="a4812498831f81a091de7c5248ae2d09a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4812498831f81a091de7c5248ae2d09a">&#9670;&nbsp;</a></span>is_null()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool gemmi::cif::is_null </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>value</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="cifdoc_8hpp_source.html#l00077">77</a> of file <a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>.</p>
-
-</div>
-</div>
-<a id="adfb0bfaf1fa4f23b5b7e8774488395df" name="adfb0bfaf1fa4f23b5b7e8774488395df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfb0bfaf1fa4f23b5b7e8774488395df">&#9670;&nbsp;</a></span>is_numb()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool gemmi::cif::is_numb </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>s</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="numb_8hpp_source.html#l00043">43</a> of file <a class="el" href="numb_8hpp_source.html">numb.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a5de50d7771e86f9f320aa48274b1c7da" name="a5de50d7771e86f9f320aa48274b1c7da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5de50d7771e86f9f320aa48274b1c7da">&#9670;&nbsp;</a></span>is_text_field()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool gemmi::cif::is_text_field </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>val</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="cifdoc_8hpp_source.html#l01087">1087</a> of file <a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a9f1d369d74a52b78570733fab5ea64d5" name="a9f1d369d74a52b78570733fab5ea64d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f1d369d74a52b78570733fab5ea64d5">&#9670;&nbsp;</a></span>json_type_as_string()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string gemmi::cif::json_type_as_string </td>
-          <td>(</td>
-          <td class="paramtype">sajson::type&#160;</td>
-          <td class="paramname"><em>t</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="json_8hpp_source.html#l00025">25</a> of file <a class="el" href="json_8hpp_source.html">json.hpp</a>.</p>
-
-</div>
-</div>
-<a id="acce030a270794ffbb0c6def96869e048" name="acce030a270794ffbb0c6def96869e048"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acce030a270794ffbb0c6def96869e048">&#9670;&nbsp;</a></span>parse_input()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Input &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void gemmi::cif::parse_input </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> &amp;&#160;</td>
-          <td class="paramname"><em>d</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Input &amp;&amp;&#160;</td>
-          <td class="paramname"><em>in</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="cif_8hpp_source.html#l00253">253</a> of file <a class="el" href="cif_8hpp_source.html">cif.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a8139e37db35298adcfc2ce1c34ec0ee7" name="a8139e37db35298adcfc2ce1c34ec0ee7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8139e37db35298adcfc2ce1c34ec0ee7">&#9670;&nbsp;</a></span>parse_one_block()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Input &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t gemmi::cif::parse_one_block </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> &amp;&#160;</td>
-          <td class="paramname"><em>d</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Input &amp;&amp;&#160;</td>
-          <td class="paramname"><em>in</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="cif_8hpp_source.html#l00267">267</a> of file <a class="el" href="cif_8hpp_source.html">cif.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a49ff21e9d31f14246867656307117677" name="a49ff21e9d31f14246867656307117677"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49ff21e9d31f14246867656307117677">&#9670;&nbsp;</a></span>quote()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string gemmi::cif::quote </td>
-          <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>v</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="cifdoc_8hpp_source.html#l01092">1092</a> of file <a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ac32337ff148a7bfb16855d298484aefc" name="ac32337ff148a7bfb16855d298484aefc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac32337ff148a7bfb16855d298484aefc">&#9670;&nbsp;</a></span>read()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> gemmi::cif::read </td>
-          <td>(</td>
-          <td class="paramtype">T &amp;&amp;&#160;</td>
-          <td class="paramname"><em>input</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="cif_8hpp_source.html#l00330">330</a> of file <a class="el" href="cif_8hpp_source.html">cif.hpp</a>.</p>
-
-</div>
-</div>
-<a id="aa11024efa90fa186263a62d1acc39730" name="aa11024efa90fa186263a62d1acc39730"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa11024efa90fa186263a62d1acc39730">&#9670;&nbsp;</a></span>read_cstream()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> gemmi::cif::read_cstream </td>
-          <td>(</td>
-          <td class="paramtype">std::FILE *&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>bufsize</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>name</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="cif_8hpp_source.html#l00297">297</a> of file <a class="el" href="cif_8hpp_source.html">cif.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ae587583aeadd0982895962a214caac4a" name="ae587583aeadd0982895962a214caac4a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae587583aeadd0982895962a214caac4a">&#9670;&nbsp;</a></span>read_file()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> gemmi::cif::read_file </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>filename</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="cif_8hpp_source.html#l00282">282</a> of file <a class="el" href="cif_8hpp_source.html">cif.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a79954c0481bac298eb5f63a797a7f6e7" name="a79954c0481bac298eb5f63a797a7f6e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79954c0481bac298eb5f63a797a7f6e7">&#9670;&nbsp;</a></span>read_input()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Input &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> gemmi::cif::read_input </td>
-          <td>(</td>
-          <td class="paramtype">Input &amp;&amp;&#160;</td>
-          <td class="paramname"><em>in</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="cif_8hpp_source.html#l00257">257</a> of file <a class="el" href="cif_8hpp_source.html">cif.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a0f9ad245863e7b1fa83f7d0218e5dc89" name="a0f9ad245863e7b1fa83f7d0218e5dc89"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f9ad245863e7b1fa83f7d0218e5dc89">&#9670;&nbsp;</a></span>read_istream()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> gemmi::cif::read_istream </td>
-          <td>(</td>
-          <td class="paramtype">std::istream &amp;&#160;</td>
-          <td class="paramname"><em>is</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>bufsize</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>name</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="cif_8hpp_source.html#l00302">302</a> of file <a class="el" href="cif_8hpp_source.html">cif.hpp</a>.</p>
-
-</div>
-</div>
-<a id="afdad28608fccf717d3eecf402715c52d" name="afdad28608fccf717d3eecf402715c52d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afdad28608fccf717d3eecf402715c52d">&#9670;&nbsp;</a></span>read_memory()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> gemmi::cif::read_memory </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>size</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>name</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="cif_8hpp_source.html#l00292">292</a> of file <a class="el" href="cif_8hpp_source.html">cif.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a5d93cdcdd461424a7dfe1f5ab29c1ffd" name="a5d93cdcdd461424a7dfe1f5ab29c1ffd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d93cdcdd461424a7dfe1f5ab29c1ffd">&#9670;&nbsp;</a></span>read_mmjson()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> gemmi::cif::read_mmjson </td>
-          <td>(</td>
-          <td class="paramtype">T &amp;&amp;&#160;</td>
-          <td class="paramname"><em>input</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="json_8hpp_source.html#l00124">124</a> of file <a class="el" href="json_8hpp_source.html">json.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a5f1bdb13be6dc8ae3f024fa45208cf59" name="a5f1bdb13be6dc8ae3f024fa45208cf59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f1bdb13be6dc8ae3f024fa45208cf59">&#9670;&nbsp;</a></span>read_mmjson_file()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> gemmi::cif::read_mmjson_file </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>path</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="json_8hpp_source.html#l00118">118</a> of file <a class="el" href="json_8hpp_source.html">json.hpp</a>.</p>
 
 </div>
 </div>
@@ -1572,8 +1446,36 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="af99f51a1ba181b0ffd56a669a1d0686f" name="af99f51a1ba181b0ffd56a669a1d0686f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af99f51a1ba181b0ffd56a669a1d0686f">&#9670;&nbsp;</a></span>read_one_block()</h2>
+<a id="a5f1bdb13be6dc8ae3f024fa45208cf59" name="a5f1bdb13be6dc8ae3f024fa45208cf59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f1bdb13be6dc8ae3f024fa45208cf59">&#9670;&nbsp;</a></span>read_mmjson_file()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> gemmi::cif::read_mmjson_file </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="json_8hpp_source.html#l00118">118</a> of file <a class="el" href="json_8hpp_source.html">json.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a5d93cdcdd461424a7dfe1f5ab29c1ffd" name="a5d93cdcdd461424a7dfe1f5ab29c1ffd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d93cdcdd461424a7dfe1f5ab29c1ffd">&#9670;&nbsp;</a></span>read_mmjson()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1581,37 +1483,21 @@ template&lt;typename T &gt; </div>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">size_t gemmi::cif::read_one_block </td>
+          <td class="memname"><a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> gemmi::cif::read_mmjson </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> &amp;&#160;</td>
-          <td class="paramname"><em>d</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">T &amp;&amp;&#160;</td>
-          <td class="paramname"><em>input</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>input</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>limit</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cif_8hpp_source.html#l00349">349</a> of file <a class="el" href="cif_8hpp_source.html">cif.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="json_8hpp_source.html#l00124">124</a> of file <a class="el" href="json_8hpp_source.html">json.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a4179a4ea3174119a3188dd262802f9e2" name="a4179a4ea3174119a3188dd262802f9e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4179a4ea3174119a3188dd262802f9e2">&#9670;&nbsp;</a></span>read_string()</h2>
+<a id="a29cf3f2d1194a7f53dc598e56184c085" name="a29cf3f2d1194a7f53dc598e56184c085"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29cf3f2d1194a7f53dc598e56184c085">&#9670;&nbsp;</a></span>as_number()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1620,50 +1506,16 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> gemmi::cif::read_string </td>
+          <td class="memname">double gemmi::cif::as_number </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>data</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="cif_8hpp_source.html#l00287">287</a> of file <a class="el" href="cif_8hpp_source.html">cif.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a78df003782e03d8fe7b3a8d2cad93d96" name="a78df003782e03d8fe7b3a8d2cad93d96"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78df003782e03d8fe7b3a8d2cad93d96">&#9670;&nbsp;</a></span>write_cif_block_to_stream()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void gemmi::cif::write_cif_block_to_stream </td>
-          <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>os</em>, </td>
+          <td class="paramname"><em>s</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1cif_1_1Block.html">Block</a> &amp;&#160;</td>
-          <td class="paramname"><em>block</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespacegemmi_1_1cif.html#a6b54a1d9c56c313523815710d3d6ecc1">Style</a>&#160;</td>
-          <td class="paramname"><em>style</em> = <code><a class="el" href="namespacegemmi_1_1cif.html#a6b54a1d9c56c313523815710d3d6ecc1a1fbb1e3943c2c6c560247ac8f9289780">Style::Simple</a></code>&#160;</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>nan</em> = <code>NAN</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1678,12 +1530,12 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="to__cif_8hpp_source.html#l00137">137</a> of file <a class="el" href="to__cif_8hpp_source.html">to_cif.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="numb_8hpp_source.html#l00019">19</a> of file <a class="el" href="numb_8hpp_source.html">numb.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a03ad0d76a7271fe6718b99aa9aa204e2" name="a03ad0d76a7271fe6718b99aa9aa204e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03ad0d76a7271fe6718b99aa9aa204e2">&#9670;&nbsp;</a></span>write_cif_to_stream()</h2>
+<a id="adfb0bfaf1fa4f23b5b7e8774488395df" name="adfb0bfaf1fa4f23b5b7e8774488395df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfb0bfaf1fa4f23b5b7e8774488395df">&#9670;&nbsp;</a></span>is_numb()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1692,22 +1544,44 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void gemmi::cif::write_cif_to_stream </td>
+          <td class="memname">bool gemmi::cif::is_numb </td>
           <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>os</em>, </td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="numb_8hpp_source.html#l00043">43</a> of file <a class="el" href="numb_8hpp_source.html">numb.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ad4a63320703caa2c7537f618eb440573" name="ad4a63320703caa2c7537f618eb440573"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4a63320703caa2c7537f618eb440573">&#9670;&nbsp;</a></span>as_any() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float gemmi::cif::as_any </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> &amp;&#160;</td>
-          <td class="paramname"><em>doc</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespacegemmi_1_1cif.html#a6b54a1d9c56c313523815710d3d6ecc1">Style</a>&#160;</td>
-          <td class="paramname"><em>style</em> = <code><a class="el" href="namespacegemmi_1_1cif.html#a6b54a1d9c56c313523815710d3d6ecc1a1fbb1e3943c2c6c560247ac8f9289780">Style::Simple</a></code>&#160;</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>null</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1722,12 +1596,12 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="to__cif_8hpp_source.html#l00155">155</a> of file <a class="el" href="to__cif_8hpp_source.html">to_cif.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="numb_8hpp_source.html#l00049">49</a> of file <a class="el" href="numb_8hpp_source.html">numb.hpp</a>.</p>
 
 </div>
 </div>
-<a id="af4f8df3ff331c7dc99dc90fcc7e913f8" name="af4f8df3ff331c7dc99dc90fcc7e913f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4f8df3ff331c7dc99dc90fcc7e913f8">&#9670;&nbsp;</a></span>write_out_item()</h2>
+<a id="a8d8de92c8064794ea5b51173513b7fe1" name="a8d8de92c8064794ea5b51173513b7fe1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d8de92c8064794ea5b51173513b7fe1">&#9670;&nbsp;</a></span>as_any() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1736,22 +1610,16 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void gemmi::cif::write_out_item </td>
+          <td class="memname">double gemmi::cif::as_any </td>
           <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>os</em>, </td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1cif_1_1Item.html">Item</a> &amp;&#160;</td>
-          <td class="paramname"><em>item</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespacegemmi_1_1cif.html#a6b54a1d9c56c313523815710d3d6ecc1">Style</a>&#160;</td>
-          <td class="paramname"><em>style</em>&#160;</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>null</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1766,12 +1634,12 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="to__cif_8hpp_source.html#l00102">102</a> of file <a class="el" href="to__cif_8hpp_source.html">to_cif.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="numb_8hpp_source.html#l00052">52</a> of file <a class="el" href="numb_8hpp_source.html">numb.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a40e0f270c6f5942e7616b8db2465a703" name="a40e0f270c6f5942e7616b8db2465a703"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40e0f270c6f5942e7616b8db2465a703">&#9670;&nbsp;</a></span>write_out_loop()</h2>
+<a id="aec56095e502215b217d125ca9d270632" name="aec56095e502215b217d125ca9d270632"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec56095e502215b217d125ca9d270632">&#9670;&nbsp;</a></span>write_text_field()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1780,7 +1648,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void gemmi::cif::write_out_loop </td>
+          <td class="memname">void gemmi::cif::write_text_field </td>
           <td>(</td>
           <td class="paramtype">std::ostream &amp;&#160;</td>
           <td class="paramname"><em>os</em>, </td>
@@ -1788,14 +1656,8 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1cif_1_1Loop.html">Loop</a> &amp;&#160;</td>
-          <td class="paramname"><em>loop</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespacegemmi_1_1cif.html#a6b54a1d9c56c313523815710d3d6ecc1">Style</a>&#160;</td>
-          <td class="paramname"><em>style</em>&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1810,7 +1672,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="to__cif_8hpp_source.html#l00053">53</a> of file <a class="el" href="to__cif_8hpp_source.html">to_cif.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="to__cif_8hpp_source.html#l00027">27</a> of file <a class="el" href="to__cif_8hpp_source.html">to_cif.hpp</a>.</p>
 
 </div>
 </div>
@@ -1864,8 +1726,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="aec56095e502215b217d125ca9d270632" name="aec56095e502215b217d125ca9d270632"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec56095e502215b217d125ca9d270632">&#9670;&nbsp;</a></span>write_text_field()</h2>
+<a id="a40e0f270c6f5942e7616b8db2465a703" name="a40e0f270c6f5942e7616b8db2465a703"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40e0f270c6f5942e7616b8db2465a703">&#9670;&nbsp;</a></span>write_out_loop()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1874,7 +1736,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void gemmi::cif::write_text_field </td>
+          <td class="memname">void gemmi::cif::write_out_loop </td>
           <td>(</td>
           <td class="paramtype">std::ostream &amp;&#160;</td>
           <td class="paramname"><em>os</em>, </td>
@@ -1882,8 +1744,14 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1cif_1_1Loop.html">Loop</a> &amp;&#160;</td>
+          <td class="paramname"><em>loop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacegemmi_1_1cif.html#a6b54a1d9c56c313523815710d3d6ecc1">Style</a>&#160;</td>
+          <td class="paramname"><em>style</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1898,7 +1766,139 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="to__cif_8hpp_source.html#l00027">27</a> of file <a class="el" href="to__cif_8hpp_source.html">to_cif.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="to__cif_8hpp_source.html#l00053">53</a> of file <a class="el" href="to__cif_8hpp_source.html">to_cif.hpp</a>.</p>
+
+</div>
+</div>
+<a id="af4f8df3ff331c7dc99dc90fcc7e913f8" name="af4f8df3ff331c7dc99dc90fcc7e913f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4f8df3ff331c7dc99dc90fcc7e913f8">&#9670;&nbsp;</a></span>write_out_item()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gemmi::cif::write_out_item </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1cif_1_1Item.html">Item</a> &amp;&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacegemmi_1_1cif.html#a6b54a1d9c56c313523815710d3d6ecc1">Style</a>&#160;</td>
+          <td class="paramname"><em>style</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="to__cif_8hpp_source.html#l00106">106</a> of file <a class="el" href="to__cif_8hpp_source.html">to_cif.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a78df003782e03d8fe7b3a8d2cad93d96" name="a78df003782e03d8fe7b3a8d2cad93d96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78df003782e03d8fe7b3a8d2cad93d96">&#9670;&nbsp;</a></span>write_cif_block_to_stream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gemmi::cif::write_cif_block_to_stream </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1cif_1_1Block.html">Block</a> &amp;&#160;</td>
+          <td class="paramname"><em>block</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacegemmi_1_1cif.html#a6b54a1d9c56c313523815710d3d6ecc1">Style</a>&#160;</td>
+          <td class="paramname"><em>style</em> = <code><a class="el" href="namespacegemmi_1_1cif.html#a6b54a1d9c56c313523815710d3d6ecc1a1fbb1e3943c2c6c560247ac8f9289780">Style::Simple</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="to__cif_8hpp_source.html#l00141">141</a> of file <a class="el" href="to__cif_8hpp_source.html">to_cif.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a03ad0d76a7271fe6718b99aa9aa204e2" name="a03ad0d76a7271fe6718b99aa9aa204e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03ad0d76a7271fe6718b99aa9aa204e2">&#9670;&nbsp;</a></span>write_cif_to_stream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gemmi::cif::write_cif_to_stream </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> &amp;&#160;</td>
+          <td class="paramname"><em>doc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacegemmi_1_1cif.html#a6b54a1d9c56c313523815710d3d6ecc1">Style</a>&#160;</td>
+          <td class="paramname"><em>style</em> = <code><a class="el" href="namespacegemmi_1_1cif.html#a6b54a1d9c56c313523815710d3d6ecc1a1fbb1e3943c2c6c560247ac8f9289780">Style::Simple</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="to__cif_8hpp_source.html#l00159">159</a> of file <a class="el" href="to__cif_8hpp_source.html">to_cif.hpp</a>.</p>
 
 </div>
 </div>

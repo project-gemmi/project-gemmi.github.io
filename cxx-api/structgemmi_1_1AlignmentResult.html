@@ -116,8 +116,8 @@ Public Attributes</h2></td></tr>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="seqalign_8hpp_source.html#l00028">28</a> of file <a class="el" href="seqalign_8hpp_source.html">seqalign.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="aff6a6aeaeade31f976bbc4f0cac8f190" name="aff6a6aeaeade31f976bbc4f0cac8f190"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff6a6aeaeade31f976bbc4f0cac8f190">&#9670;&nbsp;</a></span>add_gaps()</h2>
+<a id="a675abd335382daef0ba0bf0f745b19ac" name="a675abd335382daef0ba0bf0f745b19ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a675abd335382daef0ba0bf0f745b19ac">&#9670;&nbsp;</a></span>cigar_str()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -126,21 +126,10 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string gemmi::AlignmentResult::add_gaps </td>
+          <td class="memname">std::string gemmi::AlignmentResult::cigar_str </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>s</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned&#160;</td>
-          <td class="paramname"><em>which</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -150,7 +139,63 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="seqalign_8hpp_source.html#l00117">117</a> of file <a class="el" href="seqalign_8hpp_source.html">seqalign.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="seqalign_8hpp_source.html#l00039">39</a> of file <a class="el" href="seqalign_8hpp_source.html">seqalign.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aac3d5ae52c101deb6a4c03db45f0c968" name="aac3d5ae52c101deb6a4c03db45f0c968"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac3d5ae52c101deb6a4c03db45f0c968">&#9670;&nbsp;</a></span>input_length()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t gemmi::AlignmentResult::input_length </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>which</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="seqalign_8hpp_source.html#l00049">49</a> of file <a class="el" href="seqalign_8hpp_source.html">seqalign.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a1ab3f6173b60ad6b485c733974976882" name="a1ab3f6173b60ad6b485c733974976882"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ab3f6173b60ad6b485c733974976882">&#9670;&nbsp;</a></span>calculate_identity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double gemmi::AlignmentResult::calculate_identity </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>which</em> = <code>0</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="seqalign_8hpp_source.html#l00057">57</a> of file <a class="el" href="seqalign_8hpp_source.html">seqalign.hpp</a>.</p>
 
 </div>
 </div>
@@ -198,61 +243,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a1ab3f6173b60ad6b485c733974976882" name="a1ab3f6173b60ad6b485c733974976882"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ab3f6173b60ad6b485c733974976882">&#9670;&nbsp;</a></span>calculate_identity()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double gemmi::AlignmentResult::calculate_identity </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>which</em> = <code>0</code></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="seqalign_8hpp_source.html#l00057">57</a> of file <a class="el" href="seqalign_8hpp_source.html">seqalign.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a675abd335382daef0ba0bf0f745b19ac" name="a675abd335382daef0ba0bf0f745b19ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a675abd335382daef0ba0bf0f745b19ac">&#9670;&nbsp;</a></span>cigar_str()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string gemmi::AlignmentResult::cigar_str </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="seqalign_8hpp_source.html#l00039">39</a> of file <a class="el" href="seqalign_8hpp_source.html">seqalign.hpp</a>.</p>
-
-</div>
-</div>
 <a id="a28bb326f825c3d02b48d7bcd52c765e3" name="a28bb326f825c3d02b48d7bcd52c765e3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a28bb326f825c3d02b48d7bcd52c765e3">&#9670;&nbsp;</a></span>count_matches()</h2>
 
@@ -291,6 +281,44 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aff6a6aeaeade31f976bbc4f0cac8f190" name="aff6a6aeaeade31f976bbc4f0cac8f190"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff6a6aeaeade31f976bbc4f0cac8f190">&#9670;&nbsp;</a></span>add_gaps()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string gemmi::AlignmentResult::add_gaps </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>which</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="seqalign_8hpp_source.html#l00117">117</a> of file <a class="el" href="seqalign_8hpp_source.html">seqalign.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a1ed4467d671c0af0fee0c7066718d296" name="a1ed4467d671c0af0fee0c7066718d296"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1ed4467d671c0af0fee0c7066718d296">&#9670;&nbsp;</a></span>formatted()</h2>
 
@@ -326,34 +354,6 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="seqalign_8hpp_source.html#l00128">128</a> of file <a class="el" href="seqalign_8hpp_source.html">seqalign.hpp</a>.</p>
-
-</div>
-</div>
-<a id="aac3d5ae52c101deb6a4c03db45f0c968" name="aac3d5ae52c101deb6a4c03db45f0c968"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac3d5ae52c101deb6a4c03db45f0c968">&#9670;&nbsp;</a></span>input_length()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t gemmi::AlignmentResult::input_length </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>which</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="seqalign_8hpp_source.html#l00049">49</a> of file <a class="el" href="seqalign_8hpp_source.html">seqalign.hpp</a>.</p>
 
 </div>
 </div>
@@ -396,19 +396,19 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="aae1b5d626d3224d9f18d4236e1aa5b40" name="aae1b5d626d3224d9f18d4236e1aa5b40"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae1b5d626d3224d9f18d4236e1aa5b40">&#9670;&nbsp;</a></span>cigar</h2>
+<a id="afcef463ba6510ad683bdf438bc547537" name="afcef463ba6510ad683bdf438bc547537"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcef463ba6510ad683bdf438bc547537">&#9670;&nbsp;</a></span>score</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="structgemmi_1_1AlignmentResult_1_1Item.html">Item</a>&gt; gemmi::AlignmentResult::cigar</td>
+          <td class="memname">int gemmi::AlignmentResult::score = 0</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="seqalign_8hpp_source.html#l00037">37</a> of file <a class="el" href="seqalign_8hpp_source.html">seqalign.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="seqalign_8hpp_source.html#l00034">34</a> of file <a class="el" href="seqalign_8hpp_source.html">seqalign.hpp</a>.</p>
 
 </div>
 </div>
@@ -444,19 +444,19 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="afcef463ba6510ad683bdf438bc547537" name="afcef463ba6510ad683bdf438bc547537"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afcef463ba6510ad683bdf438bc547537">&#9670;&nbsp;</a></span>score</h2>
+<a id="aae1b5d626d3224d9f18d4236e1aa5b40" name="aae1b5d626d3224d9f18d4236e1aa5b40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae1b5d626d3224d9f18d4236e1aa5b40">&#9670;&nbsp;</a></span>cigar</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int gemmi::AlignmentResult::score = 0</td>
+          <td class="memname">std::vector&lt;<a class="el" href="structgemmi_1_1AlignmentResult_1_1Item.html">Item</a>&gt; gemmi::AlignmentResult::cigar</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="seqalign_8hpp_source.html#l00034">34</a> of file <a class="el" href="seqalign_8hpp_source.html">seqalign.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="seqalign_8hpp_source.html#l00037">37</a> of file <a class="el" href="seqalign_8hpp_source.html">seqalign.hpp</a>.</p>
 
 </div>
 </div>

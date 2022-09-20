@@ -88,14 +88,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab7845fcf7bfb630b2cfdd9a5023c39e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1Ccp4.html#ab7845fcf7bfb630b2cfdd9a5023c39e1">prepare_ccp4_header_except_mode_and_stats</a> ()</td></tr>
 <tr class="separator:ab7845fcf7bfb630b2cfdd9a5023c39e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05fe1df4bbca782e3de5b23447910d84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1Ccp4.html#a05fe1df4bbca782e3de5b23447910d84">update_ccp4_header</a> (int mode=-1, bool update_stats=true)</td></tr>
+<tr class="memdesc:a05fe1df4bbca782e3de5b23447910d84"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the header is empty, prepare it; otherwise, update only MODE and, if update_stats==true, also DMIN, DMAX, DMEAN and RMS.  <a href="structgemmi_1_1Ccp4.html#a05fe1df4bbca782e3de5b23447910d84">More...</a><br /></td></tr>
 <tr class="separator:a05fe1df4bbca782e3de5b23447910d84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbe9e947743d3a7363c346a561eae18e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1Ccp4.html#abbe9e947743d3a7363c346a561eae18e">full_cell</a> () const</td></tr>
 <tr class="separator:abbe9e947743d3a7363c346a561eae18e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ababc9dda8aed3c6084b0156eec5d7974"><td class="memTemplParams" colspan="2">template&lt;typename Stream &gt; </td></tr>
 <tr class="memitem:ababc9dda8aed3c6084b0156eec5d7974"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structgemmi_1_1Ccp4.html#ababc9dda8aed3c6084b0156eec5d7974">read_ccp4_header</a> (Stream &amp;f, const std::string &amp;path)</td></tr>
 <tr class="separator:ababc9dda8aed3c6084b0156eec5d7974"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9e42463e37e54998f29900f0e3c5780"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1Ccp4.html#af9e42463e37e54998f29900f0e3c5780">setup</a> (T default_value, <a class="el" href="namespacegemmi.html#a5c0fdfcebc62ef44f47c958eb0d996ff">MapSetup</a> mode=<a class="el" href="namespacegemmi.html#a5c0fdfcebc62ef44f47c958eb0d996ffabbd47109890259c0127154db1af26c75">MapSetup::Full</a>)</td></tr>
-<tr class="separator:af9e42463e37e54998f29900f0e3c5780"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5805723761b625db1c9b775e279e1067"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1Ccp4.html#a5805723761b625db1c9b775e279e1067">setup</a> (T default_value, <a class="el" href="namespacegemmi.html#a5c0fdfcebc62ef44f47c958eb0d996ff">MapSetup</a> mode=<a class="el" href="namespacegemmi.html#a5c0fdfcebc62ef44f47c958eb0d996ffabbd47109890259c0127154db1af26c75">MapSetup::Full</a>)</td></tr>
+<tr class="separator:a5805723761b625db1c9b775e279e1067"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7f2d7f3f25c24998aea881461f92462"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1Ccp4.html#ab7f2d7f3f25c24998aea881461f92462">set_extent</a> (const <a class="el" href="structgemmi_1_1Box.html">Box</a>&lt; <a class="el" href="structgemmi_1_1Fractional.html">Fractional</a> &gt; &amp;box)</td></tr>
 <tr class="separator:ab7f2d7f3f25c24998aea881461f92462"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae709ff83cb0f5a73f81ac580d8b3462e"><td class="memTemplParams" colspan="2">template&lt;typename Stream &gt; </td></tr>
@@ -164,64 +165,6 @@ Public Attributes</h2></td></tr>
 struct gemmi::Ccp4&lt; T &gt;</div>
 <p class="definition">Definition at line <a class="el" href="ccp4_8hpp_source.html#l00138">138</a> of file <a class="el" href="ccp4_8hpp_source.html">ccp4.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="abbe9e947743d3a7363c346a561eae18e" name="abbe9e947743d3a7363c346a561eae18e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abbe9e947743d3a7363c346a561eae18e">&#9670;&nbsp;</a></span>full_cell()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T  = float&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="structgemmi_1_1Ccp4.html">gemmi::Ccp4</a>&lt; T &gt;::full_cell </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="ccp4_8hpp_source.html#l00217">217</a> of file <a class="el" href="ccp4_8hpp_source.html">ccp4.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a65eaa3d43d10bc829d982020a9a406ec" name="a65eaa3d43d10bc829d982020a9a406ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65eaa3d43d10bc829d982020a9a406ec">&#9670;&nbsp;</a></span>mode_for_data()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T  = float&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static int <a class="el" href="structgemmi_1_1Ccp4.html">gemmi::Ccp4</a>&lt; T &gt;::mode_for_data </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="ccp4_8hpp_source.html#l00205">205</a> of file <a class="el" href="ccp4_8hpp_source.html">ccp4.hpp</a>.</p>
-
-</div>
-</div>
 <a id="ab7845fcf7bfb630b2cfdd9a5023c39e1" name="ab7845fcf7bfb630b2cfdd9a5023c39e1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab7845fcf7bfb630b2cfdd9a5023c39e1">&#9670;&nbsp;</a></span>prepare_ccp4_header_except_mode_and_stats()</h2>
 
@@ -251,25 +194,33 @@ template&lt;typename T  = float&gt; </div>
 
 </div>
 </div>
-<a id="ad68d62f90c7a6913cb4657e6ceb5415e" name="ad68d62f90c7a6913cb4657e6ceb5415e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad68d62f90c7a6913cb4657e6ceb5415e">&#9670;&nbsp;</a></span>read_ccp4()</h2>
+<a id="a05fe1df4bbca782e3de5b23447910d84" name="a05fe1df4bbca782e3de5b23447910d84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05fe1df4bbca782e3de5b23447910d84">&#9670;&nbsp;</a></span>update_ccp4_header()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T  = float&gt; </div>
-<div class="memtemplate">
-template&lt;typename Input &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="structgemmi_1_1Ccp4.html">gemmi::Ccp4</a>&lt; T &gt;::read_ccp4 </td>
+          <td class="memname">void <a class="el" href="structgemmi_1_1Ccp4.html">gemmi::Ccp4</a>&lt; T &gt;::update_ccp4_header </td>
           <td>(</td>
-          <td class="paramtype">Input &amp;&amp;&#160;</td>
-          <td class="paramname"><em>input</em></td><td>)</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mode</em> = <code>-1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>update_stats</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -279,7 +230,197 @@ template&lt;typename Input &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ccp4_8hpp_source.html#l00290">290</a> of file <a class="el" href="ccp4_8hpp_source.html">ccp4.hpp</a>.</p>
+<p>If the header is empty, prepare it; otherwise, update only MODE and, if update_stats==true, also DMIN, DMAX, DMEAN and RMS. </p>
+
+<p class="definition">Definition at line <a class="el" href="ccp4_8hpp_source.html#l00182">182</a> of file <a class="el" href="ccp4_8hpp_source.html">ccp4.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a65eaa3d43d10bc829d982020a9a406ec" name="a65eaa3d43d10bc829d982020a9a406ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65eaa3d43d10bc829d982020a9a406ec">&#9670;&nbsp;</a></span>mode_for_data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T  = float&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int <a class="el" href="structgemmi_1_1Ccp4.html">gemmi::Ccp4</a>&lt; T &gt;::mode_for_data </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ccp4_8hpp_source.html#l00207">207</a> of file <a class="el" href="ccp4_8hpp_source.html">ccp4.hpp</a>.</p>
+
+</div>
+</div>
+<a id="abbe9e947743d3a7363c346a561eae18e" name="abbe9e947743d3a7363c346a561eae18e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbe9e947743d3a7363c346a561eae18e">&#9670;&nbsp;</a></span>full_cell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T  = float&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="structgemmi_1_1Ccp4.html">gemmi::Ccp4</a>&lt; T &gt;::full_cell </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ccp4_8hpp_source.html#l00219">219</a> of file <a class="el" href="ccp4_8hpp_source.html">ccp4.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ababc9dda8aed3c6084b0156eec5d7974" name="ababc9dda8aed3c6084b0156eec5d7974"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ababc9dda8aed3c6084b0156eec5d7974">&#9670;&nbsp;</a></span>read_ccp4_header()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T  = float&gt; </div>
+<div class="memtemplate">
+template&lt;typename Stream &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="structgemmi_1_1Ccp4.html">gemmi::Ccp4</a>&lt; T &gt;::read_ccp4_header </td>
+          <td>(</td>
+          <td class="paramtype">Stream &amp;&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ccp4_8hpp_source.html#l00232">232</a> of file <a class="el" href="ccp4_8hpp_source.html">ccp4.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a5805723761b625db1c9b775e279e1067" name="a5805723761b625db1c9b775e279e1067"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5805723761b625db1c9b775e279e1067">&#9670;&nbsp;</a></span>setup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="structgemmi_1_1Ccp4.html">gemmi::Ccp4</a>&lt; T &gt;::setup </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>default_value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacegemmi.html#a5c0fdfcebc62ef44f47c958eb0d996ff">MapSetup</a>&#160;</td>
+          <td class="paramname"><em>mode</em> = <code><a class="el" href="namespacegemmi.html#a5c0fdfcebc62ef44f47c958eb0d996ffabbd47109890259c0127154db1af26c75">MapSetup::Full</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ccp4_8hpp_source.html#l00385">385</a> of file <a class="el" href="ccp4_8hpp_source.html">ccp4.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ab7f2d7f3f25c24998aea881461f92462" name="ab7f2d7f3f25c24998aea881461f92462"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7f2d7f3f25c24998aea881461f92462">&#9670;&nbsp;</a></span>set_extent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="structgemmi_1_1Ccp4.html">gemmi::Ccp4</a>&lt; T &gt;::set_extent </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1Box.html">Box</a>&lt; <a class="el" href="structgemmi_1_1Fractional.html">Fractional</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>box</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ccp4_8hpp_source.html#l00441">441</a> of file <a class="el" href="ccp4_8hpp_source.html">ccp4.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ae709ff83cb0f5a73f81ac580d8b3462e" name="ae709ff83cb0f5a73f81ac580d8b3462e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae709ff83cb0f5a73f81ac580d8b3462e">&#9670;&nbsp;</a></span>read_ccp4_stream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<div class="memtemplate">
+template&lt;typename Stream &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="structgemmi_1_1Ccp4.html">gemmi::Ccp4</a>&lt; T &gt;::read_ccp4_stream </td>
+          <td>(</td>
+          <td class="paramtype">Stream&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ccp4_8hpp_source.html#l00356">356</a> of file <a class="el" href="ccp4_8hpp_source.html">ccp4.hpp</a>.</p>
 
 </div>
 </div>
@@ -309,7 +450,7 @@ template&lt;typename T  = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ccp4_8hpp_source.html#l00279">279</a> of file <a class="el" href="ccp4_8hpp_source.html">ccp4.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccp4_8hpp_source.html#l00281">281</a> of file <a class="el" href="ccp4_8hpp_source.html">ccp4.hpp</a>.</p>
 
 </div>
 </div>
@@ -355,39 +496,29 @@ template&lt;typename T  = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ccp4_8hpp_source.html#l00284">284</a> of file <a class="el" href="ccp4_8hpp_source.html">ccp4.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccp4_8hpp_source.html#l00286">286</a> of file <a class="el" href="ccp4_8hpp_source.html">ccp4.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ababc9dda8aed3c6084b0156eec5d7974" name="ababc9dda8aed3c6084b0156eec5d7974"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ababc9dda8aed3c6084b0156eec5d7974">&#9670;&nbsp;</a></span>read_ccp4_header()</h2>
+<a id="ad68d62f90c7a6913cb4657e6ceb5415e" name="ad68d62f90c7a6913cb4657e6ceb5415e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad68d62f90c7a6913cb4657e6ceb5415e">&#9670;&nbsp;</a></span>read_ccp4()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T  = float&gt; </div>
 <div class="memtemplate">
-template&lt;typename Stream &gt; </div>
+template&lt;typename Input &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="structgemmi_1_1Ccp4.html">gemmi::Ccp4</a>&lt; T &gt;::read_ccp4_header </td>
+          <td class="memname">void <a class="el" href="structgemmi_1_1Ccp4.html">gemmi::Ccp4</a>&lt; T &gt;::read_ccp4 </td>
           <td>(</td>
-          <td class="paramtype">Stream &amp;&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">Input &amp;&amp;&#160;</td>
+          <td class="paramname"><em>input</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>path</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -397,135 +528,7 @@ template&lt;typename Stream &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ccp4_8hpp_source.html#l00230">230</a> of file <a class="el" href="ccp4_8hpp_source.html">ccp4.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ae709ff83cb0f5a73f81ac580d8b3462e" name="ae709ff83cb0f5a73f81ac580d8b3462e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae709ff83cb0f5a73f81ac580d8b3462e">&#9670;&nbsp;</a></span>read_ccp4_stream()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<div class="memtemplate">
-template&lt;typename Stream &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="structgemmi_1_1Ccp4.html">gemmi::Ccp4</a>&lt; T &gt;::read_ccp4_stream </td>
-          <td>(</td>
-          <td class="paramtype">Stream&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>path</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="ccp4_8hpp_source.html#l00354">354</a> of file <a class="el" href="ccp4_8hpp_source.html">ccp4.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ab7f2d7f3f25c24998aea881461f92462" name="ab7f2d7f3f25c24998aea881461f92462"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7f2d7f3f25c24998aea881461f92462">&#9670;&nbsp;</a></span>set_extent()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="structgemmi_1_1Ccp4.html">gemmi::Ccp4</a>&lt; T &gt;::set_extent </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1Box.html">Box</a>&lt; <a class="el" href="structgemmi_1_1Fractional.html">Fractional</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>box</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="ccp4_8hpp_source.html#l00449">449</a> of file <a class="el" href="ccp4_8hpp_source.html">ccp4.hpp</a>.</p>
-
-</div>
-</div>
-<a id="af9e42463e37e54998f29900f0e3c5780" name="af9e42463e37e54998f29900f0e3c5780"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9e42463e37e54998f29900f0e3c5780">&#9670;&nbsp;</a></span>setup()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">double <a class="el" href="structgemmi_1_1Ccp4.html">gemmi::Ccp4</a>&lt; T &gt;::setup </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>default_value</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespacegemmi.html#a5c0fdfcebc62ef44f47c958eb0d996ff">MapSetup</a>&#160;</td>
-          <td class="paramname"><em>mode</em> = <code><a class="el" href="namespacegemmi.html#a5c0fdfcebc62ef44f47c958eb0d996ffabbd47109890259c0127154db1af26c75">MapSetup::Full</a></code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="ccp4_8hpp_source.html#l00383">383</a> of file <a class="el" href="ccp4_8hpp_source.html">ccp4.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a05fe1df4bbca782e3de5b23447910d84" name="a05fe1df4bbca782e3de5b23447910d84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05fe1df4bbca782e3de5b23447910d84">&#9670;&nbsp;</a></span>update_ccp4_header()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T  = float&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="structgemmi_1_1Ccp4.html">gemmi::Ccp4</a>&lt; T &gt;::update_ccp4_header </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>mode</em> = <code>-1</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>update_stats</em> = <code>true</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="ccp4_8hpp_source.html#l00180">180</a> of file <a class="el" href="ccp4_8hpp_source.html">ccp4.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccp4_8hpp_source.html#l00292">292</a> of file <a class="el" href="ccp4_8hpp_source.html">ccp4.hpp</a>.</p>
 
 </div>
 </div>
@@ -547,7 +550,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ccp4_8hpp_source.html#l00477">477</a> of file <a class="el" href="ccp4_8hpp_source.html">ccp4.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccp4_8hpp_source.html#l00469">469</a> of file <a class="el" href="ccp4_8hpp_source.html">ccp4.hpp</a>.</p>
 
 </div>
 </div>

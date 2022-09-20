@@ -93,14 +93,18 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridOp.html">gemmi::GridOp</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridMeta.html">gemmi::GridMeta</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The base of <a class="el" href="structgemmi_1_1Grid.html" title="Real-space grid.">Grid</a> classes that does not depend on stored data type.  <a href="structgemmi_1_1GridMeta.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridBase.html">gemmi::GridBase&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A common subset of <a class="el" href="structgemmi_1_1Grid.html" title="Real-space grid.">Grid</a> and <a class="el" href="structgemmi_1_1ReciprocalGrid.html">ReciprocalGrid</a>.  <a href="structgemmi_1_1GridBase.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridBase_1_1Point.html">gemmi::GridBase&lt; T &gt;::Point</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">grid coordinates (modulo size) and a pointer to value  <a href="structgemmi_1_1GridBase_1_1Point.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridBase_1_1iterator.html">gemmi::GridBase&lt; T &gt;::iterator</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1Grid.html">gemmi::Grid&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Real-space grid.  <a href="structgemmi_1_1Grid.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -114,6 +118,7 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespacegemmi.html#a08c1cf2e7f12b5ebcea7e4cba808d1f7ae65075d550f9b5bf9992fa1d71a131be">gemmi::XYZ</a>
 , <a class="el" href="namespacegemmi.html#a08c1cf2e7f12b5ebcea7e4cba808d1f7a6811254e01b3550bdb2dc46f204730dc">gemmi::ZYX</a>
  }</td></tr>
+<tr class="memdesc:a08c1cf2e7f12b5ebcea7e4cba808d1f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Order of grid axis.  <a href="namespacegemmi.html#a08c1cf2e7f12b5ebcea7e4cba808d1f7">More...</a><br /></td></tr>
 <tr class="separator:a08c1cf2e7f12b5ebcea7e4cba808d1f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -127,15 +132,14 @@ Functions</h2></td></tr>
 <tr class="memitem:abbeb24d9b1071586d25d3180d22f431c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#abbeb24d9b1071586d25d3180d22f431c">gemmi::check_grid_factors</a> (const SpaceGroup *sg, std::array&lt; int, 3 &gt; size)</td></tr>
 <tr class="separator:abbeb24d9b1071586d25d3180d22f431c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93bbd73ca2148681a410e899d68abb74"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a93bbd73ca2148681a410e899d68abb74">gemmi::cubic_interpolation</a> (double u, double a, double b, double c, double d)</td></tr>
+<tr class="memdesc:a93bbd73ca2148681a410e899d68abb74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Catmull–Rom spline interpolation.  <a href="namespacegemmi.html#a93bbd73ca2148681a410e899d68abb74">More...</a><br /></td></tr>
 <tr class="separator:a93bbd73ca2148681a410e899d68abb74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13e43b070e78229f8c83795ecc0a9b10"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a13e43b070e78229f8c83795ecc0a9b10">gemmi::cubic_interpolation_der</a> (double u, double a, double b, double c, double d)</td></tr>
+<tr class="memdesc:a13e43b070e78229f8c83795ecc0a9b10"><td class="mdescLeft">&#160;</td><td class="mdescRight">df/du (from Wolfram Alpha)  <a href="namespacegemmi.html#a13e43b070e78229f8c83795ecc0a9b10">More...</a><br /></td></tr>
 <tr class="separator:a13e43b070e78229f8c83795ecc0a9b10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add2aad19ac08d5dae57a9a87adeea1ea"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:add2aad19ac08d5dae57a9a87adeea1ea"><td class="memTemplItemLeft" align="right" valign="top">Correlation&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#add2aad19ac08d5dae57a9a87adeea1ea">gemmi::calculate_correlation</a> (const GridBase&lt; T &gt; &amp;a, const GridBase&lt; T &gt; &amp;b)</td></tr>
 <tr class="separator:add2aad19ac08d5dae57a9a87adeea1ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a089c7555d3ffa78cd4997b93c6d4ca53"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a089c7555d3ffa78cd4997b93c6d4ca53"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a089c7555d3ffa78cd4997b93c6d4ca53">gemmi::normalize_grid</a> (Grid&lt; T &gt; &amp;grid)</td></tr>
-<tr class="separator:a089c7555d3ffa78cd4997b93c6d4ca53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

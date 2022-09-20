@@ -43,7 +43,7 @@ var searchData=
   ['read_5fmmjson_5ffile_40',['read_mmjson_file',['../namespacegemmi_1_1cif.html#a5f1bdb13be6dc8ae3f024fa45208cf59',1,'gemmi::cif']]],
   ['read_5fmmjson_5fgz_41',['read_mmjson_gz',['../namespacegemmi.html#afcdfc84b059d75b9146fd588babe719b',1,'gemmi']]],
   ['read_5fmmjson_5finsitu_42',['read_mmjson_insitu',['../namespacegemmi_1_1cif.html#a4dc7f7ce7c5ec81c1543ca651d95c675',1,'gemmi::cif']]],
-  ['read_5fmonomer_5fcif_43',['read_monomer_cif',['../structgemmi_1_1MonLib.html#a37fcd8dbd5ecdf52717c8733b9bb7fe7',1,'gemmi::MonLib']]],
+  ['read_5fmonomer_5fcif_43',['read_monomer_cif',['../structgemmi_1_1MonLib.html#a5aa074fc964f6c7767c2906fe55d7425',1,'gemmi::MonLib']]],
   ['read_5fmonomer_5flib_44',['read_monomer_lib',['../namespacegemmi.html#acefd502dafd363004974f9b860da6cb3',1,'gemmi']]],
   ['read_5fmtz_45',['read_mtz',['../structgemmi_1_1Intensities.html#aa971ef199793408fdaeff16c104f7fd9',1,'gemmi::Intensities::read_mtz()'],['../namespacegemmi.html#aeb0aa3a033898563668f06e8224d9271',1,'gemmi::read_mtz(Input &amp;&amp;input, bool with_data)']]],
   ['read_5fmtz_5ffile_46',['read_mtz_file',['../namespacegemmi.html#a9a3edbfe356049caee6172816ae337fc',1,'gemmi']]],

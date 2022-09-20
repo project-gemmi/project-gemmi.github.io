@@ -112,8 +112,8 @@ Public Attributes</h2></td></tr>
 struct gemmi::FloodFill&lt; T, Land &gt;</div>
 <p class="definition">Definition at line <a class="el" href="floodfill_8hpp_source.html#l00015">15</a> of file <a class="el" href="floodfill_8hpp_source.html">floodfill.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a1a796732072ad06cc5006b8cfb9ba71d" name="a1a796732072ad06cc5006b8cfb9ba71d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a796732072ad06cc5006b8cfb9ba71d">&#9670;&nbsp;</a></span>find_all_connected_points()</h2>
+<a id="aa1299f17d68c093f70b04f8c6a0c7293" name="aa1299f17d68c093f70b04f8c6a0c7293"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1299f17d68c093f70b04f8c6a0c7293">&#9670;&nbsp;</a></span>this_island()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -124,69 +124,20 @@ template&lt;typename T , int Land&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structgemmi_1_1FloodFill_1_1Result.html">Result</a> <a class="el" href="structgemmi_1_1FloodFill.html">gemmi::FloodFill</a>&lt; T, Land &gt;::find_all_connected_points </td>
+          <td class="memname">static constexpr T <a class="el" href="structgemmi_1_1FloodFill.html">gemmi::FloodFill</a>&lt; T, Land &gt;::this_island </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>u</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>v</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>w</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="floodfill_8hpp_source.html#l00053">53</a> of file <a class="el" href="floodfill_8hpp_source.html">floodfill.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a0178dc2c48a17fb95f9b071f13e3eb71" name="a0178dc2c48a17fb95f9b071f13e3eb71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0178dc2c48a17fb95f9b071f13e3eb71">&#9670;&nbsp;</a></span>for_each_islands()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , int Land&gt; </div>
-<div class="memtemplate">
-template&lt;typename Func &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="structgemmi_1_1FloodFill.html">gemmi::FloodFill</a>&lt; T, Land &gt;::for_each_islands </td>
-          <td>(</td>
-          <td class="paramtype">Func&#160;</td>
-          <td class="paramname"><em>func</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="floodfill_8hpp_source.html#l00082">82</a> of file <a class="el" href="floodfill_8hpp_source.html">floodfill.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="floodfill_8hpp_source.html#l00034">34</a> of file <a class="el" href="floodfill_8hpp_source.html">floodfill.hpp</a>.</p>
 
 </div>
 </div>
@@ -270,8 +221,8 @@ template&lt;typename T , int Land&gt; </div>
 
 </div>
 </div>
-<a id="aa1299f17d68c093f70b04f8c6a0c7293" name="aa1299f17d68c093f70b04f8c6a0c7293"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1299f17d68c093f70b04f8c6a0c7293">&#9670;&nbsp;</a></span>this_island()</h2>
+<a id="a1a796732072ad06cc5006b8cfb9ba71d" name="a1a796732072ad06cc5006b8cfb9ba71d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a796732072ad06cc5006b8cfb9ba71d">&#9670;&nbsp;</a></span>find_all_connected_points()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -282,20 +233,69 @@ template&lt;typename T , int Land&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr T <a class="el" href="structgemmi_1_1FloodFill.html">gemmi::FloodFill</a>&lt; T, Land &gt;::this_island </td>
+          <td class="memname"><a class="el" href="structgemmi_1_1FloodFill_1_1Result.html">Result</a> <a class="el" href="structgemmi_1_1FloodFill.html">gemmi::FloodFill</a>&lt; T, Land &gt;::find_all_connected_points </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>u</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>w</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="floodfill_8hpp_source.html#l00053">53</a> of file <a class="el" href="floodfill_8hpp_source.html">floodfill.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a0178dc2c48a17fb95f9b071f13e3eb71" name="a0178dc2c48a17fb95f9b071f13e3eb71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0178dc2c48a17fb95f9b071f13e3eb71">&#9670;&nbsp;</a></span>for_each_islands()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , int Land&gt; </div>
+<div class="memtemplate">
+template&lt;typename Func &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="structgemmi_1_1FloodFill.html">gemmi::FloodFill</a>&lt; T, Land &gt;::for_each_islands </td>
+          <td>(</td>
+          <td class="paramtype">Func&#160;</td>
+          <td class="paramname"><em>func</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="floodfill_8hpp_source.html#l00034">34</a> of file <a class="el" href="floodfill_8hpp_source.html">floodfill.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="floodfill_8hpp_source.html#l00082">82</a> of file <a class="el" href="floodfill_8hpp_source.html">floodfill.hpp</a>.</p>
 
 </div>
 </div>

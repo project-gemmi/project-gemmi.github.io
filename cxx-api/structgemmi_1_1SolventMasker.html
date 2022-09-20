@@ -162,6 +162,44 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="acbeadd15ed0763713268dd67a41a8a52" name="acbeadd15ed0763713268dd67a41a8a52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbeadd15ed0763713268dd67a41a8a52">&#9670;&nbsp;</a></span>set_radii()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gemmi::SolventMasker::set_radii </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacegemmi.html#ac0edc00331dd25cdcfc4cb424c30d700">AtomicRadiiSet</a>&#160;</td>
+          <td class="paramname"><em>choice</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>constant_r_</em> = <code>0.</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="solmask_8hpp_source.html#l00208">208</a> of file <a class="el" href="solmask_8hpp_source.html">solmask.hpp</a>.</p>
+
+</div>
+</div>
 <a id="ae2294311734255ae09ef757166b36798" name="ae2294311734255ae09ef757166b36798"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae2294311734255ae09ef757166b36798">&#9670;&nbsp;</a></span>clear()</h2>
 
@@ -189,36 +227,6 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="solmask_8hpp_source.html#l00235">235</a> of file <a class="el" href="solmask_8hpp_source.html">solmask.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a031007e032c981ce0caf4a60f572ef7e" name="a031007e032c981ce0caf4a60f572ef7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a031007e032c981ce0caf4a60f572ef7e">&#9670;&nbsp;</a></span>invert()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void gemmi::SolventMasker::invert </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structgemmi_1_1Grid.html">Grid</a>&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>grid</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="solmask_8hpp_source.html#l00255">255</a> of file <a class="el" href="solmask_8hpp_source.html">solmask.hpp</a>.</p>
 
 </div>
 </div>
@@ -262,6 +270,126 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="ad29644fdd7a12d002208ae116bccfc26" name="ad29644fdd7a12d002208ae116bccfc26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad29644fdd7a12d002208ae116bccfc26">&#9670;&nbsp;</a></span>symmetrize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gemmi::SolventMasker::symmetrize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structgemmi_1_1Grid.html">Grid</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>grid</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="solmask_8hpp_source.html#l00244">244</a> of file <a class="el" href="solmask_8hpp_source.html">solmask.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a60358ef7b47341240fe3d44ff7401888" name="a60358ef7b47341240fe3d44ff7401888"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60358ef7b47341240fe3d44ff7401888">&#9670;&nbsp;</a></span>shrink()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gemmi::SolventMasker::shrink </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structgemmi_1_1Grid.html">Grid</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>grid</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="solmask_8hpp_source.html#l00248">248</a> of file <a class="el" href="solmask_8hpp_source.html">solmask.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a031007e032c981ce0caf4a60f572ef7e" name="a031007e032c981ce0caf4a60f572ef7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a031007e032c981ce0caf4a60f572ef7e">&#9670;&nbsp;</a></span>invert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gemmi::SolventMasker::invert </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structgemmi_1_1Grid.html">Grid</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>grid</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="solmask_8hpp_source.html#l00255">255</a> of file <a class="el" href="solmask_8hpp_source.html">solmask.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a451f51fc443e3a7c576f852b502053f9" name="a451f51fc443e3a7c576f852b502053f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a451f51fc443e3a7c576f852b502053f9">&#9670;&nbsp;</a></span>remove_islands()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gemmi::SolventMasker::remove_islands </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structgemmi_1_1Grid.html">Grid</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>grid</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="solmask_8hpp_source.html#l00263">263</a> of file <a class="el" href="solmask_8hpp_source.html">solmask.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a7b22453f65f25f386b4e651c8bec6512" name="a7b22453f65f25f386b4e651c8bec6512"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7b22453f65f25f386b4e651c8bec6512">&#9670;&nbsp;</a></span>put_mask_on_grid()</h2>
 
@@ -299,74 +427,6 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="solmask_8hpp_source.html#l00281">281</a> of file <a class="el" href="solmask_8hpp_source.html">solmask.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a451f51fc443e3a7c576f852b502053f9" name="a451f51fc443e3a7c576f852b502053f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a451f51fc443e3a7c576f852b502053f9">&#9670;&nbsp;</a></span>remove_islands()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int gemmi::SolventMasker::remove_islands </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structgemmi_1_1Grid.html">Grid</a>&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>grid</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="solmask_8hpp_source.html#l00263">263</a> of file <a class="el" href="solmask_8hpp_source.html">solmask.hpp</a>.</p>
-
-</div>
-</div>
-<a id="acbeadd15ed0763713268dd67a41a8a52" name="acbeadd15ed0763713268dd67a41a8a52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acbeadd15ed0763713268dd67a41a8a52">&#9670;&nbsp;</a></span>set_radii()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void gemmi::SolventMasker::set_radii </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespacegemmi.html#ac0edc00331dd25cdcfc4cb424c30d700">AtomicRadiiSet</a>&#160;</td>
-          <td class="paramname"><em>choice</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>constant_r_</em> = <code>0.</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="solmask_8hpp_source.html#l00208">208</a> of file <a class="el" href="solmask_8hpp_source.html">solmask.hpp</a>.</p>
 
 </div>
 </div>
@@ -408,66 +468,6 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a60358ef7b47341240fe3d44ff7401888" name="a60358ef7b47341240fe3d44ff7401888"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60358ef7b47341240fe3d44ff7401888">&#9670;&nbsp;</a></span>shrink()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void gemmi::SolventMasker::shrink </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structgemmi_1_1Grid.html">Grid</a>&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>grid</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="solmask_8hpp_source.html#l00248">248</a> of file <a class="el" href="solmask_8hpp_source.html">solmask.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ad29644fdd7a12d002208ae116bccfc26" name="ad29644fdd7a12d002208ae116bccfc26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad29644fdd7a12d002208ae116bccfc26">&#9670;&nbsp;</a></span>symmetrize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void gemmi::SolventMasker::symmetrize </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structgemmi_1_1Grid.html">Grid</a>&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>grid</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="solmask_8hpp_source.html#l00244">244</a> of file <a class="el" href="solmask_8hpp_source.html">solmask.hpp</a>.</p>
-
-</div>
-</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="aafe4a3852c6b68bf1047ad27e0f2a6f1" name="aafe4a3852c6b68bf1047ad27e0f2a6f1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aafe4a3852c6b68bf1047ad27e0f2a6f1">&#9670;&nbsp;</a></span>atomic_radii_set</h2>
@@ -482,38 +482,6 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="solmask_8hpp_source.html#l00198">198</a> of file <a class="el" href="solmask_8hpp_source.html">solmask.hpp</a>.</p>
-
-</div>
-</div>
-<a id="afe073ddb7f524282e151523bd3c28851" name="afe073ddb7f524282e151523bd3c28851"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe073ddb7f524282e151523bd3c28851">&#9670;&nbsp;</a></span>constant_r</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double gemmi::SolventMasker::constant_r</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="solmask_8hpp_source.html#l00202">202</a> of file <a class="el" href="solmask_8hpp_source.html">solmask.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a75c8cd56b6e08aafa61fbf0a2550322d" name="a75c8cd56b6e08aafa61fbf0a2550322d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75c8cd56b6e08aafa61fbf0a2550322d">&#9670;&nbsp;</a></span>island_min_volume</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double gemmi::SolventMasker::island_min_volume</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="solmask_8hpp_source.html#l00201">201</a> of file <a class="el" href="solmask_8hpp_source.html">solmask.hpp</a>.</p>
 
 </div>
 </div>
@@ -546,6 +514,38 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="solmask_8hpp_source.html#l00200">200</a> of file <a class="el" href="solmask_8hpp_source.html">solmask.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a75c8cd56b6e08aafa61fbf0a2550322d" name="a75c8cd56b6e08aafa61fbf0a2550322d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75c8cd56b6e08aafa61fbf0a2550322d">&#9670;&nbsp;</a></span>island_min_volume</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double gemmi::SolventMasker::island_min_volume</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="solmask_8hpp_source.html#l00201">201</a> of file <a class="el" href="solmask_8hpp_source.html">solmask.hpp</a>.</p>
+
+</div>
+</div>
+<a id="afe073ddb7f524282e151523bd3c28851" name="afe073ddb7f524282e151523bd3c28851"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe073ddb7f524282e151523bd3c28851">&#9670;&nbsp;</a></span>constant_r</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double gemmi::SolventMasker::constant_r</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="solmask_8hpp_source.html#l00202">202</a> of file <a class="el" href="solmask_8hpp_source.html">solmask.hpp</a>.</p>
 
 </div>
 </div>

@@ -76,6 +76,7 @@ $(function() {
 <div class="textblock"><code>#include &lt;vector&gt;</code><br />
 <code>#include &quot;<a class="el" href="model_8hpp_source.html">model.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="resinfo_8hpp_source.html">resinfo.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="calculate_8hpp_source.html">calculate.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="util_8hpp_source.html">util.hpp</a>&quot;</code><br />
 </div>
 <p><a href="polyheur_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -104,6 +105,8 @@ Functions</h2></td></tr>
 <tr class="separator:aec46a279969e88c1af1083d982d9d6bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41811c21f94d5558e924e1df9a1727ca"><td class="memItemLeft" align="right" valign="top">std::vector&lt; AtomNameElement &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a41811c21f94d5558e924e1df9a1727ca">gemmi::get_mainchain_atoms</a> (PolymerType ptype)</td></tr>
 <tr class="separator:a41811c21f94d5558e924e1df9a1727ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac08ad0675df356bfa009815619f366a6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#ac08ad0675df356bfa009815619f366a6">gemmi::have_peptide_bond</a> (const Residue &amp;r1, const Residue &amp;r2)</td></tr>
+<tr class="separator:ac08ad0675df356bfa009815619f366a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ea63b5312f7b5f462ea5fad81feb9c1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a3ea63b5312f7b5f462ea5fad81feb9c1">gemmi::are_connected</a> (const Residue &amp;r1, const Residue &amp;r2, PolymerType ptype)</td></tr>
 <tr class="separator:a3ea63b5312f7b5f462ea5fad81feb9c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f665adca6d18edde48c0bf222558427"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a7f665adca6d18edde48c0bf222558427">gemmi::are_connected2</a> (const Residue &amp;r1, const Residue &amp;r2, PolymerType ptype)</td></tr>
@@ -130,6 +133,12 @@ Functions</h2></td></tr>
 <tr class="separator:a45f12a6b07e33c912015ff7066fb9747"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada8870a369e3ed7ad7cfd7e59a28aa52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#ada8870a369e3ed7ad7cfd7e59a28aa52">gemmi::setup_entities</a> (Structure &amp;st)</td></tr>
 <tr class="separator:ada8870a369e3ed7ad7cfd7e59a28aa52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d2fb371dee75729456637dcf4337403"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a2d2fb371dee75729456637dcf4337403"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a2d2fb371dee75729456637dcf4337403">gemmi::assign_cis_flags</a> (T &amp;obj)</td></tr>
+<tr class="memdesc:a2d2fb371dee75729456637dcf4337403"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign <a class="el" href="structgemmi_1_1Residue.html#a13816dce9f720e35904472a7b19fda12">Residue::is_cis</a> based on omega angle.  <a href="namespacegemmi.html#a2d2fb371dee75729456637dcf4337403">More...</a><br /></td></tr>
+<tr class="separator:a2d2fb371dee75729456637dcf4337403"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade48e00d6354587ca0888fdd3e9174c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#ade48e00d6354587ca0888fdd3e9174c5">gemmi::assign_cis_flags</a> (Chain &amp;chain)</td></tr>
+<tr class="separator:ade48e00d6354587ca0888fdd3e9174c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ca9643b1640c6ec500b5975b5eb6988"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a5ca9643b1640c6ec500b5975b5eb6988"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a5ca9643b1640c6ec500b5975b5eb6988">gemmi::remove_waters</a> (T &amp;obj)</td></tr>
 <tr class="separator:a5ca9643b1640c6ec500b5975b5eb6988"><td class="memSeparator" colspan="2">&#160;</td></tr>

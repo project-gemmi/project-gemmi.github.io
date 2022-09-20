@@ -107,8 +107,8 @@ Public Member Functions</h2></td></tr>
 class gemmi::GroupingIterPolicy&lt; Vector, Value &gt;</div>
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00141">141</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a0cb355fc31d9a7a5802770f53dce1b3a" name="a0cb355fc31d9a7a5802770f53dce1b3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0cb355fc31d9a7a5802770f53dce1b3a">&#9670;&nbsp;</a></span>const_policy</h2>
+<a id="a2345105ee303922793b774be3e15926b" name="a2345105ee303922793b774be3e15926b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2345105ee303922793b774be3e15926b">&#9670;&nbsp;</a></span>value_type</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -116,12 +116,12 @@ class gemmi::GroupingIterPolicy&lt; Vector, Value &gt;</div>
 template&lt;typename Vector , typename Value &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classgemmi_1_1GroupingIterPolicy.html">gemmi::GroupingIterPolicy</a>&lt; Vector, Value &gt;::const_policy =  <a class="el" href="classgemmi_1_1GroupingIterPolicy.html">GroupingIterPolicy</a>&lt;Vector const, Value const&gt;</td>
+          <td class="memname">using <a class="el" href="classgemmi_1_1GroupingIterPolicy.html">gemmi::GroupingIterPolicy</a>&lt; Vector, Value &gt;::value_type =  Value</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00167">167</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00143">143</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 </div>
 </div>
@@ -143,8 +143,8 @@ template&lt;typename Vector , typename Value &gt; </div>
 
 </div>
 </div>
-<a id="a2345105ee303922793b774be3e15926b" name="a2345105ee303922793b774be3e15926b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2345105ee303922793b774be3e15926b">&#9670;&nbsp;</a></span>value_type</h2>
+<a id="a0cb355fc31d9a7a5802770f53dce1b3a" name="a0cb355fc31d9a7a5802770f53dce1b3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cb355fc31d9a7a5802770f53dce1b3a">&#9670;&nbsp;</a></span>const_policy</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -152,12 +152,12 @@ template&lt;typename Vector , typename Value &gt; </div>
 template&lt;typename Vector , typename Value &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classgemmi_1_1GroupingIterPolicy.html">gemmi::GroupingIterPolicy</a>&lt; Vector, Value &gt;::value_type =  Value</td>
+          <td class="memname">using <a class="el" href="classgemmi_1_1GroupingIterPolicy.html">gemmi::GroupingIterPolicy</a>&lt; Vector, Value &gt;::const_policy =  <a class="el" href="classgemmi_1_1GroupingIterPolicy.html">GroupingIterPolicy</a>&lt;Vector const, Value const&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00143">143</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00167">167</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 </div>
 </div>
@@ -220,6 +220,35 @@ template&lt;typename Vector , typename Value &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="aadbe1c9f01dcc44c58c6d354a1422129" name="aadbe1c9f01dcc44c58c6d354a1422129"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadbe1c9f01dcc44c58c6d354a1422129">&#9670;&nbsp;</a></span>increment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Vector , typename Value &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classgemmi_1_1GroupingIterPolicy.html">gemmi::GroupingIterPolicy</a>&lt; Vector, Value &gt;::increment </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00147">147</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a22acedbc947678cce36e0ee73ca514c8" name="a22acedbc947678cce36e0ee73ca514c8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a22acedbc947678cce36e0ee73ca514c8">&#9670;&nbsp;</a></span>decrement()</h2>
 
@@ -246,35 +275,6 @@ template&lt;typename Vector , typename Value &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00154">154</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a0275c66e2ff942f15b3d2f3e606aeef8" name="a0275c66e2ff942f15b3d2f3e606aeef8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0275c66e2ff942f15b3d2f3e606aeef8">&#9670;&nbsp;</a></span>dereference()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Vector , typename Value &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Value &amp; <a class="el" href="classgemmi_1_1GroupingIterPolicy.html">gemmi::GroupingIterPolicy</a>&lt; Vector, Value &gt;::dereference </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00166">166</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 </div>
 </div>
@@ -308,8 +308,8 @@ template&lt;typename Vector , typename Value &gt; </div>
 
 </div>
 </div>
-<a id="aadbe1c9f01dcc44c58c6d354a1422129" name="aadbe1c9f01dcc44c58c6d354a1422129"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aadbe1c9f01dcc44c58c6d354a1422129">&#9670;&nbsp;</a></span>increment()</h2>
+<a id="a0275c66e2ff942f15b3d2f3e606aeef8" name="a0275c66e2ff942f15b3d2f3e606aeef8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0275c66e2ff942f15b3d2f3e606aeef8">&#9670;&nbsp;</a></span>dereference()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -320,7 +320,7 @@ template&lt;typename Vector , typename Value &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classgemmi_1_1GroupingIterPolicy.html">gemmi::GroupingIterPolicy</a>&lt; Vector, Value &gt;::increment </td>
+          <td class="memname">Value &amp; <a class="el" href="classgemmi_1_1GroupingIterPolicy.html">gemmi::GroupingIterPolicy</a>&lt; Vector, Value &gt;::dereference </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -333,7 +333,7 @@ template&lt;typename Vector , typename Value &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00147">147</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00166">166</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 </div>
 </div>

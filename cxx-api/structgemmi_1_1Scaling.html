@@ -188,8 +188,8 @@ template&lt;typename Real &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ac860c5e277f705bfe8aedfcab9955a4f" name="ac860c5e277f705bfe8aedfcab9955a4f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac860c5e277f705bfe8aedfcab9955a4f">&#9670;&nbsp;</a></span>compute_values()</h2>
+<a id="a15a470abaf75f40eedf9010aa73678ca" name="a15a470abaf75f40eedf9010aa73678ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15a470abaf75f40eedf9010aa73678ca">&#9670;&nbsp;</a></span>set_b_overall()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -200,90 +200,10 @@ template&lt;typename Real &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; double &gt; <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::compute_values </td>
+          <td class="memname">void <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::set_b_overall </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00253">253</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
-
-</div>
-</div>
-<a id="aec3c24d7578181b718a8c562cd6a967b" name="aec3c24d7578181b718a8c562cd6a967b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec3c24d7578181b718a8c562cd6a967b">&#9670;&nbsp;</a></span>compute_values_and_derivatives()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Real &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::compute_values_and_derivatives </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>tile_start</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>tile_size</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; double &gt; &amp;&#160;</td>
-          <td class="paramname"><em>yy</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; double &gt; &amp;&#160;</td>
-          <td class="paramname"><em>dy_da</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00265">265</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a27760805a6a7ace08c4c18677129d0be" name="a27760805a6a7ace08c4c18677129d0be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27760805a6a7ace08c4c18677129d0be">&#9670;&nbsp;</a></span>fit_isotropic_b_approximately()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Real &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::fit_isotropic_b_approximately </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1SMat33.html">SMat33</a>&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b_overall</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -294,36 +214,7 @@ template&lt;typename Real &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00221">221</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a3fc284d628993678722472aa253e0355" name="a3fc284d628993678722472aa253e0355"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fc284d628993678722472aa253e0355">&#9670;&nbsp;</a></span>fit_parameters()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Real &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::fit_parameters </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00246">246</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00073">73</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
 
 </div>
 </div>
@@ -353,171 +244,6 @@ template&lt;typename Real &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00076">76</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a6c45307d384ffa290791f6c880b3ca7a" name="a6c45307d384ffa290791f6c880b3ca7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c45307d384ffa290791f6c880b3ca7a">&#9670;&nbsp;</a></span>get_overall_isotropic_scale_factor()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Real &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::get_overall_isotropic_scale_factor </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespacegemmi.html#a592f1efb2742477309b5e06590554c21">Miller</a> &amp;&#160;</td>
-          <td class="paramname"><em>hkl</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00212">212</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a2a9cdb8a1dd32a812ad2d64cf97b2f19" name="a2a9cdb8a1dd32a812ad2d64cf97b2f19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a9cdb8a1dd32a812ad2d64cf97b2f19">&#9670;&nbsp;</a></span>get_overall_scale_factor()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Real &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::get_overall_scale_factor </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespacegemmi.html#a592f1efb2742477309b5e06590554c21">Miller</a> &amp;&#160;</td>
-          <td class="paramname"><em>hkl</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00216">216</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a863dde46f2138c95405df834177e3418" name="a863dde46f2138c95405df834177e3418"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a863dde46f2138c95405df834177e3418">&#9670;&nbsp;</a></span>get_parameters()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Real &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt; double &gt; <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::get_parameters </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00108">108</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ad33e822728ab7c37207735e71ac4459f" name="ad33e822728ab7c37207735e71ac4459f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad33e822728ab7c37207735e71ac4459f">&#9670;&nbsp;</a></span>get_solvent_scale()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Real &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::get_solvent_scale </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>stol2</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00208">208</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
-
-</div>
-</div>
-<a id="af30c1641e8f4e55dca598b6f8209d23b" name="af30c1641e8f4e55dca598b6f8209d23b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af30c1641e8f4e55dca598b6f8209d23b">&#9670;&nbsp;</a></span>prepare_points()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Real &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::prepare_points </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1AsuData.html">AsuData</a>&lt; std::complex&lt; Real &gt; &gt; &amp;&#160;</td>
-          <td class="paramname"><em>calc</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1AsuData.html">AsuData</a>&lt; <a class="el" href="structgemmi_1_1ValueSigma.html">ValueSigma</a>&lt; Real &gt; &gt; &amp;&#160;</td>
-          <td class="paramname"><em>obs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1AsuData.html">AsuData</a>&lt; std::complex&lt; Real &gt; &gt; &amp;&#160;</td>
-          <td class="paramname"><em>mask_data</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00174">174</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
 
 </div>
 </div>
@@ -607,8 +333,8 @@ template&lt;typename Real &gt; </div>
 
 </div>
 </div>
-<a id="a15a470abaf75f40eedf9010aa73678ca" name="a15a470abaf75f40eedf9010aa73678ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15a470abaf75f40eedf9010aa73678ca">&#9670;&nbsp;</a></span>set_b_overall()</h2>
+<a id="a863dde46f2138c95405df834177e3418" name="a863dde46f2138c95405df834177e3418"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a863dde46f2138c95405df834177e3418">&#9670;&nbsp;</a></span>get_parameters()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -619,11 +345,10 @@ template&lt;typename Real &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::set_b_overall </td>
+          <td class="memname">std::vector&lt; double &gt; <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::get_parameters </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1SMat33.html">SMat33</a>&lt; double &gt; &amp;&#160;</td>
-          <td class="paramname"><em>b_overall</em></td><td>)</td>
-          <td></td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -633,7 +358,7 @@ template&lt;typename Real &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00073">73</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00108">108</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
 
 </div>
 </div>
@@ -667,43 +392,282 @@ template&lt;typename Real &gt; </div>
 
 </div>
 </div>
+<a id="af30c1641e8f4e55dca598b6f8209d23b" name="af30c1641e8f4e55dca598b6f8209d23b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af30c1641e8f4e55dca598b6f8209d23b">&#9670;&nbsp;</a></span>prepare_points()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Real &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::prepare_points </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1AsuData.html">AsuData</a>&lt; std::complex&lt; Real &gt; &gt; &amp;&#160;</td>
+          <td class="paramname"><em>calc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1AsuData.html">AsuData</a>&lt; <a class="el" href="structgemmi_1_1ValueSigma.html">ValueSigma</a>&lt; Real &gt; &gt; &amp;&#160;</td>
+          <td class="paramname"><em>obs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1AsuData.html">AsuData</a>&lt; std::complex&lt; Real &gt; &gt; &amp;&#160;</td>
+          <td class="paramname"><em>mask_data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00174">174</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ad33e822728ab7c37207735e71ac4459f" name="ad33e822728ab7c37207735e71ac4459f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad33e822728ab7c37207735e71ac4459f">&#9670;&nbsp;</a></span>get_solvent_scale()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Real &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::get_solvent_scale </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>stol2</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00208">208</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a6c45307d384ffa290791f6c880b3ca7a" name="a6c45307d384ffa290791f6c880b3ca7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c45307d384ffa290791f6c880b3ca7a">&#9670;&nbsp;</a></span>get_overall_isotropic_scale_factor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Real &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::get_overall_isotropic_scale_factor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacegemmi.html#a592f1efb2742477309b5e06590554c21">Miller</a> &amp;&#160;</td>
+          <td class="paramname"><em>hkl</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00212">212</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a2a9cdb8a1dd32a812ad2d64cf97b2f19" name="a2a9cdb8a1dd32a812ad2d64cf97b2f19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a9cdb8a1dd32a812ad2d64cf97b2f19">&#9670;&nbsp;</a></span>get_overall_scale_factor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Real &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::get_overall_scale_factor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacegemmi.html#a592f1efb2742477309b5e06590554c21">Miller</a> &amp;&#160;</td>
+          <td class="paramname"><em>hkl</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00216">216</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a27760805a6a7ace08c4c18677129d0be" name="a27760805a6a7ace08c4c18677129d0be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27760805a6a7ace08c4c18677129d0be">&#9670;&nbsp;</a></span>fit_isotropic_b_approximately()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Real &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::fit_isotropic_b_approximately </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00221">221</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a3fc284d628993678722472aa253e0355" name="a3fc284d628993678722472aa253e0355"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fc284d628993678722472aa253e0355">&#9670;&nbsp;</a></span>fit_parameters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Real &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::fit_parameters </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00246">246</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ac860c5e277f705bfe8aedfcab9955a4f" name="ac860c5e277f705bfe8aedfcab9955a4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac860c5e277f705bfe8aedfcab9955a4f">&#9670;&nbsp;</a></span>compute_values()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Real &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; double &gt; <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::compute_values </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00253">253</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aec3c24d7578181b718a8c562cd6a967b" name="aec3c24d7578181b718a8c562cd6a967b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec3c24d7578181b718a8c562cd6a967b">&#9670;&nbsp;</a></span>compute_values_and_derivatives()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Real &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::compute_values_and_derivatives </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>tile_start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>tile_size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>yy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>dy_da</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00265">265</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a517f3c461f5d1e6b0926ecc71d00f63c" name="a517f3c461f5d1e6b0926ecc71d00f63c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a517f3c461f5d1e6b0926ecc71d00f63c">&#9670;&nbsp;</a></span>b_sol</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Real &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">double <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::b_sol = 46.0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00043">43</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a7234975b6926ac40e42e0aa0beb0088a" name="a7234975b6926ac40e42e0aa0beb0088a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7234975b6926ac40e42e0aa0beb0088a">&#9670;&nbsp;</a></span>b_star</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Real &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structgemmi_1_1SMat33.html">SMat33</a>&lt;double&gt; <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::b_star {0, 0, 0, 0, 0, 0}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00037">37</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
-
-</div>
-</div>
 <a id="a43506d3a2afc6f9d1ce6be391b137224" name="a43506d3a2afc6f9d1ce6be391b137224"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a43506d3a2afc6f9d1ce6be391b137224">&#9670;&nbsp;</a></span>cell</h2>
 
@@ -740,78 +704,6 @@ template&lt;typename Real &gt; </div>
 
 </div>
 </div>
-<a id="abbc41657f5ac06e3ad7d3c492fdd42d2" name="abbc41657f5ac06e3ad7d3c492fdd42d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abbc41657f5ac06e3ad7d3c492fdd42d2">&#9670;&nbsp;</a></span>fix_b_sol</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Real &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::fix_b_sol = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00040">40</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a7f34aa7f6f1889c22651ca99dd67e8b1" name="a7f34aa7f6f1889c22651ca99dd67e8b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f34aa7f6f1889c22651ca99dd67e8b1">&#9670;&nbsp;</a></span>fix_k_sol</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Real &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::fix_k_sol = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00039">39</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a68ab6b177d5b1f4249b953d66b516d94" name="a68ab6b177d5b1f4249b953d66b516d94"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68ab6b177d5b1f4249b953d66b516d94">&#9670;&nbsp;</a></span>k_overall</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Real &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">double <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::k_overall = 1.</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00035">35</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a71e45a8af850b8e13d77ef313777afd8" name="a71e45a8af850b8e13d77ef313777afd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71e45a8af850b8e13d77ef313777afd8">&#9670;&nbsp;</a></span>k_sol</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Real &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">double <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::k_sol = 0.35</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00042">42</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
-
-</div>
-</div>
 <a id="a44f24f8893031ee02f9b075bdba3a6c7" name="a44f24f8893031ee02f9b075bdba3a6c7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a44f24f8893031ee02f9b075bdba3a6c7">&#9670;&nbsp;</a></span>monoclinic_angle_idx</h2>
 
@@ -827,24 +719,6 @@ template&lt;typename Real &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00032">32</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
-
-</div>
-</div>
-<a id="aeb95a3d6c6107f1bd23dc62261f3ef39" name="aeb95a3d6c6107f1bd23dc62261f3ef39"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb95a3d6c6107f1bd23dc62261f3ef39">&#9670;&nbsp;</a></span>points</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Real &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="structgemmi_1_1Scaling_1_1Point.html">Point</a>&gt; <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::points</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00044">44</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
 
 </div>
 </div>
@@ -866,6 +740,42 @@ template&lt;typename Real &gt; </div>
 
 </div>
 </div>
+<a id="a68ab6b177d5b1f4249b953d66b516d94" name="a68ab6b177d5b1f4249b953d66b516d94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68ab6b177d5b1f4249b953d66b516d94">&#9670;&nbsp;</a></span>k_overall</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Real &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::k_overall = 1.</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00035">35</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a7234975b6926ac40e42e0aa0beb0088a" name="a7234975b6926ac40e42e0aa0beb0088a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7234975b6926ac40e42e0aa0beb0088a">&#9670;&nbsp;</a></span>b_star</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Real &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgemmi_1_1SMat33.html">SMat33</a>&lt;double&gt; <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::b_star {0, 0, 0, 0, 0, 0}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00037">37</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
+
+</div>
+</div>
 <a id="ab9ca09e02fef777293383738a517c99d" name="ab9ca09e02fef777293383738a517c99d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab9ca09e02fef777293383738a517c99d">&#9670;&nbsp;</a></span>use_solvent</h2>
 
@@ -881,6 +791,96 @@ template&lt;typename Real &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00038">38</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a7f34aa7f6f1889c22651ca99dd67e8b1" name="a7f34aa7f6f1889c22651ca99dd67e8b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f34aa7f6f1889c22651ca99dd67e8b1">&#9670;&nbsp;</a></span>fix_k_sol</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Real &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::fix_k_sol = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00039">39</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
+
+</div>
+</div>
+<a id="abbc41657f5ac06e3ad7d3c492fdd42d2" name="abbc41657f5ac06e3ad7d3c492fdd42d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbc41657f5ac06e3ad7d3c492fdd42d2">&#9670;&nbsp;</a></span>fix_b_sol</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Real &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::fix_b_sol = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00040">40</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a71e45a8af850b8e13d77ef313777afd8" name="a71e45a8af850b8e13d77ef313777afd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71e45a8af850b8e13d77ef313777afd8">&#9670;&nbsp;</a></span>k_sol</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Real &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::k_sol = 0.35</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00042">42</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a517f3c461f5d1e6b0926ecc71d00f63c" name="a517f3c461f5d1e6b0926ecc71d00f63c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a517f3c461f5d1e6b0926ecc71d00f63c">&#9670;&nbsp;</a></span>b_sol</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Real &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::b_sol = 46.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00043">43</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aeb95a3d6c6107f1bd23dc62261f3ef39" name="aeb95a3d6c6107f1bd23dc62261f3ef39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb95a3d6c6107f1bd23dc62261f3ef39">&#9670;&nbsp;</a></span>points</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Real &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="structgemmi_1_1Scaling_1_1Point.html">Point</a>&gt; <a class="el" href="structgemmi_1_1Scaling.html">gemmi::Scaling</a>&lt; Real &gt;::points</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="scaling_8hpp_source.html#l00044">44</a> of file <a class="el" href="scaling_8hpp_source.html">scaling.hpp</a>.</p>
 
 </div>
 </div>

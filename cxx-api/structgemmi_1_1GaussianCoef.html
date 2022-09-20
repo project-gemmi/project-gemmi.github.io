@@ -229,8 +229,8 @@ template&lt;int N, int WithC, typename Real &gt; </div>
 
 </div>
 </div>
-<a id="ac48de79e3d1e2bd69c6a2d3bb38f5e0b" name="ac48de79e3d1e2bd69c6a2d3bb38f5e0b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac48de79e3d1e2bd69c6a2d3bb38f5e0b">&#9670;&nbsp;</a></span>calculate_density_aniso()</h2>
+<a id="a04822250855a30d0643925958fe661a4" name="a04822250855a30d0643925958fe661a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04822250855a30d0643925958fe661a4">&#9670;&nbsp;</a></span>set_coefs()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -241,21 +241,11 @@ template&lt;int N, int WithC, typename Real &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Real <a class="el" href="structgemmi_1_1GaussianCoef.html">gemmi::GaussianCoef</a>&lt; N, WithC, Real &gt;::calculate_density_aniso </td>
+          <td class="memname">void <a class="el" href="structgemmi_1_1GaussianCoef.html">gemmi::GaussianCoef</a>&lt; N, WithC, Real &gt;::set_coefs </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1Vec3.html">Vec3</a> &amp;&#160;</td>
-          <td class="paramname"><em>r</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const std::array&lt; Real, 2 *N+WithC &gt; &amp;&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1SMat33.html">SMat33</a>&lt; float &gt; &amp;&#160;</td>
-          <td class="paramname"><em>U</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -265,47 +255,7 @@ template&lt;int N, int WithC, typename Real &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="formfact_8hpp_source.html#l00103">103</a> of file <a class="el" href="formfact_8hpp_source.html">formfact.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ad51fed36990aca7cc9b7950dfd896949" name="ad51fed36990aca7cc9b7950dfd896949"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad51fed36990aca7cc9b7950dfd896949">&#9670;&nbsp;</a></span>calculate_density_iso()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;int N, int WithC, typename Real &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Real <a class="el" href="structgemmi_1_1GaussianCoef.html">gemmi::GaussianCoef</a>&lt; N, WithC, Real &gt;::calculate_density_iso </td>
-          <td>(</td>
-          <td class="paramtype">Real&#160;</td>
-          <td class="paramname"><em>r2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Real&#160;</td>
-          <td class="paramname"><em>B</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="formfact_8hpp_source.html#l00075">75</a> of file <a class="el" href="formfact_8hpp_source.html">formfact.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="formfact_8hpp_source.html#l00063">63</a> of file <a class="el" href="formfact_8hpp_source.html">formfact.hpp</a>.</p>
 
 </div>
 </div>
@@ -366,6 +316,126 @@ template&lt;int N, int WithC, typename Real &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="formfact_8hpp_source.html#l00073">73</a> of file <a class="el" href="formfact_8hpp_source.html">formfact.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ad51fed36990aca7cc9b7950dfd896949" name="ad51fed36990aca7cc9b7950dfd896949"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad51fed36990aca7cc9b7950dfd896949">&#9670;&nbsp;</a></span>calculate_density_iso()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int N, int WithC, typename Real &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Real <a class="el" href="structgemmi_1_1GaussianCoef.html">gemmi::GaussianCoef</a>&lt; N, WithC, Real &gt;::calculate_density_iso </td>
+          <td>(</td>
+          <td class="paramtype">Real&#160;</td>
+          <td class="paramname"><em>r2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Real&#160;</td>
+          <td class="paramname"><em>B</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="formfact_8hpp_source.html#l00075">75</a> of file <a class="el" href="formfact_8hpp_source.html">formfact.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a800b999c347335f9c79f4cd1ddf861e3" name="a800b999c347335f9c79f4cd1ddf861e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a800b999c347335f9c79f4cd1ddf861e3">&#9670;&nbsp;</a></span>precalculate_density_iso()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int N, int WithC, typename Real &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgemmi_1_1ExpSum.html">ExpSum</a>&lt; N+WithC, Real &gt; <a class="el" href="structgemmi_1_1GaussianCoef.html">gemmi::GaussianCoef</a>&lt; N, WithC, Real &gt;::precalculate_density_iso </td>
+          <td>(</td>
+          <td class="paramtype">Real&#160;</td>
+          <td class="paramname"><em>B</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Real&#160;</td>
+          <td class="paramname"><em>addend</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="formfact_8hpp_source.html#l00087">87</a> of file <a class="el" href="formfact_8hpp_source.html">formfact.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ac48de79e3d1e2bd69c6a2d3bb38f5e0b" name="ac48de79e3d1e2bd69c6a2d3bb38f5e0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac48de79e3d1e2bd69c6a2d3bb38f5e0b">&#9670;&nbsp;</a></span>calculate_density_aniso()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int N, int WithC, typename Real &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Real <a class="el" href="structgemmi_1_1GaussianCoef.html">gemmi::GaussianCoef</a>&lt; N, WithC, Real &gt;::calculate_density_aniso </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1Vec3.html">Vec3</a> &amp;&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1SMat33.html">SMat33</a>&lt; float &gt; &amp;&#160;</td>
+          <td class="paramname"><em>U</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="formfact_8hpp_source.html#l00103">103</a> of file <a class="el" href="formfact_8hpp_source.html">formfact.hpp</a>.</p>
 
 </div>
 </div>
@@ -446,76 +516,6 @@ template&lt;int N, int WithC, typename Real &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="formfact_8hpp_source.html#l00132">132</a> of file <a class="el" href="formfact_8hpp_source.html">formfact.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a800b999c347335f9c79f4cd1ddf861e3" name="a800b999c347335f9c79f4cd1ddf861e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a800b999c347335f9c79f4cd1ddf861e3">&#9670;&nbsp;</a></span>precalculate_density_iso()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;int N, int WithC, typename Real &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structgemmi_1_1ExpSum.html">ExpSum</a>&lt; N+WithC, Real &gt; <a class="el" href="structgemmi_1_1GaussianCoef.html">gemmi::GaussianCoef</a>&lt; N, WithC, Real &gt;::precalculate_density_iso </td>
-          <td>(</td>
-          <td class="paramtype">Real&#160;</td>
-          <td class="paramname"><em>B</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Real&#160;</td>
-          <td class="paramname"><em>addend</em> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="formfact_8hpp_source.html#l00087">87</a> of file <a class="el" href="formfact_8hpp_source.html">formfact.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a04822250855a30d0643925958fe661a4" name="a04822250855a30d0643925958fe661a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04822250855a30d0643925958fe661a4">&#9670;&nbsp;</a></span>set_coefs()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;int N, int WithC, typename Real &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="structgemmi_1_1GaussianCoef.html">gemmi::GaussianCoef</a>&lt; N, WithC, Real &gt;::set_coefs </td>
-          <td>(</td>
-          <td class="paramtype">const std::array&lt; Real, 2 *N+WithC &gt; &amp;&#160;</td>
-          <td class="paramname"><em>c</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="formfact_8hpp_source.html#l00063">63</a> of file <a class="el" href="formfact_8hpp_source.html">formfact.hpp</a>.</p>
 
 </div>
 </div>

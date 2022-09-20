@@ -21,7 +21,7 @@ var searchData=
   ['remark_5f300_5fdetail_18',['remark_300_detail',['../structgemmi_1_1Metadata.html#a5c5592f987b4ceb44bb6e7bf84da009b',1,'gemmi::Metadata']]],
   ['remarks_19',['remarks',['../structgemmi_1_1RefinementInfo.html#ae57e36b76f3d4b43ea2d2b4f0a603008',1,'gemmi::RefinementInfo']]],
   ['reported_5fdistance_20',['reported_distance',['../structgemmi_1_1Connection.html#af7b9334002021e71f52b8417d46a0a53',1,'gemmi::Connection']]],
-  ['res_21',['res',['../structgemmi_1_1Topo_1_1ResInfo.html#ab2a8f06fcb2ba99921616072491a3cd3',1,'gemmi::Topo::ResInfo']]],
+  ['res_21',['res',['../structgemmi_1_1SiftsUnpResidue.html#a672670a747423ee29d78fdcaad1d7a6f',1,'gemmi::SiftsUnpResidue::res()'],['../structgemmi_1_1Topo_1_1ResInfo.html#ab2a8f06fcb2ba99921616072491a3cd3',1,'gemmi::Topo::ResInfo::res()']]],
   ['res1_22',['res1',['../structgemmi_1_1Topo_1_1Link.html#a3a28e49a8f1036f678efddd00a0e18fe',1,'gemmi::Topo::Link']]],
   ['res2_23',['res2',['../structgemmi_1_1Topo_1_1Link.html#a6340fa492a2b52f71c362f98b4976834',1,'gemmi::Topo::Link']]],
   ['res_5fbegin_24',['res_begin',['../structgemmi_1_1TlsGroup_1_1Selection.html#a910e2465eca7f31bf7fc8a3d357e66eb',1,'gemmi::TlsGroup::Selection']]],

@@ -85,8 +85,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a75cdc75edaed94e708388796d9a52e93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad86ede621c25105d1ebdce4ec30ad2df"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structgemmi_1_1ResidueInfo.html">ResidueInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1MonLib.html#ad86ede621c25105d1ebdce4ec30ad2df">find_residue_info</a> (const std::string &amp;name) const</td></tr>
 <tr class="separator:ad86ede621c25105d1ebdce4ec30ad2df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a570d3eac5bf46100cf041bb30dd37089"><td class="memItemLeft" align="right" valign="top">std::pair&lt; const <a class="el" href="structgemmi_1_1ChemLink.html">ChemLink</a> *, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1MonLib.html#a570d3eac5bf46100cf041bb30dd37089">match_link</a> (const std::string &amp;comp1, const std::string &amp;atom1, const std::string &amp;comp2, const std::string &amp;atom2) const</td></tr>
-<tr class="separator:a570d3eac5bf46100cf041bb30dd37089"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73058019f28845456be81b3e258505b0"><td class="memItemLeft" align="right" valign="top">std::pair&lt; const <a class="el" href="structgemmi_1_1ChemLink.html">ChemLink</a> *, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1MonLib.html#a73058019f28845456be81b3e258505b0">match_link</a> (const <a class="el" href="structgemmi_1_1Residue.html">Residue</a> &amp;res1, const std::string &amp;atom1, const <a class="el" href="structgemmi_1_1Residue.html">Residue</a> &amp;res2, const std::string &amp;atom2, char alt) const</td></tr>
+<tr class="separator:a73058019f28845456be81b3e258505b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5559f7a9f20c99421d6bd781c5c9e66a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1MonLib.html#a5559f7a9f20c99421d6bd781c5c9e66a">ensure_unique_link_name</a> (std::string &amp;name) const</td></tr>
 <tr class="separator:a5559f7a9f20c99421d6bd781c5c9e66a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bd713195424f59a48d3944665658d7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1MonLib.html#a7bd713195424f59a48d3944665658d7b">add_monomer_if_present</a> (const <a class="el" href="structgemmi_1_1cif_1_1Block.html">cif::Block</a> &amp;block)</td></tr>
@@ -97,8 +97,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab9e3272778ed0b1fd057a96089814710"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bba466baef9e82b39ce04f1fa545b61"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1MonLib.html#a9bba466baef9e82b39ce04f1fa545b61">path</a> (const char *code=nullptr) const</td></tr>
 <tr class="separator:a9bba466baef9e82b39ce04f1fa545b61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37fcd8dbd5ecdf52717c8733b9bb7fe7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1MonLib.html#a37fcd8dbd5ecdf52717c8733b9bb7fe7">read_monomer_cif</a> (const std::string &amp;<a class="el" href="structgemmi_1_1MonLib.html#a9bba466baef9e82b39ce04f1fa545b61">path</a>, <a class="el" href="namespacegemmi.html#ae28b2ba66592836355cf3cebb839ca44">read_cif_func</a> read_cif)</td></tr>
-<tr class="separator:a37fcd8dbd5ecdf52717c8733b9bb7fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5aa074fc964f6c7767c2906fe55d7425"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1MonLib.html#a5aa074fc964f6c7767c2906fe55d7425">read_monomer_cif</a> (const std::string &amp;path_, <a class="el" href="namespacegemmi.html#ae28b2ba66592836355cf3cebb839ca44">read_cif_func</a> read_cif)</td></tr>
+<tr class="separator:a5aa074fc964f6c7767c2906fe55d7425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90c039a06ed658f32c6420a86f5ebeb0"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1MonLib.html#a90c039a06ed658f32c6420a86f5ebeb0">find_radius</a> (const <a class="el" href="structgemmi_1_1const__CRA.html">const_CRA</a> &amp;cra, bool use_ion) const</td></tr>
+<tr class="memdesc:a90c039a06ed658f32c6420a86f5ebeb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches data from _lib_atom in ener_lib.cif.  <a href="structgemmi_1_1MonLib.html#a90c039a06ed658f32c6420a86f5ebeb0">More...</a><br /></td></tr>
+<tr class="separator:a90c039a06ed658f32c6420a86f5ebeb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -109,6 +112,8 @@ Static Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a52f23689654895397b76512f623d0733"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1cif_1_1Document.html">cif::Document</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1MonLib.html#a52f23689654895397b76512f623d0733">mon_lib_list</a></td></tr>
 <tr class="separator:a52f23689654895397b76512f623d0733"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0304ee54c0074242b413ee2a1c30ddcc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1EnerLib.html">EnerLib</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1MonLib.html#a0304ee54c0074242b413ee2a1c30ddcc">ener_lib</a></td></tr>
+<tr class="separator:a0304ee54c0074242b413ee2a1c30ddcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8638962f32f95892150ad69ee611d3a"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, <a class="el" href="structgemmi_1_1ChemComp.html">ChemComp</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1MonLib.html#ab8638962f32f95892150ad69ee611d3a">monomers</a></td></tr>
 <tr class="separator:ab8638962f32f95892150ad69ee611d3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6054e4654bc32cf54177f79f548eac39"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, <a class="el" href="structgemmi_1_1ChemLink.html">ChemLink</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1MonLib.html#a6054e4654bc32cf54177f79f548eac39">links</a></td></tr>
@@ -120,10 +125,10 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00541">541</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00569">569</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7bd713195424f59a48d3944665658d7b" name="a7bd713195424f59a48d3944665658d7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7bd713195424f59a48d3944665658d7b">&#9670;&nbsp;</a></span>add_monomer_if_present()</h2>
+<a id="a3936211fc78e381e8bec262cfc2a6bee" name="a3936211fc78e381e8bec262cfc2a6bee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3936211fc78e381e8bec262cfc2a6bee">&#9670;&nbsp;</a></span>get_link()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132,66 +137,10 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void gemmi::MonLib::add_monomer_if_present </td>
+          <td class="memname">const <a class="el" href="structgemmi_1_1ChemLink.html">ChemLink</a> * gemmi::MonLib::get_link </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1cif_1_1Block.html">cif::Block</a> &amp;&#160;</td>
-          <td class="paramname"><em>block</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00606">606</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a860199112f290231105a88ab66d21f8e" name="a860199112f290231105a88ab66d21f8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a860199112f290231105a88ab66d21f8e">&#9670;&nbsp;</a></span>add_monomers_if_present()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void gemmi::MonLib::add_monomers_if_present </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1cif_1_1Document.html">cif::Document</a> &amp;&#160;</td>
-          <td class="paramname"><em>doc</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00614">614</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a5559f7a9f20c99421d6bd781c5c9e66a" name="a5559f7a9f20c99421d6bd781c5c9e66a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5559f7a9f20c99421d6bd781c5c9e66a">&#9670;&nbsp;</a></span>ensure_unique_link_name()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void gemmi::MonLib::ensure_unique_link_name </td>
-          <td>(</td>
-          <td class="paramtype">std::string &amp;&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>link_id</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -202,7 +151,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00600">600</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00577">577</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
 
 </div>
 </div>
@@ -230,7 +179,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00552">552</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00581">581</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
 
 </div>
 </div>
@@ -258,12 +207,12 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00556">556</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00585">585</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a3936211fc78e381e8bec262cfc2a6bee" name="a3936211fc78e381e8bec262cfc2a6bee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3936211fc78e381e8bec262cfc2a6bee">&#9670;&nbsp;</a></span>get_link()</h2>
+<a id="a73058019f28845456be81b3e258505b0" name="a73058019f28845456be81b3e258505b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73058019f28845456be81b3e258505b0">&#9670;&nbsp;</a></span>match_link()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -272,10 +221,66 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="structgemmi_1_1ChemLink.html">ChemLink</a> * gemmi::MonLib::get_link </td>
+          <td class="memname">std::pair&lt; const <a class="el" href="structgemmi_1_1ChemLink.html">ChemLink</a> *, bool &gt; gemmi::MonLib::match_link </td>
           <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1Residue.html">Residue</a> &amp;&#160;</td>
+          <td class="paramname"><em>res1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>link_id</em></td><td>)</td>
+          <td class="paramname"><em>atom1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1Residue.html">Residue</a> &amp;&#160;</td>
+          <td class="paramname"><em>res2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>atom2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>alt</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00593">593</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a5559f7a9f20c99421d6bd781c5c9e66a" name="a5559f7a9f20c99421d6bd781c5c9e66a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5559f7a9f20c99421d6bd781c5c9e66a">&#9670;&nbsp;</a></span>ensure_unique_link_name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gemmi::MonLib::ensure_unique_link_name </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -286,7 +291,63 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00548">548</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00629">629</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a7bd713195424f59a48d3944665658d7b" name="a7bd713195424f59a48d3944665658d7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bd713195424f59a48d3944665658d7b">&#9670;&nbsp;</a></span>add_monomer_if_present()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gemmi::MonLib::add_monomer_if_present </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1cif_1_1Block.html">cif::Block</a> &amp;&#160;</td>
+          <td class="paramname"><em>block</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00635">635</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a860199112f290231105a88ab66d21f8e" name="a860199112f290231105a88ab66d21f8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a860199112f290231105a88ab66d21f8e">&#9670;&nbsp;</a></span>add_monomers_if_present()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gemmi::MonLib::add_monomers_if_present </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1cif_1_1Document.html">cif::Document</a> &amp;&#160;</td>
+          <td class="paramname"><em>doc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00643">643</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
 
 </div>
 </div>
@@ -324,57 +385,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00619">619</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a570d3eac5bf46100cf041bb30dd37089" name="a570d3eac5bf46100cf041bb30dd37089"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a570d3eac5bf46100cf041bb30dd37089">&#9670;&nbsp;</a></span>match_link()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::pair&lt; const <a class="el" href="structgemmi_1_1ChemLink.html">ChemLink</a> *, bool &gt; gemmi::MonLib::match_link </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>comp1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>atom1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>comp2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>atom2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00565">565</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00648">648</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
 
 </div>
 </div>
@@ -402,45 +413,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00627">627</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a37fcd8dbd5ecdf52717c8733b9bb7fe7" name="a37fcd8dbd5ecdf52717c8733b9bb7fe7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37fcd8dbd5ecdf52717c8733b9bb7fe7">&#9670;&nbsp;</a></span>read_monomer_cif()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void gemmi::MonLib::read_monomer_cif </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>path</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespacegemmi.html#ae28b2ba66592836355cf3cebb839ca44">read_cif_func</a>&#160;</td>
-          <td class="paramname"><em>read_cif</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00659">659</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00656">656</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
 
 </div>
 </div>
@@ -468,43 +441,90 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00638">638</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00667">667</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a5aa074fc964f6c7767c2906fe55d7425" name="a5aa074fc964f6c7767c2906fe55d7425"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5aa074fc964f6c7767c2906fe55d7425">&#9670;&nbsp;</a></span>read_monomer_cif()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gemmi::MonLib::read_monomer_cif </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path_</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacegemmi.html#ae28b2ba66592836355cf3cebb839ca44">read_cif_func</a>&#160;</td>
+          <td class="paramname"><em>read_cif</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00688">688</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a90c039a06ed658f32c6420a86f5ebeb0" name="a90c039a06ed658f32c6420a86f5ebeb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90c039a06ed658f32c6420a86f5ebeb0">&#9670;&nbsp;</a></span>find_radius()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double gemmi::MonLib::find_radius </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1const__CRA.html">const_CRA</a> &amp;&#160;</td>
+          <td class="paramname"><em>cra</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>use_ion</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Searches data from _lib_atom in ener_lib.cif. </p>
+<p >If chem_type is not in the library uses element name as chem_type. </p>
+
+<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00699">699</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a6054e4654bc32cf54177f79f548eac39" name="a6054e4654bc32cf54177f79f548eac39"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6054e4654bc32cf54177f79f548eac39">&#9670;&nbsp;</a></span>links</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt;std::string, <a class="el" href="structgemmi_1_1ChemLink.html">ChemLink</a>&gt; gemmi::MonLib::links</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00544">544</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a39eca01096b1fffb6f2c05b29b2306e9" name="a39eca01096b1fffb6f2c05b29b2306e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39eca01096b1fffb6f2c05b29b2306e9">&#9670;&nbsp;</a></span>modifications</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt;std::string, <a class="el" href="structgemmi_1_1ChemMod.html">ChemMod</a>&gt; gemmi::MonLib::modifications</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00545">545</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
-
-</div>
-</div>
 <a id="a52f23689654895397b76512f623d0733" name="a52f23689654895397b76512f623d0733"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a52f23689654895397b76512f623d0733">&#9670;&nbsp;</a></span>mon_lib_list</h2>
 
@@ -517,7 +537,23 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00542">542</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00570">570</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a0304ee54c0074242b413ee2a1c30ddcc" name="a0304ee54c0074242b413ee2a1c30ddcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0304ee54c0074242b413ee2a1c30ddcc">&#9670;&nbsp;</a></span>ener_lib</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgemmi_1_1EnerLib.html">EnerLib</a> gemmi::MonLib::ener_lib</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00571">571</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
 
 </div>
 </div>
@@ -533,7 +569,39 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00543">543</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00572">572</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a6054e4654bc32cf54177f79f548eac39" name="a6054e4654bc32cf54177f79f548eac39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6054e4654bc32cf54177f79f548eac39">&#9670;&nbsp;</a></span>links</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;std::string, <a class="el" href="structgemmi_1_1ChemLink.html">ChemLink</a>&gt; gemmi::MonLib::links</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00573">573</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a39eca01096b1fffb6f2c05b29b2306e9" name="a39eca01096b1fffb6f2c05b29b2306e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39eca01096b1fffb6f2c05b29b2306e9">&#9670;&nbsp;</a></span>modifications</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;std::string, <a class="el" href="structgemmi_1_1ChemMod.html">ChemMod</a>&gt; gemmi::MonLib::modifications</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00574">574</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
 
 </div>
 </div>
@@ -549,7 +617,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00546">546</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="monlib_8hpp_source.html#l00575">575</a> of file <a class="el" href="monlib_8hpp_source.html">monlib.hpp</a>.</p>
 
 </div>
 </div>

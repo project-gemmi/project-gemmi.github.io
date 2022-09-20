@@ -2,7 +2,7 @@ var searchData=
 [
   ['b_0',['b',['../structgemmi_1_1GaussianCoef.html#a81fa43b2f6dfc507791730ce02a02dfd',1,'gemmi::GaussianCoef']]],
   ['b_5feq_1',['b_eq',['../structgemmi_1_1Atom.html#a0e18336241aea10690459963d4bbe096',1,'gemmi::Atom']]],
-  ['back_2',['back',['../structgemmi_1_1ItemGroup.html#a37b678a57a033a1707ce227a195d675b',1,'gemmi::ItemGroup::back()'],['../structgemmi_1_1ItemGroup.html#ae18269d6d14ee3d00a8506c0d2c3ed5d',1,'gemmi::ItemGroup::back() const'],['../structgemmi_1_1Span.html#a3160cfde52cb0b1a4191d21033325ba2',1,'gemmi::Span::back()'],['../structgemmi_1_1Span.html#a05b626cfc31d6dd18819ff34d8ea41a5',1,'gemmi::Span::back() const']]],
+  ['back_2',['back',['../structgemmi_1_1ItemGroup.html#ae18269d6d14ee3d00a8506c0d2c3ed5d',1,'gemmi::ItemGroup::back()'],['../structgemmi_1_1Span.html#a3160cfde52cb0b1a4191d21033325ba2',1,'gemmi::Span::back()'],['../structgemmi_1_1Span.html#a05b626cfc31d6dd18819ff34d8ea41a5',1,'gemmi::Span::back() const'],['../structgemmi_1_1ItemGroup.html#a37b678a57a033a1707ce227a195d675b',1,'gemmi::ItemGroup::back()']]],
   ['backtrack_5fto_5fcigar_3',['backtrack_to_cigar',['../structgemmi_1_1AlignmentResult.html#a6e9bba2c695258c45629f4dc27546dc9',1,'gemmi::AlignmentResult']]],
   ['basepath_4',['basepath',['../classgemmi_1_1MaybeGzipped.html#afe517ad66e40e9b1c947f37ca78ce757',1,'gemmi::MaybeGzipped::basepath()'],['../classgemmi_1_1BasicInput.html#a7e025fefd4137579ce3e00935427e9e7',1,'gemmi::BasicInput::basepath() const']]],
   ['basicinput_5',['BasicInput',['../classgemmi_1_1BasicInput.html#aadf35ee0442b1ed7eb37c67ba4712bbf',1,'gemmi::BasicInput']]],
@@ -14,13 +14,12 @@ var searchData=
   ['bessel_5fi1_5fover_5fi0_11',['bessel_i1_over_i0',['../namespacegemmi.html#a39f255f6d31b7219906b836900adf7c2',1,'gemmi']]],
   ['bidiriterator_12',['BidirIterator',['../structgemmi_1_1BidirIterator.html#aab8b86a619bb51fe13356e8aeebabcb9',1,'gemmi::BidirIterator::BidirIterator()=default'],['../structgemmi_1_1BidirIterator.html#ad27355fa2828d466bf76a8ba07a418db',1,'gemmi::BidirIterator::BidirIterator(Policy &amp;&amp;p)']]],
   ['big_5fgzread_13',['big_gzread',['../namespacegemmi.html#ae42d96abb96bd8593cac5539ce0e757c',1,'gemmi']]],
-  ['block_14',['Block',['../structgemmi_1_1cif_1_1Block.html#af88afeff011d8dc9b1607179abf77d1f',1,'gemmi::cif::Block::Block()'],['../structgemmi_1_1cif_1_1Block.html#af0c81d1f62a86d15ce320dbeca102080',1,'gemmi::cif::Block::Block(const std::string &amp;name_)']]],
+  ['block_14',['Block',['../structgemmi_1_1cif_1_1Block.html#af0c81d1f62a86d15ce320dbeca102080',1,'gemmi::cif::Block::Block(const std::string &amp;name_)'],['../structgemmi_1_1cif_1_1Block.html#af88afeff011d8dc9b1607179abf77d1f',1,'gemmi::cif::Block::Block()']]],
   ['bohrradius_15',['bohrradius',['../namespacegemmi.html#a335c1ab59e7415eceb6ce6ec042dacfd',1,'gemmi']]],
-  ['bond_5frestraint_5ffrom_5fconnection_16',['bond_restraint_from_connection',['../namespacegemmi.html#ab8965343ae79dae5c18efe87ea5f8c48',1,'gemmi']]],
-  ['bond_5ftype_5ffrom_5fstring_17',['bond_type_from_string',['../namespacegemmi.html#affb83a00638bf7314fa4ffdbf8962579',1,'gemmi']]],
-  ['bond_5ftype_5fto_5fstring_18',['bond_type_to_string',['../namespacegemmi.html#ab4b6946249be458d1fb8b8946f7f1230',1,'gemmi']]],
-  ['bondindex_19',['BondIndex',['../structgemmi_1_1BondIndex.html#afe124bf96805153a9f56b0875dd31d9e',1,'gemmi::BondIndex']]],
-  ['buerger_5freduce_20',['buerger_reduce',['../structgemmi_1_1GruberVector.html#aa41f2ad19c2afd8c856ad7d1138c3e4f',1,'gemmi::GruberVector']]],
-  ['buerger_5fstep_21',['buerger_step',['../structgemmi_1_1GruberVector.html#aa7544e1bda0a28badd1b1948c4623f6a',1,'gemmi::GruberVector']]],
-  ['by_5fresname_22',['by_resname',['../structgemmi_1_1ResidueGroup.html#acbe15def25d0c00731f72cbb04e172e0',1,'gemmi::ResidueGroup::by_resname()'],['../structgemmi_1_1ConstResidueGroup.html#a6bd9aca33dd0684f152d21d6728096b5',1,'gemmi::ConstResidueGroup::by_resname()']]]
+  ['bond_5ftype_5ffrom_5fstring_16',['bond_type_from_string',['../namespacegemmi.html#affb83a00638bf7314fa4ffdbf8962579',1,'gemmi']]],
+  ['bond_5ftype_5fto_5fstring_17',['bond_type_to_string',['../namespacegemmi.html#ab4b6946249be458d1fb8b8946f7f1230',1,'gemmi']]],
+  ['bondindex_18',['BondIndex',['../structgemmi_1_1BondIndex.html#afe124bf96805153a9f56b0875dd31d9e',1,'gemmi::BondIndex']]],
+  ['buerger_5freduce_19',['buerger_reduce',['../structgemmi_1_1GruberVector.html#aa41f2ad19c2afd8c856ad7d1138c3e4f',1,'gemmi::GruberVector']]],
+  ['buerger_5fstep_20',['buerger_step',['../structgemmi_1_1GruberVector.html#aa7544e1bda0a28badd1b1948c4623f6a',1,'gemmi::GruberVector']]],
+  ['by_5fresname_21',['by_resname',['../structgemmi_1_1ResidueGroup.html#acbe15def25d0c00731f72cbb04e172e0',1,'gemmi::ResidueGroup::by_resname()'],['../structgemmi_1_1ConstResidueGroup.html#a6bd9aca33dd0684f152d21d6728096b5',1,'gemmi::ConstResidueGroup::by_resname()']]]
 ];

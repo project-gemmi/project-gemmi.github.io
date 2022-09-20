@@ -127,8 +127,8 @@ Public Member Functions</h2></td></tr>
 struct gemmi::BidirIterator&lt; Policy &gt;</div>
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00023">23</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a3c014d1d363f32b4f5225ec1f5cbc927" name="a3c014d1d363f32b4f5225ec1f5cbc927"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c014d1d363f32b4f5225ec1f5cbc927">&#9670;&nbsp;</a></span>const_variant</h2>
+<a id="ae0fcf9f0d76784495c57b7915a831710" name="ae0fcf9f0d76784495c57b7915a831710"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0fcf9f0d76784495c57b7915a831710">&#9670;&nbsp;</a></span>value_type</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -136,12 +136,12 @@ struct gemmi::BidirIterator&lt; Policy &gt;</div>
 template&lt;typename Policy &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="structgemmi_1_1BidirIterator.html">gemmi::BidirIterator</a>&lt; Policy &gt;::const_variant =  <a class="el" href="structgemmi_1_1BidirIterator.html">BidirIterator</a>&lt;typename Policy::const_policy&gt;</td>
+          <td class="memname">using <a class="el" href="structgemmi_1_1BidirIterator.html">gemmi::BidirIterator</a>&lt; Policy &gt;::value_type =  typename std::remove_cv&lt;typename Policy::value_type&gt;::type</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00041">41</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00024">24</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 </div>
 </div>
@@ -160,24 +160,6 @@ template&lt;typename Policy &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00025">25</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a9b1839c10903331a3abdfd0c58edfaa0" name="a9b1839c10903331a3abdfd0c58edfaa0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b1839c10903331a3abdfd0c58edfaa0">&#9670;&nbsp;</a></span>iterator_category</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Policy &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="structgemmi_1_1BidirIterator.html">gemmi::BidirIterator</a>&lt; Policy &gt;::iterator_category =  std::bidirectional_iterator_tag</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00028">28</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 </div>
 </div>
@@ -217,8 +199,8 @@ template&lt;typename Policy &gt; </div>
 
 </div>
 </div>
-<a id="ae0fcf9f0d76784495c57b7915a831710" name="ae0fcf9f0d76784495c57b7915a831710"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0fcf9f0d76784495c57b7915a831710">&#9670;&nbsp;</a></span>value_type</h2>
+<a id="a9b1839c10903331a3abdfd0c58edfaa0" name="a9b1839c10903331a3abdfd0c58edfaa0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b1839c10903331a3abdfd0c58edfaa0">&#9670;&nbsp;</a></span>iterator_category</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226,12 +208,30 @@ template&lt;typename Policy &gt; </div>
 template&lt;typename Policy &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="structgemmi_1_1BidirIterator.html">gemmi::BidirIterator</a>&lt; Policy &gt;::value_type =  typename std::remove_cv&lt;typename Policy::value_type&gt;::type</td>
+          <td class="memname">using <a class="el" href="structgemmi_1_1BidirIterator.html">gemmi::BidirIterator</a>&lt; Policy &gt;::iterator_category =  std::bidirectional_iterator_tag</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00024">24</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00028">28</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a3c014d1d363f32b4f5225ec1f5cbc927" name="a3c014d1d363f32b4f5225ec1f5cbc927"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c014d1d363f32b4f5225ec1f5cbc927">&#9670;&nbsp;</a></span>const_variant</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Policy &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structgemmi_1_1BidirIterator.html">gemmi::BidirIterator</a>&lt; Policy &gt;::const_variant =  <a class="el" href="structgemmi_1_1BidirIterator.html">BidirIterator</a>&lt;typename Policy::const_policy&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00041">41</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 </div>
 </div>
@@ -294,94 +294,6 @@ template&lt;typename Policy &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab305027a35b522dab10ddce9e6474f75" name="ab305027a35b522dab10ddce9e6474f75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab305027a35b522dab10ddce9e6474f75">&#9670;&nbsp;</a></span>operator const_variant()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Policy &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structgemmi_1_1BidirIterator.html">gemmi::BidirIterator</a>&lt; Policy &gt;::operator <a class="el" href="structgemmi_1_1BidirIterator.html#a3c014d1d363f32b4f5225ec1f5cbc927">const_variant</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00042">42</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-
-</div>
-</div>
-<a id="aa8bb930cfc29757ceb9aa4c098e8dc9a" name="aa8bb930cfc29757ceb9aa4c098e8dc9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8bb930cfc29757ceb9aa4c098e8dc9a">&#9670;&nbsp;</a></span>operator!=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Policy &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="structgemmi_1_1BidirIterator.html">gemmi::BidirIterator</a>&lt; Policy &gt;::operator!= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1BidirIterator.html">BidirIterator</a>&lt; Policy &gt; &amp;&#160;</td>
-          <td class="paramname"><em>o</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00038">38</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a1b0bce5199f5e900270d2241a229023e" name="a1b0bce5199f5e900270d2241a229023e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b0bce5199f5e900270d2241a229023e">&#9670;&nbsp;</a></span>operator*()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Policy &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structgemmi_1_1BidirIterator.html#a698008eb417298b3a45308bb0c268b6e">reference</a> <a class="el" href="structgemmi_1_1BidirIterator.html">gemmi::BidirIterator</a>&lt; Policy &gt;::operator* </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00039">39</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-
-</div>
-</div>
 <a id="ad6f055a3cd4053ed870ad19b427c9f26" name="ad6f055a3cd4053ed870ad19b427c9f26"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad6f055a3cd4053ed870ad19b427c9f26">&#9670;&nbsp;</a></span>operator++() <span class="overload">[1/2]</span></h2>
 
@@ -500,6 +412,95 @@ template&lt;typename Policy &gt; </div>
 
 </div>
 </div>
+<a id="a0b18c9ffd37ef353d5e8d9f38c0ad21f" name="a0b18c9ffd37ef353d5e8d9f38c0ad21f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b18c9ffd37ef353d5e8d9f38c0ad21f">&#9670;&nbsp;</a></span>operator==()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Policy &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="structgemmi_1_1BidirIterator.html">gemmi::BidirIterator</a>&lt; Policy &gt;::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1BidirIterator.html">BidirIterator</a>&lt; Policy &gt; &amp;&#160;</td>
+          <td class="paramname"><em>o</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00037">37</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aa8bb930cfc29757ceb9aa4c098e8dc9a" name="aa8bb930cfc29757ceb9aa4c098e8dc9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8bb930cfc29757ceb9aa4c098e8dc9a">&#9670;&nbsp;</a></span>operator!=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Policy &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="structgemmi_1_1BidirIterator.html">gemmi::BidirIterator</a>&lt; Policy &gt;::operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1BidirIterator.html">BidirIterator</a>&lt; Policy &gt; &amp;&#160;</td>
+          <td class="paramname"><em>o</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00038">38</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a1b0bce5199f5e900270d2241a229023e" name="a1b0bce5199f5e900270d2241a229023e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b0bce5199f5e900270d2241a229023e">&#9670;&nbsp;</a></span>operator*()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Policy &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgemmi_1_1BidirIterator.html#a698008eb417298b3a45308bb0c268b6e">reference</a> <a class="el" href="structgemmi_1_1BidirIterator.html">gemmi::BidirIterator</a>&lt; Policy &gt;::operator* </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00039">39</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a5a32e4528bc413cf8e1b4c67a91d16e8" name="a5a32e4528bc413cf8e1b4c67a91d16e8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5a32e4528bc413cf8e1b4c67a91d16e8">&#9670;&nbsp;</a></span>operator-&gt;()</h2>
 
@@ -529,8 +530,8 @@ template&lt;typename Policy &gt; </div>
 
 </div>
 </div>
-<a id="a0b18c9ffd37ef353d5e8d9f38c0ad21f" name="a0b18c9ffd37ef353d5e8d9f38c0ad21f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b18c9ffd37ef353d5e8d9f38c0ad21f">&#9670;&nbsp;</a></span>operator==()</h2>
+<a id="ab305027a35b522dab10ddce9e6474f75" name="ab305027a35b522dab10ddce9e6474f75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab305027a35b522dab10ddce9e6474f75">&#9670;&nbsp;</a></span>operator const_variant()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -541,10 +542,9 @@ template&lt;typename Policy &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="structgemmi_1_1BidirIterator.html">gemmi::BidirIterator</a>&lt; Policy &gt;::operator== </td>
+          <td class="memname"><a class="el" href="structgemmi_1_1BidirIterator.html">gemmi::BidirIterator</a>&lt; Policy &gt;::operator <a class="el" href="structgemmi_1_1BidirIterator.html#a3c014d1d363f32b4f5225ec1f5cbc927">const_variant</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1BidirIterator.html">BidirIterator</a>&lt; Policy &gt; &amp;&#160;</td>
-          <td class="paramname"><em>o</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -555,7 +555,7 @@ template&lt;typename Policy &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00037">37</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00042">42</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 </div>
 </div>

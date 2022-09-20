@@ -159,8 +159,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="af0ab4c4832c99bf1faefd4ad22bdc3b3" name="af0ab4c4832c99bf1faefd4ad22bdc3b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0ab4c4832c99bf1faefd4ad22bdc3b3">&#9670;&nbsp;</a></span>dmax_of_bin()</h2>
+<a id="a69aa241a6da07686212fa2ca15aae286" name="a69aa241a6da07686212fa2ca15aae286"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69aa241a6da07686212fa2ca15aae286">&#9670;&nbsp;</a></span>setup_from_1_d2()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -169,11 +169,33 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double gemmi::Binner::dmax_of_bin </td>
+          <td class="memname">int gemmi::Binner::setup_from_1_d2 </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>n</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>nbins</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structgemmi_1_1Binner.html#acae4a014ee6dc4c7c752a3f2516cefe6">Method</a>&#160;</td>
+          <td class="paramname"><em>method</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; double &gt; &amp;&amp;&#160;</td>
+          <td class="paramname"><em>inv_d2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1UnitCell.html">UnitCell</a> *&#160;</td>
+          <td class="paramname"><em>cell_</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -183,25 +205,49 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00141">141</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00023">23</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a47bffdb4e180985006e2e67c025738f5" name="a47bffdb4e180985006e2e67c025738f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47bffdb4e180985006e2e67c025738f5">&#9670;&nbsp;</a></span>dmin_of_bin()</h2>
+<a id="a445925eb2695fb7e9fbea66a2ddd4104" name="a445925eb2695fb7e9fbea66a2ddd4104"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a445925eb2695fb7e9fbea66a2ddd4104">&#9670;&nbsp;</a></span>setup()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename DataProxy &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double gemmi::Binner::dmin_of_bin </td>
+          <td class="memname">int gemmi::Binner::setup </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>n</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>nbins</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structgemmi_1_1Binner.html#acae4a014ee6dc4c7c752a3f2516cefe6">Method</a>&#160;</td>
+          <td class="paramname"><em>method</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const DataProxy &amp;&#160;</td>
+          <td class="paramname"><em>proxy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1UnitCell.html">UnitCell</a> *&#160;</td>
+          <td class="paramname"><em>cell_</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -211,7 +257,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00138">138</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00082">82</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
 
 </div>
 </div>
@@ -242,34 +288,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a17ddbaed265f07d2125f6d708f790d8c" name="a17ddbaed265f07d2125f6d708f790d8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17ddbaed265f07d2125f6d708f790d8c">&#9670;&nbsp;</a></span>get_bin()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int gemmi::Binner::get_bin </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespacegemmi.html#a592f1efb2742477309b5e06590554c21">Miller</a> &amp;&#160;</td>
-          <td class="paramname"><em>hkl</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00104">104</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
-
-</div>
-</div>
 <a id="ae02021153e47d5c4c529c6231578ef89" name="ae02021153e47d5c4c529c6231578ef89"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae02021153e47d5c4c529c6231578ef89">&#9670;&nbsp;</a></span>get_bin_from_1_d2()</h2>
 
@@ -295,6 +313,34 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00097">97</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a17ddbaed265f07d2125f6d708f790d8c" name="a17ddbaed265f07d2125f6d708f790d8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17ddbaed265f07d2125f6d708f790d8c">&#9670;&nbsp;</a></span>get_bin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gemmi::Binner::get_bin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacegemmi.html#a592f1efb2742477309b5e06590554c21">Miller</a> &amp;&#160;</td>
+          <td class="paramname"><em>hkl</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00104">104</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
 
 </div>
 </div>
@@ -404,45 +450,21 @@ template&lt;typename DataProxy &gt; </div>
 
 </div>
 </div>
-<a id="a445925eb2695fb7e9fbea66a2ddd4104" name="a445925eb2695fb7e9fbea66a2ddd4104"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a445925eb2695fb7e9fbea66a2ddd4104">&#9670;&nbsp;</a></span>setup()</h2>
+<a id="a47bffdb4e180985006e2e67c025738f5" name="a47bffdb4e180985006e2e67c025738f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47bffdb4e180985006e2e67c025738f5">&#9670;&nbsp;</a></span>dmin_of_bin()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename DataProxy &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int gemmi::Binner::setup </td>
+          <td class="memname">double gemmi::Binner::dmin_of_bin </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>nbins</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structgemmi_1_1Binner.html#acae4a014ee6dc4c7c752a3f2516cefe6">Method</a>&#160;</td>
-          <td class="paramname"><em>method</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const DataProxy &amp;&#160;</td>
-          <td class="paramname"><em>proxy</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1UnitCell.html">UnitCell</a> *&#160;</td>
-          <td class="paramname"><em>cell_</em> = <code>nullptr</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -452,12 +474,12 @@ template&lt;typename DataProxy &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00082">82</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00138">138</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a69aa241a6da07686212fa2ca15aae286" name="a69aa241a6da07686212fa2ca15aae286"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69aa241a6da07686212fa2ca15aae286">&#9670;&nbsp;</a></span>setup_from_1_d2()</h2>
+<a id="af0ab4c4832c99bf1faefd4ad22bdc3b3" name="af0ab4c4832c99bf1faefd4ad22bdc3b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0ab4c4832c99bf1faefd4ad22bdc3b3">&#9670;&nbsp;</a></span>dmax_of_bin()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -466,33 +488,11 @@ template&lt;typename DataProxy &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int gemmi::Binner::setup_from_1_d2 </td>
+          <td class="memname">double gemmi::Binner::dmax_of_bin </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>nbins</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structgemmi_1_1Binner.html#acae4a014ee6dc4c7c752a3f2516cefe6">Method</a>&#160;</td>
-          <td class="paramname"><em>method</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; double &gt; &amp;&amp;&#160;</td>
-          <td class="paramname"><em>inv_d2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1UnitCell.html">UnitCell</a> *&#160;</td>
-          <td class="paramname"><em>cell_</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -502,7 +502,7 @@ template&lt;typename DataProxy &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00023">23</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00141">141</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
 
 </div>
 </div>
@@ -550,19 +550,19 @@ template&lt;typename DataProxy &gt; </div>
 
 </div>
 </div>
-<a id="a328e3b99ec3c1538ae93587cb95191d2" name="a328e3b99ec3c1538ae93587cb95191d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a328e3b99ec3c1538ae93587cb95191d2">&#9670;&nbsp;</a></span>limits</h2>
+<a id="af3bc07ac6b2ca6d25efb76e231c8b5c2" name="af3bc07ac6b2ca6d25efb76e231c8b5c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3bc07ac6b2ca6d25efb76e231c8b5c2">&#9670;&nbsp;</a></span>min_1_d2</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;double&gt; gemmi::Binner::limits</td>
+          <td class="memname">double gemmi::Binner::min_1_d2</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00150">150</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00148">148</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
 
 </div>
 </div>
@@ -582,19 +582,19 @@ template&lt;typename DataProxy &gt; </div>
 
 </div>
 </div>
-<a id="af3bc07ac6b2ca6d25efb76e231c8b5c2" name="af3bc07ac6b2ca6d25efb76e231c8b5c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3bc07ac6b2ca6d25efb76e231c8b5c2">&#9670;&nbsp;</a></span>min_1_d2</h2>
+<a id="a328e3b99ec3c1538ae93587cb95191d2" name="a328e3b99ec3c1538ae93587cb95191d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a328e3b99ec3c1538ae93587cb95191d2">&#9670;&nbsp;</a></span>limits</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double gemmi::Binner::min_1_d2</td>
+          <td class="memname">std::vector&lt;double&gt; gemmi::Binner::limits</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00148">148</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00150">150</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
 
 </div>
 </div>

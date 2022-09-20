@@ -55,8 +55,8 @@ var searchData=
   ['tql2_52',['tql2',['../namespacegemmi.html#ae6ae933cbf4510224513a9d0366b1f7c',1,'gemmi']]],
   ['tr_53',['tr',['../structgemmi_1_1NcsOp.html#a790b1024d2eb2c76b2d1436f82eb2075',1,'gemmi::NcsOp']]],
   ['trace_54',['trace',['../structgemmi_1_1SMat33.html#a285bcddabf284388391328f9186d6a31',1,'gemmi::SMat33::trace()'],['../structgemmi_1_1Mat33.html#a7c25b6ccbcebd124417811507f56ce9e',1,'gemmi::Mat33::trace()']]],
-  ['tran_55',['Tran',['../structgemmi_1_1Op.html#a96919b7802b8f7335eb80c507621e51c',1,'gemmi::Op']]],
-  ['tran_56',['tran',['../structgemmi_1_1Op.html#a7ece8226fd16b83982eb3b499ac3e61b',1,'gemmi::Op']]],
+  ['tran_55',['tran',['../structgemmi_1_1Op.html#a7ece8226fd16b83982eb3b499ac3e61b',1,'gemmi::Op']]],
+  ['tran_56',['Tran',['../structgemmi_1_1Op.html#a96919b7802b8f7335eb80c507621e51c',1,'gemmi::Op']]],
   ['tran_5fas_5fvec3_57',['tran_as_vec3',['../namespacegemmi.html#ae8350e225016836e91a13e4ef742cf07',1,'gemmi']]],
   ['transform_58',['Transform',['../structgemmi_1_1Transform.html',1,'gemmi']]],
   ['transform_59',['transform',['../structgemmi_1_1Assembly_1_1Operator.html#a65f5c1d357a555e8598b021199ce113c',1,'gemmi::Assembly::Operator::transform()'],['../structgemmi_1_1SupResult.html#a093fbc0e91ab183c39018d4e428e99a2',1,'gemmi::SupResult::transform()']]],
@@ -86,8 +86,8 @@ var searchData=
   ['tsum_83',['Tsum',['../structgemmi_1_1GridBase.html#a3ba70ec0d67eca7543d588bc8afb9077',1,'gemmi::GridBase']]],
   ['twice_84',['twice',['../structgemmi_1_1ContactSearch.html#a006baba738f7191d6a88edfb72d96f94',1,'gemmi::ContactSearch']]],
   ['twin_2ehpp_85',['twin.hpp',['../twin_8hpp.html',1,'']]],
-  ['type_86',['Type',['../structgemmi_1_1Connection.html#aac819b0270d9598d999c4ecf4b93d029',1,'gemmi::Connection']]],
-  ['type_87',['type',['../structgemmi_1_1Restraints_1_1Bond.html#a1f610193d7055f86f122da9f1c5df392',1,'gemmi::Restraints::Bond::type()'],['../structgemmi_1_1cif_1_1Item.html#a8dcc3181ca9606833092a54e07cdf770',1,'gemmi::cif::Item::type()'],['../structgemmi_1_1Intensities.html#aeac4472c540c31b1361085ce230d3d23',1,'gemmi::Intensities::type()'],['../structgemmi_1_1Connection.html#ae6c16008b6303f213d301bd6bb96ebff',1,'gemmi::Connection::type()'],['../structgemmi_1_1Assembly_1_1Operator.html#a041cc1a937559bafb5656567b2594f76',1,'gemmi::Assembly::Operator::type()'],['../structgemmi_1_1Mtz_1_1Column.html#af454b920073493b1d8420e3d329f024b',1,'gemmi::Mtz::Column::type()']]],
+  ['type_86',['type',['../structgemmi_1_1Restraints_1_1Bond.html#a1f610193d7055f86f122da9f1c5df392',1,'gemmi::Restraints::Bond::type()'],['../structgemmi_1_1cif_1_1Item.html#a8dcc3181ca9606833092a54e07cdf770',1,'gemmi::cif::Item::type()'],['../structgemmi_1_1Intensities.html#aeac4472c540c31b1361085ce230d3d23',1,'gemmi::Intensities::type()'],['../structgemmi_1_1Connection.html#ae6c16008b6303f213d301bd6bb96ebff',1,'gemmi::Connection::type()'],['../structgemmi_1_1Assembly_1_1Operator.html#a041cc1a937559bafb5656567b2594f76',1,'gemmi::Assembly::Operator::type()'],['../structgemmi_1_1Mtz_1_1Column.html#af454b920073493b1d8420e3d329f024b',1,'gemmi::Mtz::Column::type()']]],
+  ['type_87',['Type',['../structgemmi_1_1Connection.html#aac819b0270d9598d999c4ecf4b93d029',1,'gemmi::Connection']]],
   ['type_5fstr_88',['type_str',['../structgemmi_1_1Intensities.html#a09260946545c3c51e034b86b5f7d0b19',1,'gemmi::Intensities::type_str(DataType data_type)'],['../structgemmi_1_1Intensities.html#aa6bfa1240362c9158551cb99c4896dae',1,'gemmi::Intensities::type_str() const']]],
   ['type_5fsymbol_89',['type_symbol',['../structgemmi_1_1SmallStructure_1_1Site.html#a3d5f3ce5cb3b33d402228582f3ba50ec',1,'gemmi::SmallStructure::Site']]]
 ];

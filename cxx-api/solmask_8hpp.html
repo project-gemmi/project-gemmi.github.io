@@ -84,6 +84,8 @@ $(function() {
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1SolventMasker.html">gemmi::SolventMasker</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1NodeInfo.html">gemmi::NodeInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -114,9 +116,18 @@ Functions</h2></td></tr>
 <tr class="memitem:ac765776aa3d0f876305aaff37b2f9911"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ac765776aa3d0f876305aaff37b2f9911"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#ac765776aa3d0f876305aaff37b2f9911">gemmi::set_margin_around</a> (Grid&lt; T &gt; &amp;mask, double r, T value, T margin_value)</td></tr>
 <tr class="separator:ac765776aa3d0f876305aaff37b2f9911"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a065187c0138ec625adfa23d67ae9086f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a065187c0138ec625adfa23d67ae9086f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a065187c0138ec625adfa23d67ae9086f">gemmi::interpolate_grid_of_aligned_model2</a> (Grid&lt; T &gt; &amp;dest, const Grid&lt; T &gt; &amp;src, const Transform &amp;tr, const Model &amp;dest_model, double radius)</td></tr>
-<tr class="separator:a065187c0138ec625adfa23d67ae9086f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a139519d74f5b13272b5673cc2cc655a3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a139519d74f5b13272b5673cc2cc655a3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a139519d74f5b13272b5673cc2cc655a3">gemmi::interpolate_grid</a> (Grid&lt; T &gt; &amp;dest, const Grid&lt; T &gt; &amp;src, const Transform &amp;tr, int order=2)</td></tr>
+<tr class="separator:a139519d74f5b13272b5673cc2cc655a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7462dc2fe0a8510289ae9ef5c90c74b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#ae7462dc2fe0a8510289ae9ef5c90c74b">gemmi::mask_with_node_info</a> (Grid&lt; NodeInfo &gt; &amp;mask, const Model &amp;model, double radius)</td></tr>
+<tr class="memdesc:ae7462dc2fe0a8510289ae9ef5c90c74b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populate <a class="el" href="structgemmi_1_1NodeInfo.html">NodeInfo</a> grid for nodes near the model.  <a href="namespacegemmi.html#ae7462dc2fe0a8510289ae9ef5c90c74b">More...</a><br /></td></tr>
+<tr class="separator:ae7462dc2fe0a8510289ae9ef5c90c74b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa6f51bdfc4c1bef1ad5eb77f5a0fe2b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#aaa6f51bdfc4c1bef1ad5eb77f5a0fe2b">gemmi::unmask_symmetry_mates</a> (Grid&lt; NodeInfo &gt; &amp;mask)</td></tr>
+<tr class="memdesc:aaa6f51bdfc4c1bef1ad5eb77f5a0fe2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Skip nodes that are closer to a symmetry mate of the model than to the original model.  <a href="namespacegemmi.html#aaa6f51bdfc4c1bef1ad5eb77f5a0fe2b">More...</a><br /></td></tr>
+<tr class="separator:aaa6f51bdfc4c1bef1ad5eb77f5a0fe2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1added41940ff6b4a209138bde7714e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ae1added41940ff6b4a209138bde7714e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#ae1added41940ff6b4a209138bde7714e">gemmi::interpolate_grid_of_aligned_model2</a> (Grid&lt; T &gt; &amp;dest, const Grid&lt; T &gt; &amp;src, const Transform &amp;tr, const Model &amp;dest_model, double radius, int order=2)</td></tr>
+<tr class="separator:ae1added41940ff6b4a209138bde7714e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada7e288c35005235f4856f3a7f63b61e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ada7e288c35005235f4856f3a7f63b61e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#ada7e288c35005235f4856f3a7f63b61e">gemmi::add_soft_edge_to_mask</a> (Grid&lt; T &gt; &amp;grid, double width)</td></tr>
 <tr class="separator:ada7e288c35005235f4856f3a7f63b61e"><td class="memSeparator" colspan="2">&#160;</td></tr>

@@ -11,7 +11,7 @@ var searchData=
   ['nreflections_8',['nreflections',['../structgemmi_1_1Mtz.html#a82867bdfceb6e54561b8322d6dd6821a',1,'gemmi::Mtz']]],
   ['nsymop_9',['nsymop',['../structgemmi_1_1Mtz.html#a8a60531507cc8dd6a9ddd9494f0158c5',1,'gemmi::Mtz']]],
   ['nu_10',['nu',['../structgemmi_1_1GridMeta.html#a15c86f3a95f3f330c962140bc2b76ec1',1,'gemmi::GridMeta']]],
-  ['num_11',['num',['../structgemmi_1_1SeqId.html#a03833798f7ee38b029dee748fa1e1de4',1,'gemmi::SeqId']]],
+  ['num_11',['num',['../structgemmi_1_1SiftsUnpResidue.html#adcad361d97cb92dc5f471a1620df1e92',1,'gemmi::SiftsUnpResidue::num()'],['../structgemmi_1_1SeqId.html#a03833798f7ee38b029dee748fa1e1de4',1,'gemmi::SeqId::num()']]],
   ['number_12',['number',['../structgemmi_1_1Mtz_1_1Batch.html#a28272a207ed15c2618f474089e83af3d',1,'gemmi::Mtz::Batch::number()'],['../structgemmi_1_1SpaceGroup.html#aaf821ecc1ddcc1699ffbadd1c80f9966',1,'gemmi::SpaceGroup::number()']]],
   ['number_5fof_5fcrystals_13',['number_of_crystals',['../structgemmi_1_1ExperimentInfo.html#ad51ff9971465c507c88166e8a81b004a',1,'gemmi::ExperimentInfo']]],
   ['numbered_5fter_14',['numbered_ter',['../structgemmi_1_1PdbWriteOptions.html#aa7c7647a20eea4b6cab7020d89240386',1,'gemmi::PdbWriteOptions']]],

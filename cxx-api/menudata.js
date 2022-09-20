@@ -183,6 +183,7 @@ var menudata={children:[
 {text:"e",url:"functions_eval.html#index_e"},
 {text:"h",url:"functions_eval.html#index_h"},
 {text:"i",url:"functions_eval.html#index_i"},
+{text:"k",url:"functions_eval.html#index_k"},
 {text:"l",url:"functions_eval.html#index_l"},
 {text:"m",url:"functions_eval.html#index_m"},
 {text:"n",url:"functions_eval.html#index_n"},

@@ -109,8 +109,8 @@ Public Attributes</h2></td></tr>
 struct gemmi::DirWalk&lt; FileOnly, Filter &gt;::Iter</div>
 <p class="definition">Definition at line <a class="el" href="dirwalk_8hpp_source.html#l00161">161</a> of file <a class="el" href="dirwalk_8hpp_source.html">dirwalk.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab86b7a4274d2a203584b8cbf7806d873" name="ab86b7a4274d2a203584b8cbf7806d873"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab86b7a4274d2a203584b8cbf7806d873">&#9670;&nbsp;</a></span>depth()</h2>
+<a id="a006d7cebb299aad0652e0f7910ac088b" name="a006d7cebb299aad0652e0f7910ac088b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a006d7cebb299aad0652e0f7910ac088b">&#9670;&nbsp;</a></span>get_dir()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -121,7 +121,7 @@ template&lt;bool FileOnly = true, typename Filter  = impl::IsAnyFile&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t <a class="el" href="classgemmi_1_1DirWalk.html">gemmi::DirWalk</a>&lt; FileOnly, Filter &gt;::Iter::depth </td>
+          <td class="memname">const tinydir_dir &amp; <a class="el" href="classgemmi_1_1DirWalk.html">gemmi::DirWalk</a>&lt; FileOnly, Filter &gt;::Iter::get_dir </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -134,7 +134,7 @@ template&lt;bool FileOnly = true, typename Filter  = impl::IsAnyFile&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dirwalk_8hpp_source.html#l00182">182</a> of file <a class="el" href="dirwalk_8hpp_source.html">dirwalk.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dirwalk_8hpp_source.html#l00165">165</a> of file <a class="el" href="dirwalk_8hpp_source.html">dirwalk.hpp</a>.</p>
 
 </div>
 </div>
@@ -167,8 +167,8 @@ template&lt;bool FileOnly = true, typename Filter  = impl::IsAnyFile&gt; </div>
 
 </div>
 </div>
-<a id="a006d7cebb299aad0652e0f7910ac088b" name="a006d7cebb299aad0652e0f7910ac088b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a006d7cebb299aad0652e0f7910ac088b">&#9670;&nbsp;</a></span>get_dir()</h2>
+<a id="a32d5375d2315d9177008fb3782791b52" name="a32d5375d2315d9177008fb3782791b52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32d5375d2315d9177008fb3782791b52">&#9670;&nbsp;</a></span>operator*()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -179,7 +179,7 @@ template&lt;bool FileOnly = true, typename Filter  = impl::IsAnyFile&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const tinydir_dir &amp; <a class="el" href="classgemmi_1_1DirWalk.html">gemmi::DirWalk</a>&lt; FileOnly, Filter &gt;::Iter::get_dir </td>
+          <td class="memname">std::string <a class="el" href="classgemmi_1_1DirWalk.html">gemmi::DirWalk</a>&lt; FileOnly, Filter &gt;::Iter::operator* </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -192,7 +192,7 @@ template&lt;bool FileOnly = true, typename Filter  = impl::IsAnyFile&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dirwalk_8hpp_source.html#l00165">165</a> of file <a class="el" href="dirwalk_8hpp_source.html">dirwalk.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dirwalk_8hpp_source.html#l00174">174</a> of file <a class="el" href="dirwalk_8hpp_source.html">dirwalk.hpp</a>.</p>
 
 </div>
 </div>
@@ -226,6 +226,35 @@ template&lt;bool FileOnly = true, typename Filter  = impl::IsAnyFile&gt; </div>
 
 </div>
 </div>
+<a id="ab86b7a4274d2a203584b8cbf7806d873" name="ab86b7a4274d2a203584b8cbf7806d873"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab86b7a4274d2a203584b8cbf7806d873">&#9670;&nbsp;</a></span>depth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;bool FileOnly = true, typename Filter  = impl::IsAnyFile&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t <a class="el" href="classgemmi_1_1DirWalk.html">gemmi::DirWalk</a>&lt; FileOnly, Filter &gt;::Iter::depth </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="dirwalk_8hpp_source.html#l00182">182</a> of file <a class="el" href="dirwalk_8hpp_source.html">dirwalk.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a488571fb8ccb144d2617dc808a27035b" name="a488571fb8ccb144d2617dc808a27035b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a488571fb8ccb144d2617dc808a27035b">&#9670;&nbsp;</a></span>next()</h2>
 
@@ -252,65 +281,6 @@ template&lt;bool FileOnly = true, typename Filter  = impl::IsAnyFile&gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="dirwalk_8hpp_source.html#l00184">184</a> of file <a class="el" href="dirwalk_8hpp_source.html">dirwalk.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ae5035af9cf29be722973ef86c777a197" name="ae5035af9cf29be722973ef86c777a197"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5035af9cf29be722973ef86c777a197">&#9670;&nbsp;</a></span>operator!=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;bool FileOnly = true, typename Filter  = impl::IsAnyFile&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="classgemmi_1_1DirWalk.html">gemmi::DirWalk</a>&lt; FileOnly, Filter &gt;::Iter::operator!= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1DirWalk_1_1Iter.html">Iter</a> &amp;&#160;</td>
-          <td class="paramname"><em>o</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="dirwalk_8hpp_source.html#l00216">216</a> of file <a class="el" href="dirwalk_8hpp_source.html">dirwalk.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a32d5375d2315d9177008fb3782791b52" name="a32d5375d2315d9177008fb3782791b52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32d5375d2315d9177008fb3782791b52">&#9670;&nbsp;</a></span>operator*()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;bool FileOnly = true, typename Filter  = impl::IsAnyFile&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string <a class="el" href="classgemmi_1_1DirWalk.html">gemmi::DirWalk</a>&lt; FileOnly, Filter &gt;::Iter::operator* </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="dirwalk_8hpp_source.html#l00174">174</a> of file <a class="el" href="dirwalk_8hpp_source.html">dirwalk.hpp</a>.</p>
 
 </div>
 </div>
@@ -373,25 +343,37 @@ template&lt;bool FileOnly = true, typename Filter  = impl::IsAnyFile&gt; </div>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a436d7f01aa9f10b0ee190a86e7928f56" name="a436d7f01aa9f10b0ee190a86e7928f56"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a436d7f01aa9f10b0ee190a86e7928f56">&#9670;&nbsp;</a></span>cur</h2>
+<a id="ae5035af9cf29be722973ef86c777a197" name="ae5035af9cf29be722973ef86c777a197"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5035af9cf29be722973ef86c777a197">&#9670;&nbsp;</a></span>operator!=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;bool FileOnly = true, typename Filter  = impl::IsAnyFile&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t <a class="el" href="classgemmi_1_1DirWalk.html">gemmi::DirWalk</a>&lt; FileOnly, Filter &gt;::Iter::cur</td>
+          <td class="memname">bool <a class="el" href="classgemmi_1_1DirWalk.html">gemmi::DirWalk</a>&lt; FileOnly, Filter &gt;::Iter::operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1DirWalk_1_1Iter.html">Iter</a> &amp;&#160;</td>
+          <td class="paramname"><em>o</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dirwalk_8hpp_source.html#l00163">163</a> of file <a class="el" href="dirwalk_8hpp_source.html">dirwalk.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dirwalk_8hpp_source.html#l00216">216</a> of file <a class="el" href="dirwalk_8hpp_source.html">dirwalk.hpp</a>.</p>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
 <a id="a205d7c15bc598a6d1a70029901c79e8b" name="a205d7c15bc598a6d1a70029901c79e8b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a205d7c15bc598a6d1a70029901c79e8b">&#9670;&nbsp;</a></span>walk</h2>
 
@@ -407,6 +389,24 @@ template&lt;bool FileOnly = true, typename Filter  = impl::IsAnyFile&gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="dirwalk_8hpp_source.html#l00162">162</a> of file <a class="el" href="dirwalk_8hpp_source.html">dirwalk.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a436d7f01aa9f10b0ee190a86e7928f56" name="a436d7f01aa9f10b0ee190a86e7928f56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a436d7f01aa9f10b0ee190a86e7928f56">&#9670;&nbsp;</a></span>cur</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;bool FileOnly = true, typename Filter  = impl::IsAnyFile&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t <a class="el" href="classgemmi_1_1DirWalk.html">gemmi::DirWalk</a>&lt; FileOnly, Filter &gt;::Iter::cur</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="dirwalk_8hpp_source.html#l00163">163</a> of file <a class="el" href="dirwalk_8hpp_source.html">dirwalk.hpp</a>.</p>
 
 </div>
 </div>

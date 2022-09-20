@@ -120,8 +120,8 @@ Public Attributes</h2></td></tr>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="small_8hpp_source.html#l00022">22</a> of file <a class="el" href="small_8hpp_source.html">small.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a5b7629dce6b68b7aef4e50c386eee02b" name="a5b7629dce6b68b7aef4e50c386eee02b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b7629dce6b68b7aef4e50c386eee02b">&#9670;&nbsp;</a></span>change_occupancies_to_crystallographic()</h2>
+<a id="a2b00cc3a69a6cde60c04106b80098e71" name="a2b00cc3a69a6cde60c04106b80098e71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b00cc3a69a6cde60c04106b80098e71">&#9670;&nbsp;</a></span>get_all_unit_cell_sites()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -130,11 +130,10 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void gemmi::SmallStructure::change_occupancies_to_crystallographic </td>
+          <td class="memname">std::vector&lt; <a class="el" href="structgemmi_1_1SmallStructure_1_1Site.html">SmallStructure::Site</a> &gt; gemmi::SmallStructure::get_all_unit_cell_sites </td>
           <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>max_dist</em> = <code>0.4</code></td><td>)</td>
-          <td></td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -144,7 +143,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="small_8hpp_source.html#l00090">90</a> of file <a class="el" href="small_8hpp_source.html">small.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="small_8hpp_source.html#l00118">118</a> of file <a class="el" href="small_8hpp_source.html">small.hpp</a>.</p>
 
 </div>
 </div>
@@ -172,33 +171,6 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="small_8hpp_source.html#l00065">65</a> of file <a class="el" href="small_8hpp_source.html">small.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a2b00cc3a69a6cde60c04106b80098e71" name="a2b00cc3a69a6cde60c04106b80098e71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b00cc3a69a6cde60c04106b80098e71">&#9670;&nbsp;</a></span>get_all_unit_cell_sites()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt; <a class="el" href="structgemmi_1_1SmallStructure_1_1Site.html">SmallStructure::Site</a> &gt; gemmi::SmallStructure::get_all_unit_cell_sites </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="small_8hpp_source.html#l00118">118</a> of file <a class="el" href="small_8hpp_source.html">small.hpp</a>.</p>
 
 </div>
 </div>
@@ -284,6 +256,34 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a5b7629dce6b68b7aef4e50c386eee02b" name="a5b7629dce6b68b7aef4e50c386eee02b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b7629dce6b68b7aef4e50c386eee02b">&#9670;&nbsp;</a></span>change_occupancies_to_crystallographic()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gemmi::SmallStructure::change_occupancies_to_crystallographic </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>max_dist</em> = <code>0.4</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="small_8hpp_source.html#l00090">90</a> of file <a class="el" href="small_8hpp_source.html">small.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a35ea9f3f7b8e23c35e5fc4e1f7170b5f" name="a35ea9f3f7b8e23c35e5fc4e1f7170b5f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a35ea9f3f7b8e23c35e5fc4e1f7170b5f">&#9670;&nbsp;</a></span>setup_cell_images()</h2>
 
@@ -312,19 +312,19 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a3e2437b547e22b40a9a3594ad3c61cfc" name="a3e2437b547e22b40a9a3594ad3c61cfc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e2437b547e22b40a9a3594ad3c61cfc">&#9670;&nbsp;</a></span>atom_types</h2>
+<a id="a784a4fbc41453e79abae81351a0abe22" name="a784a4fbc41453e79abae81351a0abe22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a784a4fbc41453e79abae81351a0abe22">&#9670;&nbsp;</a></span>name</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="structgemmi_1_1SmallStructure_1_1AtomType.html">AtomType</a>&gt; gemmi::SmallStructure::atom_types</td>
+          <td class="memname">std::string gemmi::SmallStructure::name</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="small_8hpp_source.html#l00060">60</a> of file <a class="el" href="small_8hpp_source.html">small.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="small_8hpp_source.html#l00056">56</a> of file <a class="el" href="small_8hpp_source.html">small.hpp</a>.</p>
 
 </div>
 </div>
@@ -344,19 +344,19 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a784a4fbc41453e79abae81351a0abe22" name="a784a4fbc41453e79abae81351a0abe22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a784a4fbc41453e79abae81351a0abe22">&#9670;&nbsp;</a></span>name</h2>
+<a id="a18de869cd44b2cdcea558795514dc78f" name="a18de869cd44b2cdcea558795514dc78f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18de869cd44b2cdcea558795514dc78f">&#9670;&nbsp;</a></span>spacegroup_hm</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string gemmi::SmallStructure::name</td>
+          <td class="memname">std::string gemmi::SmallStructure::spacegroup_hm</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="small_8hpp_source.html#l00056">56</a> of file <a class="el" href="small_8hpp_source.html">small.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="small_8hpp_source.html#l00058">58</a> of file <a class="el" href="small_8hpp_source.html">small.hpp</a>.</p>
 
 </div>
 </div>
@@ -376,19 +376,19 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a18de869cd44b2cdcea558795514dc78f" name="a18de869cd44b2cdcea558795514dc78f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18de869cd44b2cdcea558795514dc78f">&#9670;&nbsp;</a></span>spacegroup_hm</h2>
+<a id="a3e2437b547e22b40a9a3594ad3c61cfc" name="a3e2437b547e22b40a9a3594ad3c61cfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e2437b547e22b40a9a3594ad3c61cfc">&#9670;&nbsp;</a></span>atom_types</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string gemmi::SmallStructure::spacegroup_hm</td>
+          <td class="memname">std::vector&lt;<a class="el" href="structgemmi_1_1SmallStructure_1_1AtomType.html">AtomType</a>&gt; gemmi::SmallStructure::atom_types</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="small_8hpp_source.html#l00058">58</a> of file <a class="el" href="small_8hpp_source.html">small.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="small_8hpp_source.html#l00060">60</a> of file <a class="el" href="small_8hpp_source.html">small.hpp</a>.</p>
 
 </div>
 </div>

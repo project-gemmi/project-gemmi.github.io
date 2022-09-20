@@ -279,8 +279,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aa41f2ad19c2afd8c856ad7d1138c3e4f" name="aa41f2ad19c2afd8c856ad7d1138c3e4f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa41f2ad19c2afd8c856ad7d1138c3e4f">&#9670;&nbsp;</a></span>buerger_reduce()</h2>
+<a id="a11aacee47f950ec22391bd7904e5c6e6" name="a11aacee47f950ec22391bd7904e5c6e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11aacee47f950ec22391bd7904e5c6e6">&#9670;&nbsp;</a></span>set_change_of_basis()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -289,9 +289,10 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int gemmi::GruberVector::buerger_reduce </td>
+          <td class="memname">void gemmi::GruberVector::set_change_of_basis </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1Op.html">Op</a> &amp;&#160;</td>
+          <td class="paramname"><em>op</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -302,12 +303,12 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00152">152</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00050">50</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
 
 </div>
 </div>
-<a id="aa7544e1bda0a28badd1b1948c4623f6a" name="aa7544e1bda0a28badd1b1948c4623f6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7544e1bda0a28badd1b1948c4623f6a">&#9670;&nbsp;</a></span>buerger_step()</h2>
+<a id="ae12ea9a2e5181d192a3140d148472df3" name="ae12ea9a2e5181d192a3140d148472df3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae12ea9a2e5181d192a3140d148472df3">&#9670;&nbsp;</a></span>parameters()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -316,10 +317,10 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool gemmi::GruberVector::buerger_step </td>
+          <td class="memname">std::array&lt; double, 6 &gt; gemmi::GruberVector::parameters </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -329,7 +330,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00124">124</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00052">52</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
 
 </div>
 </div>
@@ -387,6 +388,52 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a569d4b0dff33ca4934151262d683303a" name="a569d4b0dff33ca4934151262d683303a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a569d4b0dff33ca4934151262d683303a">&#9670;&nbsp;</a></span>selling()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgemmi_1_1SellingVector.html">SellingVector</a> gemmi::GruberVector::selling </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00398">398</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a7c263b5929218a68703da22333442499" name="a7c263b5929218a68703da22333442499"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c263b5929218a68703da22333442499">&#9670;&nbsp;</a></span>is_normalized()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gemmi::GruberVector::is_normalized </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00067">67</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a5cceef9e72412497e23b0abfcb2db64d" name="a5cceef9e72412497e23b0abfcb2db64d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5cceef9e72412497e23b0abfcb2db64d">&#9670;&nbsp;</a></span>is_buerger()</h2>
 
@@ -415,8 +462,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7fca13ccee58bcabc426d311f5b09d4e" name="a7fca13ccee58bcabc426d311f5b09d4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7fca13ccee58bcabc426d311f5b09d4e">&#9670;&nbsp;</a></span>is_niggli()</h2>
+<a id="a287f97ae02371e77d2161a51cd45c5ff" name="a287f97ae02371e77d2161a51cd45c5ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a287f97ae02371e77d2161a51cd45c5ff">&#9670;&nbsp;</a></span>normalize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -425,11 +472,93 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool gemmi::GruberVector::is_niggli </td>
+          <td class="memname">void gemmi::GruberVector::normalize </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>eps</em> = <code>1e-9</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00085">85</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aa7544e1bda0a28badd1b1948c4623f6a" name="aa7544e1bda0a28badd1b1948c4623f6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7544e1bda0a28badd1b1948c4623f6a">&#9670;&nbsp;</a></span>buerger_step()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gemmi::GruberVector::buerger_step </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00124">124</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aa41f2ad19c2afd8c856ad7d1138c3e4f" name="aa41f2ad19c2afd8c856ad7d1138c3e4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa41f2ad19c2afd8c856ad7d1138c3e4f">&#9670;&nbsp;</a></span>buerger_reduce()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gemmi::GruberVector::buerger_reduce </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00152">152</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a34873142be11b69fff8007af892d09f7" name="a34873142be11b69fff8007af892d09f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34873142be11b69fff8007af892d09f7">&#9670;&nbsp;</a></span>niggli_step()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gemmi::GruberVector::niggli_step </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>epsilon</em> = <code>1e-9</code></td><td>)</td>
-          <td> const</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -439,34 +568,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00234">234</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a7c263b5929218a68703da22333442499" name="a7c263b5929218a68703da22333442499"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c263b5929218a68703da22333442499">&#9670;&nbsp;</a></span>is_normalized()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool gemmi::GruberVector::is_normalized </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00067">67</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00180">180</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
 
 </div>
 </div>
@@ -508,8 +610,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a34873142be11b69fff8007af892d09f7" name="a34873142be11b69fff8007af892d09f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34873142be11b69fff8007af892d09f7">&#9670;&nbsp;</a></span>niggli_step()</h2>
+<a id="a7fca13ccee58bcabc426d311f5b09d4e" name="a7fca13ccee58bcabc426d311f5b09d4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fca13ccee58bcabc426d311f5b09d4e">&#9670;&nbsp;</a></span>is_niggli()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -518,65 +620,10 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool gemmi::GruberVector::niggli_step </td>
+          <td class="memname">bool gemmi::GruberVector::is_niggli </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>epsilon</em> = <code>1e-9</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00180">180</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a287f97ae02371e77d2161a51cd45c5ff" name="a287f97ae02371e77d2161a51cd45c5ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a287f97ae02371e77d2161a51cd45c5ff">&#9670;&nbsp;</a></span>normalize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void gemmi::GruberVector::normalize </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>eps</em> = <code>1e-9</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00085">85</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ae12ea9a2e5181d192a3140d148472df3" name="ae12ea9a2e5181d192a3140d148472df3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae12ea9a2e5181d192a3140d148472df3">&#9670;&nbsp;</a></span>parameters()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt; double, 6 &gt; gemmi::GruberVector::parameters </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -587,54 +634,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00052">52</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a569d4b0dff33ca4934151262d683303a" name="a569d4b0dff33ca4934151262d683303a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a569d4b0dff33ca4934151262d683303a">&#9670;&nbsp;</a></span>selling()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structgemmi_1_1SellingVector.html">SellingVector</a> gemmi::GruberVector::selling </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00398">398</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a11aacee47f950ec22391bd7904e5c6e6" name="a11aacee47f950ec22391bd7904e5c6e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11aacee47f950ec22391bd7904e5c6e6">&#9670;&nbsp;</a></span>set_change_of_basis()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void gemmi::GruberVector::set_change_of_basis </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1Op.html">Op</a> &amp;&#160;</td>
-          <td class="paramname"><em>op</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00050">50</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00234">234</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
 
 </div>
 </div>
@@ -687,19 +687,19 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a5f78c3e5e1ae75b3b34f9a58e3d7dc23" name="a5f78c3e5e1ae75b3b34f9a58e3d7dc23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f78c3e5e1ae75b3b34f9a58e3d7dc23">&#9670;&nbsp;</a></span>change_of_basis</h2>
+<a id="a6c1d2570b7ec972f97f3a066260edebd" name="a6c1d2570b7ec972f97f3a066260edebd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c1d2570b7ec972f97f3a066260edebd">&#9670;&nbsp;</a></span>xi</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="structgemmi_1_1Op.html">Op</a>&gt; gemmi::GruberVector::change_of_basis</td>
+          <td class="memname">double gemmi::GruberVector::xi</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00027">27</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00026">26</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
 
 </div>
 </div>
@@ -711,22 +711,6 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">double gemmi::GruberVector::eta</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00026">26</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a6c1d2570b7ec972f97f3a066260edebd" name="a6c1d2570b7ec972f97f3a066260edebd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c1d2570b7ec972f97f3a066260edebd">&#9670;&nbsp;</a></span>xi</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double gemmi::GruberVector::xi</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -748,6 +732,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00026">26</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a5f78c3e5e1ae75b3b34f9a58e3d7dc23" name="a5f78c3e5e1ae75b3b34f9a58e3d7dc23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f78c3e5e1ae75b3b34f9a58e3d7dc23">&#9670;&nbsp;</a></span>change_of_basis</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="structgemmi_1_1Op.html">Op</a>&gt; gemmi::GruberVector::change_of_basis</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="cellred_8hpp_source.html#l00027">27</a> of file <a class="el" href="cellred_8hpp_source.html">cellred.hpp</a>.</p>
 
 </div>
 </div>

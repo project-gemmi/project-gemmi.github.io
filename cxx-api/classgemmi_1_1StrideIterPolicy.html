@@ -107,8 +107,8 @@ Public Member Functions</h2></td></tr>
 class gemmi::StrideIterPolicy&lt; Value &gt;</div>
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00048">48</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a41bcf3076dc92caae641ef8a0a0abd21" name="a41bcf3076dc92caae641ef8a0a0abd21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41bcf3076dc92caae641ef8a0a0abd21">&#9670;&nbsp;</a></span>const_policy</h2>
+<a id="aa7f1a3b53445c78afbba43d69dc06d08" name="aa7f1a3b53445c78afbba43d69dc06d08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7f1a3b53445c78afbba43d69dc06d08">&#9670;&nbsp;</a></span>value_type</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -116,12 +116,12 @@ class gemmi::StrideIterPolicy&lt; Value &gt;</div>
 template&lt;typename Value &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classgemmi_1_1StrideIterPolicy.html">gemmi::StrideIterPolicy</a>&lt; Value &gt;::const_policy =  <a class="el" href="classgemmi_1_1StrideIterPolicy.html">StrideIterPolicy</a>&lt;Value const&gt;</td>
+          <td class="memname">using <a class="el" href="classgemmi_1_1StrideIterPolicy.html">gemmi::StrideIterPolicy</a>&lt; Value &gt;::value_type =  Value</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00059">59</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00050">50</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 </div>
 </div>
@@ -143,8 +143,8 @@ template&lt;typename Value &gt; </div>
 
 </div>
 </div>
-<a id="aa7f1a3b53445c78afbba43d69dc06d08" name="aa7f1a3b53445c78afbba43d69dc06d08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7f1a3b53445c78afbba43d69dc06d08">&#9670;&nbsp;</a></span>value_type</h2>
+<a id="a41bcf3076dc92caae641ef8a0a0abd21" name="a41bcf3076dc92caae641ef8a0a0abd21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41bcf3076dc92caae641ef8a0a0abd21">&#9670;&nbsp;</a></span>const_policy</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -152,12 +152,12 @@ template&lt;typename Value &gt; </div>
 template&lt;typename Value &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classgemmi_1_1StrideIterPolicy.html">gemmi::StrideIterPolicy</a>&lt; Value &gt;::value_type =  Value</td>
+          <td class="memname">using <a class="el" href="classgemmi_1_1StrideIterPolicy.html">gemmi::StrideIterPolicy</a>&lt; Value &gt;::const_policy =  <a class="el" href="classgemmi_1_1StrideIterPolicy.html">StrideIterPolicy</a>&lt;Value const&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00050">50</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00059">59</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 </div>
 </div>
@@ -238,6 +238,35 @@ template&lt;typename Value &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a07476e9798593bc30cccb56be3bec35d" name="a07476e9798593bc30cccb56be3bec35d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07476e9798593bc30cccb56be3bec35d">&#9670;&nbsp;</a></span>increment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Value &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classgemmi_1_1StrideIterPolicy.html">gemmi::StrideIterPolicy</a>&lt; Value &gt;::increment </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00055">55</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+
+</div>
+</div>
 <a id="ae40562b578b961db3bd48a3b61a15a33" name="ae40562b578b961db3bd48a3b61a15a33"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae40562b578b961db3bd48a3b61a15a33">&#9670;&nbsp;</a></span>decrement()</h2>
 
@@ -264,35 +293,6 @@ template&lt;typename Value &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00056">56</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-
-</div>
-</div>
-<a id="afd85e5259801c626d405e8354196455a" name="afd85e5259801c626d405e8354196455a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd85e5259801c626d405e8354196455a">&#9670;&nbsp;</a></span>dereference()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Value &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Value &amp; <a class="el" href="classgemmi_1_1StrideIterPolicy.html">gemmi::StrideIterPolicy</a>&lt; Value &gt;::dereference </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00058">58</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 </div>
 </div>
@@ -326,8 +326,8 @@ template&lt;typename Value &gt; </div>
 
 </div>
 </div>
-<a id="a07476e9798593bc30cccb56be3bec35d" name="a07476e9798593bc30cccb56be3bec35d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07476e9798593bc30cccb56be3bec35d">&#9670;&nbsp;</a></span>increment()</h2>
+<a id="afd85e5259801c626d405e8354196455a" name="afd85e5259801c626d405e8354196455a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd85e5259801c626d405e8354196455a">&#9670;&nbsp;</a></span>dereference()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -338,7 +338,7 @@ template&lt;typename Value &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classgemmi_1_1StrideIterPolicy.html">gemmi::StrideIterPolicy</a>&lt; Value &gt;::increment </td>
+          <td class="memname">Value &amp; <a class="el" href="classgemmi_1_1StrideIterPolicy.html">gemmi::StrideIterPolicy</a>&lt; Value &gt;::dereference </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -351,7 +351,7 @@ template&lt;typename Value &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00055">55</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00058">58</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 </div>
 </div>

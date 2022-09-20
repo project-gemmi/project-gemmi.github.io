@@ -8,7 +8,7 @@ var searchData=
   ['assembly_5',['Assembly',['../structgemmi_1_1Assembly.html',1,'gemmi']]],
   ['asubrick_6',['AsuBrick',['../structgemmi_1_1AsuBrick.html',1,'gemmi']]],
   ['asudata_7',['AsuData',['../structgemmi_1_1AsuData.html',1,'gemmi']]],
-  ['atom_8',['Atom',['../structgemmi_1_1Atom.html',1,'gemmi::Atom'],['../structgemmi_1_1ChemComp_1_1Atom.html',1,'gemmi::ChemComp::Atom']]],
+  ['atom_8',['Atom',['../structgemmi_1_1Atom.html',1,'gemmi::Atom'],['../structgemmi_1_1ChemComp_1_1Atom.html',1,'gemmi::ChemComp::Atom'],['../structgemmi_1_1EnerLib_1_1Atom.html',1,'gemmi::EnerLib::Atom']]],
   ['atomaddress_9',['AtomAddress',['../structgemmi_1_1AtomAddress.html',1,'gemmi']]],
   ['atomid_10',['AtomId',['../structgemmi_1_1Restraints_1_1AtomId.html',1,'gemmi::Restraints']]],
   ['atomimage_11',['AtomImage',['../structgemmi_1_1BondIndex_1_1AtomImage.html',1,'gemmi::BondIndex']]],

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['u_0',['u',['../structgemmi_1_1FloodFill_1_1Line.html#a3ea0d0039fa27ada426c33fab8d81751',1,'gemmi::FloodFill::Line::u()'],['../structgemmi_1_1GridBase_1_1Point.html#aa50a85eeef14b182af401b4e45b0cb64',1,'gemmi::GridBase::Point::u()'],['../structgemmi_1_1GridBase_1_1iterator.html#a8943c541b5b3a5387c06e63806ec5bed',1,'gemmi::GridBase::iterator::u()'],['../structgemmi_1_1MaskedGrid_1_1iterator.html#a0da5288f5dab4371172a2bde8843ac97',1,'gemmi::MaskedGrid::iterator::u()']]],
+  ['u_0',['u',['../structgemmi_1_1FloodFill_1_1Line.html#a3ea0d0039fa27ada426c33fab8d81751',1,'gemmi::FloodFill::Line::u()'],['../structgemmi_1_1GridBase_1_1Point.html#aa50a85eeef14b182af401b4e45b0cb64',1,'gemmi::GridBase::Point::u()'],['../structgemmi_1_1GridBase_1_1iterator.html#a8943c541b5b3a5387c06e63806ec5bed',1,'gemmi::GridBase::iterator::u()'],['../structgemmi_1_1NodeInfo.html#af74744e07fec0351c084bbb2e01f02eb',1,'gemmi::NodeInfo::u()'],['../structgemmi_1_1MaskedGrid_1_1iterator.html#a0da5288f5dab4371172a2bde8843ac97',1,'gemmi::MaskedGrid::iterator::u()']]],
   ['u11_1',['u11',['../structgemmi_1_1SMat33.html#a4e881fa59ffcbe3f235d7a3334af17ea',1,'gemmi::SMat33']]],
   ['u12_2',['u12',['../structgemmi_1_1SMat33.html#a7eb823c7265eb76c98e1aefb640c5932',1,'gemmi::SMat33']]],
   ['u13_3',['u13',['../structgemmi_1_1SMat33.html#aaee36626e1c361aa1b2d4d716d072c13',1,'gemmi::SMat33']]],

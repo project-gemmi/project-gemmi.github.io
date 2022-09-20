@@ -139,8 +139,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ada806852e1fc8f6c3a20d69502bc4081"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19d89f7759a18eba2a6c49acad11a74b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1Topo.html#a19d89f7759a18eba2a6c49acad11a74b">apply_restraints_to_extra_link</a> (<a class="el" href="structgemmi_1_1Topo_1_1Link.html">Link</a> &amp;link, const <a class="el" href="structgemmi_1_1MonLib.html">MonLib</a> &amp;monlib)</td></tr>
 <tr class="separator:a19d89f7759a18eba2a6c49acad11a74b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5d5a2a3d074af6992d6ac5614db161b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1Topo.html#ae5d5a2a3d074af6992d6ac5614db161b">initialize_refmac_topology</a> (const <a class="el" href="structgemmi_1_1Structure.html">Structure</a> &amp;st, <a class="el" href="structgemmi_1_1Model.html">Model</a> &amp;model0, <a class="el" href="structgemmi_1_1MonLib.html">MonLib</a> &amp;monlib, bool ignore_unknown_links=false)</td></tr>
-<tr class="separator:ae5d5a2a3d074af6992d6ac5614db161b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2875b7c7f63ed72fd0be360f2f3f6190"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1Topo.html#a2875b7c7f63ed72fd0be360f2f3f6190">initialize_refmac_topology</a> (<a class="el" href="structgemmi_1_1Structure.html">Structure</a> &amp;st, <a class="el" href="structgemmi_1_1Model.html">Model</a> &amp;model0, <a class="el" href="structgemmi_1_1MonLib.html">MonLib</a> &amp;monlib, bool ignore_unknown_links=false)</td></tr>
+<tr class="separator:a2875b7c7f63ed72fd0be360f2f3f6190"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a732851b2d0ec176fc8fd1cd232b41730"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1Topo.html#a732851b2d0ec176fc8fd1cd232b41730">finalize_refmac_topology</a> (const <a class="el" href="structgemmi_1_1MonLib.html">MonLib</a> &amp;monlib)</td></tr>
 <tr class="separator:a732851b2d0ec176fc8fd1cd232b41730"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2114eb29eb915c247fb60c519969ae96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1Topo_1_1Link.html">Link</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1Topo.html#a2114eb29eb915c247fb60c519969ae96">find_polymer_link</a> (const <a class="el" href="structgemmi_1_1AtomAddress.html">AtomAddress</a> &amp;a1, const <a class="el" href="structgemmi_1_1AtomAddress.html">AtomAddress</a> &amp;a2)</td></tr>
@@ -265,8 +265,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8f582814530548034efe42c31c10ee05" name="a8f582814530548034efe42c31c10ee05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f582814530548034efe42c31c10ee05">&#9670;&nbsp;</a></span>apply_restraints()</h2>
+<a id="a099503a0a39e6af3e830ffb00d9b45fa" name="a099503a0a39e6af3e830ffb00d9b45fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a099503a0a39e6af3e830ffb00d9b45fa">&#9670;&nbsp;</a></span>operator=()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -275,28 +275,44 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; <a class="el" href="structgemmi_1_1Topo_1_1Rule.html">Rule</a> &gt; gemmi::Topo::apply_restraints </td>
+          <td class="memname"><a class="el" href="structgemmi_1_1Topo.html">Topo</a> &amp; gemmi::Topo::operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1Restraints.html">Restraints</a> &amp;&#160;</td>
-          <td class="paramname"><em>rt</em>, </td>
+          <td class="paramtype"><a class="el" href="structgemmi_1_1Topo.html">Topo</a> const &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3b145b9646bfb209c3e3452467906d1b" name="a3b145b9646bfb209c3e3452467906d1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b145b9646bfb209c3e3452467906d1b">&#9670;&nbsp;</a></span>has_atom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int gemmi::Topo::has_atom </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1Atom.html">Atom</a> *&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structgemmi_1_1Residue.html">Residue</a> &amp;&#160;</td>
-          <td class="paramname"><em>res</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structgemmi_1_1Residue.html">Residue</a> *&#160;</td>
-          <td class="paramname"><em>res2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char&#160;</td>
-          <td class="paramname"><em>altloc</em> = <code>'*'</code>&#160;</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -306,182 +322,12 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00212">212</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a19d89f7759a18eba2a6c49acad11a74b" name="a19d89f7759a18eba2a6c49acad11a74b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19d89f7759a18eba2a6c49acad11a74b">&#9670;&nbsp;</a></span>apply_restraints_to_extra_link()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void gemmi::Topo::apply_restraints_to_extra_link </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structgemmi_1_1Topo_1_1Link.html">Link</a> &amp;&#160;</td>
-          <td class="paramname"><em>link</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1MonLib.html">MonLib</a> &amp;&#160;</td>
-          <td class="paramname"><em>monlib</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00298">298</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ada806852e1fc8f6c3a20d69502bc4081" name="ada806852e1fc8f6c3a20d69502bc4081"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada806852e1fc8f6c3a20d69502bc4081">&#9670;&nbsp;</a></span>apply_restraints_to_residue()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void gemmi::Topo::apply_restraints_to_residue </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structgemmi_1_1Topo_1_1ResInfo.html">ResInfo</a> &amp;&#160;</td>
-          <td class="paramname"><em>ri</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1MonLib.html">MonLib</a> &amp;&#160;</td>
-          <td class="paramname"><em>monlib</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00286">286</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a99393947bf8651212b2a3096e43e643b" name="a99393947bf8651212b2a3096e43e643b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99393947bf8651212b2a3096e43e643b">&#9670;&nbsp;</a></span>err()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="fail_8hpp.html#a946256341d2589b01e50666ef73a46ad">GEMMI_COLD</a> void gemmi::Topo::err </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>msg</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00353">353</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a732851b2d0ec176fc8fd1cd232b41730" name="a732851b2d0ec176fc8fd1cd232b41730"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a732851b2d0ec176fc8fd1cd232b41730">&#9670;&nbsp;</a></span>finalize_refmac_topology()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void gemmi::Topo::finalize_refmac_topology </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1MonLib.html">MonLib</a> &amp;&#160;</td>
-          <td class="paramname"><em>monlib</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00320">320</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a2114eb29eb915c247fb60c519969ae96" name="a2114eb29eb915c247fb60c519969ae96"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2114eb29eb915c247fb60c519969ae96">&#9670;&nbsp;</a></span>find_polymer_link()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structgemmi_1_1Topo_1_1Link.html">Link</a> * gemmi::Topo::find_polymer_link </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1AtomAddress.html">AtomAddress</a> &amp;&#160;</td>
-          <td class="paramname"><em>a1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1AtomAddress.html">AtomAddress</a> &amp;&#160;</td>
-          <td class="paramname"><em>a2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00337">337</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00132">132</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
 
 </div>
 </div>
@@ -541,8 +387,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae77fea27d9ac2a4bb6c39cc3a48e7d2e" name="ae77fea27d9ac2a4bb6c39cc3a48e7d2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae77fea27d9ac2a4bb6c39cc3a48e7d2e">&#9670;&nbsp;</a></span>get_chirality()</h2>
+<a id="a84468783d533b988481ea113a6401d4c" name="a84468783d533b988481ea113a6401d4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84468783d533b988481ea113a6401d4c">&#9670;&nbsp;</a></span>take_bond()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -551,37 +397,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="structgemmi_1_1Topo_1_1Chirality.html">Chirality</a> * gemmi::Topo::get_chirality </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1Atom.html">Atom</a> *&#160;</td>
-          <td class="paramname"><em>ctr</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00192">192</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a3b145b9646bfb209c3e3452467906d1b" name="a3b145b9646bfb209c3e3452467906d1b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b145b9646bfb209c3e3452467906d1b">&#9670;&nbsp;</a></span>has_atom()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static int gemmi::Topo::has_atom </td>
+          <td class="memname">const <a class="el" href="structgemmi_1_1Restraints_1_1Bond.html">Restraints::Bond</a> * gemmi::Topo::take_bond </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structgemmi_1_1Atom.html">Atom</a> *&#160;</td>
           <td class="paramname"><em>a</em>, </td>
@@ -589,41 +405,13 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const T &amp;&#160;</td>
-          <td class="paramname"><em>t</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1Atom.html">Atom</a> *&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00132">132</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a7881b773102b0a741f6c3a5f3b2982ce" name="a7881b773102b0a741f6c3a5f3b2982ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7881b773102b0a741f6c3a5f3b2982ce">&#9670;&nbsp;</a></span>ideal_chiral_abs_volume()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double gemmi::Topo::ideal_chiral_abs_volume </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1Topo_1_1Chirality.html">Chirality</a> &amp;&#160;</td>
-          <td class="paramname"><em>ch</em></td><td>)</td>
-          <td> const</td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -633,83 +421,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00199">199</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ae5d5a2a3d074af6992d6ac5614db161b" name="ae5d5a2a3d074af6992d6ac5614db161b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5d5a2a3d074af6992d6ac5614db161b">&#9670;&nbsp;</a></span>initialize_refmac_topology()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void gemmi::Topo::initialize_refmac_topology </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1Structure.html">Structure</a> &amp;&#160;</td>
-          <td class="paramname"><em>st</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structgemmi_1_1Model.html">Model</a> &amp;&#160;</td>
-          <td class="paramname"><em>model0</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structgemmi_1_1MonLib.html">MonLib</a> &amp;&#160;</td>
-          <td class="paramname"><em>monlib</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>ignore_unknown_links</em> = <code>false</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00428">428</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a099503a0a39e6af3e830ffb00d9b45fa" name="a099503a0a39e6af3e830ffb00d9b45fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a099503a0a39e6af3e830ffb00d9b45fa">&#9670;&nbsp;</a></span>operator=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structgemmi_1_1Topo.html">Topo</a> &amp; gemmi::Topo::operator= </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structgemmi_1_1Topo.html">Topo</a> const &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00168">168</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
 
 </div>
 </div>
@@ -757,8 +469,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a84468783d533b988481ea113a6401d4c" name="a84468783d533b988481ea113a6401d4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84468783d533b988481ea113a6401d4c">&#9670;&nbsp;</a></span>take_bond()</h2>
+<a id="ae77fea27d9ac2a4bb6c39cc3a48e7d2e" name="ae77fea27d9ac2a4bb6c39cc3a48e7d2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae77fea27d9ac2a4bb6c39cc3a48e7d2e">&#9670;&nbsp;</a></span>get_chirality()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -767,21 +479,11 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="structgemmi_1_1Restraints_1_1Bond.html">Restraints::Bond</a> * gemmi::Topo::take_bond </td>
+          <td class="memname">const <a class="el" href="structgemmi_1_1Topo_1_1Chirality.html">Chirality</a> * gemmi::Topo::get_chirality </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structgemmi_1_1Atom.html">Atom</a> *&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1Atom.html">Atom</a> *&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
+          <td class="paramname"><em>ctr</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -791,72 +493,322 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00168">168</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00192">192</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a7881b773102b0a741f6c3a5f3b2982ce" name="a7881b773102b0a741f6c3a5f3b2982ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7881b773102b0a741f6c3a5f3b2982ce">&#9670;&nbsp;</a></span>ideal_chiral_abs_volume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double gemmi::Topo::ideal_chiral_abs_volume </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1Topo_1_1Chirality.html">Chirality</a> &amp;&#160;</td>
+          <td class="paramname"><em>ch</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00199">199</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a8f582814530548034efe42c31c10ee05" name="a8f582814530548034efe42c31c10ee05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f582814530548034efe42c31c10ee05">&#9670;&nbsp;</a></span>apply_restraints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="structgemmi_1_1Topo_1_1Rule.html">Rule</a> &gt; gemmi::Topo::apply_restraints </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1Restraints.html">Restraints</a> &amp;&#160;</td>
+          <td class="paramname"><em>rt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structgemmi_1_1Residue.html">Residue</a> &amp;&#160;</td>
+          <td class="paramname"><em>res</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structgemmi_1_1Residue.html">Residue</a> *&#160;</td>
+          <td class="paramname"><em>res2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>altloc</em> = <code>'*'</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00212">212</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ada806852e1fc8f6c3a20d69502bc4081" name="ada806852e1fc8f6c3a20d69502bc4081"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada806852e1fc8f6c3a20d69502bc4081">&#9670;&nbsp;</a></span>apply_restraints_to_residue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gemmi::Topo::apply_restraints_to_residue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structgemmi_1_1Topo_1_1ResInfo.html">ResInfo</a> &amp;&#160;</td>
+          <td class="paramname"><em>ri</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1MonLib.html">MonLib</a> &amp;&#160;</td>
+          <td class="paramname"><em>monlib</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00286">286</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a19d89f7759a18eba2a6c49acad11a74b" name="a19d89f7759a18eba2a6c49acad11a74b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19d89f7759a18eba2a6c49acad11a74b">&#9670;&nbsp;</a></span>apply_restraints_to_extra_link()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gemmi::Topo::apply_restraints_to_extra_link </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structgemmi_1_1Topo_1_1Link.html">Link</a> &amp;&#160;</td>
+          <td class="paramname"><em>link</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1MonLib.html">MonLib</a> &amp;&#160;</td>
+          <td class="paramname"><em>monlib</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00298">298</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a2875b7c7f63ed72fd0be360f2f3f6190" name="a2875b7c7f63ed72fd0be360f2f3f6190"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2875b7c7f63ed72fd0be360f2f3f6190">&#9670;&nbsp;</a></span>initialize_refmac_topology()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gemmi::Topo::initialize_refmac_topology </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structgemmi_1_1Structure.html">Structure</a> &amp;&#160;</td>
+          <td class="paramname"><em>st</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structgemmi_1_1Model.html">Model</a> &amp;&#160;</td>
+          <td class="paramname"><em>model0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structgemmi_1_1MonLib.html">MonLib</a> &amp;&#160;</td>
+          <td class="paramname"><em>monlib</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>ignore_unknown_links</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00420">420</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a732851b2d0ec176fc8fd1cd232b41730" name="a732851b2d0ec176fc8fd1cd232b41730"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a732851b2d0ec176fc8fd1cd232b41730">&#9670;&nbsp;</a></span>finalize_refmac_topology()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gemmi::Topo::finalize_refmac_topology </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1MonLib.html">MonLib</a> &amp;&#160;</td>
+          <td class="paramname"><em>monlib</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00321">321</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a2114eb29eb915c247fb60c519969ae96" name="a2114eb29eb915c247fb60c519969ae96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2114eb29eb915c247fb60c519969ae96">&#9670;&nbsp;</a></span>find_polymer_link()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgemmi_1_1Topo_1_1Link.html">Link</a> * gemmi::Topo::find_polymer_link </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1AtomAddress.html">AtomAddress</a> &amp;&#160;</td>
+          <td class="paramname"><em>a1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1AtomAddress.html">AtomAddress</a> &amp;&#160;</td>
+          <td class="paramname"><em>a2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00338">338</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a99393947bf8651212b2a3096e43e643b" name="a99393947bf8651212b2a3096e43e643b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99393947bf8651212b2a3096e43e643b">&#9670;&nbsp;</a></span>err()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="fail_8hpp.html#a946256341d2589b01e50666ef73a46ad">GEMMI_COLD</a> void gemmi::Topo::err </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00354">354</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a6818722d432e51bb3a007459e13eb875" name="a6818722d432e51bb3a007459e13eb875"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6818722d432e51bb3a007459e13eb875">&#9670;&nbsp;</a></span>angle_index</h2>
+<a id="aa1a2078064104ac20635f44f3736bcc9" name="aa1a2078064104ac20635f44f3736bcc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1a2078064104ac20635f44f3736bcc9">&#9670;&nbsp;</a></span>warnings</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::multimap&lt;const <a class="el" href="structgemmi_1_1Atom.html">Atom</a>*, <a class="el" href="structgemmi_1_1Topo_1_1Angle.html">Angle</a>*&gt; gemmi::Topo::angle_index</td>
+          <td class="memname">std::ostream* gemmi::Topo::warnings = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00151">151</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a39608723c18fcd246e2cc311eb162f11" name="a39608723c18fcd246e2cc311eb162f11"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39608723c18fcd246e2cc311eb162f11">&#9670;&nbsp;</a></span>angles</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="structgemmi_1_1Topo_1_1Angle.html">Angle</a>&gt; gemmi::Topo::angles</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00145">145</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a523b7d892ab8aed4a2909d5239bddea7" name="a523b7d892ab8aed4a2909d5239bddea7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a523b7d892ab8aed4a2909d5239bddea7">&#9670;&nbsp;</a></span>bond_index</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::multimap&lt;const <a class="el" href="structgemmi_1_1Atom.html">Atom</a>*, <a class="el" href="structgemmi_1_1Topo_1_1Bond.html">Bond</a>*&gt; gemmi::Topo::bond_index</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00150">150</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a95f3198804c463640b367438c3742f4f" name="a95f3198804c463640b367438c3742f4f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95f3198804c463640b367438c3742f4f">&#9670;&nbsp;</a></span>bonds</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="structgemmi_1_1Topo_1_1Bond.html">Bond</a>&gt; gemmi::Topo::bonds</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00144">144</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00139">139</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
 
 </div>
 </div>
@@ -876,22 +828,6 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a8cccee6dc8ac7ab028daa2a783710023" name="a8cccee6dc8ac7ab028daa2a783710023"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8cccee6dc8ac7ab028daa2a783710023">&#9670;&nbsp;</a></span>chirs</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="structgemmi_1_1Topo_1_1Chirality.html">Chirality</a>&gt; gemmi::Topo::chirs</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00147">147</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
-
-</div>
-</div>
 <a id="aea623a037ff917f6eb2ceedccc1b8a50" name="aea623a037ff917f6eb2ceedccc1b8a50"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aea623a037ff917f6eb2ceedccc1b8a50">&#9670;&nbsp;</a></span>extras</h2>
 
@@ -908,19 +844,35 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a32d6378ccbbdd4fb1c45bef97212dc4d" name="a32d6378ccbbdd4fb1c45bef97212dc4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32d6378ccbbdd4fb1c45bef97212dc4d">&#9670;&nbsp;</a></span>planes</h2>
+<a id="a95f3198804c463640b367438c3742f4f" name="a95f3198804c463640b367438c3742f4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95f3198804c463640b367438c3742f4f">&#9670;&nbsp;</a></span>bonds</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="structgemmi_1_1Topo_1_1Plane.html">Plane</a>&gt; gemmi::Topo::planes</td>
+          <td class="memname">std::vector&lt;<a class="el" href="structgemmi_1_1Topo_1_1Bond.html">Bond</a>&gt; gemmi::Topo::bonds</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00148">148</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00144">144</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a39608723c18fcd246e2cc311eb162f11" name="a39608723c18fcd246e2cc311eb162f11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39608723c18fcd246e2cc311eb162f11">&#9670;&nbsp;</a></span>angles</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="structgemmi_1_1Topo_1_1Angle.html">Angle</a>&gt; gemmi::Topo::angles</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00145">145</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
 
 </div>
 </div>
@@ -940,19 +892,67 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="aa1a2078064104ac20635f44f3736bcc9" name="aa1a2078064104ac20635f44f3736bcc9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1a2078064104ac20635f44f3736bcc9">&#9670;&nbsp;</a></span>warnings</h2>
+<a id="a8cccee6dc8ac7ab028daa2a783710023" name="a8cccee6dc8ac7ab028daa2a783710023"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cccee6dc8ac7ab028daa2a783710023">&#9670;&nbsp;</a></span>chirs</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::ostream* gemmi::Topo::warnings = nullptr</td>
+          <td class="memname">std::vector&lt;<a class="el" href="structgemmi_1_1Topo_1_1Chirality.html">Chirality</a>&gt; gemmi::Topo::chirs</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00139">139</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00147">147</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a32d6378ccbbdd4fb1c45bef97212dc4d" name="a32d6378ccbbdd4fb1c45bef97212dc4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32d6378ccbbdd4fb1c45bef97212dc4d">&#9670;&nbsp;</a></span>planes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="structgemmi_1_1Topo_1_1Plane.html">Plane</a>&gt; gemmi::Topo::planes</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00148">148</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a523b7d892ab8aed4a2909d5239bddea7" name="a523b7d892ab8aed4a2909d5239bddea7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a523b7d892ab8aed4a2909d5239bddea7">&#9670;&nbsp;</a></span>bond_index</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::multimap&lt;const <a class="el" href="structgemmi_1_1Atom.html">Atom</a>*, <a class="el" href="structgemmi_1_1Topo_1_1Bond.html">Bond</a>*&gt; gemmi::Topo::bond_index</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00150">150</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a6818722d432e51bb3a007459e13eb875" name="a6818722d432e51bb3a007459e13eb875"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6818722d432e51bb3a007459e13eb875">&#9670;&nbsp;</a></span>angle_index</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::multimap&lt;const <a class="el" href="structgemmi_1_1Atom.html">Atom</a>*, <a class="el" href="structgemmi_1_1Topo_1_1Angle.html">Angle</a>*&gt; gemmi::Topo::angle_index</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="topo_8hpp_source.html#l00151">151</a> of file <a class="el" href="topo_8hpp_source.html">topo.hpp</a>.</p>
 
 </div>
 </div>

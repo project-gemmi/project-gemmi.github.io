@@ -107,8 +107,8 @@ Public Member Functions</h2></td></tr>
 class gemmi::UniqIterPolicy&lt; Vector, Value &gt;</div>
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00094">94</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="adffe1a1055ba77653f1a150777dc1b8c" name="adffe1a1055ba77653f1a150777dc1b8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adffe1a1055ba77653f1a150777dc1b8c">&#9670;&nbsp;</a></span>const_policy</h2>
+<a id="a0f740b625589775f3b83cb7c6ba15f4f" name="a0f740b625589775f3b83cb7c6ba15f4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f740b625589775f3b83cb7c6ba15f4f">&#9670;&nbsp;</a></span>value_type</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -116,12 +116,12 @@ class gemmi::UniqIterPolicy&lt; Vector, Value &gt;</div>
 template&lt;typename Vector , typename Value &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classgemmi_1_1UniqIterPolicy.html">gemmi::UniqIterPolicy</a>&lt; Vector, Value &gt;::const_policy =  <a class="el" href="classgemmi_1_1UniqIterPolicy.html">UniqIterPolicy</a>&lt;Vector const, Value const&gt;</td>
+          <td class="memname">using <a class="el" href="classgemmi_1_1UniqIterPolicy.html">gemmi::UniqIterPolicy</a>&lt; Vector, Value &gt;::value_type =  Value</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00115">115</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00096">96</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 </div>
 </div>
@@ -143,8 +143,8 @@ template&lt;typename Vector , typename Value &gt; </div>
 
 </div>
 </div>
-<a id="a0f740b625589775f3b83cb7c6ba15f4f" name="a0f740b625589775f3b83cb7c6ba15f4f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f740b625589775f3b83cb7c6ba15f4f">&#9670;&nbsp;</a></span>value_type</h2>
+<a id="adffe1a1055ba77653f1a150777dc1b8c" name="adffe1a1055ba77653f1a150777dc1b8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adffe1a1055ba77653f1a150777dc1b8c">&#9670;&nbsp;</a></span>const_policy</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -152,12 +152,12 @@ template&lt;typename Vector , typename Value &gt; </div>
 template&lt;typename Vector , typename Value &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classgemmi_1_1UniqIterPolicy.html">gemmi::UniqIterPolicy</a>&lt; Vector, Value &gt;::value_type =  Value</td>
+          <td class="memname">using <a class="el" href="classgemmi_1_1UniqIterPolicy.html">gemmi::UniqIterPolicy</a>&lt; Vector, Value &gt;::const_policy =  <a class="el" href="classgemmi_1_1UniqIterPolicy.html">UniqIterPolicy</a>&lt;Vector const, Value const&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00096">96</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00115">115</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 </div>
 </div>
@@ -232,6 +232,35 @@ template&lt;typename Vector , typename Value &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="aa66eb92f72ebf7bda57a824707a53969" name="aa66eb92f72ebf7bda57a824707a53969"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa66eb92f72ebf7bda57a824707a53969">&#9670;&nbsp;</a></span>increment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Vector , typename Value &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classgemmi_1_1UniqIterPolicy.html">gemmi::UniqIterPolicy</a>&lt; Vector, Value &gt;::increment </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00100">100</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+
+</div>
+</div>
 <a id="ab7b88648fc3fccef0da04d1df7bf9776" name="ab7b88648fc3fccef0da04d1df7bf9776"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab7b88648fc3fccef0da04d1df7bf9776">&#9670;&nbsp;</a></span>decrement()</h2>
 
@@ -258,35 +287,6 @@ template&lt;typename Vector , typename Value &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00107">107</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a553b794d1fbbdc6ebb98e9fff6e21622" name="a553b794d1fbbdc6ebb98e9fff6e21622"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a553b794d1fbbdc6ebb98e9fff6e21622">&#9670;&nbsp;</a></span>dereference()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Vector , typename Value &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Value &amp; <a class="el" href="classgemmi_1_1UniqIterPolicy.html">gemmi::UniqIterPolicy</a>&lt; Vector, Value &gt;::dereference </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00114">114</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 </div>
 </div>
@@ -320,8 +320,8 @@ template&lt;typename Vector , typename Value &gt; </div>
 
 </div>
 </div>
-<a id="aa66eb92f72ebf7bda57a824707a53969" name="aa66eb92f72ebf7bda57a824707a53969"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa66eb92f72ebf7bda57a824707a53969">&#9670;&nbsp;</a></span>increment()</h2>
+<a id="a553b794d1fbbdc6ebb98e9fff6e21622" name="a553b794d1fbbdc6ebb98e9fff6e21622"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a553b794d1fbbdc6ebb98e9fff6e21622">&#9670;&nbsp;</a></span>dereference()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -332,7 +332,7 @@ template&lt;typename Vector , typename Value &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classgemmi_1_1UniqIterPolicy.html">gemmi::UniqIterPolicy</a>&lt; Vector, Value &gt;::increment </td>
+          <td class="memname">Value &amp; <a class="el" href="classgemmi_1_1UniqIterPolicy.html">gemmi::UniqIterPolicy</a>&lt; Vector, Value &gt;::dereference </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -345,7 +345,7 @@ template&lt;typename Vector , typename Value &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00100">100</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00114">114</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 </div>
 </div>

@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="structgemmi_1_1Fractional.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="structgemmi_1_1Fractional.html" target="_top" xlink:title="Fractional coordinates.">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 95,-19.5 95,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="47.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">gemmi::Fractional</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="structgemmi_1_1Position.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="structgemmi_1_1Position.html" target="_top" xlink:title="Coordinates in Angstroms &#45; orthogonal (Cartesian) coordinates.">
 <polygon fill="white" stroke="black" points="113,-0.5 113,-19.5 200,-19.5 200,-0.5 113,-0.5"/>
 <text text-anchor="middle" x="156.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">gemmi::Position</text>
 </a>

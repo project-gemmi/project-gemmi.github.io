@@ -148,8 +148,8 @@ template&lt;typename Table &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a3ce9ea8b080358c431c4b8ec4c493245" name="a3ce9ea8b080358c431c4b8ec4c493245"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ce9ea8b080358c431c4b8ec4c493245">&#9670;&nbsp;</a></span>calculate_mb_z()</h2>
+<a id="a545e2716b7606854cadf204aa7f8e35d" name="a545e2716b7606854cadf204aa7f8e35d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a545e2716b7606854cadf204aa7f8e35d">&#9670;&nbsp;</a></span>set_stol2_and_scattering_factors()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -160,27 +160,11 @@ template&lt;typename Table &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::complex&lt; double &gt; <a class="el" href="classgemmi_1_1StructureFactorCalculator.html">gemmi::StructureFactorCalculator</a>&lt; Table &gt;::calculate_mb_z </td>
+          <td class="memname">void <a class="el" href="classgemmi_1_1StructureFactorCalculator.html">gemmi::StructureFactorCalculator</a>&lt; Table &gt;::set_stol2_and_scattering_factors </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1Model.html">Model</a> &amp;&#160;</td>
-          <td class="paramname"><em>model</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">const <a class="el" href="namespacegemmi.html#a592f1efb2742477309b5e06590554c21">Miller</a> &amp;&#160;</td>
-          <td class="paramname"><em>hkl</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>hkl</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>only_h</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -190,45 +174,127 @@ template&lt;typename Table &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="sfcalc_8hpp_source.html#l00107">107</a> of file <a class="el" href="sfcalc_8hpp_source.html">sfcalc.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sfcalc_8hpp_source.html#l00032">32</a> of file <a class="el" href="sfcalc_8hpp_source.html">sfcalc.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a2cbc5c30ba5647bec10dde9ac32d6c3a" name="a2cbc5c30ba5647bec10dde9ac32d6c3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2cbc5c30ba5647bec10dde9ac32d6c3a">&#9670;&nbsp;</a></span>calculate_sf_from_atom()</h2>
+<a id="afe288cd11ab61d95e6ac2516510f0bbf" name="afe288cd11ab61d95e6ac2516510f0bbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe288cd11ab61d95e6ac2516510f0bbf">&#9670;&nbsp;</a></span>get_scattering_factor()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename Table &gt; </div>
-<div class="memtemplate">
-template&lt;typename Site &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::complex&lt; double &gt; <a class="el" href="classgemmi_1_1StructureFactorCalculator.html">gemmi::StructureFactorCalculator</a>&lt; Table &gt;::calculate_sf_from_atom </td>
+          <td class="memname">double <a class="el" href="classgemmi_1_1StructureFactorCalculator.html">gemmi::StructureFactorCalculator</a>&lt; Table &gt;::get_scattering_factor </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1Fractional.html">Fractional</a> &amp;&#160;</td>
-          <td class="paramname"><em>fract</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="structgemmi_1_1Element.html">Element</a>&#160;</td>
+          <td class="paramname"><em>element</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">const Site &amp;&#160;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="sfcalc_8hpp_source.html#l00038">38</a> of file <a class="el" href="sfcalc_8hpp_source.html">sfcalc.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a21d56604043a4dfe9d81643f75c16408" name="a21d56604043a4dfe9d81643f75c16408"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21d56604043a4dfe9d81643f75c16408">&#9670;&nbsp;</a></span>dwf_iso() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Table &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="classgemmi_1_1StructureFactorCalculator.html">gemmi::StructureFactorCalculator</a>&lt; Table &gt;::dwf_iso </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1SmallStructure_1_1Site.html">SmallStructure::Site</a> &amp;&#160;</td>
+          <td class="paramname"><em>site</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="sfcalc_8hpp_source.html#l00049">49</a> of file <a class="el" href="sfcalc_8hpp_source.html">sfcalc.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a71edeb6e61af10c958a5e1d30db1c9e1" name="a71edeb6e61af10c958a5e1d30db1c9e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71edeb6e61af10c958a5e1d30db1c9e1">&#9670;&nbsp;</a></span>dwf_iso() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Table &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="classgemmi_1_1StructureFactorCalculator.html">gemmi::StructureFactorCalculator</a>&lt; Table &gt;::dwf_iso </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1Atom.html">Atom</a> &amp;&#160;</td>
+          <td class="paramname"><em>atom</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="sfcalc_8hpp_source.html#l00052">52</a> of file <a class="el" href="sfcalc_8hpp_source.html">sfcalc.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a1f123182305271900d3c7e40bbb8f66a" name="a1f123182305271900d3c7e40bbb8f66a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f123182305271900d3c7e40bbb8f66a">&#9670;&nbsp;</a></span>dwf_aniso() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Table &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="classgemmi_1_1StructureFactorCalculator.html">gemmi::StructureFactorCalculator</a>&lt; Table &gt;::dwf_aniso </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1SmallStructure_1_1Site.html">SmallStructure::Site</a> &amp;&#160;</td>
           <td class="paramname"><em>site</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespacegemmi.html#a592f1efb2742477309b5e06590554c21">Miller</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1Vec3.html">Vec3</a> &amp;&#160;</td>
           <td class="paramname"><em>hkl</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -238,7 +304,47 @@ template&lt;typename Site &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="sfcalc_8hpp_source.html#l00090">90</a> of file <a class="el" href="sfcalc_8hpp_source.html">sfcalc.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sfcalc_8hpp_source.html#l00060">60</a> of file <a class="el" href="sfcalc_8hpp_source.html">sfcalc.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a28ee6c102c018dc49f3dd5f4dd31eeab" name="a28ee6c102c018dc49f3dd5f4dd31eeab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28ee6c102c018dc49f3dd5f4dd31eeab">&#9670;&nbsp;</a></span>dwf_aniso() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Table &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="classgemmi_1_1StructureFactorCalculator.html">gemmi::StructureFactorCalculator</a>&lt; Table &gt;::dwf_aniso </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1Atom.html">Atom</a> &amp;&#160;</td>
+          <td class="paramname"><em>atom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1Vec3.html">Vec3</a> &amp;&#160;</td>
+          <td class="paramname"><em>hkl</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="sfcalc_8hpp_source.html#l00064">64</a> of file <a class="el" href="sfcalc_8hpp_source.html">sfcalc.hpp</a>.</p>
 
 </div>
 </div>
@@ -296,6 +402,54 @@ template&lt;typename Site &gt; </div>
 
 </div>
 </div>
+<a id="a2cbc5c30ba5647bec10dde9ac32d6c3a" name="a2cbc5c30ba5647bec10dde9ac32d6c3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cbc5c30ba5647bec10dde9ac32d6c3a">&#9670;&nbsp;</a></span>calculate_sf_from_atom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Table &gt; </div>
+<div class="memtemplate">
+template&lt;typename Site &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::complex&lt; double &gt; <a class="el" href="classgemmi_1_1StructureFactorCalculator.html">gemmi::StructureFactorCalculator</a>&lt; Table &gt;::calculate_sf_from_atom </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1Fractional.html">Fractional</a> &amp;&#160;</td>
+          <td class="paramname"><em>fract</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Site &amp;&#160;</td>
+          <td class="paramname"><em>site</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacegemmi.html#a592f1efb2742477309b5e06590554c21">Miller</a> &amp;&#160;</td>
+          <td class="paramname"><em>hkl</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="sfcalc_8hpp_source.html#l00090">90</a> of file <a class="el" href="sfcalc_8hpp_source.html">sfcalc.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a05b476fb9ea0b757018f1c8e8808db6a" name="a05b476fb9ea0b757018f1c8e8808db6a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a05b476fb9ea0b757018f1c8e8808db6a">&#9670;&nbsp;</a></span>calculate_sf_from_model()</h2>
 
@@ -336,6 +490,81 @@ template&lt;typename Table &gt; </div>
 
 </div>
 </div>
+<a id="a3ce9ea8b080358c431c4b8ec4c493245" name="a3ce9ea8b080358c431c4b8ec4c493245"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ce9ea8b080358c431c4b8ec4c493245">&#9670;&nbsp;</a></span>calculate_mb_z()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Table &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::complex&lt; double &gt; <a class="el" href="classgemmi_1_1StructureFactorCalculator.html">gemmi::StructureFactorCalculator</a>&lt; Table &gt;::calculate_mb_z </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1Model.html">Model</a> &amp;&#160;</td>
+          <td class="paramname"><em>model</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacegemmi.html#a592f1efb2742477309b5e06590554c21">Miller</a> &amp;&#160;</td>
+          <td class="paramname"><em>hkl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>only_h</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="sfcalc_8hpp_source.html#l00107">107</a> of file <a class="el" href="sfcalc_8hpp_source.html">sfcalc.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a1d88a74cf34fc22b418d6bac6bca6a17" name="a1d88a74cf34fc22b418d6bac6bca6a17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d88a74cf34fc22b418d6bac6bca6a17">&#9670;&nbsp;</a></span>mott_bethe_factor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Table &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="classgemmi_1_1StructureFactorCalculator.html">gemmi::StructureFactorCalculator</a>&lt; Table &gt;::mott_bethe_factor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="sfcalc_8hpp_source.html#l00118">118</a> of file <a class="el" href="sfcalc_8hpp_source.html">sfcalc.hpp</a>.</p>
+
+</div>
+</div>
 <a id="ae1b0ffe6c1e15e86cb23eacd391d7146" name="ae1b0ffe6c1e15e86cb23eacd391d7146"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae1b0ffe6c1e15e86cb23eacd391d7146">&#9670;&nbsp;</a></span>calculate_sf_from_small_structure()</h2>
 
@@ -373,235 +602,6 @@ template&lt;typename Table &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="sfcalc_8hpp_source.html#l00124">124</a> of file <a class="el" href="sfcalc_8hpp_source.html">sfcalc.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a28ee6c102c018dc49f3dd5f4dd31eeab" name="a28ee6c102c018dc49f3dd5f4dd31eeab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28ee6c102c018dc49f3dd5f4dd31eeab">&#9670;&nbsp;</a></span>dwf_aniso() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Table &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double <a class="el" href="classgemmi_1_1StructureFactorCalculator.html">gemmi::StructureFactorCalculator</a>&lt; Table &gt;::dwf_aniso </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1Atom.html">Atom</a> &amp;&#160;</td>
-          <td class="paramname"><em>atom</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1Vec3.html">Vec3</a> &amp;&#160;</td>
-          <td class="paramname"><em>hkl</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="sfcalc_8hpp_source.html#l00064">64</a> of file <a class="el" href="sfcalc_8hpp_source.html">sfcalc.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a1f123182305271900d3c7e40bbb8f66a" name="a1f123182305271900d3c7e40bbb8f66a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f123182305271900d3c7e40bbb8f66a">&#9670;&nbsp;</a></span>dwf_aniso() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Table &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double <a class="el" href="classgemmi_1_1StructureFactorCalculator.html">gemmi::StructureFactorCalculator</a>&lt; Table &gt;::dwf_aniso </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1SmallStructure_1_1Site.html">SmallStructure::Site</a> &amp;&#160;</td>
-          <td class="paramname"><em>site</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1Vec3.html">Vec3</a> &amp;&#160;</td>
-          <td class="paramname"><em>hkl</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="sfcalc_8hpp_source.html#l00060">60</a> of file <a class="el" href="sfcalc_8hpp_source.html">sfcalc.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a71edeb6e61af10c958a5e1d30db1c9e1" name="a71edeb6e61af10c958a5e1d30db1c9e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71edeb6e61af10c958a5e1d30db1c9e1">&#9670;&nbsp;</a></span>dwf_iso() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Table &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double <a class="el" href="classgemmi_1_1StructureFactorCalculator.html">gemmi::StructureFactorCalculator</a>&lt; Table &gt;::dwf_iso </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1Atom.html">Atom</a> &amp;&#160;</td>
-          <td class="paramname"><em>atom</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="sfcalc_8hpp_source.html#l00052">52</a> of file <a class="el" href="sfcalc_8hpp_source.html">sfcalc.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a21d56604043a4dfe9d81643f75c16408" name="a21d56604043a4dfe9d81643f75c16408"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21d56604043a4dfe9d81643f75c16408">&#9670;&nbsp;</a></span>dwf_iso() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Table &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double <a class="el" href="classgemmi_1_1StructureFactorCalculator.html">gemmi::StructureFactorCalculator</a>&lt; Table &gt;::dwf_iso </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1SmallStructure_1_1Site.html">SmallStructure::Site</a> &amp;&#160;</td>
-          <td class="paramname"><em>site</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="sfcalc_8hpp_source.html#l00049">49</a> of file <a class="el" href="sfcalc_8hpp_source.html">sfcalc.hpp</a>.</p>
-
-</div>
-</div>
-<a id="afe288cd11ab61d95e6ac2516510f0bbf" name="afe288cd11ab61d95e6ac2516510f0bbf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe288cd11ab61d95e6ac2516510f0bbf">&#9670;&nbsp;</a></span>get_scattering_factor()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Table &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double <a class="el" href="classgemmi_1_1StructureFactorCalculator.html">gemmi::StructureFactorCalculator</a>&lt; Table &gt;::get_scattering_factor </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structgemmi_1_1Element.html">Element</a>&#160;</td>
-          <td class="paramname"><em>element</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="sfcalc_8hpp_source.html#l00038">38</a> of file <a class="el" href="sfcalc_8hpp_source.html">sfcalc.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a1d88a74cf34fc22b418d6bac6bca6a17" name="a1d88a74cf34fc22b418d6bac6bca6a17"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d88a74cf34fc22b418d6bac6bca6a17">&#9670;&nbsp;</a></span>mott_bethe_factor()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Table &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double <a class="el" href="classgemmi_1_1StructureFactorCalculator.html">gemmi::StructureFactorCalculator</a>&lt; Table &gt;::mott_bethe_factor </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="sfcalc_8hpp_source.html#l00118">118</a> of file <a class="el" href="sfcalc_8hpp_source.html">sfcalc.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a545e2716b7606854cadf204aa7f8e35d" name="a545e2716b7606854cadf204aa7f8e35d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a545e2716b7606854cadf204aa7f8e35d">&#9670;&nbsp;</a></span>set_stol2_and_scattering_factors()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Table &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classgemmi_1_1StructureFactorCalculator.html">gemmi::StructureFactorCalculator</a>&lt; Table &gt;::set_stol2_and_scattering_factors </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespacegemmi.html#a592f1efb2742477309b5e06590554c21">Miller</a> &amp;&#160;</td>
-          <td class="paramname"><em>hkl</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="sfcalc_8hpp_source.html#l00032">32</a> of file <a class="el" href="sfcalc_8hpp_source.html">sfcalc.hpp</a>.</p>
 
 </div>
 </div>

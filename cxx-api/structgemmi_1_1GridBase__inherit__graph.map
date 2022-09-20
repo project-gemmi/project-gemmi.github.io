@@ -1,6 +1,6 @@
 <map id="gemmi::GridBase&lt; T &gt;" name="gemmi::GridBase&lt; T &gt;">
-<area shape="rect" id="node1" title=" " alt="" coords="80,80,235,107"/>
+<area shape="rect" id="node1" title="A common subset of Grid and ReciprocalGrid." alt="" coords="80,80,235,107"/>
 <area shape="rect" id="node3" href="$structgemmi_1_1Grid.html" title=" " alt="" coords="5,155,131,181"/>
 <area shape="rect" id="node4" href="$structgemmi_1_1ReciprocalGrid.html" title=" " alt="" coords="155,155,341,181"/>
-<area shape="rect" id="node2" href="$structgemmi_1_1GridMeta.html" title=" " alt="" coords="96,5,219,32"/>
+<area shape="rect" id="node2" href="$structgemmi_1_1GridMeta.html" title="The base of Grid classes that does not depend on stored data type." alt="" coords="96,5,219,32"/>
 </map>

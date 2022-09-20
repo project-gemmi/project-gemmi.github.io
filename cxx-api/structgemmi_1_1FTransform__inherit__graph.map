@@ -1,4 +1,4 @@
 <map id="gemmi::FTransform" name="gemmi::FTransform">
-<area shape="rect" id="node1" title=" " alt="" coords="5,80,141,107"/>
+<area shape="rect" id="node1" title="Like Transform, but apply() arg is Fractional (not Vec3 &#45; for type safety)." alt="" coords="5,80,141,107"/>
 <area shape="rect" id="node2" href="$structgemmi_1_1Transform.html" title=" " alt="" coords="9,5,137,32"/>
 </map>

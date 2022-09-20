@@ -24,12 +24,13 @@ var searchData=
   ['ints_21',['ints',['../structgemmi_1_1Mtz_1_1Batch.html#a065a0fae7141bdcb0918031c782fda46',1,'gemmi::Mtz::Batch']]],
   ['inverted_22',['inverted',['../structgemmi_1_1Selection_1_1List.html#a08460604e87e3e67b26d603df4ff953f',1,'gemmi::Selection::List']]],
   ['iobs_23',['iobs',['../structgemmi_1_1XdsAscii_1_1Refl.html#a44de4d25ea9976f225d25b39636ceead',1,'gemmi::XdsAscii::Refl']]],
-  ['is_5fcis_24',['is_cis',['../structgemmi_1_1Residue.html#a13816dce9f720e35904472a7b19fda12',1,'gemmi::Residue']]],
-  ['is_5fref_25',['is_ref',['../structgemmi_1_1ReciprocalAsu.html#ab6b68b6ee3046fe94ffa0cad763e3195',1,'gemmi::ReciprocalAsu']]],
-  ['iset_26',['iset',['../structgemmi_1_1XdsAscii_1_1Refl.html#a517a6cd80de2bdcde47ce38ead159f4f',1,'gemmi::XdsAscii::Refl']]],
-  ['isets_27',['isets',['../structgemmi_1_1XdsAscii.html#a80a58d6da7d418836c3d536a0afa0b8b',1,'gemmi::XdsAscii']]],
-  ['isign_28',['isign',['../structgemmi_1_1Intensities_1_1Refl.html#a5d3cd0b9cb0f1f242f8f44a9e2972e46',1,'gemmi::Intensities::Refl']]],
-  ['island_5fmin_5fvolume_29',['island_min_volume',['../structgemmi_1_1SolventMasker.html#a75c8cd56b6e08aafa61fbf0a2550322d',1,'gemmi::SolventMasker']]],
-  ['isoform_30',['isoform',['../structgemmi_1_1Entity_1_1DbRef.html#a4b310b2cb00af7164d51f99666809271',1,'gemmi::Entity::DbRef']]],
-  ['items_31',['items',['../structgemmi_1_1cif_1_1Block.html#a5dd89492b42634c8ff853ce45c7c2636',1,'gemmi::cif::Block']]]
+  ['ion_5fradius_24',['ion_radius',['../structgemmi_1_1EnerLib_1_1Atom.html#a98b1abd95fb95360f259111d69c0fbda',1,'gemmi::EnerLib::Atom']]],
+  ['is_5fcis_25',['is_cis',['../structgemmi_1_1Residue.html#a13816dce9f720e35904472a7b19fda12',1,'gemmi::Residue']]],
+  ['is_5fref_26',['is_ref',['../structgemmi_1_1ReciprocalAsu.html#ab6b68b6ee3046fe94ffa0cad763e3195',1,'gemmi::ReciprocalAsu']]],
+  ['iset_27',['iset',['../structgemmi_1_1XdsAscii_1_1Refl.html#a517a6cd80de2bdcde47ce38ead159f4f',1,'gemmi::XdsAscii::Refl']]],
+  ['isets_28',['isets',['../structgemmi_1_1XdsAscii.html#a80a58d6da7d418836c3d536a0afa0b8b',1,'gemmi::XdsAscii']]],
+  ['isign_29',['isign',['../structgemmi_1_1Intensities_1_1Refl.html#a5d3cd0b9cb0f1f242f8f44a9e2972e46',1,'gemmi::Intensities::Refl']]],
+  ['island_5fmin_5fvolume_30',['island_min_volume',['../structgemmi_1_1SolventMasker.html#a75c8cd56b6e08aafa61fbf0a2550322d',1,'gemmi::SolventMasker']]],
+  ['isoform_31',['isoform',['../structgemmi_1_1Entity_1_1DbRef.html#a4b310b2cb00af7164d51f99666809271',1,'gemmi::Entity::DbRef']]],
+  ['items_32',['items',['../structgemmi_1_1cif_1_1Block.html#a5dd89492b42634c8ff853ce45c7c2636',1,'gemmi::cif::Block']]]
 ];

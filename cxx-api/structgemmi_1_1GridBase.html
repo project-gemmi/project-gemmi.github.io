@@ -76,6 +76,9 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>A common subset of <a class="el" href="structgemmi_1_1Grid.html" title="Real-space grid.">Grid</a> and <a class="el" href="structgemmi_1_1ReciprocalGrid.html">ReciprocalGrid</a>.  
+ <a href="structgemmi_1_1GridBase.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="grid_8hpp_source.html">grid.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for gemmi::GridBase&lt; T &gt;:</div>
@@ -89,6 +92,7 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridBase_1_1iterator.html">iterator</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridBase_1_1Point.html">Point</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">grid coordinates (modulo size) and a pointer to value  <a href="structgemmi_1_1GridBase_1_1Point.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
@@ -100,8 +104,8 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a275755673fb0ae51e76ad3fedc33ea76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridBase.html#a275755673fb0ae51e76ad3fedc33ea76">check_not_empty</a> () const</td></tr>
 <tr class="separator:a275755673fb0ae51e76ad3fedc33ea76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80f9fd0ed5414f29abd5874c586a2ba8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridBase.html#a80f9fd0ed5414f29abd5874c586a2ba8">set_size_without_checking</a> (int u, int v, int w)</td></tr>
-<tr class="separator:a80f9fd0ed5414f29abd5874c586a2ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a938f5331a208ff7703ed514e864175bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridBase.html#a938f5331a208ff7703ed514e864175bd">set_size_without_checking</a> (int nu_, int nv_, int nw_)</td></tr>
+<tr class="separator:a938f5331a208ff7703ed514e864175bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a265cebfaa424362d986dca1526b6b058"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridBase.html#a265cebfaa424362d986dca1526b6b058">get_value_q</a> (int u, int v, int w) const</td></tr>
 <tr class="separator:a265cebfaa424362d986dca1526b6b058"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a379362b77827413217a4a97b4be57ab9"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridBase.html#a379362b77827413217a4a97b4be57ab9">point_to_index</a> (const <a class="el" href="structgemmi_1_1GridBase_1_1Point.html">Point</a> &amp;p) const</td></tr>
@@ -120,18 +124,23 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac999fe9febad7130324743364627924d inherit pub_methods_structgemmi_1_1GridMeta"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridMeta.html#ac999fe9febad7130324743364627924d">point_count</a> () const</td></tr>
 <tr class="separator:ac999fe9febad7130324743364627924d inherit pub_methods_structgemmi_1_1GridMeta"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab8f889a4e6e0ef25fe61ea5d24cdf12 inherit pub_methods_structgemmi_1_1GridMeta"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1Fractional.html">Fractional</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridMeta.html#aab8f889a4e6e0ef25fe61ea5d24cdf12">get_fractional</a> (int u, int v, int w) const</td></tr>
+<tr class="memdesc:aab8f889a4e6e0ef25fe61ea5d24cdf12 inherit pub_methods_structgemmi_1_1GridMeta"><td class="mdescLeft">&#160;</td><td class="mdescRight">u,v,w are not normalized here  <a href="structgemmi_1_1GridMeta.html#aab8f889a4e6e0ef25fe61ea5d24cdf12">More...</a><br /></td></tr>
 <tr class="separator:aab8f889a4e6e0ef25fe61ea5d24cdf12 inherit pub_methods_structgemmi_1_1GridMeta"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f22f90e326d689bbae4a86e82cbf5d6 inherit pub_methods_structgemmi_1_1GridMeta"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1Position.html">Position</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridMeta.html#a0f22f90e326d689bbae4a86e82cbf5d6">get_position</a> (int u, int v, int w) const</td></tr>
 <tr class="separator:a0f22f90e326d689bbae4a86e82cbf5d6 inherit pub_methods_structgemmi_1_1GridMeta"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7494e888e1244ca3ea3e4aee2e3b9bd inherit pub_methods_structgemmi_1_1GridMeta"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structgemmi_1_1GridOp.html">GridOp</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridMeta.html#ab7494e888e1244ca3ea3e4aee2e3b9bd">get_scaled_ops_except_id</a> () const</td></tr>
 <tr class="separator:ab7494e888e1244ca3ea3e4aee2e3b9bd inherit pub_methods_structgemmi_1_1GridMeta"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80d4ef8416736ea8cd36bf8debad52dd inherit pub_methods_structgemmi_1_1GridMeta"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridMeta.html#a80d4ef8416736ea8cd36bf8debad52dd">index_q</a> (int u, int v, int w) const</td></tr>
+<tr class="memdesc:a80d4ef8416736ea8cd36bf8debad52dd inherit pub_methods_structgemmi_1_1GridMeta"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quick(est) index function, but works only if <code>0 &lt;= u &lt; nu</code>, etc.  <a href="structgemmi_1_1GridMeta.html#a80d4ef8416736ea8cd36bf8debad52dd">More...</a><br /></td></tr>
 <tr class="separator:a80d4ef8416736ea8cd36bf8debad52dd inherit pub_methods_structgemmi_1_1GridMeta"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b2a8b520e8d461e4d067b47a53a7eb1 inherit pub_methods_structgemmi_1_1GridMeta"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridMeta.html#a9b2a8b520e8d461e4d067b47a53a7eb1">index_n_ref</a> (int &amp;u, int &amp;v, int &amp;w) const</td></tr>
-<tr class="separator:a9b2a8b520e8d461e4d067b47a53a7eb1 inherit pub_methods_structgemmi_1_1GridMeta"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c858985d572f6abc933e930cf284dec inherit pub_methods_structgemmi_1_1GridMeta"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridMeta.html#a5c858985d572f6abc933e930cf284dec">index_n</a> (int u, int v, int w) const</td></tr>
+<tr class="memdesc:a5c858985d572f6abc933e930cf284dec inherit pub_methods_structgemmi_1_1GridMeta"><td class="mdescLeft">&#160;</td><td class="mdescRight">Faster than index_s(), but works only if <code>-nu &lt;= u &lt; 2*nu</code>, etc.  <a href="structgemmi_1_1GridMeta.html#a5c858985d572f6abc933e930cf284dec">More...</a><br /></td></tr>
 <tr class="separator:a5c858985d572f6abc933e930cf284dec inherit pub_methods_structgemmi_1_1GridMeta"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b2a8b520e8d461e4d067b47a53a7eb1 inherit pub_methods_structgemmi_1_1GridMeta"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridMeta.html#a9b2a8b520e8d461e4d067b47a53a7eb1">index_n_ref</a> (int &amp;u, int &amp;v, int &amp;w) const</td></tr>
+<tr class="memdesc:a9b2a8b520e8d461e4d067b47a53a7eb1 inherit pub_methods_structgemmi_1_1GridMeta"><td class="mdescLeft">&#160;</td><td class="mdescRight">The same as <a class="el" href="structgemmi_1_1GridMeta.html#a5c858985d572f6abc933e930cf284dec" title="Faster than index_s(), but works only if -nu &lt;= u &lt; 2*nu, etc.">index_n()</a>, but modifies arguments.  <a href="structgemmi_1_1GridMeta.html#a9b2a8b520e8d461e4d067b47a53a7eb1">More...</a><br /></td></tr>
+<tr class="separator:a9b2a8b520e8d461e4d067b47a53a7eb1 inherit pub_methods_structgemmi_1_1GridMeta"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70367b6049589c5af4124f78e14c8867 inherit pub_methods_structgemmi_1_1GridMeta"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridMeta.html#a70367b6049589c5af4124f78e14c8867">index_near_zero</a> (int u, int v, int w) const</td></tr>
+<tr class="memdesc:a70367b6049589c5af4124f78e14c8867 inherit pub_methods_structgemmi_1_1GridMeta"><td class="mdescLeft">&#160;</td><td class="mdescRight">Faster than <a class="el" href="structgemmi_1_1GridMeta.html#a5c858985d572f6abc933e930cf284dec" title="Faster than index_s(), but works only if -nu &lt;= u &lt; 2*nu, etc.">index_n()</a>, but works only if -nu &lt;= u &lt; nu, etc.  <a href="structgemmi_1_1GridMeta.html#a70367b6049589c5af4124f78e14c8867">More...</a><br /></td></tr>
 <tr class="separator:a70367b6049589c5af4124f78e14c8867 inherit pub_methods_structgemmi_1_1GridMeta"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -154,8 +163,9 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
-struct gemmi::GridBase&lt; T &gt;</div>
-<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00201">201</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
+struct gemmi::GridBase&lt; T &gt;</div><p >A common subset of <a class="el" href="structgemmi_1_1Grid.html" title="Real-space grid.">Grid</a> and <a class="el" href="structgemmi_1_1ReciprocalGrid.html">ReciprocalGrid</a>. </p>
+
+<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00203">203</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a3ba70ec0d67eca7543d588bc8afb9077" name="a3ba70ec0d67eca7543d588bc8afb9077"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3ba70ec0d67eca7543d588bc8afb9077">&#9670;&nbsp;</a></span>Tsum</h2>
@@ -171,40 +181,11 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00238">238</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00241">241</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="af2d8f4e62cf348b55d224c6be5268526" name="af2d8f4e62cf348b55d224c6be5268526"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2d8f4e62cf348b55d224c6be5268526">&#9670;&nbsp;</a></span>begin()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structgemmi_1_1GridBase_1_1iterator.html">iterator</a> <a class="el" href="structgemmi_1_1GridBase.html">gemmi::GridBase</a>&lt; T &gt;::begin </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00266">266</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
-
-</div>
-</div>
 <a id="a275755673fb0ae51e76ad3fedc33ea76" name="a275755673fb0ae51e76ad3fedc33ea76"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a275755673fb0ae51e76ad3fedc33ea76">&#9670;&nbsp;</a></span>check_not_empty()</h2>
 
@@ -230,12 +211,12 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00209">209</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00212">212</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a80157277fcc77fb49817185d1da4daf1" name="a80157277fcc77fb49817185d1da4daf1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80157277fcc77fb49817185d1da4daf1">&#9670;&nbsp;</a></span>end()</h2>
+<a id="a938f5331a208ff7703ed514e864175bd" name="a938f5331a208ff7703ed514e864175bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a938f5331a208ff7703ed514e864175bd">&#9670;&nbsp;</a></span>set_size_without_checking()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246,40 +227,27 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structgemmi_1_1GridBase_1_1iterator.html">iterator</a> <a class="el" href="structgemmi_1_1GridBase.html">gemmi::GridBase</a>&lt; T &gt;::end </td>
+          <td class="memname">void <a class="el" href="structgemmi_1_1GridBase.html">gemmi::GridBase</a>&lt; T &gt;::set_size_without_checking </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nu_</em>, </td>
         </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00267">267</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a1933f8c33db4b7af03230630598c85fe" name="a1933f8c33db4b7af03230630598c85fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1933f8c33db4b7af03230630598c85fe">&#9670;&nbsp;</a></span>fill()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="structgemmi_1_1GridBase.html">gemmi::GridBase</a>&lt; T &gt;::fill </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>value</em></td><td>)</td>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nv_</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nw_</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -289,7 +257,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00233">233</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00217">217</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
 
 </div>
 </div>
@@ -335,37 +303,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00219">219</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ac41afeb70eea3625ddb910696f0f7ad4" name="ac41afeb70eea3625ddb910696f0f7ad4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac41afeb70eea3625ddb910696f0f7ad4">&#9670;&nbsp;</a></span>index_to_point()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structgemmi_1_1GridBase_1_1Point.html">Point</a> <a class="el" href="structgemmi_1_1GridBase.html">gemmi::GridBase</a>&lt; T &gt;::index_to_point </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>idx</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00223">223</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00222">222</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
 
 </div>
 </div>
@@ -395,12 +333,12 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00221">221</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00224">224</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a80f9fd0ed5414f29abd5874c586a2ba8" name="a80f9fd0ed5414f29abd5874c586a2ba8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80f9fd0ed5414f29abd5874c586a2ba8">&#9670;&nbsp;</a></span>set_size_without_checking()</h2>
+<a id="ac41afeb70eea3625ddb910696f0f7ad4" name="ac41afeb70eea3625ddb910696f0f7ad4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac41afeb70eea3625ddb910696f0f7ad4">&#9670;&nbsp;</a></span>index_to_point()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -411,27 +349,11 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="structgemmi_1_1GridBase.html">gemmi::GridBase</a>&lt; T &gt;::set_size_without_checking </td>
+          <td class="memname"><a class="el" href="structgemmi_1_1GridBase_1_1Point.html">Point</a> <a class="el" href="structgemmi_1_1GridBase.html">gemmi::GridBase</a>&lt; T &gt;::index_to_point </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>u</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>idx</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>v</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>w</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -441,7 +363,37 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00214">214</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00226">226</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a1933f8c33db4b7af03230630598c85fe" name="a1933f8c33db4b7af03230630598c85fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1933f8c33db4b7af03230630598c85fe">&#9670;&nbsp;</a></span>fill()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="structgemmi_1_1GridBase.html">gemmi::GridBase</a>&lt; T &gt;::fill </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00236">236</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
 
 </div>
 </div>
@@ -470,7 +422,65 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00240">240</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00243">243</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
+
+</div>
+</div>
+<a id="af2d8f4e62cf348b55d224c6be5268526" name="af2d8f4e62cf348b55d224c6be5268526"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2d8f4e62cf348b55d224c6be5268526">&#9670;&nbsp;</a></span>begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgemmi_1_1GridBase_1_1iterator.html">iterator</a> <a class="el" href="structgemmi_1_1GridBase.html">gemmi::GridBase</a>&lt; T &gt;::begin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00269">269</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a80157277fcc77fb49817185d1da4daf1" name="a80157277fcc77fb49817185d1da4daf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80157277fcc77fb49817185d1da4daf1">&#9670;&nbsp;</a></span>end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgemmi_1_1GridBase_1_1iterator.html">iterator</a> <a class="el" href="structgemmi_1_1GridBase.html">gemmi::GridBase</a>&lt; T &gt;::end </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00270">270</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
 
 </div>
 </div>
@@ -489,7 +499,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00207">207</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00210">210</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
 
 </div>
 </div>

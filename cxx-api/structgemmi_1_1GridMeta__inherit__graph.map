@@ -1,11 +1,11 @@
 <map id="gemmi::GridMeta" name="gemmi::GridMeta">
-<area shape="rect" id="node1" title=" " alt="" coords="5,140,128,167"/>
+<area shape="rect" id="node1" title="The base of Grid classes that does not depend on stored data type." alt="" coords="5,140,128,167"/>
 <area shape="rect" id="node2" href="$structgemmi_1_1GridBase.html" title=" " alt="" coords="199,56,371,83"/>
 <area shape="rect" id="node5" href="$structgemmi_1_1GridBase.html" title=" " alt="" coords="198,107,373,133"/>
 <area shape="rect" id="node7" href="$structgemmi_1_1GridBase.html" title=" " alt="" coords="176,157,395,213"/>
-<area shape="rect" id="node9" href="$structgemmi_1_1GridBase.html" title=" " alt="" coords="208,237,363,264"/>
+<area shape="rect" id="node9" href="$structgemmi_1_1GridBase.html" title="A common subset of Grid and ReciprocalGrid." alt="" coords="208,237,363,264"/>
 <area shape="rect" id="node3" href="$structgemmi_1_1Grid.html" title=" " alt="" coords="465,5,607,32"/>
-<area shape="rect" id="node4" href="$structgemmi_1_1Grid.html" title=" " alt="" coords="473,56,599,83"/>
+<area shape="rect" id="node4" href="$structgemmi_1_1Grid.html" title="Real&#45;space grid." alt="" coords="473,56,599,83"/>
 <area shape="rect" id="node6" href="$structgemmi_1_1Grid.html" title=" " alt="" coords="464,107,608,133"/>
 <area shape="rect" id="node8" href="$structgemmi_1_1Grid.html" title=" " alt="" coords="449,157,623,213"/>
 <area shape="rect" id="node10" href="$structgemmi_1_1Grid.html" title=" " alt="" coords="473,237,599,264"/>

@@ -150,6 +150,65 @@ template&lt;typename Table , typename Real &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a8c866348b5feff738e22c25c3b7f72f3" name="a8c866348b5feff738e22c25c3b7f72f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c866348b5feff738e22c25c3b7f72f3">&#9670;&nbsp;</a></span>requested_grid_spacing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Table , typename Real &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="structgemmi_1_1DensityCalculator.html">gemmi::DensityCalculator</a>&lt; Table, Real &gt;::requested_grid_spacing </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="dencalc_8hpp_source.html#l00103">103</a> of file <a class="el" href="dencalc_8hpp_source.html">dencalc.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ab1bb93b4854859c59beded1bc1bbb150" name="ab1bb93b4854859c59beded1bc1bbb150"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1bb93b4854859c59beded1bc1bbb150">&#9670;&nbsp;</a></span>set_refmac_compatible_blur()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Table , typename Real &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="structgemmi_1_1DensityCalculator.html">gemmi::DensityCalculator</a>&lt; Table, Real &gt;::set_refmac_compatible_blur </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1Model.html">Model</a> &amp;&#160;</td>
+          <td class="paramname"><em>model</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="dencalc_8hpp_source.html#l00105">105</a> of file <a class="el" href="dencalc_8hpp_source.html">dencalc.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a3e119f11d7035bd903743442ac7652c3" name="a3e119f11d7035bd903743442ac7652c3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3e119f11d7035bd903743442ac7652c3">&#9670;&nbsp;</a></span>add_atom_density_to_grid()</h2>
 
@@ -220,23 +279,35 @@ template&lt;typename Table , typename Real &gt; </div>
 
 </div>
 </div>
-<a id="a1205a265fecd95928cacf7dab725eb45" name="a1205a265fecd95928cacf7dab725eb45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1205a265fecd95928cacf7dab725eb45">&#9670;&nbsp;</a></span>add_model_density_to_grid()</h2>
+<a id="a20ad42a3edf2eff1053806dfd2599678" name="a20ad42a3edf2eff1053806dfd2599678"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20ad42a3edf2eff1053806dfd2599678">&#9670;&nbsp;</a></span>estimate_radius()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename Table , typename Real &gt; </div>
+<div class="memtemplate">
+template&lt;int N&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="structgemmi_1_1DensityCalculator.html">gemmi::DensityCalculator</a>&lt; Table, Real &gt;::add_model_density_to_grid </td>
+          <td class="memname">double <a class="el" href="structgemmi_1_1DensityCalculator.html">gemmi::DensityCalculator</a>&lt; Table, Real &gt;::estimate_radius </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1Model.html">Model</a> &amp;&#160;</td>
-          <td class="paramname"><em>model</em></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1ExpSum.html">ExpSum</a>&lt; N, <a class="el" href="structgemmi_1_1DensityCalculator.html#a04c8ffb771dd257476e51c17e344ad2e">coef_type</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>precal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -246,7 +317,7 @@ template&lt;typename Table , typename Real &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dencalc_8hpp_source.html#l00174">174</a> of file <a class="el" href="dencalc_8hpp_source.html">dencalc.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dencalc_8hpp_source.html#l00126">126</a> of file <a class="el" href="dencalc_8hpp_source.html">dencalc.hpp</a>.</p>
 
 </div>
 </div>
@@ -298,48 +369,6 @@ template&lt;typename Coef &gt; </div>
 
 </div>
 </div>
-<a id="a20ad42a3edf2eff1053806dfd2599678" name="a20ad42a3edf2eff1053806dfd2599678"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20ad42a3edf2eff1053806dfd2599678">&#9670;&nbsp;</a></span>estimate_radius()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Table , typename Real &gt; </div>
-<div class="memtemplate">
-template&lt;int N&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double <a class="el" href="structgemmi_1_1DensityCalculator.html">gemmi::DensityCalculator</a>&lt; Table, Real &gt;::estimate_radius </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1ExpSum.html">ExpSum</a>&lt; N, <a class="el" href="structgemmi_1_1DensityCalculator.html#a04c8ffb771dd257476e51c17e344ad2e">coef_type</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>precal</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="dencalc_8hpp_source.html#l00126">126</a> of file <a class="el" href="dencalc_8hpp_source.html">dencalc.hpp</a>.</p>
-
-</div>
-</div>
 <a id="ad34a98227630725557bb61eb91b99bfd" name="ad34a98227630725557bb61eb91b99bfd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad34a98227630725557bb61eb91b99bfd">&#9670;&nbsp;</a></span>initialize_grid()</h2>
 
@@ -369,8 +398,8 @@ template&lt;typename Table , typename Real &gt; </div>
 
 </div>
 </div>
-<a id="a48d781511b721db10f6d5952eeef88ca" name="a48d781511b721db10f6d5952eeef88ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48d781511b721db10f6d5952eeef88ca">&#9670;&nbsp;</a></span>mott_bethe_factor()</h2>
+<a id="a1205a265fecd95928cacf7dab725eb45" name="a1205a265fecd95928cacf7dab725eb45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1205a265fecd95928cacf7dab725eb45">&#9670;&nbsp;</a></span>add_model_density_to_grid()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -381,11 +410,11 @@ template&lt;typename Table , typename Real &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double <a class="el" href="structgemmi_1_1DensityCalculator.html">gemmi::DensityCalculator</a>&lt; Table, Real &gt;::mott_bethe_factor </td>
+          <td class="memname">void <a class="el" href="structgemmi_1_1DensityCalculator.html">gemmi::DensityCalculator</a>&lt; Table, Real &gt;::add_model_density_to_grid </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespacegemmi.html#a592f1efb2742477309b5e06590554c21">Miller</a> &amp;&#160;</td>
-          <td class="paramname"><em>hkl</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">const <a class="el" href="structgemmi_1_1Model.html">Model</a> &amp;&#160;</td>
+          <td class="paramname"><em>model</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -395,7 +424,7 @@ template&lt;typename Table , typename Real &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dencalc_8hpp_source.html#l00198">198</a> of file <a class="el" href="dencalc_8hpp_source.html">dencalc.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dencalc_8hpp_source.html#l00174">174</a> of file <a class="el" href="dencalc_8hpp_source.html">dencalc.hpp</a>.</p>
 
 </div>
 </div>
@@ -429,65 +458,6 @@ template&lt;typename Table , typename Real &gt; </div>
 
 </div>
 </div>
-<a id="aadc40482bb209080ec1d5312c064f33d" name="aadc40482bb209080ec1d5312c064f33d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aadc40482bb209080ec1d5312c064f33d">&#9670;&nbsp;</a></span>reciprocal_space_multiplier()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Table , typename Real &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double <a class="el" href="structgemmi_1_1DensityCalculator.html">gemmi::DensityCalculator</a>&lt; Table, Real &gt;::reciprocal_space_multiplier </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>inv_d2</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="dencalc_8hpp_source.html#l00194">194</a> of file <a class="el" href="dencalc_8hpp_source.html">dencalc.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a8c866348b5feff738e22c25c3b7f72f3" name="a8c866348b5feff738e22c25c3b7f72f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c866348b5feff738e22c25c3b7f72f3">&#9670;&nbsp;</a></span>requested_grid_spacing()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Table , typename Real &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double <a class="el" href="structgemmi_1_1DensityCalculator.html">gemmi::DensityCalculator</a>&lt; Table, Real &gt;::requested_grid_spacing </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="dencalc_8hpp_source.html#l00103">103</a> of file <a class="el" href="dencalc_8hpp_source.html">dencalc.hpp</a>.</p>
-
-</div>
-</div>
 <a id="a7fde875d28ca003d178de5f8b45afd35" name="a7fde875d28ca003d178de5f8b45afd35"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7fde875d28ca003d178de5f8b45afd35">&#9670;&nbsp;</a></span>set_grid_cell_and_spacegroup()</h2>
 
@@ -518,8 +488,8 @@ template&lt;typename Table , typename Real &gt; </div>
 
 </div>
 </div>
-<a id="ab1bb93b4854859c59beded1bc1bbb150" name="ab1bb93b4854859c59beded1bc1bbb150"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1bb93b4854859c59beded1bc1bbb150">&#9670;&nbsp;</a></span>set_refmac_compatible_blur()</h2>
+<a id="aadc40482bb209080ec1d5312c064f33d" name="aadc40482bb209080ec1d5312c064f33d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadc40482bb209080ec1d5312c064f33d">&#9670;&nbsp;</a></span>reciprocal_space_multiplier()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -530,11 +500,11 @@ template&lt;typename Table , typename Real &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="structgemmi_1_1DensityCalculator.html">gemmi::DensityCalculator</a>&lt; Table, Real &gt;::set_refmac_compatible_blur </td>
+          <td class="memname">double <a class="el" href="structgemmi_1_1DensityCalculator.html">gemmi::DensityCalculator</a>&lt; Table, Real &gt;::reciprocal_space_multiplier </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgemmi_1_1Model.html">Model</a> &amp;&#160;</td>
-          <td class="paramname"><em>model</em></td><td>)</td>
-          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>inv_d2</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -544,13 +514,43 @@ template&lt;typename Table , typename Real &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dencalc_8hpp_source.html#l00105">105</a> of file <a class="el" href="dencalc_8hpp_source.html">dencalc.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dencalc_8hpp_source.html#l00194">194</a> of file <a class="el" href="dencalc_8hpp_source.html">dencalc.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a48d781511b721db10f6d5952eeef88ca" name="a48d781511b721db10f6d5952eeef88ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48d781511b721db10f6d5952eeef88ca">&#9670;&nbsp;</a></span>mott_bethe_factor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Table , typename Real &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="structgemmi_1_1DensityCalculator.html">gemmi::DensityCalculator</a>&lt; Table, Real &gt;::mott_bethe_factor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacegemmi.html#a592f1efb2742477309b5e06590554c21">Miller</a> &amp;&#160;</td>
+          <td class="paramname"><em>hkl</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="dencalc_8hpp_source.html#l00198">198</a> of file <a class="el" href="dencalc_8hpp_source.html">dencalc.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a07c9cf2c432604f17abee6ac27bce3ed" name="a07c9cf2c432604f17abee6ac27bce3ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07c9cf2c432604f17abee6ac27bce3ed">&#9670;&nbsp;</a></span>addends</h2>
+<a id="a1fd17e57d254716d654aa768ce0eedb9" name="a1fd17e57d254716d654aa768ce0eedb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fd17e57d254716d654aa768ce0eedb9">&#9670;&nbsp;</a></span>grid</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -558,12 +558,48 @@ template&lt;typename Table , typename Real &gt; </div>
 template&lt;typename Table , typename Real &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structgemmi_1_1Addends.html">Addends</a> <a class="el" href="structgemmi_1_1DensityCalculator.html">gemmi::DensityCalculator</a>&lt; Table, Real &gt;::addends</td>
+          <td class="memname"><a class="el" href="structgemmi_1_1Grid.html">Grid</a>&lt;Real&gt; <a class="el" href="structgemmi_1_1DensityCalculator.html">gemmi::DensityCalculator</a>&lt; Table, Real &gt;::grid</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dencalc_8hpp_source.html#l00099">99</a> of file <a class="el" href="dencalc_8hpp_source.html">dencalc.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dencalc_8hpp_source.html#l00094">94</a> of file <a class="el" href="dencalc_8hpp_source.html">dencalc.hpp</a>.</p>
+
+</div>
+</div>
+<a id="af7c87789be7736cd391027de56a53249" name="af7c87789be7736cd391027de56a53249"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7c87789be7736cd391027de56a53249">&#9670;&nbsp;</a></span>d_min</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Table , typename Real &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="structgemmi_1_1DensityCalculator.html">gemmi::DensityCalculator</a>&lt; Table, Real &gt;::d_min = 0.</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="dencalc_8hpp_source.html#l00095">95</a> of file <a class="el" href="dencalc_8hpp_source.html">dencalc.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aca45cecf64b3bff85ebfc8fe8c205097" name="aca45cecf64b3bff85ebfc8fe8c205097"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca45cecf64b3bff85ebfc8fe8c205097">&#9670;&nbsp;</a></span>rate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Table , typename Real &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="structgemmi_1_1DensityCalculator.html">gemmi::DensityCalculator</a>&lt; Table, Real &gt;::rate = 1.5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="dencalc_8hpp_source.html#l00096">96</a> of file <a class="el" href="dencalc_8hpp_source.html">dencalc.hpp</a>.</p>
 
 </div>
 </div>
@@ -603,8 +639,8 @@ template&lt;typename Table , typename Real &gt; </div>
 
 </div>
 </div>
-<a id="af7c87789be7736cd391027de56a53249" name="af7c87789be7736cd391027de56a53249"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7c87789be7736cd391027de56a53249">&#9670;&nbsp;</a></span>d_min</h2>
+<a id="a07c9cf2c432604f17abee6ac27bce3ed" name="a07c9cf2c432604f17abee6ac27bce3ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07c9cf2c432604f17abee6ac27bce3ed">&#9670;&nbsp;</a></span>addends</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -612,48 +648,12 @@ template&lt;typename Table , typename Real &gt; </div>
 template&lt;typename Table , typename Real &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">double <a class="el" href="structgemmi_1_1DensityCalculator.html">gemmi::DensityCalculator</a>&lt; Table, Real &gt;::d_min = 0.</td>
+          <td class="memname"><a class="el" href="structgemmi_1_1Addends.html">Addends</a> <a class="el" href="structgemmi_1_1DensityCalculator.html">gemmi::DensityCalculator</a>&lt; Table, Real &gt;::addends</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dencalc_8hpp_source.html#l00095">95</a> of file <a class="el" href="dencalc_8hpp_source.html">dencalc.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a1fd17e57d254716d654aa768ce0eedb9" name="a1fd17e57d254716d654aa768ce0eedb9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1fd17e57d254716d654aa768ce0eedb9">&#9670;&nbsp;</a></span>grid</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Table , typename Real &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structgemmi_1_1Grid.html">Grid</a>&lt;Real&gt; <a class="el" href="structgemmi_1_1DensityCalculator.html">gemmi::DensityCalculator</a>&lt; Table, Real &gt;::grid</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="dencalc_8hpp_source.html#l00094">94</a> of file <a class="el" href="dencalc_8hpp_source.html">dencalc.hpp</a>.</p>
-
-</div>
-</div>
-<a id="aca45cecf64b3bff85ebfc8fe8c205097" name="aca45cecf64b3bff85ebfc8fe8c205097"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca45cecf64b3bff85ebfc8fe8c205097">&#9670;&nbsp;</a></span>rate</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Table , typename Real &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">double <a class="el" href="structgemmi_1_1DensityCalculator.html">gemmi::DensityCalculator</a>&lt; Table, Real &gt;::rate = 1.5</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="dencalc_8hpp_source.html#l00096">96</a> of file <a class="el" href="dencalc_8hpp_source.html">dencalc.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dencalc_8hpp_source.html#l00099">99</a> of file <a class="el" href="dencalc_8hpp_source.html">dencalc.hpp</a>.</p>
 
 </div>
 </div>

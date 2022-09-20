@@ -112,8 +112,8 @@ Public Member Functions</h2></td></tr>
 <tr class="inherit_header pub_methods_structgemmi_1_1GridBase"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structgemmi_1_1GridBase')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structgemmi_1_1GridBase.html">gemmi::GridBase&lt; T &gt;</a></td></tr>
 <tr class="memitem:a275755673fb0ae51e76ad3fedc33ea76 inherit pub_methods_structgemmi_1_1GridBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridBase.html#a275755673fb0ae51e76ad3fedc33ea76">check_not_empty</a> () const</td></tr>
 <tr class="separator:a275755673fb0ae51e76ad3fedc33ea76 inherit pub_methods_structgemmi_1_1GridBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80f9fd0ed5414f29abd5874c586a2ba8 inherit pub_methods_structgemmi_1_1GridBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridBase.html#a80f9fd0ed5414f29abd5874c586a2ba8">set_size_without_checking</a> (int u, int v, int w)</td></tr>
-<tr class="separator:a80f9fd0ed5414f29abd5874c586a2ba8 inherit pub_methods_structgemmi_1_1GridBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a938f5331a208ff7703ed514e864175bd inherit pub_methods_structgemmi_1_1GridBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridBase.html#a938f5331a208ff7703ed514e864175bd">set_size_without_checking</a> (int nu_, int nv_, int nw_)</td></tr>
+<tr class="separator:a938f5331a208ff7703ed514e864175bd inherit pub_methods_structgemmi_1_1GridBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a265cebfaa424362d986dca1526b6b058 inherit pub_methods_structgemmi_1_1GridBase"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridBase.html#a265cebfaa424362d986dca1526b6b058">get_value_q</a> (int u, int v, int w) const</td></tr>
 <tr class="separator:a265cebfaa424362d986dca1526b6b058 inherit pub_methods_structgemmi_1_1GridBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a379362b77827413217a4a97b4be57ab9 inherit pub_methods_structgemmi_1_1GridBase"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridBase.html#a379362b77827413217a4a97b4be57ab9">point_to_index</a> (const <a class="el" href="structgemmi_1_1GridBase_1_1Point.html">Point</a> &amp;p) const</td></tr>
@@ -132,18 +132,23 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac999fe9febad7130324743364627924d inherit pub_methods_structgemmi_1_1GridMeta"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridMeta.html#ac999fe9febad7130324743364627924d">point_count</a> () const</td></tr>
 <tr class="separator:ac999fe9febad7130324743364627924d inherit pub_methods_structgemmi_1_1GridMeta"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab8f889a4e6e0ef25fe61ea5d24cdf12 inherit pub_methods_structgemmi_1_1GridMeta"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1Fractional.html">Fractional</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridMeta.html#aab8f889a4e6e0ef25fe61ea5d24cdf12">get_fractional</a> (int u, int v, int w) const</td></tr>
+<tr class="memdesc:aab8f889a4e6e0ef25fe61ea5d24cdf12 inherit pub_methods_structgemmi_1_1GridMeta"><td class="mdescLeft">&#160;</td><td class="mdescRight">u,v,w are not normalized here  <a href="structgemmi_1_1GridMeta.html#aab8f889a4e6e0ef25fe61ea5d24cdf12">More...</a><br /></td></tr>
 <tr class="separator:aab8f889a4e6e0ef25fe61ea5d24cdf12 inherit pub_methods_structgemmi_1_1GridMeta"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f22f90e326d689bbae4a86e82cbf5d6 inherit pub_methods_structgemmi_1_1GridMeta"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1Position.html">Position</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridMeta.html#a0f22f90e326d689bbae4a86e82cbf5d6">get_position</a> (int u, int v, int w) const</td></tr>
 <tr class="separator:a0f22f90e326d689bbae4a86e82cbf5d6 inherit pub_methods_structgemmi_1_1GridMeta"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7494e888e1244ca3ea3e4aee2e3b9bd inherit pub_methods_structgemmi_1_1GridMeta"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structgemmi_1_1GridOp.html">GridOp</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridMeta.html#ab7494e888e1244ca3ea3e4aee2e3b9bd">get_scaled_ops_except_id</a> () const</td></tr>
 <tr class="separator:ab7494e888e1244ca3ea3e4aee2e3b9bd inherit pub_methods_structgemmi_1_1GridMeta"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80d4ef8416736ea8cd36bf8debad52dd inherit pub_methods_structgemmi_1_1GridMeta"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridMeta.html#a80d4ef8416736ea8cd36bf8debad52dd">index_q</a> (int u, int v, int w) const</td></tr>
+<tr class="memdesc:a80d4ef8416736ea8cd36bf8debad52dd inherit pub_methods_structgemmi_1_1GridMeta"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quick(est) index function, but works only if <code>0 &lt;= u &lt; nu</code>, etc.  <a href="structgemmi_1_1GridMeta.html#a80d4ef8416736ea8cd36bf8debad52dd">More...</a><br /></td></tr>
 <tr class="separator:a80d4ef8416736ea8cd36bf8debad52dd inherit pub_methods_structgemmi_1_1GridMeta"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b2a8b520e8d461e4d067b47a53a7eb1 inherit pub_methods_structgemmi_1_1GridMeta"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridMeta.html#a9b2a8b520e8d461e4d067b47a53a7eb1">index_n_ref</a> (int &amp;u, int &amp;v, int &amp;w) const</td></tr>
-<tr class="separator:a9b2a8b520e8d461e4d067b47a53a7eb1 inherit pub_methods_structgemmi_1_1GridMeta"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c858985d572f6abc933e930cf284dec inherit pub_methods_structgemmi_1_1GridMeta"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridMeta.html#a5c858985d572f6abc933e930cf284dec">index_n</a> (int u, int v, int w) const</td></tr>
+<tr class="memdesc:a5c858985d572f6abc933e930cf284dec inherit pub_methods_structgemmi_1_1GridMeta"><td class="mdescLeft">&#160;</td><td class="mdescRight">Faster than index_s(), but works only if <code>-nu &lt;= u &lt; 2*nu</code>, etc.  <a href="structgemmi_1_1GridMeta.html#a5c858985d572f6abc933e930cf284dec">More...</a><br /></td></tr>
 <tr class="separator:a5c858985d572f6abc933e930cf284dec inherit pub_methods_structgemmi_1_1GridMeta"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b2a8b520e8d461e4d067b47a53a7eb1 inherit pub_methods_structgemmi_1_1GridMeta"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridMeta.html#a9b2a8b520e8d461e4d067b47a53a7eb1">index_n_ref</a> (int &amp;u, int &amp;v, int &amp;w) const</td></tr>
+<tr class="memdesc:a9b2a8b520e8d461e4d067b47a53a7eb1 inherit pub_methods_structgemmi_1_1GridMeta"><td class="mdescLeft">&#160;</td><td class="mdescRight">The same as <a class="el" href="structgemmi_1_1GridMeta.html#a5c858985d572f6abc933e930cf284dec" title="Faster than index_s(), but works only if -nu &lt;= u &lt; 2*nu, etc.">index_n()</a>, but modifies arguments.  <a href="structgemmi_1_1GridMeta.html#a9b2a8b520e8d461e4d067b47a53a7eb1">More...</a><br /></td></tr>
+<tr class="separator:a9b2a8b520e8d461e4d067b47a53a7eb1 inherit pub_methods_structgemmi_1_1GridMeta"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70367b6049589c5af4124f78e14c8867 inherit pub_methods_structgemmi_1_1GridMeta"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridMeta.html#a70367b6049589c5af4124f78e14c8867">index_near_zero</a> (int u, int v, int w) const</td></tr>
+<tr class="memdesc:a70367b6049589c5af4124f78e14c8867 inherit pub_methods_structgemmi_1_1GridMeta"><td class="mdescLeft">&#160;</td><td class="mdescRight">Faster than <a class="el" href="structgemmi_1_1GridMeta.html#a5c858985d572f6abc933e930cf284dec" title="Faster than index_s(), but works only if -nu &lt;= u &lt; 2*nu, etc.">index_n()</a>, but works only if -nu &lt;= u &lt; nu, etc.  <a href="structgemmi_1_1GridMeta.html#a70367b6049589c5af4124f78e14c8867">More...</a><br /></td></tr>
 <tr class="separator:a70367b6049589c5af4124f78e14c8867 inherit pub_methods_structgemmi_1_1GridMeta"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -178,8 +183,8 @@ Additional Inherited Members</h2></td></tr>
 struct gemmi::ReciprocalGrid&lt; T &gt;</div>
 <p class="definition">Definition at line <a class="el" href="recgrid_8hpp_source.html#l00023">23</a> of file <a class="el" href="recgrid_8hpp_source.html">recgrid.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8f277ec47d60747958b8c71c9435079b" name="a8f277ec47d60747958b8c71c9435079b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f277ec47d60747958b8c71c9435079b">&#9670;&nbsp;</a></span>calculate_1_d2()</h2>
+<a id="afb930fa4b245590289299419bdfcb860" name="afb930fa4b245590289299419bdfcb860"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb930fa4b245590289299419bdfcb860">&#9670;&nbsp;</a></span>has_index()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -190,41 +195,27 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double <a class="el" href="structgemmi_1_1ReciprocalGrid.html">gemmi::ReciprocalGrid</a>&lt; T &gt;::calculate_1_d2 </td>
+          <td class="memname">bool <a class="el" href="structgemmi_1_1ReciprocalGrid.html">gemmi::ReciprocalGrid</a>&lt; T &gt;::has_index </td>
           <td>(</td>
-          <td class="paramtype">const typename <a class="el" href="structgemmi_1_1GridBase.html">GridBase</a>&lt; T &gt;::Point &amp;&#160;</td>
-          <td class="paramname"><em>point</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>u</em>, </td>
         </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="recgrid_8hpp_source.html#l00070">70</a> of file <a class="el" href="recgrid_8hpp_source.html">recgrid.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ac578bbc589d3887dedbfe98ce77dc34e" name="ac578bbc589d3887dedbfe98ce77dc34e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac578bbc589d3887dedbfe98ce77dc34e">&#9670;&nbsp;</a></span>calculate_d()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
         <tr>
-          <td class="memname">double <a class="el" href="structgemmi_1_1ReciprocalGrid.html">gemmi::ReciprocalGrid</a>&lt; T &gt;::calculate_d </td>
-          <td>(</td>
-          <td class="paramtype">const typename <a class="el" href="structgemmi_1_1GridBase.html">GridBase</a>&lt; T &gt;::Point &amp;&#160;</td>
-          <td class="paramname"><em>point</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>w</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -234,7 +225,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="recgrid_8hpp_source.html#l00073">73</a> of file <a class="el" href="recgrid_8hpp_source.html">recgrid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="recgrid_8hpp_source.html#l00025">25</a> of file <a class="el" href="recgrid_8hpp_source.html">recgrid.hpp</a>.</p>
 
 </div>
 </div>
@@ -284,8 +275,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a8878981f45fb934725f082c0d21cdff8" name="a8878981f45fb934725f082c0d21cdff8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8878981f45fb934725f082c0d21cdff8">&#9670;&nbsp;</a></span>get_value()</h2>
+<a id="a6f0cb997725e97190010b122468b2f97" name="a6f0cb997725e97190010b122468b2f97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f0cb997725e97190010b122468b2f97">&#9670;&nbsp;</a></span>index_n()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -296,7 +287,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">T <a class="el" href="structgemmi_1_1ReciprocalGrid.html">gemmi::ReciprocalGrid</a>&lt; T &gt;::get_value </td>
+          <td class="memname">size_t <a class="el" href="structgemmi_1_1ReciprocalGrid.html">gemmi::ReciprocalGrid</a>&lt; T &gt;::index_n </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>u</em>, </td>
@@ -326,145 +317,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="recgrid_8hpp_source.html#l00046">46</a> of file <a class="el" href="recgrid_8hpp_source.html">recgrid.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a0ef494d4a19fc1c727f44236488b0674" name="a0ef494d4a19fc1c727f44236488b0674"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ef494d4a19fc1c727f44236488b0674">&#9670;&nbsp;</a></span>get_value_by_hkl()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T <a class="el" href="structgemmi_1_1ReciprocalGrid.html">gemmi::ReciprocalGrid</a>&lt; T &gt;::get_value_by_hkl </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespacegemmi.html#a592f1efb2742477309b5e06590554c21">Miller</a>&#160;</td>
-          <td class="paramname"><em>hkl</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>unblur</em> = <code>0</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>mott_bethe</em> = <code>false</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="recgrid_8hpp_source.html#l00077">77</a> of file <a class="el" href="recgrid_8hpp_source.html">recgrid.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a8d105d2a5b725d990d09a5679cc8f45a" name="a8d105d2a5b725d990d09a5679cc8f45a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d105d2a5b725d990d09a5679cc8f45a">&#9670;&nbsp;</a></span>get_value_or_zero()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T <a class="el" href="structgemmi_1_1ReciprocalGrid.html">gemmi::ReciprocalGrid</a>&lt; T &gt;::get_value_or_zero </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>u</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>v</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>w</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="recgrid_8hpp_source.html#l00049">49</a> of file <a class="el" href="recgrid_8hpp_source.html">recgrid.hpp</a>.</p>
-
-</div>
-</div>
-<a id="afb930fa4b245590289299419bdfcb860" name="afb930fa4b245590289299419bdfcb860"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb930fa4b245590289299419bdfcb860">&#9670;&nbsp;</a></span>has_index()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="structgemmi_1_1ReciprocalGrid.html">gemmi::ReciprocalGrid</a>&lt; T &gt;::has_index </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>u</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>v</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>w</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="recgrid_8hpp_source.html#l00025">25</a> of file <a class="el" href="recgrid_8hpp_source.html">recgrid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="recgrid_8hpp_source.html#l00037">37</a> of file <a class="el" href="recgrid_8hpp_source.html">recgrid.hpp</a>.</p>
 
 </div>
 </div>
@@ -514,8 +367,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a6f0cb997725e97190010b122468b2f97" name="a6f0cb997725e97190010b122468b2f97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f0cb997725e97190010b122468b2f97">&#9670;&nbsp;</a></span>index_n()</h2>
+<a id="a8878981f45fb934725f082c0d21cdff8" name="a8878981f45fb934725f082c0d21cdff8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8878981f45fb934725f082c0d21cdff8">&#9670;&nbsp;</a></span>get_value()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -526,7 +379,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t <a class="el" href="structgemmi_1_1ReciprocalGrid.html">gemmi::ReciprocalGrid</a>&lt; T &gt;::index_n </td>
+          <td class="memname">T <a class="el" href="structgemmi_1_1ReciprocalGrid.html">gemmi::ReciprocalGrid</a>&lt; T &gt;::get_value </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>u</em>, </td>
@@ -556,57 +409,43 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="recgrid_8hpp_source.html#l00037">37</a> of file <a class="el" href="recgrid_8hpp_source.html">recgrid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="recgrid_8hpp_source.html#l00046">46</a> of file <a class="el" href="recgrid_8hpp_source.html">recgrid.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a01ed52a43b6c56ce2c946bc3700b80f8" name="a01ed52a43b6c56ce2c946bc3700b80f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01ed52a43b6c56ce2c946bc3700b80f8">&#9670;&nbsp;</a></span>prepare_asu_data()</h2>
+<a id="a8d105d2a5b725d990d09a5679cc8f45a" name="a8d105d2a5b725d990d09a5679cc8f45a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d105d2a5b725d990d09a5679cc8f45a">&#9670;&nbsp;</a></span>get_value_or_zero()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T &gt; </div>
-<div class="memtemplate">
-template&lt;typename R  = T&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structgemmi_1_1AsuData.html">AsuData</a>&lt; R &gt; <a class="el" href="structgemmi_1_1ReciprocalGrid.html">gemmi::ReciprocalGrid</a>&lt; T &gt;::prepare_asu_data </td>
+          <td class="memname">T <a class="el" href="structgemmi_1_1ReciprocalGrid.html">gemmi::ReciprocalGrid</a>&lt; T &gt;::get_value_or_zero </td>
           <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>dmin</em> = <code>0</code>, </td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>u</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>unblur</em> = <code>0</code>, </td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>with_000</em> = <code>false</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>with_sys_abs</em> = <code>false</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>mott_bethe</em> = <code>false</code>&#160;</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>w</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -616,7 +455,7 @@ template&lt;typename R  = T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="recgrid_8hpp_source.html#l00103">103</a> of file <a class="el" href="recgrid_8hpp_source.html">recgrid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="recgrid_8hpp_source.html#l00049">49</a> of file <a class="el" href="recgrid_8hpp_source.html">recgrid.hpp</a>.</p>
 
 </div>
 </div>
@@ -699,6 +538,172 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="recgrid_8hpp_source.html#l00055">55</a> of file <a class="el" href="recgrid_8hpp_source.html">recgrid.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a8f277ec47d60747958b8c71c9435079b" name="a8f277ec47d60747958b8c71c9435079b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f277ec47d60747958b8c71c9435079b">&#9670;&nbsp;</a></span>calculate_1_d2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="structgemmi_1_1ReciprocalGrid.html">gemmi::ReciprocalGrid</a>&lt; T &gt;::calculate_1_d2 </td>
+          <td>(</td>
+          <td class="paramtype">const typename <a class="el" href="structgemmi_1_1GridBase.html">GridBase</a>&lt; T &gt;::Point &amp;&#160;</td>
+          <td class="paramname"><em>point</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="recgrid_8hpp_source.html#l00070">70</a> of file <a class="el" href="recgrid_8hpp_source.html">recgrid.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ac578bbc589d3887dedbfe98ce77dc34e" name="ac578bbc589d3887dedbfe98ce77dc34e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac578bbc589d3887dedbfe98ce77dc34e">&#9670;&nbsp;</a></span>calculate_d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="structgemmi_1_1ReciprocalGrid.html">gemmi::ReciprocalGrid</a>&lt; T &gt;::calculate_d </td>
+          <td>(</td>
+          <td class="paramtype">const typename <a class="el" href="structgemmi_1_1GridBase.html">GridBase</a>&lt; T &gt;::Point &amp;&#160;</td>
+          <td class="paramname"><em>point</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="recgrid_8hpp_source.html#l00073">73</a> of file <a class="el" href="recgrid_8hpp_source.html">recgrid.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a0ef494d4a19fc1c727f44236488b0674" name="a0ef494d4a19fc1c727f44236488b0674"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ef494d4a19fc1c727f44236488b0674">&#9670;&nbsp;</a></span>get_value_by_hkl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T <a class="el" href="structgemmi_1_1ReciprocalGrid.html">gemmi::ReciprocalGrid</a>&lt; T &gt;::get_value_by_hkl </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacegemmi.html#a592f1efb2742477309b5e06590554c21">Miller</a>&#160;</td>
+          <td class="paramname"><em>hkl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>unblur</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>mott_bethe</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="recgrid_8hpp_source.html#l00077">77</a> of file <a class="el" href="recgrid_8hpp_source.html">recgrid.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a01ed52a43b6c56ce2c946bc3700b80f8" name="a01ed52a43b6c56ce2c946bc3700b80f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01ed52a43b6c56ce2c946bc3700b80f8">&#9670;&nbsp;</a></span>prepare_asu_data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<div class="memtemplate">
+template&lt;typename R  = T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgemmi_1_1AsuData.html">AsuData</a>&lt; R &gt; <a class="el" href="structgemmi_1_1ReciprocalGrid.html">gemmi::ReciprocalGrid</a>&lt; T &gt;::prepare_asu_data </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>dmin</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>unblur</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>with_000</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>with_sys_abs</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>mott_bethe</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="recgrid_8hpp_source.html#l00103">103</a> of file <a class="el" href="recgrid_8hpp_source.html">recgrid.hpp</a>.</p>
 
 </div>
 </div>

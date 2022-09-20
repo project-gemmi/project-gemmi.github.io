@@ -192,24 +192,6 @@ Additional Inherited Members</h2></td></tr>
 struct gemmi::MutableVectorSpan&lt; Item &gt;</div>
 <p class="definition">Definition at line <a class="el" href="span_8hpp_source.html#l00094">94</a> of file <a class="el" href="span_8hpp_source.html">span.hpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a288febd437f977db0255233078d8d27d" name="a288febd437f977db0255233078d8d27d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a288febd437f977db0255233078d8d27d">&#9670;&nbsp;</a></span>iterator</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Item &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="structgemmi_1_1MutableVectorSpan.html">gemmi::MutableVectorSpan</a>&lt; Item &gt;::iterator =  typename <a class="el" href="structgemmi_1_1Span.html">Span</a>&lt;Item&gt;::iterator</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="span_8hpp_source.html#l00096">96</a> of file <a class="el" href="span_8hpp_source.html">span.hpp</a>.</p>
-
-</div>
-</div>
 <a id="abbd9d328a4919555cc772107ffbe7f80" name="abbd9d328a4919555cc772107ffbe7f80"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abbd9d328a4919555cc772107ffbe7f80">&#9670;&nbsp;</a></span>vector_type</h2>
 
@@ -225,6 +207,24 @@ template&lt;typename Item &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="span_8hpp_source.html#l00095">95</a> of file <a class="el" href="span_8hpp_source.html">span.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a288febd437f977db0255233078d8d27d" name="a288febd437f977db0255233078d8d27d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a288febd437f977db0255233078d8d27d">&#9670;&nbsp;</a></span>iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Item &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structgemmi_1_1MutableVectorSpan.html">gemmi::MutableVectorSpan</a>&lt; Item &gt;::iterator =  typename <a class="el" href="structgemmi_1_1Span.html">Span</a>&lt;Item&gt;::iterator</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="span_8hpp_source.html#l00096">96</a> of file <a class="el" href="span_8hpp_source.html">span.hpp</a>.</p>
 
 </div>
 </div>
@@ -343,134 +343,6 @@ template&lt;typename Item &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a73ab36d145f301319b9d7312a2ae1ef1" name="a73ab36d145f301319b9d7312a2ae1ef1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73ab36d145f301319b9d7312a2ae1ef1">&#9670;&nbsp;</a></span>erase()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Item &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="structgemmi_1_1MutableVectorSpan.html">gemmi::MutableVectorSpan</a>&lt; Item &gt;::erase </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structgemmi_1_1Span.html#a1325059c9d6749980f96a41ef39f691a">iterator</a>&#160;</td>
-          <td class="paramname"><em>pos</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="span_8hpp_source.html#l00124">124</a> of file <a class="el" href="span_8hpp_source.html">span.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ae2ead722521616ffcb8c2ab371f4f2e7" name="ae2ead722521616ffcb8c2ab371f4f2e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2ead722521616ffcb8c2ab371f4f2e7">&#9670;&nbsp;</a></span>insert()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Item &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structgemmi_1_1Span.html#a1325059c9d6749980f96a41ef39f691a">iterator</a> <a class="el" href="structgemmi_1_1MutableVectorSpan.html">gemmi::MutableVectorSpan</a>&lt; Item &gt;::insert </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structgemmi_1_1Span.html#a1325059c9d6749980f96a41ef39f691a">iterator</a>&#160;</td>
-          <td class="paramname"><em>pos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Item &amp;&amp;&#160;</td>
-          <td class="paramname"><em>item</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="span_8hpp_source.html#l00115">115</a> of file <a class="el" href="span_8hpp_source.html">span.hpp</a>.</p>
-
-</div>
-</div>
-<a id="af81732c9da87d4062d824a872547ee1e" name="af81732c9da87d4062d824a872547ee1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af81732c9da87d4062d824a872547ee1e">&#9670;&nbsp;</a></span>is_beginning()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Item &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="structgemmi_1_1MutableVectorSpan.html">gemmi::MutableVectorSpan</a>&lt; Item &gt;::is_beginning </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="span_8hpp_source.html#l00129">129</a> of file <a class="el" href="span_8hpp_source.html">span.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a07c709db447a8d33959d7dc7cc8fd6db" name="a07c709db447a8d33959d7dc7cc8fd6db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07c709db447a8d33959d7dc7cc8fd6db">&#9670;&nbsp;</a></span>is_ending()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Item &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="structgemmi_1_1MutableVectorSpan.html">gemmi::MutableVectorSpan</a>&lt; Item &gt;::is_ending </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="span_8hpp_source.html#l00130">130</a> of file <a class="el" href="span_8hpp_source.html">span.hpp</a>.</p>
-
-</div>
-</div>
 <a id="adb9632ec62a9c12dd69a731dc2b8def5" name="adb9632ec62a9c12dd69a731dc2b8def5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adb9632ec62a9c12dd69a731dc2b8def5">&#9670;&nbsp;</a></span>sub()</h2>
 
@@ -574,6 +446,134 @@ template&lt;typename F &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="span_8hpp_source.html#l00111">111</a> of file <a class="el" href="span_8hpp_source.html">span.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ae2ead722521616ffcb8c2ab371f4f2e7" name="ae2ead722521616ffcb8c2ab371f4f2e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2ead722521616ffcb8c2ab371f4f2e7">&#9670;&nbsp;</a></span>insert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Item &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgemmi_1_1Span.html#a1325059c9d6749980f96a41ef39f691a">iterator</a> <a class="el" href="structgemmi_1_1MutableVectorSpan.html">gemmi::MutableVectorSpan</a>&lt; Item &gt;::insert </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structgemmi_1_1Span.html#a1325059c9d6749980f96a41ef39f691a">iterator</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Item &amp;&amp;&#160;</td>
+          <td class="paramname"><em>item</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="span_8hpp_source.html#l00115">115</a> of file <a class="el" href="span_8hpp_source.html">span.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a73ab36d145f301319b9d7312a2ae1ef1" name="a73ab36d145f301319b9d7312a2ae1ef1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73ab36d145f301319b9d7312a2ae1ef1">&#9670;&nbsp;</a></span>erase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Item &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="structgemmi_1_1MutableVectorSpan.html">gemmi::MutableVectorSpan</a>&lt; Item &gt;::erase </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structgemmi_1_1Span.html#a1325059c9d6749980f96a41ef39f691a">iterator</a>&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="span_8hpp_source.html#l00124">124</a> of file <a class="el" href="span_8hpp_source.html">span.hpp</a>.</p>
+
+</div>
+</div>
+<a id="af81732c9da87d4062d824a872547ee1e" name="af81732c9da87d4062d824a872547ee1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af81732c9da87d4062d824a872547ee1e">&#9670;&nbsp;</a></span>is_beginning()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Item &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="structgemmi_1_1MutableVectorSpan.html">gemmi::MutableVectorSpan</a>&lt; Item &gt;::is_beginning </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="span_8hpp_source.html#l00129">129</a> of file <a class="el" href="span_8hpp_source.html">span.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a07c709db447a8d33959d7dc7cc8fd6db" name="a07c709db447a8d33959d7dc7cc8fd6db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07c709db447a8d33959d7dc7cc8fd6db">&#9670;&nbsp;</a></span>is_ending()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Item &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="structgemmi_1_1MutableVectorSpan.html">gemmi::MutableVectorSpan</a>&lt; Item &gt;::is_ending </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="span_8hpp_source.html#l00130">130</a> of file <a class="el" href="span_8hpp_source.html">span.hpp</a>.</p>
 
 </div>
 </div>
