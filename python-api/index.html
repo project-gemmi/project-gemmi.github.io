@@ -321,7 +321,7 @@ crystallography and related fields</p>
             <dd></dd>
             <dt>class <a href="gemmi.SelectionModelsProxy.html" class="m-doc">SelectionModelsProxy</a></dt>
             <dd></dd>
-            <dt>class <a href="gemmi.SelectionResidusProxy.html" class="m-doc">SelectionResidusProxy</a></dt>
+            <dt>class <a href="gemmi.SelectionResiduesProxy.html" class="m-doc">SelectionResiduesProxy</a></dt>
             <dd></dd>
             <dt>class <a href="gemmi.SellingVector.html" class="m-doc">SellingVector</a></dt>
             <dd></dd>
@@ -525,7 +525,8 @@ crystallography and related fields</p>
               <a href="#ResidueInfoKind-BUF" class="m-doc-self" id="ResidueInfoKind-BUF">BUF</a> = 7
               <a href="#ResidueInfoKind-HOH" class="m-doc-self" id="ResidueInfoKind-HOH">HOH</a> = 8
               <a href="#ResidueInfoKind-PYR" class="m-doc-self" id="ResidueInfoKind-PYR">PYR</a> = 9
-              <a href="#ResidueInfoKind-ELS" class="m-doc-self" id="ResidueInfoKind-ELS">ELS</a> = 10</span>
+              <a href="#ResidueInfoKind-KET" class="m-doc-self" id="ResidueInfoKind-KET">KET</a> = 10
+              <a href="#ResidueInfoKind-ELS" class="m-doc-self" id="ResidueInfoKind-ELS">ELS</a> = 11</span>
             </dt>
             <dd>Members:</dd>
             <dt id="SupSelect">
@@ -775,12 +776,11 @@ crystallography and related fields</p>
               <span class="m-doc-wrap-bumper">def <a href="#hkl_cif_as_refln_block" class="m-doc-self">hkl_cif_as_refln_block</a>(</span><span class="m-doc-wrap">block: <a href="gemmi.cif.Block.html" class="m-doc">cif.Block</a>) -&gt; <a href="gemmi.ReflnBlock.html" class="m-doc">ReflnBlock</a></span>
             </dt>
             <dd></dd>
-            <dt id="interpolate_grid_of_aligned_model">
-              <span class="m-doc-wrap-bumper">def <a href="#interpolate_grid_of_aligned_model" class="m-doc-self">interpolate_grid_of_aligned_model</a>(</span><span class="m-doc-wrap">dest: <a href="gemmi.FloatGrid.html" class="m-doc">FloatGrid</a>,
+            <dt id="interpolate_grid">
+              <span class="m-doc-wrap-bumper">def <a href="#interpolate_grid" class="m-doc-self">interpolate_grid</a>(</span><span class="m-doc-wrap">dest: <a href="gemmi.FloatGrid.html" class="m-doc">FloatGrid</a>,
               src: <a href="gemmi.FloatGrid.html" class="m-doc">FloatGrid</a>,
               tr: <a href="gemmi.Transform.html" class="m-doc">Transform</a>,
-              ns: <a href="gemmi.NeighborSearch.html" class="m-doc">NeighborSearch</a>,
-              radius: float = 0.0) -&gt; None</span>
+              order: int = 2) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="interpolate_grid_of_aligned_model2">
@@ -788,7 +788,8 @@ crystallography and related fields</p>
               src: <a href="gemmi.FloatGrid.html" class="m-doc">FloatGrid</a>,
               tr: <a href="gemmi.Transform.html" class="m-doc">Transform</a>,
               dest_model: <a href="gemmi.Model.html" class="m-doc">Model</a>,
-              radius: float) -&gt; None</span>
+              radius: float,
+              order: int = 2) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="is_pdb_code">
@@ -868,10 +869,6 @@ crystallography and related fields</p>
               <span class="m-doc-wrap-bumper">def <a href="#one_letter_code-5b009" class="m-doc-self">one_letter_code</a>(</span><span class="m-doc-wrap">arg0: <a href="gemmi.ResidueSpan.html" class="m-doc">ResidueSpan</a><span class="m-text m-dim">, /</span>) -&gt; str</span>
             </dt>
             <dd></dd>
-            <dt id="parse_cid">
-              <span class="m-doc-wrap-bumper">def <a href="#parse_cid" class="m-doc-self">parse_cid</a>(</span><span class="m-doc-wrap">arg0: str<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Selection.html" class="m-doc">Selection</a></span>
-            </dt>
-            <dd></dd>
             <dt id="parse_triplet">
               <span class="m-doc-wrap-bumper">def <a href="#parse_triplet" class="m-doc-self">parse_triplet</a>(</span><span class="m-doc-wrap">triplet: str) -&gt; <a href="gemmi.Op.html" class="m-doc">Op</a></span>
             </dt>
@@ -886,7 +883,8 @@ crystallography and related fields</p>
             <dd></dd>
             <dt id="prepare_crd">
               <span class="m-doc-wrap-bumper">def <a href="#prepare_crd" class="m-doc-self">prepare_crd</a>(</span><span class="m-doc-wrap">arg0: <a href="gemmi.Structure.html" class="m-doc">Structure</a>,
-              arg1: <a href="gemmi.Topo.html" class="m-doc">Topo</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.cif.Block.html" class="m-doc">cif.Block</a></span>
+              arg1: <a href="gemmi.Topo.html" class="m-doc">Topo</a>,
+              arg2: <a href="gemmi.html#HydrogenChange" class="m-doc">HydrogenChange</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.cif.Block.html" class="m-doc">cif.Block</a></span>
             </dt>
             <dd></dd>
             <dt id="prepare_rst">
