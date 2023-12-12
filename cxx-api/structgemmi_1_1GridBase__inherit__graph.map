@@ -1,6 +1,17 @@
 <map id="gemmi::GridBase&lt; T &gt;" name="gemmi::GridBase&lt; T &gt;">
-<area shape="rect" id="node1" title="A common subset of Grid and ReciprocalGrid." alt="" coords="80,80,235,107"/>
-<area shape="rect" id="node3" href="$structgemmi_1_1Grid.html" title=" " alt="" coords="5,155,131,181"/>
-<area shape="rect" id="node4" href="$structgemmi_1_1ReciprocalGrid.html" title=" " alt="" coords="155,155,341,181"/>
-<area shape="rect" id="node2" href="$structgemmi_1_1GridMeta.html" title="The base of Grid classes that does not depend on stored data type." alt="" coords="96,5,219,32"/>
+<area shape="rect" id="Node000001" title="A common subset of Grid and ReciprocalGrid." alt="" coords="176,136,331,161"/>
+<area shape="rect" id="Node000003" href="$structgemmi_1_1Grid.html" title=" " alt="" coords="401,5,543,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="273,124,318,81,347,59,377,40,405,28,407,33,380,44,350,63,322,85,277,128"/>
+<area shape="rect" id="Node000004" href="$structgemmi_1_1Grid.html" title=" " alt="" coords="395,55,549,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="290,127,378,89,414,78,416,83,380,94,292,132"/>
+<area shape="rect" id="Node000005" href="$structgemmi_1_1Grid.html" title=" " alt="" coords="409,104,535,129"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="344,133,409,123,409,128,345,138"/>
+<area shape="rect" id="Node000006" href="$structgemmi_1_1Grid.html" title=" " alt="" coords="385,153,559,208"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="344,159,385,165,384,171,344,165"/>
+<area shape="rect" id="Node000007" href="$structgemmi_1_1Grid.html" title="Real&#45;space grid." alt="" coords="409,232,535,257"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="286,167,329,193,380,218,413,229,411,234,378,223,327,198,283,171"/>
+<area shape="rect" id="Node000008" href="$structgemmi_1_1ReciprocalGrid.html" title=" " alt="" coords="379,281,565,307"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="274,170,319,220,348,246,380,268,406,279,404,284,377,272,345,250,315,224,270,174"/>
+<area shape="rect" id="Node000002" href="$structgemmi_1_1GridMeta.html" title="The base of Grid classes that does not depend on stored data type." alt="" coords="5,136,128,161"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,146,175,146,175,151,142,151"/>
 </map>

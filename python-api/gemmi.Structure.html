@@ -64,6 +64,13 @@
         <section id="methods">
           <h2><a href="#methods">Methods</a></h2>
           <dl class="m-doc">
+            <dt id="add_conect">
+              <span class="m-doc-wrap-bumper">def <a href="#add_conect" class="m-doc-self">add_conect</a>(</span><span class="m-doc-wrap">self,
+              serial1: int,
+              serial2: int,
+              order: int) -&gt; None</span>
+            </dt>
+            <dd></dd>
             <dt id="add_entity_types">
               <span class="m-doc-wrap-bumper">def <a href="#add_entity_types" class="m-doc-self">add_entity_types</a>(</span><span class="m-doc-wrap">self,
               overwrite: bool = False) -&gt; None</span>
@@ -75,8 +82,9 @@
               pos: int = -1) -&gt; <a href="gemmi.Model.html" class="m-doc">Model</a></span>
             </dt>
             <dd></dd>
-            <dt id="assign_cis_flags">
-              <span class="m-doc-wrap-bumper">def <a href="#assign_cis_flags" class="m-doc-self">assign_cis_flags</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
+            <dt id="assign_best_sequences">
+              <span class="m-doc-wrap-bumper">def <a href="#assign_best_sequences" class="m-doc-self">assign_best_sequences</a>(</span><span class="m-doc-wrap">self,
+              fasta_sequences: typing.List[str]) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="assign_label_seq_id">
@@ -85,12 +93,14 @@
             </dt>
             <dd></dd>
             <dt id="assign_serial_numbers">
-              <span class="m-doc-wrap-bumper">def <a href="#assign_serial_numbers" class="m-doc-self">assign_serial_numbers</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
+              <span class="m-doc-wrap-bumper">def <a href="#assign_serial_numbers" class="m-doc-self">assign_serial_numbers</a>(</span><span class="m-doc-wrap">self,
+              numbered_ter: bool = False) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="assign_subchains">
               <span class="m-doc-wrap-bumper">def <a href="#assign_subchains" class="m-doc-self">assign_subchains</a>(</span><span class="m-doc-wrap">self,
-              overwrite: bool = False) -&gt; None</span>
+              force: bool = False,
+              fail_if_unknown: bool = True) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="calculate_box">
@@ -101,6 +111,14 @@
             <dt id="calculate_fractional_box">
               <span class="m-doc-wrap-bumper">def <a href="#calculate_fractional_box" class="m-doc-self">calculate_fractional_box</a>(</span><span class="m-doc-wrap">self,
               margin: float = 0.0) -&gt; <a href="gemmi.FractionalBox.html" class="m-doc">FractionalBox</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="clear_conect">
+              <span class="m-doc-wrap-bumper">def <a href="#clear_conect" class="m-doc-self">clear_conect</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="clear_sequences">
+              <span class="m-doc-wrap-bumper">def <a href="#clear_sequences" class="m-doc-self">clear_sequences</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="clone">
@@ -117,13 +135,21 @@
             <dd></dd>
             <dt id="expand_ncs">
               <span class="m-doc-wrap-bumper">def <a href="#expand_ncs" class="m-doc-self">expand_ncs</a>(</span><span class="m-doc-wrap">self,
-              how: <a href="gemmi.html#HowToNameCopiedChain" class="m-doc">HowToNameCopiedChain</a>) -&gt; None</span>
+              how: <a href="gemmi.html#HowToNameCopiedChain" class="m-doc">HowToNameCopiedChain</a>,
+              merge_dist: float = 0.2) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="find_connection">
               <span class="m-doc-wrap-bumper">def <a href="#find_connection" class="m-doc-self">find_connection</a>(</span><span class="m-doc-wrap">self,
               partner1: <a href="gemmi.AtomAddress.html" class="m-doc">AtomAddress</a>,
               partner2: <a href="gemmi.AtomAddress.html" class="m-doc">AtomAddress</a>) -&gt; <a href="gemmi.Connection.html" class="m-doc">Connection</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="find_connection_by_cra">
+              <span class="m-doc-wrap-bumper">def <a href="#find_connection_by_cra" class="m-doc-self">find_connection_by_cra</a>(</span><span class="m-doc-wrap">self,
+              cra1: <a href="gemmi.CRA.html" class="m-doc">CRA</a>,
+              cra2: <a href="gemmi.CRA.html" class="m-doc">CRA</a>,
+              ignore_segment: bool = False) -&gt; <a href="gemmi.Connection.html" class="m-doc">Connection</a></span>
             </dt>
             <dd></dd>
             <dt id="find_or_add_model">
@@ -167,6 +193,11 @@
               <span class="m-doc-wrap-bumper">def <a href="#make_pdb_headers" class="m-doc-self">make_pdb_headers</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; str</span>
             </dt>
             <dd></dd>
+            <dt id="make_pdb_string">
+              <span class="m-doc-wrap-bumper">def <a href="#make_pdb_string" class="m-doc-self">make_pdb_string</a>(</span><span class="m-doc-wrap">self,
+              options: <a href="gemmi.PdbWriteOptions.html" class="m-doc">PdbWriteOptions</a> = PdbWriteOptions()) -&gt; str</span>
+            </dt>
+            <dd></dd>
             <dt id="merge_chain_parts">
               <span class="m-doc-wrap-bumper">def <a href="#merge_chain_parts" class="m-doc-self">merge_chain_parts</a>(</span><span class="m-doc-wrap">self,
               min_sep: int = 0) -&gt; None</span>
@@ -208,10 +239,21 @@
               <span class="m-doc-wrap-bumper">def <a href="#shorten_chain_names" class="m-doc-self">shorten_chain_names</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
             <dd></dd>
+            <dt id="standardize_crystal_frame">
+              <span class="m-doc-wrap-bumper">def <a href="#standardize_crystal_frame" class="m-doc-self">standardize_crystal_frame</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="store_deuterium_as_fraction">
+              <span class="m-doc-wrap-bumper">def <a href="#store_deuterium_as_fraction" class="m-doc-self">store_deuterium_as_fraction</a>(</span><span class="m-doc-wrap">self,
+              arg0: bool<span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
             <dt id="transform_to_assembly">
               <span class="m-doc-wrap-bumper">def <a href="#transform_to_assembly" class="m-doc-self">transform_to_assembly</a>(</span><span class="m-doc-wrap">self,
               assembly_name: str,
-              how: <a href="gemmi.html#HowToNameCopiedChain" class="m-doc">HowToNameCopiedChain</a>) -&gt; None</span>
+              how: <a href="gemmi.html#HowToNameCopiedChain" class="m-doc">HowToNameCopiedChain</a>,
+              keep_spacegroup: bool = False,
+              merge_dist: float = 0.2) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="update_mmcif_block">
@@ -225,17 +267,16 @@
               path: str) -&gt; None</span>
             </dt>
             <dd></dd>
-            <dt id="write_pdb">
-              <span class="m-doc-wrap-bumper">def <a href="#write_pdb" class="m-doc-self">write_pdb</a>(</span><span class="m-doc-wrap">self,
+            <dt id="write_pdb-0c53c">
+              <span class="m-doc-wrap-bumper">def <a href="#write_pdb-0c53c" class="m-doc-self">write_pdb</a>(</span><span class="m-doc-wrap">self,
+              arg0: str,
+              arg1: <a href="gemmi.PdbWriteOptions.html" class="m-doc">PdbWriteOptions</a><span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="write_pdb-4ccb8">
+              <span class="m-doc-wrap-bumper">def <a href="#write_pdb-4ccb8" class="m-doc-self">write_pdb</a>(</span><span class="m-doc-wrap">self,
               path: str,
-              seqres_records: bool = True,
-              ssbond_records: bool = True,
-              link_records: bool = True,
-              cispep_records: bool = True,
-              ter_records: bool = True,
-              numbered_ter: bool = True,
-              ter_ignores_type: bool = False,
-              use_linkr: bool = False) -&gt; None</span>
+              **kwargs) -&gt; None</span>
             </dt>
             <dd></dd>
           </dl>
@@ -303,12 +344,24 @@
               <a href="#cell" class="m-doc-self">cell</a>: <a href="gemmi.UnitCell.html" class="m-doc">UnitCell</a> <span class="m-label m-flat m-success">get set</span>
             </dt>
             <dd></dd>
+            <dt id="cispeps">
+              <a href="#cispeps" class="m-doc-self">cispeps</a>: typing.List[<a href="gemmi.CisPep.html" class="m-doc">CisPep</a>] <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
             <dt id="connections">
               <a href="#connections" class="m-doc-self">connections</a>: <a href="gemmi.ConnectionList.html" class="m-doc">ConnectionList</a> <span class="m-label m-flat m-success">get set</span>
             </dt>
             <dd></dd>
             <dt id="entities">
               <a href="#entities" class="m-doc-self">entities</a>: <a href="gemmi.EntityList.html" class="m-doc">EntityList</a> <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
+            <dt id="has_d_fraction">
+              <a href="#has_d_fraction" class="m-doc-self">has_d_fraction</a>: bool <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
+            <dt id="has_origx">
+              <a href="#has_origx" class="m-doc-self">has_origx</a>: bool <span class="m-label m-flat m-success">get set</span>
             </dt>
             <dd></dd>
             <dt id="helices">
@@ -327,12 +380,20 @@
               <a href="#meta" class="m-doc-self">meta</a>: <a href="gemmi.Metadata.html" class="m-doc">Metadata</a> <span class="m-label m-flat m-success">get set</span>
             </dt>
             <dd></dd>
+            <dt id="mod_residues">
+              <a href="#mod_residues" class="m-doc-self">mod_residues</a>: typing.List[<a href="gemmi.ModRes.html" class="m-doc">ModRes</a>] <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
             <dt id="name">
               <a href="#name" class="m-doc-self">name</a>: str <span class="m-label m-flat m-success">get set</span>
             </dt>
             <dd></dd>
             <dt id="ncs">
               <a href="#ncs" class="m-doc-self">ncs</a>: <a href="gemmi.NcsOpList.html" class="m-doc">NcsOpList</a> <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
+            <dt id="origx">
+              <a href="#origx" class="m-doc-self">origx</a>: <a href="gemmi.Transform.html" class="m-doc">Transform</a> <span class="m-label m-flat m-warning">get</span>
             </dt>
             <dd></dd>
             <dt id="raw_remarks">

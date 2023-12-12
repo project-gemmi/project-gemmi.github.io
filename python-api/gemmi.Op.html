@@ -54,6 +54,7 @@
             <li>
               Reference
               <ul>
+                <li><a href="#staticmethods">Static methods</a></li>
                 <li><a href="#methods">Methods</a></li>
                 <li><a href="#dunder-methods">Special methods</a></li>
                 <li><a href="#properties">Properties</a></li>
@@ -62,19 +63,38 @@
             </li>
           </ul>
         </nav>
-        <section id="methods">
-          <h2><a href="#methods">Methods</a></h2>
+        <section id="staticmethods">
+          <h2><a href="#staticmethods">Static methods</a></h2>
           <dl class="m-doc">
             <dt id="apply_to_hkl">
-              <span class="m-doc-wrap-bumper">def <a href="#apply_to_hkl" class="m-doc-self">apply_to_hkl</a>(</span><span class="m-doc-wrap">self,
-              hkl: typing.List[int[3]]) -&gt; typing.List[int[3]]</span>
+              <span class="m-doc-wrap-bumper">def <a href="#apply_to_hkl" class="m-doc-self">apply_to_hkl</a>(</span><span class="m-doc-wrap">…)</span>
             </dt>
             <dd></dd>
             <dt id="apply_to_xyz">
-              <span class="m-doc-wrap-bumper">def <a href="#apply_to_xyz" class="m-doc-self">apply_to_xyz</a>(</span><span class="m-doc-wrap">self,
-              xyz: typing.List[float[3]]) -&gt; typing.List[float[3]]</span>
+              <span class="m-doc-wrap-bumper">def <a href="#apply_to_xyz" class="m-doc-self">apply_to_xyz</a>(</span><span class="m-doc-wrap">…)</span>
             </dt>
             <dd></dd>
+            <dt id="float_seitz">
+              <span class="m-doc-wrap-bumper">def <a href="#float_seitz" class="m-doc-self">float_seitz</a>(</span><span class="m-doc-wrap">…)</span>
+            </dt>
+            <dd>Returns Seitz matrix (floats)</dd>
+            <dt id="phase_shift">
+              <span class="m-doc-wrap-bumper">def <a href="#phase_shift" class="m-doc-self">phase_shift</a>(</span><span class="m-doc-wrap">…)</span>
+            </dt>
+            <dd></dd>
+            <dt id="translated">
+              <span class="m-doc-wrap-bumper">def <a href="#translated" class="m-doc-self">translated</a>(</span><span class="m-doc-wrap">…)</span>
+            </dt>
+            <dd>Adds a to tran</dd>
+            <dt id="transposed_rot">
+              <span class="m-doc-wrap-bumper">def <a href="#transposed_rot" class="m-doc-self">transposed_rot</a>(</span><span class="m-doc-wrap">…)</span>
+            </dt>
+            <dd></dd>
+          </dl>
+        </section>
+        <section id="methods">
+          <h2><a href="#methods">Methods</a></h2>
+          <dl class="m-doc">
             <dt id="combine">
               <span class="m-doc-wrap-bumper">def <a href="#combine" class="m-doc-self">combine</a>(</span><span class="m-doc-wrap">self,
               b: <a href="gemmi.Op.html" class="m-doc">Op</a>) -&gt; <a href="gemmi.Op.html" class="m-doc">Op</a></span>
@@ -84,19 +104,10 @@
               <span class="m-doc-wrap-bumper">def <a href="#det_rot" class="m-doc-self">det_rot</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; int</span>
             </dt>
             <dd>Determinant of the 3x3 matrix.</dd>
-            <dt id="float_seitz">
-              <span class="m-doc-wrap-bumper">def <a href="#float_seitz" class="m-doc-self">float_seitz</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; typing.List[typing.List[float[4]][4]]</span>
-            </dt>
-            <dd>Returns Seitz matrix (floats)</dd>
             <dt id="inverse">
               <span class="m-doc-wrap-bumper">def <a href="#inverse" class="m-doc-self">inverse</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Op.html" class="m-doc">Op</a></span>
             </dt>
             <dd>Returns inverted operator.</dd>
-            <dt id="phase_shift">
-              <span class="m-doc-wrap-bumper">def <a href="#phase_shift" class="m-doc-self">phase_shift</a>(</span><span class="m-doc-wrap">self,
-              hkl: typing.List[int[3]]) -&gt; float</span>
-            </dt>
-            <dd></dd>
             <dt id="rot_type">
               <span class="m-doc-wrap-bumper">def <a href="#rot_type" class="m-doc-self">rot_type</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; int</span>
             </dt>
@@ -105,15 +116,6 @@
               <span class="m-doc-wrap-bumper">def <a href="#seitz" class="m-doc-self">seitz</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; list</span>
             </dt>
             <dd>Returns Seitz matrix (fractions)</dd>
-            <dt id="translated">
-              <span class="m-doc-wrap-bumper">def <a href="#translated" class="m-doc-self">translated</a>(</span><span class="m-doc-wrap">self,
-              a: typing.List[int[3]]) -&gt; <a href="gemmi.Op.html" class="m-doc">Op</a></span>
-            </dt>
-            <dd>Adds a to tran</dd>
-            <dt id="transposed_rot">
-              <span class="m-doc-wrap-bumper">def <a href="#transposed_rot" class="m-doc-self">transposed_rot</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; typing.List[typing.List[int[3]][3]]</span>
-            </dt>
-            <dd></dd>
             <dt id="triplet">
               <span class="m-doc-wrap-bumper">def <a href="#triplet" class="m-doc-self">triplet</a>(</span><span class="m-doc-wrap">self,
               style: str = &#x27;x&#x27;) -&gt; str</span>
@@ -185,11 +187,11 @@
           <h2><a href="#properties">Properties</a></h2>
           <dl class="m-doc">
             <dt id="rot">
-              <a href="#rot" class="m-doc-self">rot</a>: typing.List[typing.List[int[3]][3]] <span class="m-label m-flat m-success">get set</span>
+              <a href="#rot" class="m-doc-self">rot</a> <span class="m-label m-flat m-success">get set</span>
             </dt>
             <dd>3x3 integer matrix.</dd>
             <dt id="tran">
-              <a href="#tran" class="m-doc-self">tran</a>: typing.List[int[3]] <span class="m-label m-flat m-success">get set</span>
+              <a href="#tran" class="m-doc-self">tran</a> <span class="m-label m-flat m-success">get set</span>
             </dt>
             <dd>Numerators (integers) of the translation vector. Denominator DEN=24.</dd>
           </dl>

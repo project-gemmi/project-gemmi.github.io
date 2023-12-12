@@ -54,6 +54,7 @@
             <li>
               Reference
               <ul>
+                <li><a href="#staticmethods">Static methods</a></li>
                 <li><a href="#methods">Methods</a></li>
                 <li><a href="#dunder-methods">Special methods</a></li>
                 <li><a href="#properties">Properties</a></li>
@@ -61,6 +62,23 @@
             </li>
           </ul>
         </nav>
+        <section id="staticmethods">
+          <h2><a href="#staticmethods">Static methods</a></h2>
+          <dl class="m-doc">
+            <dt id="calculate_1_d2">
+              <span class="m-doc-wrap-bumper">def <a href="#calculate_1_d2" class="m-doc-self">calculate_1_d2</a>(</span><span class="m-doc-wrap">…)</span>
+            </dt>
+            <dd></dd>
+            <dt id="calculate_d">
+              <span class="m-doc-wrap-bumper">def <a href="#calculate_d" class="m-doc-self">calculate_d</a>(</span><span class="m-doc-wrap">…)</span>
+            </dt>
+            <dd></dd>
+            <dt id="get_hkl_limits">
+              <span class="m-doc-wrap-bumper">def <a href="#get_hkl_limits" class="m-doc-self">get_hkl_limits</a>(</span><span class="m-doc-wrap">…)</span>
+            </dt>
+            <dd></dd>
+          </dl>
+        </section>
         <section id="methods">
           <h2><a href="#methods">Methods</a></h2>
           <dl class="m-doc">
@@ -70,19 +88,9 @@
               epsilon: float) -&gt; bool</span>
             </dt>
             <dd></dd>
-            <dt id="calculate_1_d2">
-              <span class="m-doc-wrap-bumper">def <a href="#calculate_1_d2" class="m-doc-self">calculate_1_d2</a>(</span><span class="m-doc-wrap">self,
-              hkl: typing.List[int[3]]) -&gt; float</span>
-            </dt>
-            <dd></dd>
             <dt id="calculate_1_d2_array">
               <span class="m-doc-wrap-bumper">def <a href="#calculate_1_d2_array" class="m-doc-self">calculate_1_d2_array</a>(</span><span class="m-doc-wrap">self,
               arg0: numpy.ndarray[numpy.int32]<span class="m-text m-dim">, /</span>) -&gt; numpy.ndarray[numpy.float64]</span>
-            </dt>
-            <dd></dd>
-            <dt id="calculate_d">
-              <span class="m-doc-wrap-bumper">def <a href="#calculate_d" class="m-doc-self">calculate_d</a>(</span><span class="m-doc-wrap">self,
-              hkl: typing.List[int[3]]) -&gt; float</span>
             </dt>
             <dd></dd>
             <dt id="calculate_d_array">
@@ -141,11 +149,6 @@
               arg0: <a href="gemmi.Position.html" class="m-doc">Position</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Fractional.html" class="m-doc">Fractional</a></span>
             </dt>
             <dd></dd>
-            <dt id="get_hkl_limits">
-              <span class="m-doc-wrap-bumper">def <a href="#get_hkl_limits" class="m-doc-self">get_hkl_limits</a>(</span><span class="m-doc-wrap">self,
-              dmin: float) -&gt; typing.List[int[3]]</span>
-            </dt>
-            <dd></dd>
             <dt id="is_compatible_with_spacegroup">
               <span class="m-doc-wrap-bumper">def <a href="#is_compatible_with_spacegroup" class="m-doc-self">is_compatible_with_spacegroup</a>(</span><span class="m-doc-wrap">self,
               sg: <a href="gemmi.SpaceGroup.html" class="m-doc">SpaceGroup</a>,
@@ -187,6 +190,11 @@
             <dt id="orthogonalize">
               <span class="m-doc-wrap-bumper">def <a href="#orthogonalize" class="m-doc-self">orthogonalize</a>(</span><span class="m-doc-wrap">self,
               arg0: <a href="gemmi.Fractional.html" class="m-doc">Fractional</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Position.html" class="m-doc">Position</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="orthogonalize_box">
+              <span class="m-doc-wrap-bumper">def <a href="#orthogonalize_box" class="m-doc-self">orthogonalize_box</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.FractionalBox.html" class="m-doc">FractionalBox</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.PositionBox.html" class="m-doc">PositionBox</a></span>
             </dt>
             <dd></dd>
             <dt id="primitive_orth_matrix">
@@ -276,6 +284,10 @@
             <dd></dd>
             <dt id="c">
               <a href="#c" class="m-doc-self">c</a>: float <span class="m-label m-flat m-warning">get</span>
+            </dt>
+            <dd></dd>
+            <dt id="explicit_matrices">
+              <a href="#explicit_matrices" class="m-doc-self">explicit_matrices</a>: bool <span class="m-label m-flat m-warning">get</span>
             </dt>
             <dd></dd>
             <dt id="frac">

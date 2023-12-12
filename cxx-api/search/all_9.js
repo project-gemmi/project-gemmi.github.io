@@ -4,5 +4,5 @@ var searchData=
   ['jordan_5fsolve_1',['jordan_solve',['../namespacegemmi.html#a2ec097f245b0d6d9d499e4fc97a6056c',1,'gemmi']]],
   ['json_2ehpp_2',['json.hpp',['../json_8hpp.html',1,'']]],
   ['json_5ftype_5fas_5fstring_3',['json_type_as_string',['../namespacegemmi_1_1cif.html#a9f1d369d74a52b78570733fab5ea64d5',1,'gemmi::cif']]],
-  ['jsonwriter_4',['JsonWriter',['../classgemmi_1_1cif_1_1JsonWriter.html',1,'gemmi::cif::JsonWriter'],['../classgemmi_1_1cif_1_1JsonWriter.html#a79cf4a33737a70d58ed5746a7610f857',1,'gemmi::cif::JsonWriter::JsonWriter()']]]
+  ['jsonwriter_4',['jsonwriter',['../classgemmi_1_1cif_1_1JsonWriter.html',1,'gemmi::cif::JsonWriter'],['../classgemmi_1_1cif_1_1JsonWriter.html#a79cf4a33737a70d58ed5746a7610f857',1,'gemmi::cif::JsonWriter::JsonWriter()']]]
 ];

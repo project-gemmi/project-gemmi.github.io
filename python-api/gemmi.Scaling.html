@@ -54,6 +54,7 @@
             <li>
               Reference
               <ul>
+                <li><a href="#staticmethods">Static methods</a></li>
                 <li><a href="#methods">Methods</a></li>
                 <li><a href="#dunder-methods">Special methods</a></li>
                 <li><a href="#properties">Properties</a></li>
@@ -61,6 +62,19 @@
             </li>
           </ul>
         </nav>
+        <section id="staticmethods">
+          <h2><a href="#staticmethods">Static methods</a></h2>
+          <dl class="m-doc">
+            <dt id="get_overall_scale_factor-6eef6">
+              <span class="m-doc-wrap-bumper">def <a href="#get_overall_scale_factor-6eef6" class="m-doc-self">get_overall_scale_factor</a>(</span><span class="m-doc-wrap">…)</span>
+            </dt>
+            <dd></dd>
+            <dt id="scale_value">
+              <span class="m-doc-wrap-bumper">def <a href="#scale_value" class="m-doc-self">scale_value</a>(</span><span class="m-doc-wrap">…)</span>
+            </dt>
+            <dd></dd>
+          </dl>
+        </section>
         <section id="methods">
           <h2><a href="#methods">Methods</a></h2>
           <dl class="m-doc">
@@ -70,11 +84,6 @@
             <dd></dd>
             <dt id="fit_parameters">
               <span class="m-doc-wrap-bumper">def <a href="#fit_parameters" class="m-doc-self">fit_parameters</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
-            </dt>
-            <dd></dd>
-            <dt id="get_overall_scale_factor-79f2a">
-              <span class="m-doc-wrap-bumper">def <a href="#get_overall_scale_factor-79f2a" class="m-doc-self">get_overall_scale_factor</a>(</span><span class="m-doc-wrap">self,
-              hkl: typing.List[int[3]]) -&gt; float</span>
             </dt>
             <dd></dd>
             <dt id="get_overall_scale_factor-55e93">
@@ -91,20 +100,13 @@
               <span class="m-doc-wrap-bumper">def <a href="#prepare_points" class="m-doc-self">prepare_points</a>(</span><span class="m-doc-wrap">self,
               calc: <a href="gemmi.ComplexAsuData.html" class="m-doc">ComplexAsuData</a>,
               obs: <a href="gemmi.ValueSigmaAsuData.html" class="m-doc">ValueSigmaAsuData</a>,
-              mask: <a href="gemmi.ComplexAsuData.html" class="m-doc">ComplexAsuData</a> = &lt;gemmi.ComplexAsuData with 0 values&gt;) -&gt; None</span>
+              mask: <a href="gemmi.ComplexAsuData.html" class="m-doc">ComplexAsuData</a> = None) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="scale_data">
               <span class="m-doc-wrap-bumper">def <a href="#scale_data" class="m-doc-self">scale_data</a>(</span><span class="m-doc-wrap">self,
               asu_data: <a href="gemmi.ComplexAsuData.html" class="m-doc">ComplexAsuData</a>,
-              mask_data: <a href="gemmi.ComplexAsuData.html" class="m-doc">ComplexAsuData</a> = &lt;gemmi.ComplexAsuData with 0 values&gt;) -&gt; None</span>
-            </dt>
-            <dd></dd>
-            <dt id="scale_value">
-              <span class="m-doc-wrap-bumper">def <a href="#scale_value" class="m-doc-self">scale_value</a>(</span><span class="m-doc-wrap">self,
-              hkl: typing.List[int[3]],
-              f_value: complex,
-              mask_value: complex) -&gt; complex</span>
+              mask_data: <a href="gemmi.ComplexAsuData.html" class="m-doc">ComplexAsuData</a> = None) -&gt; None</span>
             </dt>
             <dd></dd>
           </dl>
@@ -133,10 +135,6 @@
             <dd></dd>
             <dt id="cell">
               <a href="#cell" class="m-doc-self">cell</a>: <a href="gemmi.UnitCell.html" class="m-doc">UnitCell</a> <span class="m-label m-flat m-success">get set</span>
-            </dt>
-            <dd></dd>
-            <dt id="crystal_system">
-              <a href="#crystal_system" class="m-doc-self">crystal_system</a>: <a href="gemmi.html#CrystalSystem" class="m-doc">CrystalSystem</a> <span class="m-label m-flat m-success">get set</span>
             </dt>
             <dd></dd>
             <dt id="k_overall">

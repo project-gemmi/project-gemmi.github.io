@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['aa_0',['AA',['../structgemmi_1_1ResidueInfo.html#a9903c4f1913562615a294fe283195380a219c563128bee9b14a372dcf4e764498',1,'gemmi::ResidueInfo']]],
-  ['aad_1',['AAD',['../structgemmi_1_1ResidueInfo.html#a9903c4f1913562615a294fe283195380a058d6707861148d36f73da4b37296c73',1,'gemmi::ResidueInfo']]],
+  ['aa_0',['AA',['../namespacegemmi.html#ad10bcdb4f472563c9e5a1f305dde35b4a3b98e2dffc6cb06a89dcb0d5c60a0206',1,'gemmi']]],
+  ['aad_1',['AAD',['../namespacegemmi.html#ad10bcdb4f472563c9e5a1f305dde35b4a627d0e3109ef246fbfabc0ccdea0fe43',1,'gemmi']]],
   ['ac_2',['Ac',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a8819a837186918b90b59cc316f36b1e1',1,'gemmi']]],
   ['addnumber_3',['AddNumber',['../namespacegemmi.html#a4b187c462c241c9de6322f20d798d6b7a9865fd6fe2a47af47eee9c3bc3e46956',1,'gemmi']]],
   ['adjacentresidues_4',['AdjacentResidues',['../structgemmi_1_1ContactSearch.html#a1bf7d30a60443b9d35e755eb4c4e8a91adbe13d1e9bd587dd0606e9ae8b23798b',1,'gemmi::ContactSearch']]],

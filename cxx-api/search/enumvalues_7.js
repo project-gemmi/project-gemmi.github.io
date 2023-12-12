@@ -8,7 +8,7 @@ var searchData=
   ['hf_5',['Hf',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a54abca54353d2ce3dadc7955a31a4c2b',1,'gemmi']]],
   ['hg_6',['Hg',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a11fc3a0c8fca92ae6bc10ff8241a116e',1,'gemmi']]],
   ['ho_7',['Ho',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a71aafd38484f3160708c6a6d2d5f736b',1,'gemmi']]],
-  ['hoh_8',['HOH',['../structgemmi_1_1ResidueInfo.html#a9903c4f1913562615a294fe283195380abe0482aec8b8ee1c183d79e40d06665e',1,'gemmi::ResidueInfo']]],
+  ['hoh_8',['HOH',['../namespacegemmi.html#ad10bcdb4f472563c9e5a1f305dde35b4abf120bd90ec434c556aafe7860c0c4c4',1,'gemmi']]],
   ['hs_9',['Hs',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5adf7fda987a7c290c43ff688f805f5949',1,'gemmi']]],
   ['hydrog_10',['Hydrog',['../structgemmi_1_1Connection.html#aac819b0270d9598d999c4ecf4b93d029aa70ef27b73d1a03606156ec9d2104b35',1,'gemmi::Connection']]]
 ];

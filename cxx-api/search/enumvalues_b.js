@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['maa_0',['MAA',['../structgemmi_1_1ResidueInfo.html#a9903c4f1913562615a294fe283195380ab34e5b8d69fe5a9cc80bdad0d870bb7c',1,'gemmi::ResidueInfo']]],
+  ['maa_0',['MAA',['../namespacegemmi.html#ad10bcdb4f472563c9e5a1f305dde35b4acc2464bb73dc72d9ee28eecc01e27c56',1,'gemmi']]],
   ['mainchain_1',['MainChain',['../namespacegemmi.html#ac89c6488f890ac28a13a075bfc0580fdacfa9c3ebc8b1f6aa7098461cd7a05842',1,'gemmi']]],
   ['mc_2',['Mc',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5aac81adaad0b2a7d6077edd5c319a6048',1,'gemmi']]],
   ['md_3',['Md',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5aa9547b86268c5e29adedd500ff7eef45',1,'gemmi']]],
@@ -14,6 +14,6 @@ var searchData=
   ['mo_11',['Mo',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5ac08df9bb5fb44242a6291b1eee5d09ad',1,'gemmi']]],
   ['modelbuilding_12',['ModelBuilding',['../structgemmi_1_1SoftwareItem.html#a8246c286c5a705a84f62155541034095aaa161ca76aebfee4f2c756672524db59',1,'gemmi::SoftwareItem']]],
   ['monoclinic_13',['Monoclinic',['../namespacegemmi.html#aef6247ca0a6a25cc3825d783c8d33cdaa55a5e68b388b59383b16383d30101b4e',1,'gemmi']]],
-  ['mpeptide_14',['MPeptide',['../structgemmi_1_1ChemLink.html#a3aee918cf4702ab432d3d8b9f65b772eaa1d88c809a4aab78ee88612ab5aedece',1,'gemmi::ChemLink']]],
+  ['mpeptide_14',['MPeptide',['../structgemmi_1_1ChemComp.html#ae0ba1c368e01fda599a4b28f8708776eaa1d88c809a4aab78ee88612ab5aedece',1,'gemmi::ChemComp']]],
   ['mt_15',['Mt',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a3d15130a97ac551fffdc63873ff80d14',1,'gemmi']]]
 ];

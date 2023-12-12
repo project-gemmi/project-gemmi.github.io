@@ -69,11 +69,21 @@
             <dd></dd>
             <dt>class <a href="gemmi.Topo.Bond.html" class="m-doc">Bond</a></dt>
             <dd></dd>
+            <dt>class <a href="gemmi.Topo.ChainInfo.html" class="m-doc">ChainInfo</a></dt>
+            <dd></dd>
             <dt>class <a href="gemmi.Topo.Chirality.html" class="m-doc">Chirality</a></dt>
+            <dd></dd>
+            <dt>class <a href="gemmi.Topo.FinalChemComp.html" class="m-doc">FinalChemComp</a></dt>
             <dd></dd>
             <dt>class <a href="gemmi.Topo.Link.html" class="m-doc">Link</a></dt>
             <dd></dd>
+            <dt>class <a href="gemmi.Topo.Mod.html" class="m-doc">Mod</a></dt>
+            <dd></dd>
             <dt>class <a href="gemmi.Topo.Plane.html" class="m-doc">Plane</a></dt>
+            <dd></dd>
+            <dt>class <a href="gemmi.Topo.ResInfo.html" class="m-doc">ResInfo</a></dt>
+            <dd></dd>
+            <dt>class <a href="gemmi.Topo.Rule.html" class="m-doc">Rule</a></dt>
             <dd></dd>
             <dt>class <a href="gemmi.Topo.Torsion.html" class="m-doc">Torsion</a></dt>
             <dd></dd>
@@ -86,6 +96,11 @@
               <span class="m-doc-wrap-bumper">def <a href="#adjust_hydrogen_distances" class="m-doc-self">adjust_hydrogen_distances</a>(</span><span class="m-doc-wrap">self,
               of: <a href="gemmi.Restraints.html#DistanceOf" class="m-doc">Restraints.DistanceOf</a>,
               default_scale: float = 1.0) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="find_missing_atoms">
+              <span class="m-doc-wrap-bumper">def <a href="#find_missing_atoms" class="m-doc-self">find_missing_atoms</a>(</span><span class="m-doc-wrap">self,
+              including_hydrogen: bool = False) -&gt; typing.List[<a href="gemmi.AtomAddress.html" class="m-doc">AtomAddress</a>]</span>
             </dt>
             <dd></dd>
             <dt id="first_bond_in_link">
@@ -101,6 +116,11 @@
             <dt id="links_to_previous">
               <span class="m-doc-wrap-bumper">def <a href="#links_to_previous" class="m-doc-self">links_to_previous</a>(</span><span class="m-doc-wrap">self,
               arg0: <a href="gemmi.Residue.html" class="m-doc">Residue</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.TopoLinks.html" class="m-doc">TopoLinks</a></span>
+            </dt>
+            <dd></dd>
+            <dt id="set_cispeps_in_structure">
+              <span class="m-doc-wrap-bumper">def <a href="#set_cispeps_in_structure" class="m-doc-self">set_cispeps_in_structure</a>(</span><span class="m-doc-wrap">self,
+              arg0: <a href="gemmi.Structure.html" class="m-doc">Structure</a><span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
             <dd></dd>
           </dl>
@@ -123,6 +143,10 @@
             <dd></dd>
             <dt id="bonds">
               <a href="#bonds" class="m-doc-self">bonds</a>: <a href="gemmi.TopoBonds.html" class="m-doc">TopoBonds</a> <span class="m-label m-flat m-warning">get</span>
+            </dt>
+            <dd></dd>
+            <dt id="chain_infos">
+              <a href="#chain_infos" class="m-doc-self">chain_infos</a>: <a href="gemmi.TopoChainInfos.html" class="m-doc">TopoChainInfos</a> <span class="m-label m-flat m-warning">get</span>
             </dt>
             <dd></dd>
             <dt id="chirs">

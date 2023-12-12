@@ -10,5 +10,5 @@ var searchData=
   ['both_7',['Both',['../namespacegemmi.html#ad29be9c865070ade488f475330fe865ea130c5b3473c57faa76e2a1c54e26f88e',1,'gemmi']]],
   ['br_8',['Br',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a8d37869ebc7af08a31df14fe3f48bee2',1,'gemmi']]],
   ['branched_9',['Branched',['../namespacegemmi.html#a4e328d38930c31e66c33f48de737044fa8927b4725be2a3de3fc7243fda4ef0b7',1,'gemmi']]],
-  ['buf_10',['BUF',['../structgemmi_1_1ResidueInfo.html#a9903c4f1913562615a294fe283195380a8ddcc3f4f079a9b56c9770abaa97665e',1,'gemmi::ResidueInfo']]]
+  ['buf_10',['BUF',['../namespacegemmi.html#ad10bcdb4f472563c9e5a1f305dde35b4a30a0d7e5d27798b991e76fbe4ecd7d66',1,'gemmi']]]
 ];

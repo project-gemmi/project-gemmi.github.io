@@ -1,7 +1,7 @@
 var searchData=
 [
   ['scaling_0',['Scaling',['../structgemmi_1_1Scaling.html',1,'gemmi']]],
-  ['selection_1',['Selection',['../structgemmi_1_1Selection.html',1,'gemmi::Selection'],['../structgemmi_1_1TlsGroup_1_1Selection.html',1,'gemmi::TlsGroup::Selection']]],
+  ['selection_1',['selection',['../structgemmi_1_1Selection.html',1,'gemmi::Selection'],['../structgemmi_1_1TlsGroup_1_1Selection.html',1,'gemmi::TlsGroup::Selection']]],
   ['sellingvector_2',['SellingVector',['../structgemmi_1_1SellingVector.html',1,'gemmi']]],
   ['seqid_3',['SeqId',['../structgemmi_1_1SeqId.html',1,'gemmi']]],
   ['sequenceid_4',['SequenceId',['../structgemmi_1_1Selection_1_1SequenceId.html',1,'gemmi::Selection']]],

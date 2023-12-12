@@ -1,10 +1,7 @@
 var searchData=
 [
-  ['u_0',['U',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a4c614360da93c0a041b22e537de151eb',1,'gemmi']]],
-  ['unknown_1',['UNKNOWN',['../structgemmi_1_1ResidueInfo.html#a9903c4f1913562615a294fe283195380a00ba173f03490b7f2a658859c625bcae',1,'gemmi::ResidueInfo']]],
-  ['unknown_2',['Unknown',['../structgemmi_1_1Connection.html#aac819b0270d9598d999c4ecf4b93d029a9616f0e76eeec25dfc5f055218950e28',1,'gemmi::Connection::Unknown()'],['../namespacegemmi.html#a08c1cf2e7f12b5ebcea7e4cba808d1f7a88183b946cc5f0e8c96b2e66e1c74a7e',1,'gemmi::Unknown()'],['../namespacegemmi.html#a4e328d38930c31e66c33f48de737044fa88183b946cc5f0e8c96b2e66e1c74a7e',1,'gemmi::Unknown()'],['../namespacegemmi.html#a33fb770bef0a75f26a5ba5daf3f36e27a88183b946cc5f0e8c96b2e66e1c74a7e',1,'gemmi::Unknown()'],['../namespacegemmi.html#a017abbfb5176a33969507d87aa1c3c54a88183b946cc5f0e8c96b2e66e1c74a7e',1,'gemmi::Unknown()'],['../namespacegemmi.html#a1b4cce83632b074d206e711e8b6122b5a88183b946cc5f0e8c96b2e66e1c74a7e',1,'gemmi::Unknown()']]],
-  ['unknownhelix_3',['UnknownHelix',['../structgemmi_1_1Helix.html#a9c9b50bf17a8580f277a4fb7bc68b008aad842da9b0defe95e405aeb200fb70b0',1,'gemmi::Helix']]],
-  ['unmerged_4',['Unmerged',['../namespacegemmi.html#a1b4cce83632b074d206e711e8b6122b5a00f1959f4f082600009e7f9dc205ec56',1,'gemmi']]],
-  ['unspec_5',['Unspec',['../namespacegemmi.html#ae924d6b4137d52b14f2dee82fe3a1df1a6bce6a0aeb20df3992a0e73d1e28c479',1,'gemmi']]],
-  ['unspecified_6',['Unspecified',['../structgemmi_1_1SoftwareItem.html#a8246c286c5a705a84f62155541034095a607720a4f31323857ebd5fd28bc2160b',1,'gemmi::SoftwareItem']]]
+  ['v_0',['V',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a5206560a306a2e085a437fd258eb57ce',1,'gemmi']]],
+  ['vanderwaals_1',['VanDerWaals',['../namespacegemmi.html#ac0edc00331dd25cdcfc4cb424c30d700ac046eb74b3a7039a3814e202f3de33ed',1,'gemmi']]],
+  ['vdw_2',['Vdw',['../structgemmi_1_1EnerLib.html#ac04824173eac55aafed5665dc989fe13ae179e76db999cc67fa447c9d4d5e80f7',1,'gemmi::EnerLib']]],
+  ['vdwh_3',['Vdwh',['../structgemmi_1_1EnerLib.html#ac04824173eac55aafed5665dc989fe13ae54a78c90b62277eb45fa0d408dc6a77',1,'gemmi::EnerLib']]]
 ];

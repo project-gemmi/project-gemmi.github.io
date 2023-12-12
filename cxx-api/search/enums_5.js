@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['group_0',['Group',['../structgemmi_1_1ChemLink.html#a3aee918cf4702ab432d3d8b9f65b772e',1,'gemmi::ChemLink']]]
+  ['gridsizerounding_0',['GridSizeRounding',['../namespacegemmi.html#a2340864779eddc25ed95011cdcadbc09',1,'gemmi']]],
+  ['group_1',['Group',['../structgemmi_1_1ChemComp.html#ae0ba1c368e01fda599a4b28f8708776e',1,'gemmi::ChemComp']]]
 ];

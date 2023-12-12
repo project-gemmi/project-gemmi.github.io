@@ -1,4 +1,25 @@
 var searchData=
 [
-  ['qmark_0',['Qmark',['../classgemmi_1_1MtzToCif.html#abb173036cb5643f02e58ab442df83375a52379f78bb7b5410283d420296aa04df',1,'gemmi::MtzToCif']]]
+  ['r310_0',['R310',['../structgemmi_1_1Helix.html#a9c9b50bf17a8580f277a4fb7bc68b008aa1ceb3e11886f9a28283a1265ee7fa65',1,'gemmi::Helix']]],
+  ['ra_1',['Ra',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a664461206e919c99ecfdade36d23e611',1,'gemmi']]],
+  ['ralpha_2',['RAlpha',['../structgemmi_1_1Helix.html#a9c9b50bf17a8580f277a4fb7bc68b008a292fdcd3198d84598fa2dec4649a4177',1,'gemmi::Helix']]],
+  ['rb_3',['Rb',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5aa9548f83764f3733e69c1c23503de5b2',1,'gemmi']]],
+  ['re_4',['Re',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5af4473c4016648844fb129838f88b7ee7',1,'gemmi']]],
+  ['readd_5',['ReAdd',['../namespacegemmi.html#ae2ef1f8409dc39e1db8659008c4f974baa220bf4b6c0d8bf522714c2a92739aa8',1,'gemmi']]],
+  ['readdbutwater_6',['ReAddButWater',['../namespacegemmi.html#ae2ef1f8409dc39e1db8659008c4f974ba5071b612305748a4d2b41b2e704d68e0',1,'gemmi']]],
+  ['readdknown_7',['ReAddKnown',['../namespacegemmi.html#ae2ef1f8409dc39e1db8659008c4f974ba7048a4967b63a92d67ab2c389fb02239',1,'gemmi']]],
+  ['refinement_8',['Refinement',['../structgemmi_1_1SoftwareItem.html#a8246c286c5a705a84f62155541034095aba821bfbd02bb4580ac905c19aa3260b',1,'gemmi::SoftwareItem']]],
+  ['refmac_9',['Refmac',['../namespacegemmi.html#ac0edc00331dd25cdcfc4cb424c30d700a1867bb6edc5eaf2b28b4553b28307e9e',1,'gemmi']]],
+  ['remove_10',['Remove',['../namespacegemmi.html#ae2ef1f8409dc39e1db8659008c4f974ba1063e38cb53d94d386f21227fcd84717',1,'gemmi']]],
+  ['reorderonly_11',['ReorderOnly',['../namespacegemmi.html#a5c0fdfcebc62ef44f47c958eb0d996ffad51ef29b49c1c15b7b0bf5db03520739',1,'gemmi']]],
+  ['representativehelical_12',['RepresentativeHelical',['../structgemmi_1_1Assembly.html#adfb4b84e9b0eb16fe30c68a00ca9d046a3a1fd687d7e4b5d0f74936edc3cb3779',1,'gemmi::Assembly']]],
+  ['rf_13',['Rf',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5afbaf4d5a9ac7d8f2346f9866b66e7f0c',1,'gemmi']]],
+  ['rg_14',['Rg',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a2504501092bb69d0cb68071888c70cec',1,'gemmi']]],
+  ['rgamma_15',['RGamma',['../structgemmi_1_1Helix.html#a9c9b50bf17a8580f277a4fb7bc68b008aef107e16324536a39d0b473dbff3e5e2',1,'gemmi::Helix']]],
+  ['rh_16',['Rh',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a6148fe1f88038beee78fbaf681419d60',1,'gemmi']]],
+  ['rn_17',['Rn',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5ab102860774a4a4dd7a3737076df55605',1,'gemmi']]],
+  ['rna_18',['rna',['../namespacegemmi.html#a33fb770bef0a75f26a5ba5daf3f36e27ae31be40b34190037c7e70600308b1585',1,'gemmi::Rna'],['../structgemmi_1_1ChemComp.html#ae0ba1c368e01fda599a4b28f8708776eae31be40b34190037c7e70600308b1585',1,'gemmi::ChemComp::Rna'],['../namespacegemmi.html#ad10bcdb4f472563c9e5a1f305dde35b4a78c4454135cafc53f3fc50daf7213847',1,'gemmi::RNA']]],
+  ['romega_19',['ROmega',['../structgemmi_1_1Helix.html#a9c9b50bf17a8580f277a4fb7bc68b008a26c6aeabd3702ab054a35f2fb5f46377',1,'gemmi::Helix']]],
+  ['rpi_20',['RPi',['../structgemmi_1_1Helix.html#a9c9b50bf17a8580f277a4fb7bc68b008aee959ce9d9f60a0a47ddae573c2a36a8',1,'gemmi::Helix']]],
+  ['ru_21',['Ru',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5aabe295e74fbc82f9450d6537bcfebbed',1,'gemmi']]]
 ];

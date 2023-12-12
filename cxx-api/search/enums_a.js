@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['mapsetup_0',['MapSetup',['../namespacegemmi.html#a5c0fdfcebc62ef44f47c958eb0d996ff',1,'gemmi']]],
-  ['method_1',['Method',['../structgemmi_1_1Binner.html#acae4a014ee6dc4c7c752a3f2516cefe6',1,'gemmi::Binner']]]
+  ['pointgroup_0',['PointGroup',['../namespacegemmi.html#a40476b27b97bc7ac8284d3b077b36cbf',1,'gemmi']]],
+  ['polymertype_1',['PolymerType',['../namespacegemmi.html#a33fb770bef0a75f26a5ba5daf3f36e27',1,'gemmi']]]
 ];

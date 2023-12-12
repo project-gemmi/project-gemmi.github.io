@@ -54,6 +54,7 @@
             <li>
               Reference
               <ul>
+                <li><a href="#staticmethods">Static methods</a></li>
                 <li><a href="#methods">Methods</a></li>
                 <li><a href="#dunder-methods">Special methods</a></li>
                 <li><a href="#properties">Properties</a></li>
@@ -61,6 +62,27 @@
             </li>
           </ul>
         </nav>
+        <section id="staticmethods">
+          <h2><a href="#staticmethods">Static methods</a></h2>
+          <dl class="m-doc">
+            <dt id="data_fits_into">
+              <span class="m-doc-wrap-bumper">def <a href="#data_fits_into" class="m-doc-self">data_fits_into</a>(</span><span class="m-doc-wrap">…)</span>
+            </dt>
+            <dd></dd>
+            <dt id="get_f_phi_on_grid">
+              <span class="m-doc-wrap-bumper">def <a href="#get_f_phi_on_grid" class="m-doc-self">get_f_phi_on_grid</a>(</span><span class="m-doc-wrap">…)</span>
+            </dt>
+            <dd></dd>
+            <dt id="get_size_for_hkl">
+              <span class="m-doc-wrap-bumper">def <a href="#get_size_for_hkl" class="m-doc-self">get_size_for_hkl</a>(</span><span class="m-doc-wrap">…)</span>
+            </dt>
+            <dd></dd>
+            <dt id="transform_f_phi_to_map">
+              <span class="m-doc-wrap-bumper">def <a href="#transform_f_phi_to_map" class="m-doc-self">transform_f_phi_to_map</a>(</span><span class="m-doc-wrap">…)</span>
+            </dt>
+            <dd></dd>
+          </dl>
+        </section>
         <section id="methods">
           <h2><a href="#methods">Methods</a></h2>
           <dl class="m-doc">
@@ -78,11 +100,6 @@
               arg0: <a href="gemmi.ComplexAsuData.html" class="m-doc">ComplexAsuData</a><span class="m-text m-dim">, /</span>) -&gt; int</span>
             </dt>
             <dd></dd>
-            <dt id="data_fits_into">
-              <span class="m-doc-wrap-bumper">def <a href="#data_fits_into" class="m-doc-self">data_fits_into</a>(</span><span class="m-doc-wrap">self,
-              size: typing.List[int[3]]) -&gt; bool</span>
-            </dt>
-            <dd></dd>
             <dt id="ensure_asu">
               <span class="m-doc-wrap-bumper">def <a href="#ensure_asu" class="m-doc-self">ensure_asu</a>(</span><span class="m-doc-wrap">self,
               tnt_asu: bool = False) -&gt; None</span>
@@ -92,33 +109,12 @@
               <span class="m-doc-wrap-bumper">def <a href="#ensure_sorted" class="m-doc-self">ensure_sorted</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
             <dd></dd>
-            <dt id="get_f_phi_on_grid">
-              <span class="m-doc-wrap-bumper">def <a href="#get_f_phi_on_grid" class="m-doc-self">get_f_phi_on_grid</a>(</span><span class="m-doc-wrap">self,
-              size: typing.List[int[3]],
-              half_l: bool = False,
-              order: <a href="gemmi.html#AxisOrder" class="m-doc">AxisOrder</a> = <a href="gemmi.html#AxisOrder-XYZ" class="m-doc">AxisOrder.XYZ</a>) -&gt; <a href="gemmi.ReciprocalComplexGrid.html" class="m-doc">ReciprocalComplexGrid</a></span>
-            </dt>
-            <dd></dd>
-            <dt id="get_size_for_hkl">
-              <span class="m-doc-wrap-bumper">def <a href="#get_size_for_hkl" class="m-doc-self">get_size_for_hkl</a>(</span><span class="m-doc-wrap">self,
-              min_size: typing.List[int[3]] = [0, 0, 0],
-              sample_rate: float = 0.0) -&gt; typing.List[int[3]]</span>
-            </dt>
-            <dd></dd>
             <dt id="make_1_d2_array">
               <span class="m-doc-wrap-bumper">def <a href="#make_1_d2_array" class="m-doc-self">make_1_d2_array</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; numpy.ndarray[numpy.float32]</span>
             </dt>
             <dd></dd>
             <dt id="make_d_array">
               <span class="m-doc-wrap-bumper">def <a href="#make_d_array" class="m-doc-self">make_d_array</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; numpy.ndarray[numpy.float32]</span>
-            </dt>
-            <dd></dd>
-            <dt id="transform_f_phi_to_map">
-              <span class="m-doc-wrap-bumper">def <a href="#transform_f_phi_to_map" class="m-doc-self">transform_f_phi_to_map</a>(</span><span class="m-doc-wrap">self,
-              min_size: typing.List[int[3]] = [0, 0, 0],
-              sample_rate: float = 0.0,
-              exact_size: typing.List[int[3]] = [0, 0, 0],
-              order: <a href="gemmi.html#AxisOrder" class="m-doc">AxisOrder</a> = <a href="gemmi.html#AxisOrder-XYZ" class="m-doc">AxisOrder.XYZ</a>) -&gt; <a href="gemmi.FloatGrid.html" class="m-doc">FloatGrid</a></span>
             </dt>
             <dd></dd>
           </dl>

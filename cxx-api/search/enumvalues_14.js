@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['v_0',['V',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a5206560a306a2e085a437fd258eb57ce',1,'gemmi']]],
-  ['vanderwaals_1',['VanDerWaals',['../namespacegemmi.html#ac0edc00331dd25cdcfc4cb424c30d700ac046eb74b3a7039a3814e202f3de33ed',1,'gemmi']]]
+  ['w_0',['W',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a61e9c06ea9a85a5088a499df6458d276',1,'gemmi']]],
+  ['water_1',['Water',['../namespacegemmi.html#a4e328d38930c31e66c33f48de737044fa27634ff8002b12e75d98e07ccd005d18',1,'gemmi']]]
 ];

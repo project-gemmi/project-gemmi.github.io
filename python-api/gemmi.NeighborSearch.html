@@ -95,13 +95,15 @@
             <dt id="find_atoms">
               <span class="m-doc-wrap-bumper">def <a href="#find_atoms" class="m-doc-self">find_atoms</a>(</span><span class="m-doc-wrap">self,
               pos: <a href="gemmi.Position.html" class="m-doc">Position</a>,
-              alt: str = &#x27;\x00&#x27;,
+              alt: str = &#x27;\x00&#x27;,<span class="m-text m-dim"> *,</span>
+              min_dist: float = 0,
               radius: float = 0) -&gt; <a href="gemmi.VectorMarkPtr.html" class="m-doc">VectorMarkPtr</a></span>
             </dt>
             <dd></dd>
             <dt id="find_nearest_atom">
               <span class="m-doc-wrap-bumper">def <a href="#find_nearest_atom" class="m-doc-self">find_nearest_atom</a>(</span><span class="m-doc-wrap">self,
-              arg0: <a href="gemmi.Position.html" class="m-doc">Position</a><span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.NeighborSearch.Mark.html" class="m-doc">Mark</a></span>
+              pos: <a href="gemmi.Position.html" class="m-doc">Position</a>,
+              radius: float = inf) -&gt; <a href="gemmi.NeighborSearch.Mark.html" class="m-doc">Mark</a></span>
             </dt>
             <dd></dd>
             <dt id="find_neighbors">

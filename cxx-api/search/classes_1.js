@@ -8,7 +8,8 @@ var searchData=
   ['blob_5',['Blob',['../structgemmi_1_1Blob.html',1,'gemmi']]],
   ['blobcriteria_6',['BlobCriteria',['../structgemmi_1_1BlobCriteria.html',1,'gemmi']]],
   ['block_7',['Block',['../structgemmi_1_1cif_1_1Block.html',1,'gemmi::cif']]],
-  ['bond_8',['Bond',['../structgemmi_1_1Restraints_1_1Bond.html',1,'gemmi::Restraints::Bond'],['../structgemmi_1_1Topo_1_1Bond.html',1,'gemmi::Topo::Bond']]],
+  ['bond_8',['bond',['../structgemmi_1_1EnerLib_1_1Bond.html',1,'gemmi::EnerLib::Bond'],['../structgemmi_1_1Restraints_1_1Bond.html',1,'gemmi::Restraints::Bond'],['../structgemmi_1_1Topo_1_1Bond.html',1,'gemmi::Topo::Bond']]],
   ['bondindex_9',['BondIndex',['../structgemmi_1_1BondIndex.html',1,'gemmi']]],
-  ['box_10',['Box',['../structgemmi_1_1Box.html',1,'gemmi']]]
+  ['box_10',['Box',['../structgemmi_1_1Box.html',1,'gemmi']]],
+  ['bufostream_11',['BufOstream',['../classgemmi_1_1cif_1_1BufOstream.html',1,'gemmi::cif']]]
 ];

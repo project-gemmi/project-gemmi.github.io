@@ -1,7 +1,7 @@
 var searchData=
 [
   ['electroncloud_0',['ElectronCloud',['../structgemmi_1_1Restraints.html#a3c1c7de9fe84326d33205f7bc223a153a8fa7b7f6c1e1bfc6fd25bbf3ed290806',1,'gemmi::Restraints']]],
-  ['els_1',['ELS',['../structgemmi_1_1ResidueInfo.html#a9903c4f1913562615a294fe283195380af56e704bb9e85b036ad022f4bfe65329',1,'gemmi::ResidueInfo']]],
+  ['els_1',['ELS',['../namespacegemmi.html#ad10bcdb4f472563c9e5a1f305dde35b4ab8b4a9f4e1367bfd1682a39c5804d121',1,'gemmi']]],
   ['end_2',['END',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5ab1a326c06d88bf042f73d70f50197905',1,'gemmi']]],
   ['equalcount_3',['EqualCount',['../structgemmi_1_1Binner.html#acae4a014ee6dc4c7c752a3f2516cefe6a7cc71cd6f59da0e17f9bc964447499be',1,'gemmi::Binner']]],
   ['er_4',['Er',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a222b57de868c251432f8cd2a3eb03fc6',1,'gemmi']]],

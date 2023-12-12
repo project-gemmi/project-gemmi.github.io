@@ -55,6 +55,7 @@
               Reference
               <ul>
                 <li><a href="#classes">Classes</a></li>
+                <li><a href="#staticmethods">Static methods</a></li>
                 <li><a href="#methods">Methods</a></li>
                 <li><a href="#dunder-methods">Special methods</a></li>
                 <li><a href="#properties">Properties</a></li>
@@ -66,6 +67,23 @@
           <h2><a href="#classes">Classes</a></h2>
           <dl class="m-doc">
             <dt>class <a href="gemmi.FloatGrid.Point.html" class="m-doc">Point</a></dt>
+            <dd></dd>
+          </dl>
+        </section>
+        <section id="staticmethods">
+          <h2><a href="#staticmethods">Static methods</a></h2>
+          <dl class="m-doc">
+            <dt id="get_subarray">
+              <span class="m-doc-wrap-bumper">def <a href="#get_subarray" class="m-doc-self">get_subarray</a>(</span><span class="m-doc-wrap">…)</span>
+            </dt>
+            <dd></dd>
+            <dt id="set_subarray">
+              <span class="m-doc-wrap-bumper">def <a href="#set_subarray" class="m-doc-self">set_subarray</a>(</span><span class="m-doc-wrap">…)</span>
+            </dt>
+            <dd></dd>
+            <dt id="tricubic_interpolation_der">
+              <span class="m-doc-wrap-bumper">def <a href="#tricubic_interpolation_der" class="m-doc-self">tricubic_interpolation_der</a>(</span><span class="m-doc-wrap">…)</span>
+            </dt>
             <dd></dd>
           </dl>
         </section>
@@ -132,12 +150,6 @@
               arg2: int<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Position.html" class="m-doc">Position</a></span>
             </dt>
             <dd></dd>
-            <dt id="get_subarray">
-              <span class="m-doc-wrap-bumper">def <a href="#get_subarray" class="m-doc-self">get_subarray</a>(</span><span class="m-doc-wrap">self,
-              start: typing.List[int[3]],
-              shape: typing.List[int[3]]) -&gt; numpy.ndarray[numpy.float32]</span>
-            </dt>
-            <dd></dd>
             <dt id="get_value">
               <span class="m-doc-wrap-bumper">def <a href="#get_value" class="m-doc-self">get_value</a>(</span><span class="m-doc-wrap">self,
               arg0: int,
@@ -171,7 +183,9 @@
               <span class="m-doc-wrap-bumper">def <a href="#mask_points_in_constant_radius" class="m-doc-self">mask_points_in_constant_radius</a>(</span><span class="m-doc-wrap">self,
               model: <a href="gemmi.Model.html" class="m-doc">Model</a>,
               radius: float,
-              value: float) -&gt; None</span>
+              value: float,
+              ignore_hydrogen: bool = False,
+              ignore_zero_occupancy_atoms: bool = False) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="masked_asu">
@@ -218,10 +232,10 @@
               arg2: int<span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
             <dd></dd>
-            <dt id="set_subarray">
-              <span class="m-doc-wrap-bumper">def <a href="#set_subarray" class="m-doc-self">set_subarray</a>(</span><span class="m-doc-wrap">self,
-              arr: numpy.ndarray[numpy.float32],
-              start: typing.List[int[3]]) -&gt; None</span>
+            <dt id="set_size_from_spacing">
+              <span class="m-doc-wrap-bumper">def <a href="#set_size_from_spacing" class="m-doc-self">set_size_from_spacing</a>(</span><span class="m-doc-wrap">self,
+              spacing: float,
+              rounding: <a href="gemmi.html#GridSizeRounding" class="m-doc">GridSizeRounding</a>) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="set_unit_cell">
@@ -251,6 +265,10 @@
               <span class="m-doc-wrap-bumper">def <a href="#symmetrize_abs_max" class="m-doc-self">symmetrize_abs_max</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
             <dd></dd>
+            <dt id="symmetrize_avg">
+              <span class="m-doc-wrap-bumper">def <a href="#symmetrize_avg" class="m-doc-self">symmetrize_avg</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
             <dt id="symmetrize_max">
               <span class="m-doc-wrap-bumper">def <a href="#symmetrize_max" class="m-doc-self">symmetrize_max</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
@@ -271,11 +289,6 @@
             <dt id="tricubic_interpolation-e0d16">
               <span class="m-doc-wrap-bumper">def <a href="#tricubic_interpolation-e0d16" class="m-doc-self">tricubic_interpolation</a>(</span><span class="m-doc-wrap">self,
               arg0: <a href="gemmi.Position.html" class="m-doc">Position</a><span class="m-text m-dim">, /</span>) -&gt; float</span>
-            </dt>
-            <dd></dd>
-            <dt id="tricubic_interpolation_der">
-              <span class="m-doc-wrap-bumper">def <a href="#tricubic_interpolation_der" class="m-doc-self">tricubic_interpolation_der</a>(</span><span class="m-doc-wrap">self,
-              arg0: <a href="gemmi.Fractional.html" class="m-doc">Fractional</a><span class="m-text m-dim">, /</span>) -&gt; typing.List[float[4]]</span>
             </dt>
             <dd></dd>
           </dl>

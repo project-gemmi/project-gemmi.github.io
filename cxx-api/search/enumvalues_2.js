@@ -33,11 +33,10 @@ var searchData=
   ['completeicosahedral_30',['CompleteIcosahedral',['../structgemmi_1_1Assembly.html#adfb4b84e9b0eb16fe30c68a00ca9d046a5d3b00a1d4e7dcd3fe08dea452c150eb',1,'gemmi::Assembly']]],
   ['completepoint_31',['CompletePoint',['../structgemmi_1_1Assembly.html#adfb4b84e9b0eb16fe30c68a00ca9d046a4a1c79bcec93ac819c7187535eefac43',1,'gemmi::Assembly']]],
   ['constant_32',['Constant',['../namespacegemmi.html#ac0edc00331dd25cdcfc4cb424c30d700acb17869fe51048b5a5c4c6106551a255',1,'gemmi']]],
-  ['counter_33',['Counter',['../classgemmi_1_1MtzToCif.html#abb173036cb5643f02e58ab442df83375addc0b916671d984621cd137813ccb746',1,'gemmi::MtzToCif']]],
-  ['covale_34',['Covale',['../structgemmi_1_1Connection.html#aac819b0270d9598d999c4ecf4b93d029aa4a28da625e0d9a04a3daf36f2fad799',1,'gemmi::Connection']]],
-  ['cr_35',['Cr',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a46ce6eed09dd5a60280b497637d1697a',1,'gemmi']]],
-  ['cs_36',['Cs',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a8b847cfae498e96e3fa08a56cb42b838',1,'gemmi::Cs()'],['../namespacegemmi.html#a40476b27b97bc7ac8284d3b077b36cbfa8b847cfae498e96e3fa08a56cb42b838',1,'gemmi::Cs()']]],
-  ['cu_37',['Cu',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5aa78dd5e8411c67a38ac02dde3250c029',1,'gemmi']]],
-  ['cubic_38',['Cubic',['../namespacegemmi.html#aef6247ca0a6a25cc3825d783c8d33cdaaec6b5414eb175379ff9efc9b3eef5814',1,'gemmi']]],
-  ['cyclicpseudopeptide_39',['CyclicPseudoPeptide',['../namespacegemmi.html#a33fb770bef0a75f26a5ba5daf3f36e27a092908fcf642a65ff9b24f3a599bf377',1,'gemmi']]]
+  ['covale_33',['Covale',['../structgemmi_1_1Connection.html#aac819b0270d9598d999c4ecf4b93d029aa4a28da625e0d9a04a3daf36f2fad799',1,'gemmi::Connection']]],
+  ['cr_34',['Cr',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a46ce6eed09dd5a60280b497637d1697a',1,'gemmi']]],
+  ['cs_35',['cs',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a8b847cfae498e96e3fa08a56cb42b838',1,'gemmi::Cs'],['../namespacegemmi.html#a40476b27b97bc7ac8284d3b077b36cbfa8b847cfae498e96e3fa08a56cb42b838',1,'gemmi::Cs']]],
+  ['cu_36',['Cu',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5aa78dd5e8411c67a38ac02dde3250c029',1,'gemmi']]],
+  ['cubic_37',['Cubic',['../namespacegemmi.html#aef6247ca0a6a25cc3825d783c8d33cdaaec6b5414eb175379ff9efc9b3eef5814',1,'gemmi']]],
+  ['cyclicpseudopeptide_38',['CyclicPseudoPeptide',['../namespacegemmi.html#a33fb770bef0a75f26a5ba5daf3f36e27a092908fcf642a65ff9b24f3a599bf377',1,'gemmi']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['check_0',['CHECK',['../pdb_8hpp.html#ac027aa0e51e97f8a9345f218a313db86',1,'pdb.hpp']]]
+  ['error_5fmsg_0',['error_msg',['../cif_8hpp.html#a491b509381b528e4081e8c3155794e0f',1,'cif.hpp']]]
 ];
