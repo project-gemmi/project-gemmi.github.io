@@ -76,17 +76,13 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">gz.hpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;cassert&gt;</code><br />
-<code>#include &lt;cstdio&gt;</code><br />
-<code>#include &lt;climits&gt;</code><br />
-<code>#include &lt;string&gt;</code><br />
-<code>#include &lt;zlib.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;string&gt;</code><br />
 <code>#include &quot;<a class="el" href="fail_8hpp_source.html">fail.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="fileutil_8hpp_source.html">fileutil.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="input_8hpp_source.html">input.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="util_8hpp_source.html">util.hpp</a>&quot;</code><br />
 </div>
@@ -94,9 +90,9 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgemmi_1_1MaybeGzipped.html">gemmi::MaybeGzipped</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GzStream.html">gemmi::GzStream</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1MaybeGzipped_1_1GzStream.html">gemmi::MaybeGzipped::GzStream</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgemmi_1_1MaybeGzipped.html">gemmi::MaybeGzipped</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -106,10 +102,13 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a306842320403d70fd5e4b6553fb2e5ba" id="r_a306842320403d70fd5e4b6553fb2e5ba"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a306842320403d70fd5e4b6553fb2e5ba">gemmi::estimate_uncompressed_size</a> (<a class="el" href="structgemmi_1_1HklValue.html">const</a> std::string &amp;path)</td></tr>
-<tr class="separator:a306842320403d70fd5e4b6553fb2e5ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae42d96abb96bd8593cac5539ce0e757c" id="r_ae42d96abb96bd8593cac5539ce0e757c"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#ae42d96abb96bd8593cac5539ce0e757c">gemmi::big_gzread</a> (<a class="el" href="structgemmi_1_1HklValue.html">gzFile</a> file, <a class="el" href="structgemmi_1_1HklValue.html">void</a> *buf, size_t len)</td></tr>
-<tr class="separator:ae42d96abb96bd8593cac5539ce0e757c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81f7c3de89dffe45d489d569eb9fc712" id="r_a81f7c3de89dffe45d489d569eb9fc712"><td class="memItemLeft" align="right" valign="top"><a class="el" href="fail_8hpp.html#a1669245a173e1e01c886ce838ee44fbf">GEMMI_DLL</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a81f7c3de89dffe45d489d569eb9fc712">gemmi::estimate_uncompressed_size</a> (<a class="el" href="structgemmi_1_1HklValue.html">const</a> std::string &amp;path)</td></tr>
+<tr class="separator:a81f7c3de89dffe45d489d569eb9fc712"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a157916654974cbeacdcb0614547c8e97" id="r_a157916654974cbeacdcb0614547c8e97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="fail_8hpp.html#a1669245a173e1e01c886ce838ee44fbf">GEMMI_DLL</a> <a class="el" href="structgemmi_1_1HklValue.html">const</a> <a class="el" href="structgemmi_1_1HklValue.html">char</a> *<a class="el" href="structgemmi_1_1HklValue.html">const</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a157916654974cbeacdcb0614547c8e97">gemmi::zlib_description</a></td></tr>
+<tr class="separator:a157916654974cbeacdcb0614547c8e97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

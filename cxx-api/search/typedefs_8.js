@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['miller_0',['miller',['../structgemmi_1_1Op.html#a7d45311fd8b04468205b6bf7055febc2',1,'gemmi::Op::Miller'],['../namespacegemmi.html#a592f1efb2742477309b5e06590554c21',1,'gemmi::Miller']]],
-  ['mmcifwalk_1',['MmCifWalk',['../namespacegemmi.html#a80f80923df686a79558029dab2e7b4fb',1,'gemmi']]]
+  ['num_5ftype_0',['num_type',['../structgemmi_1_1MtzDataProxy.html#ad353555729e27d21b867d4e6fdc67159',1,'gemmi::MtzDataProxy::num_type'],['../structgemmi_1_1ReflnDataProxy.html#a393b84ff59a915a1794de4212c7176a1',1,'gemmi::ReflnDataProxy::num_type']]]
 ];

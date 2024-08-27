@@ -225,15 +225,9 @@ crystallography and related fields</p>
             <dd></dd>
             <dt>class <a href="gemmi.Intensities.html" class="m-doc">Intensities</a></dt>
             <dd></dd>
-            <dt>class <a href="gemmi.ItemsView[str, gemmi.ChemComp].html" class="m-doc">ItemsView[str, gemmi.ChemComp]</a></dt>
+            <dt>class <a href="gemmi.ItemsView.html" class="m-doc">ItemsView</a></dt>
             <dd></dd>
-            <dt>class <a href="gemmi.ItemsView[str, gemmi.ChemLink].html" class="m-doc">ItemsView[str, gemmi.ChemLink]</a></dt>
-            <dd></dd>
-            <dt>class <a href="gemmi.ItemsView[str, gemmi.ChemMod].html" class="m-doc">ItemsView[str, gemmi.ChemMod]</a></dt>
-            <dd></dd>
-            <dt>class <a href="gemmi.ItemsView[str, str].html" class="m-doc">ItemsView[str, str]</a></dt>
-            <dd></dd>
-            <dt>class <a href="gemmi.KeysView[str].html" class="m-doc">KeysView[str]</a></dt>
+            <dt>class <a href="gemmi.KeysView.html" class="m-doc">KeysView</a></dt>
             <dd></dd>
             <dt>class <a href="gemmi.LinkHunt.html" class="m-doc">LinkHunt</a></dt>
             <dd></dd>
@@ -399,13 +393,7 @@ crystallography and related fields</p>
             <dd></dd>
             <dt>class <a href="gemmi.ValueSigmaHklValue.html" class="m-doc">ValueSigmaHklValue</a></dt>
             <dd></dd>
-            <dt>class <a href="gemmi.ValuesView[gemmi.ChemComp].html" class="m-doc">ValuesView[gemmi.ChemComp]</a></dt>
-            <dd></dd>
-            <dt>class <a href="gemmi.ValuesView[gemmi.ChemLink].html" class="m-doc">ValuesView[gemmi.ChemLink]</a></dt>
-            <dd></dd>
-            <dt>class <a href="gemmi.ValuesView[gemmi.ChemMod].html" class="m-doc">ValuesView[gemmi.ChemMod]</a></dt>
-            <dd></dd>
-            <dt>class <a href="gemmi.ValuesView[str].html" class="m-doc">ValuesView[str]</a></dt>
+            <dt>class <a href="gemmi.ValuesView.html" class="m-doc">ValuesView</a></dt>
             <dd></dd>
             <dt>class <a href="gemmi.Vec3.html" class="m-doc">Vec3</a></dt>
             <dd></dd>
@@ -611,21 +599,28 @@ crystallography and related fields</p>
               arg1: <a href="gemmi.cif.Block.html" class="m-doc">cif.Block</a><span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
             <dd></dd>
+            <dt id="add_dictionary_blocks">
+              <span class="m-doc-wrap-bumper">def <a href="#add_dictionary_blocks" class="m-doc-self">add_dictionary_blocks</a>(</span><span class="m-doc-wrap">arg0: <a href="gemmi.cif.Document.html" class="m-doc">cif.Document</a>,
+              arg1: list[str],
+              arg2: <a href="gemmi.Topo.html" class="m-doc">Topo</a>,
+              arg3: <a href="gemmi.MonLib.html" class="m-doc">MonLib</a><span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
             <dt id="adp_symmetry_constraints">
               <span class="m-doc-wrap-bumper">def <a href="#adp_symmetry_constraints" class="m-doc-self">adp_symmetry_constraints</a>(</span><span class="m-doc-wrap">…)</span>
             </dt>
             <dd></dd>
             <dt id="align_sequence_to_polymer">
-              <span class="m-doc-wrap-bumper">def <a href="#align_sequence_to_polymer" class="m-doc-self">align_sequence_to_polymer</a>(</span><span class="m-doc-wrap">full_seq: typing.List[str],
+              <span class="m-doc-wrap-bumper">def <a href="#align_sequence_to_polymer" class="m-doc-self">align_sequence_to_polymer</a>(</span><span class="m-doc-wrap">full_seq: list[str],
               polymer: <a href="gemmi.ResidueSpan.html" class="m-doc">ResidueSpan</a>,
               polymer_type: <a href="gemmi.html#PolymerType" class="m-doc">PolymerType</a>,
               scoring: <a href="gemmi.AlignmentScoring.html" class="m-doc">AlignmentScoring</a> = None) -&gt; <a href="gemmi.AlignmentResult.html" class="m-doc">AlignmentResult</a></span>
             </dt>
             <dd></dd>
             <dt id="align_string_sequences">
-              <span class="m-doc-wrap-bumper">def <a href="#align_string_sequences" class="m-doc-self">align_string_sequences</a>(</span><span class="m-doc-wrap">query: typing.List[str],
-              target: typing.List[str],
-              target_gapo: typing.List[int],
+              <span class="m-doc-wrap-bumper">def <a href="#align_string_sequences" class="m-doc-self">align_string_sequences</a>(</span><span class="m-doc-wrap">query: list[str],
+              target: list[str],
+              target_gapo: list[int],
               scoring: <a href="gemmi.AlignmentScoring.html" class="m-doc">AlignmentScoring</a> = None) -&gt; <a href="gemmi.AlignmentResult.html" class="m-doc">AlignmentResult</a></span>
             </dt>
             <dd></dd>
@@ -640,7 +635,7 @@ crystallography and related fields</p>
             <dt id="bincorr">
               <span class="m-doc-wrap-bumper">def <a href="#bincorr" class="m-doc-self">bincorr</a>(</span><span class="m-doc-wrap">nbins: numpy.ndarray[numpy.int32],
               obs: numpy.ndarray[numpy.float64],
-              calc: numpy.ndarray[numpy.float64]) -&gt; typing.List[<a href="gemmi.Correlation.html" class="m-doc">Correlation</a>]</span>
+              calc: numpy.ndarray[numpy.float64]) -&gt; list[<a href="gemmi.Correlation.html" class="m-doc">Correlation</a>]</span>
             </dt>
             <dd></dd>
             <dt id="binmean">
@@ -696,7 +691,7 @@ crystallography and related fields</p>
             </dt>
             <dd></dd>
             <dt id="calculate_sequence_weight">
-              <span class="m-doc-wrap-bumper">def <a href="#calculate_sequence_weight" class="m-doc-self">calculate_sequence_weight</a>(</span><span class="m-doc-wrap">sequence: typing.List[str],
+              <span class="m-doc-wrap-bumper">def <a href="#calculate_sequence_weight" class="m-doc-self">calculate_sequence_weight</a>(</span><span class="m-doc-wrap">sequence: list[str],
               unknown: float = 0.0) -&gt; float</span>
             </dt>
             <dd></dd>
@@ -714,19 +709,19 @@ crystallography and related fields</p>
               <span class="m-doc-wrap-bumper">def <a href="#calculate_superpositions_in_moving_window" class="m-doc-self">calculate_superpositions_in_moving_window</a>(</span><span class="m-doc-wrap">fixed: <a href="gemmi.ResidueSpan.html" class="m-doc">ResidueSpan</a>,
               movable: <a href="gemmi.ResidueSpan.html" class="m-doc">ResidueSpan</a>,
               ptype: <a href="gemmi.html#PolymerType" class="m-doc">PolymerType</a>,
-              radius: float = 10.0) -&gt; typing.List[<a href="gemmi.SupResult.html" class="m-doc">SupResult</a>]</span>
+              radius: float = 10.0) -&gt; list[<a href="gemmi.SupResult.html" class="m-doc">SupResult</a>]</span>
             </dt>
             <dd></dd>
             <dt id="check_data_type_under_symmetry-ff1d0">
-              <span class="m-doc-wrap-bumper">def <a href="#check_data_type_under_symmetry-ff1d0" class="m-doc-self">check_data_type_under_symmetry</a>(</span><span class="m-doc-wrap">arg0: <a href="gemmi.ReflnBlock.html" class="m-doc">ReflnBlock</a><span class="m-text m-dim">, /</span>) -&gt; typing.Tuple[<a href="gemmi.html#DataType" class="m-doc">DataType</a>, int]</span>
+              <span class="m-doc-wrap-bumper">def <a href="#check_data_type_under_symmetry-ff1d0" class="m-doc-self">check_data_type_under_symmetry</a>(</span><span class="m-doc-wrap">arg0: <a href="gemmi.ReflnBlock.html" class="m-doc">ReflnBlock</a><span class="m-text m-dim">, /</span>) -&gt; tuple[<a href="gemmi.html#DataType" class="m-doc">DataType</a>, int]</span>
             </dt>
             <dd></dd>
             <dt id="check_data_type_under_symmetry-ee57a">
-              <span class="m-doc-wrap-bumper">def <a href="#check_data_type_under_symmetry-ee57a" class="m-doc-self">check_data_type_under_symmetry</a>(</span><span class="m-doc-wrap">arg0: <a href="gemmi.Mtz.html" class="m-doc">Mtz</a><span class="m-text m-dim">, /</span>) -&gt; typing.Tuple[<a href="gemmi.html#DataType" class="m-doc">DataType</a>, int]</span>
+              <span class="m-doc-wrap-bumper">def <a href="#check_data_type_under_symmetry-ee57a" class="m-doc-self">check_data_type_under_symmetry</a>(</span><span class="m-doc-wrap">arg0: <a href="gemmi.Mtz.html" class="m-doc">Mtz</a><span class="m-text m-dim">, /</span>) -&gt; tuple[<a href="gemmi.html#DataType" class="m-doc">DataType</a>, int]</span>
             </dt>
             <dd></dd>
             <dt id="combine_correlations">
-              <span class="m-doc-wrap-bumper">def <a href="#combine_correlations" class="m-doc-self">combine_correlations</a>(</span><span class="m-doc-wrap">arg0: typing.List[<a href="gemmi.Correlation.html" class="m-doc">Correlation</a>]<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Correlation.html" class="m-doc">Correlation</a></span>
+              <span class="m-doc-wrap-bumper">def <a href="#combine_correlations" class="m-doc-self">combine_correlations</a>(</span><span class="m-doc-wrap">arg0: list[<a href="gemmi.Correlation.html" class="m-doc">Correlation</a>]<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.Correlation.html" class="m-doc">Correlation</a></span>
             </dt>
             <dd></dd>
             <dt id="count_reflections">
@@ -739,7 +734,7 @@ crystallography and related fields</p>
             <dd></dd>
             <dt id="cromer_liberman">
               <span class="m-doc-wrap-bumper">def <a href="#cromer_liberman" class="m-doc-self">cromer_liberman</a>(</span><span class="m-doc-wrap">z: int,
-              energy: float) -&gt; typing.Tuple[float, float]</span>
+              energy: float) -&gt; tuple[float, float]</span>
             </dt>
             <dd></dd>
             <dt id="estimate_uncompressed_size">
@@ -764,7 +759,7 @@ crystallography and related fields</p>
             <dd></dd>
             <dt id="expand_one_letter_sequence">
               <span class="m-doc-wrap-bumper">def <a href="#expand_one_letter_sequence" class="m-doc-self">expand_one_letter_sequence</a>(</span><span class="m-doc-wrap">arg0: str,
-              arg1: <a href="gemmi.html#ResidueKind" class="m-doc">ResidueKind</a><span class="m-text m-dim">, /</span>) -&gt; typing.List[str]</span>
+              arg1: <a href="gemmi.html#ResidueKind" class="m-doc">ResidueKind</a><span class="m-text m-dim">, /</span>) -&gt; list[str]</span>
             </dt>
             <dd></dd>
             <dt id="expand_pdb_code_to_path">
@@ -787,12 +782,12 @@ crystallography and related fields</p>
               min_volume: float = 10.0,
               min_score: float = 15.0,
               min_peak: float = 0.0,
-              negate: bool = False) -&gt; typing.List[<a href="gemmi.Blob.html" class="m-doc">Blob</a>]</span>
+              negate: bool = False) -&gt; list[<a href="gemmi.Blob.html" class="m-doc">Blob</a>]</span>
             </dt>
             <dd></dd>
             <dt id="find_lattice_2fold_ops">
               <span class="m-doc-wrap-bumper">def <a href="#find_lattice_2fold_ops" class="m-doc-self">find_lattice_2fold_ops</a>(</span><span class="m-doc-wrap">reduced_cell: <a href="gemmi.UnitCell.html" class="m-doc">UnitCell</a>,
-              max_obliq: float) -&gt; typing.List[typing.Tuple[<a href="gemmi.Op.html" class="m-doc">Op</a>, float]]</span>
+              max_obliq: float) -&gt; list[tuple[<a href="gemmi.Op.html" class="m-doc">Op</a>, float]]</span>
             </dt>
             <dd></dd>
             <dt id="find_lattice_symmetry">
@@ -809,7 +804,8 @@ crystallography and related fields</p>
             <dt id="find_spacegroup_by_name">
               <span class="m-doc-wrap-bumper">def <a href="#find_spacegroup_by_name" class="m-doc-self">find_spacegroup_by_name</a>(</span><span class="m-doc-wrap">hm: str,
               alpha: float = 0.0,
-              gamma: float = 0.0) -&gt; <a href="gemmi.SpaceGroup.html" class="m-doc">SpaceGroup</a></span>
+              gamma: float = 0.0,
+              prefer: str = None) -&gt; <a href="gemmi.SpaceGroup.html" class="m-doc">SpaceGroup</a></span>
             </dt>
             <dd>Returns space-group with given name.</dd>
             <dt id="find_spacegroup_by_number">
@@ -828,12 +824,12 @@ crystallography and related fields</p>
               <span class="m-doc-wrap-bumper">def <a href="#find_twin_laws" class="m-doc-self">find_twin_laws</a>(</span><span class="m-doc-wrap">cell: <a href="gemmi.UnitCell.html" class="m-doc">UnitCell</a>,
               sg: <a href="gemmi.SpaceGroup.html" class="m-doc">SpaceGroup</a>,
               max_obliq: float,
-              all_ops: bool) -&gt; typing.List[<a href="gemmi.Op.html" class="m-doc">Op</a>]</span>
+              all_ops: bool) -&gt; list[<a href="gemmi.Op.html" class="m-doc">Op</a>]</span>
             </dt>
             <dd></dd>
             <dt id="flood_fill_above">
               <span class="m-doc-wrap-bumper">def <a href="#flood_fill_above" class="m-doc-self">flood_fill_above</a>(</span><span class="m-doc-wrap">grid: <a href="gemmi.FloatGrid.html" class="m-doc">FloatGrid</a>,
-              seeds: typing.List[<a href="gemmi.Position.html" class="m-doc">Position</a>],
+              seeds: list[<a href="gemmi.Position.html" class="m-doc">Position</a>],
               threshold: float,
               negate: bool = False) -&gt; <a href="gemmi.Int8Grid.html" class="m-doc">Int8Grid</a></span>
             </dt>
@@ -939,19 +935,23 @@ crystallography and related fields</p>
             </dt>
             <dd></dd>
             <dt id="one_letter_code">
-              <span class="m-doc-wrap-bumper">def <a href="#one_letter_code" class="m-doc-self">one_letter_code</a>(</span><span class="m-doc-wrap">arg0: typing.List[str]<span class="m-text m-dim">, /</span>) -&gt; str</span>
+              <span class="m-doc-wrap-bumper">def <a href="#one_letter_code" class="m-doc-self">one_letter_code</a>(</span><span class="m-doc-wrap">arg0: list[str]<span class="m-text m-dim">, /</span>) -&gt; str</span>
             </dt>
             <dd></dd>
             <dt id="parse_triplet">
               <span class="m-doc-wrap-bumper">def <a href="#parse_triplet" class="m-doc-self">parse_triplet</a>(</span><span class="m-doc-wrap">triplet: str) -&gt; <a href="gemmi.Op.html" class="m-doc">Op</a></span>
             </dt>
             <dd>Parse coordinate triplet into gemmi.Op.</dd>
+            <dt id="parse_triplet_as_ftransform">
+              <span class="m-doc-wrap-bumper">def <a href="#parse_triplet_as_ftransform" class="m-doc-self">parse_triplet_as_ftransform</a>(</span><span class="m-doc-wrap">arg0: str<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.FTransform.html" class="m-doc">FTransform</a></span>
+            </dt>
+            <dd></dd>
             <dt id="parse_triplet_part">
               <span class="m-doc-wrap-bumper">def <a href="#parse_triplet_part" class="m-doc-self">parse_triplet_part</a>(</span><span class="m-doc-wrap">…)</span>
             </dt>
             <dd>Parse one of the three parts of a triplet.</dd>
             <dt id="pdbx_one_letter_code">
-              <span class="m-doc-wrap-bumper">def <a href="#pdbx_one_letter_code" class="m-doc-self">pdbx_one_letter_code</a>(</span><span class="m-doc-wrap">arg0: typing.List[str],
+              <span class="m-doc-wrap-bumper">def <a href="#pdbx_one_letter_code" class="m-doc-self">pdbx_one_letter_code</a>(</span><span class="m-doc-wrap">arg0: list[str],
               arg1: <a href="gemmi.html#ResidueKind" class="m-doc">ResidueKind</a><span class="m-text m-dim">, /</span>) -&gt; str</span>
             </dt>
             <dd></dd>
@@ -985,7 +985,7 @@ crystallography and related fields</p>
             <dd>Reads a CCP4 file, mode 0 (int8_t data, usually 0/1 masks).</dd>
             <dt id="read_monomer_lib">
               <span class="m-doc-wrap-bumper">def <a href="#read_monomer_lib" class="m-doc-self">read_monomer_lib</a>(</span><span class="m-doc-wrap">monomer_dir: str,
-              resnames: typing.List[str],
+              resnames: list[str],
               libin: str = &#x27;&#x27;,
               ignore_missing: bool = False) -&gt; <a href="gemmi.MonLib.html" class="m-doc">MonLib</a></span>
             </dt>
@@ -1007,7 +1007,7 @@ crystallography and related fields</p>
             </dt>
             <dd>Reads a string as PDB file.</dd>
             <dt id="read_pir_or_fasta">
-              <span class="m-doc-wrap-bumper">def <a href="#read_pir_or_fasta" class="m-doc-self">read_pir_or_fasta</a>(</span><span class="m-doc-wrap">arg0: str<span class="m-text m-dim">, /</span>) -&gt; typing.List[<a href="gemmi.FastaSeq.html" class="m-doc">FastaSeq</a>]</span>
+              <span class="m-doc-wrap-bumper">def <a href="#read_pir_or_fasta" class="m-doc-self">read_pir_or_fasta</a>(</span><span class="m-doc-wrap">arg0: str<span class="m-text m-dim">, /</span>) -&gt; list[<a href="gemmi.FastaSeq.html" class="m-doc">FastaSeq</a>]</span>
             </dt>
             <dd></dd>
             <dt id="read_small_structure">
@@ -1034,17 +1034,17 @@ crystallography and related fields</p>
             </dt>
             <dd></dd>
             <dt id="spacegroup_table">
-              <span class="m-doc-wrap-bumper">def <a href="#spacegroup_table" class="m-doc-self">spacegroup_table</a>(</span><span class="m-doc-wrap">) -&gt; typing.Iterator</span>
+              <span class="m-doc-wrap-bumper">def <a href="#spacegroup_table" class="m-doc-self">spacegroup_table</a>(</span><span class="m-doc-wrap">) -&gt; typing.Iterator[<a href="gemmi.SpaceGroup.html" class="m-doc">SpaceGroup</a>]</span>
             </dt>
             <dd></dd>
             <dt id="spacegroup_table_itb">
-              <span class="m-doc-wrap-bumper">def <a href="#spacegroup_table_itb" class="m-doc-self">spacegroup_table_itb</a>(</span><span class="m-doc-wrap">) -&gt; typing.Iterator</span>
+              <span class="m-doc-wrap-bumper">def <a href="#spacegroup_table_itb" class="m-doc-self">spacegroup_table_itb</a>(</span><span class="m-doc-wrap">) -&gt; typing.Iterator[<a href="gemmi.SpaceGroup.html" class="m-doc">SpaceGroup</a>]</span>
             </dt>
             <dd></dd>
             <dt id="superpose_positions">
-              <span class="m-doc-wrap-bumper">def <a href="#superpose_positions" class="m-doc-self">superpose_positions</a>(</span><span class="m-doc-wrap">pos1: typing.List[<a href="gemmi.Position.html" class="m-doc">Position</a>],
-              pos2: typing.List[<a href="gemmi.Position.html" class="m-doc">Position</a>],
-              weight: typing.List[float] = []) -&gt; <a href="gemmi.SupResult.html" class="m-doc">SupResult</a></span>
+              <span class="m-doc-wrap-bumper">def <a href="#superpose_positions" class="m-doc-self">superpose_positions</a>(</span><span class="m-doc-wrap">pos1: list[<a href="gemmi.Position.html" class="m-doc">Position</a>],
+              pos2: list[<a href="gemmi.Position.html" class="m-doc">Position</a>],
+              weight: list[float] = []) -&gt; <a href="gemmi.SupResult.html" class="m-doc">SupResult</a></span>
             </dt>
             <dd></dd>
             <dt id="symops_from_hall">

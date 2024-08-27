@@ -66,14 +66,14 @@
           <dl class="m-doc">
             <dt id="add_columns">
               <span class="m-doc-wrap-bumper">def <a href="#add_columns" class="m-doc-self">add_columns</a>(</span><span class="m-doc-wrap">self,
-              column_names: typing.List[str],
+              column_names: list[str],
               value: str,
               pos: int = -1) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="add_row">
               <span class="m-doc-wrap-bumper">def <a href="#add_row" class="m-doc-self">add_row</a>(</span><span class="m-doc-wrap">self,
-              new_values: typing.List[str],
+              new_values: list[str],
               pos: int = -1) -&gt; None</span>
             </dt>
             <dd></dd>
@@ -88,13 +88,7 @@
             <dd></dd>
             <dt id="set_all_values">
               <span class="m-doc-wrap-bumper">def <a href="#set_all_values" class="m-doc-self">set_all_values</a>(</span><span class="m-doc-wrap">self,
-              columns: typing.List[typing.List[str]]) -&gt; None</span>
-            </dt>
-            <dd></dd>
-            <dt id="val">
-              <span class="m-doc-wrap-bumper">def <a href="#val" class="m-doc-self">val</a>(</span><span class="m-doc-wrap">self,
-              row: int,
-              col: int) -&gt; str</span>
+              columns: list[list[str]]) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="width">
@@ -106,6 +100,11 @@
         <section id="dunder-methods">
           <h2><a href="#dunder-methods">Special methods</a></h2>
           <dl class="m-doc">
+            <dt id="__getitem__">
+              <span class="m-doc-wrap-bumper">def <a href="#__getitem__" class="m-doc-self">__getitem__</a>(</span><span class="m-doc-wrap">self,
+              arg0: tuple[int, int]<span class="m-text m-dim">, /</span>) -&gt; str</span>
+            </dt>
+            <dd></dd>
             <dt id="__init__">
               <span class="m-doc-wrap-bumper">def <a href="#__init__" class="m-doc-self">__init__</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
@@ -114,17 +113,23 @@
               <span class="m-doc-wrap-bumper">def <a href="#__repr__" class="m-doc-self">__repr__</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; str</span>
             </dt>
             <dd></dd>
+            <dt id="__setitem__">
+              <span class="m-doc-wrap-bumper">def <a href="#__setitem__" class="m-doc-self">__setitem__</a>(</span><span class="m-doc-wrap">self,
+              arg0: tuple[int, int],
+              arg1: str<span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
           </dl>
         </section>
         <section id="properties">
           <h2><a href="#properties">Properties</a></h2>
           <dl class="m-doc">
             <dt id="tags">
-              <a href="#tags" class="m-doc-self">tags</a>: typing.List[str] <span class="m-label m-flat m-warning">get</span>
+              <a href="#tags" class="m-doc-self">tags</a>: list[str] <span class="m-label m-flat m-warning">get</span>
             </dt>
             <dd></dd>
             <dt id="values">
-              <a href="#values" class="m-doc-self">values</a>: typing.List[str] <span class="m-label m-flat m-warning">get</span>
+              <a href="#values" class="m-doc-self">values</a>: list[str] <span class="m-label m-flat m-warning">get</span>
             </dt>
             <dd></dd>
           </dl>

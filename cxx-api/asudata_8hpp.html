@@ -85,6 +85,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="unitcell_8hpp_source.html">unitcell.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="symmetry_8hpp_source.html">symmetry.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="stats_8hpp_source.html">stats.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="util_8hpp_source.html">util.hpp</a>&quot;</code><br />
 </div>
 <p><a href="asudata_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -124,6 +125,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a28d268319c031b4e95e46c518c122fbe" id="r_a28d268319c031b4e95e46c518c122fbe"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="structgemmi_1_1HklValue.html">typename</a> <a class="el" href="namespacegemmi.html#a40476b27b97bc7ac8284d3b077b36cbfab9ece18c950afbfa6b0fdbfa4ff731d3">T</a> , <a class="el" href="structgemmi_1_1HklValue.html">typename</a> <a class="el" href="structgemmi_1_1HklValue.html">Data</a> &gt; </td></tr>
 <tr class="memitem:a28d268319c031b4e95e46c518c122fbe"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1AsuData.html">AsuData</a>&lt; <a class="el" href="namespacegemmi.html#a40476b27b97bc7ac8284d3b077b36cbfab9ece18c950afbfa6b0fdbfa4ff731d3">T</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a28d268319c031b4e95e46c518c122fbe">gemmi::make_asu_data</a> (<a class="el" href="structgemmi_1_1HklValue.html">const</a> <a class="el" href="structgemmi_1_1HklValue.html">Data</a> &amp;data, <a class="el" href="structgemmi_1_1HklValue.html">const</a> std::string &amp;label, <a class="el" href="structgemmi_1_1HklValue.html">bool</a> <a class="el" href="structgemmi_1_1HklValue.html">as_is</a>)</td></tr>
 <tr class="separator:a28d268319c031b4e95e46c518c122fbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40bc715a988511679b60caa97746a34f" id="r_a40bc715a988511679b60caa97746a34f"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="structgemmi_1_1HklValue.html">typename</a> <a class="el" href="namespacegemmi.html#a40476b27b97bc7ac8284d3b077b36cbfab9ece18c950afbfa6b0fdbfa4ff731d3">T</a> &gt; </td></tr>
+<tr class="memitem:a40bc715a988511679b60caa97746a34f"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1HklValue.html">void</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a40bc715a988511679b60caa97746a34f">gemmi::discard_by_sigma_ratio</a> (<a class="el" href="structgemmi_1_1AsuData.html">AsuData</a>&lt; <a class="el" href="structgemmi_1_1ValueSigma.html">ValueSigma</a>&lt; <a class="el" href="namespacegemmi.html#a40476b27b97bc7ac8284d3b077b36cbfab9ece18c950afbfa6b0fdbfa4ff731d3">T</a> &gt; &gt; &amp;<a class="el" href="structgemmi_1_1HklValue.html">asu_data</a>, <a class="el" href="structgemmi_1_1HklValue.html">double</a> cutoff)</td></tr>
+<tr class="memdesc:a40bc715a988511679b60caa97746a34f"><td class="mdescLeft">&#160;</td><td class="mdescRight">retains only points with positive SIGF and F/SIGF &gt; cutoff  <br /></td></tr>
+<tr class="separator:a40bc715a988511679b60caa97746a34f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

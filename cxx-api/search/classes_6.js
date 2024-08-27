@@ -18,5 +18,5 @@ var searchData=
   ['groupingproxy_15',['GroupingProxy',['../structgemmi_1_1ResidueSpan_1_1GroupingProxy.html',1,'gemmi::ResidueSpan']]],
   ['groupops_16',['GroupOps',['../structgemmi_1_1GroupOps.html',1,'gemmi']]],
   ['grubervector_17',['GruberVector',['../structgemmi_1_1GruberVector.html',1,'gemmi']]],
-  ['gzstream_18',['GzStream',['../structgemmi_1_1MaybeGzipped_1_1GzStream.html',1,'gemmi::MaybeGzipped']]]
+  ['gzstream_18',['GzStream',['../structgemmi_1_1GzStream.html',1,'gemmi']]]
 ];

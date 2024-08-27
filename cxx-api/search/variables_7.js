@@ -16,7 +16,7 @@ var searchData=
   ['hkl_13',['hkl',['../structgemmi_1_1HklValue.html#a685ab42011ac256e02b596dfcfa29be8',1,'gemmi::HklValue::hkl'],['../structgemmi_1_1Intensities_1_1Refl.html#a743c2716562e82efec42a6e938bcf595',1,'gemmi::Intensities::Refl::hkl'],['../structgemmi_1_1Scaling_1_1Point.html#a47ba68db76ef8ad570b6c1541712cd55',1,'gemmi::Scaling::Point::hkl'],['../structgemmi_1_1XdsAscii_1_1Refl.html#abc780889d2cb76285e2be0690427d32f',1,'gemmi::XdsAscii::Refl::hkl']]],
   ['hkl_5fsize_14',['hkl_size',['../structgemmi_1_1HklMatch.html#ac7fae4fb52b36e58139f00f855fb4a85',1,'gemmi::HklMatch']]],
   ['hm_15',['hm',['../structgemmi_1_1SpaceGroup.html#a50c40981a3ffe43b06adee9f4fd5caab',1,'gemmi::SpaceGroup::hm'],['../structgemmi_1_1SpaceGroupAltName.html#a9e34c08d2a7e502d56efe50b730d01e6',1,'gemmi::SpaceGroupAltName::hm']]],
-  ['how_16',['how',['../structgemmi_1_1ChainNameGenerator.html#a66fbd297566065201541d3feb1cbdf4f',1,'gemmi::ChainNameGenerator']]],
+  ['how_16',['how',['../structgemmi_1_1ChainNameGenerator.html#a3d83d346b813cfe5c047caa98d960d41',1,'gemmi::ChainNameGenerator']]],
   ['hstats_17',['hstats',['../structgemmi_1_1Ccp4Base.html#a2961b27c90bd3adc6f09c57d255a9701',1,'gemmi::Ccp4Base']]],
   ['hydrogen_5fcount_18',['hydrogen_count',['../structgemmi_1_1ResidueInfo.html#ae890292394450df87dfa80d98b4d616e',1,'gemmi::ResidueInfo']]]
 ];

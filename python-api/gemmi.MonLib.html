@@ -69,6 +69,10 @@
               arg0: <a href="gemmi.cif.Block.html" class="m-doc">cif.Block</a><span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
             <dd></dd>
+            <dt id="clone">
+              <span class="m-doc-wrap-bumper">def <a href="#clone" class="m-doc-self">clone</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.MonLib.html" class="m-doc">MonLib</a></span>
+            </dt>
+            <dd></dd>
             <dt id="find_ideal_distance">
               <span class="m-doc-wrap-bumper">def <a href="#find_ideal_distance" class="m-doc-self">find_ideal_distance</a>(</span><span class="m-doc-wrap">self,
               arg0: <a href="gemmi.CRA.html" class="m-doc">CRA</a>,
@@ -93,7 +97,7 @@
               res2: <a href="gemmi.Residue.html" class="m-doc">Residue</a>,
               atom2: str,
               alt2: str,
-              min_bond_sq: float = 0.0) -&gt; typing.Tuple[<a href="gemmi.ChemLink.html" class="m-doc">ChemLink</a>, bool, <a href="gemmi.ChemComp.Aliasing.html" class="m-doc">ChemComp.Aliasing</a>, <a href="gemmi.ChemComp.Aliasing.html" class="m-doc">ChemComp.Aliasing</a>]</span>
+              min_bond_sq: float = 0.0) -&gt; tuple[<a href="gemmi.ChemLink.html" class="m-doc">ChemLink</a>, bool, <a href="gemmi.ChemComp.Aliasing.html" class="m-doc">ChemComp.Aliasing</a>, <a href="gemmi.ChemComp.Aliasing.html" class="m-doc">ChemComp.Aliasing</a>]</span>
             </dt>
             <dd></dd>
             <dt id="path">
@@ -114,7 +118,7 @@
             <dt id="read_monomer_lib">
               <span class="m-doc-wrap-bumper">def <a href="#read_monomer_lib" class="m-doc-self">read_monomer_lib</a>(</span><span class="m-doc-wrap">self,
               arg0: str,
-              arg1: typing.List[str]<span class="m-text m-dim">, /</span>) -&gt; bool</span>
+              arg1: list[str]<span class="m-text m-dim">, /</span>) -&gt; bool</span>
             </dt>
             <dd></dd>
             <dt id="test_link">
@@ -162,7 +166,7 @@
             </dt>
             <dd></dd>
             <dt id="monomer_dir">
-              <a href="#monomer_dir" class="m-doc-self">monomer_dir</a>: str <span class="m-label m-flat m-warning">get</span>
+              <a href="#monomer_dir" class="m-doc-self">monomer_dir</a>: str <span class="m-label m-flat m-success">get set</span>
             </dt>
             <dd></dd>
             <dt id="monomers">

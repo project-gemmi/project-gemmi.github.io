@@ -6,7 +6,7 @@ var searchData=
   ['pair_3',['Pair',['../namespacegemmi_1_1cif.html#ae9563ed3b93cf5eef563eef894fc02aead0bd662806a73209a1c6fbe55591fbff',1,'gemmi::cif']]],
   ['pb_4',['Pb',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a0789e060643d0f6b1d638830a383387b',1,'gemmi']]],
   ['pd_5',['Pd',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a70c62818a3aed8e80d799f643acf98b2',1,'gemmi']]],
-  ['pdb_6',['Pdb',['../namespacegemmi.html#a017abbfb5176a33969507d87aa1c3c54ab693cea68a050d89a00c376652df1c5e',1,'gemmi']]],
+  ['pdb_6',['Pdb',['../namespacegemmi.html#a86528850e3647ceade3d34b8e0bc473cab693cea68a050d89a00c376652df1c5e',1,'gemmi']]],
   ['pdbx_7',['Pdbx',['../namespacegemmi_1_1cif.html#a6b54a1d9c56c313523815710d3d6ecc1a82c6d0ab994c8cb3a55723dd4888db6f',1,'gemmi::cif']]],
   ['peptide_8',['Peptide',['../structgemmi_1_1ChemComp.html#ae0ba1c368e01fda599a4b28f8708776ea7b3aaf2adb67ecee854714e978972c97',1,'gemmi::ChemComp']]],
   ['peptided_9',['PeptideD',['../namespacegemmi.html#a33fb770bef0a75f26a5ba5daf3f36e27a595ad8d47c18832f8330d40dadd6620d',1,'gemmi']]],

@@ -12,7 +12,7 @@ var searchData=
   ['refmac_9',['Refmac',['../namespacegemmi.html#ac0edc00331dd25cdcfc4cb424c30d700a1867bb6edc5eaf2b28b4553b28307e9e',1,'gemmi']]],
   ['remove_10',['Remove',['../namespacegemmi.html#ae2ef1f8409dc39e1db8659008c4f974ba1063e38cb53d94d386f21227fcd84717',1,'gemmi']]],
   ['reorderonly_11',['ReorderOnly',['../namespacegemmi.html#a5c0fdfcebc62ef44f47c958eb0d996ffad51ef29b49c1c15b7b0bf5db03520739',1,'gemmi']]],
-  ['representativehelical_12',['RepresentativeHelical',['../structgemmi_1_1Assembly.html#adfb4b84e9b0eb16fe30c68a00ca9d046a3a1fd687d7e4b5d0f74936edc3cb3779',1,'gemmi::Assembly']]],
+  ['representativehelical_12',['RepresentativeHelical',['../structgemmi_1_1Assembly.html#a7e62833ef381d520e2d1b7ae9e08a985a3a1fd687d7e4b5d0f74936edc3cb3779',1,'gemmi::Assembly']]],
   ['rf_13',['Rf',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5afbaf4d5a9ac7d8f2346f9866b66e7f0c',1,'gemmi']]],
   ['rg_14',['Rg',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a2504501092bb69d0cb68071888c70cec',1,'gemmi']]],
   ['rgamma_15',['RGamma',['../structgemmi_1_1Helix.html#a9c9b50bf17a8580f277a4fb7bc68b008aef107e16324536a39d0b473dbff3e5e2',1,'gemmi::Helix']]],

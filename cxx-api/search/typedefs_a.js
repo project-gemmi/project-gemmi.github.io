@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['opobliquity_0',['OpObliquity',['../namespacegemmi.html#a10fbdeb63d4f00eb3b65da7e46245445',1,'gemmi']]],
-  ['optionalnum_1',['optionalnum',['../structgemmi_1_1Residue.html#a0cd1e023c9b84f923651e601bc632c78',1,'gemmi::Residue::OptionalNum'],['../structgemmi_1_1SeqId.html#af89285e8264feeb7430acbaa3d54d7fd',1,'gemmi::SeqId::OptionalNum']]]
+  ['pair_0',['Pair',['../namespacegemmi_1_1cif.html#a435adb6ead791b887f122c8b1ee98687',1,'gemmi::cif']]],
+  ['parent_1',['parent',['../structgemmi_1_1ConstResidueSpan.html#a732cbbc936a80fdeb0794cb680d025d4',1,'gemmi::ConstResidueSpan::Parent'],['../structgemmi_1_1ResidueSpan.html#ab8c4982f5d2ca5d5cd17b9cc3647fb4d',1,'gemmi::ResidueSpan::Parent']]],
+  ['pdbwalk_2',['PdbWalk',['../namespacegemmi.html#a4f5dc26ed4ba0e2359f1d29a94a82ff8',1,'gemmi']]],
+  ['point_3',['Point',['../structgemmi_1_1Grid.html#a51f70fce4a1ec49d8119e69d74461c16',1,'gemmi::Grid']]],
+  ['pointer_4',['pointer',['../structgemmi_1_1BidirIterator.html#a48fae234534cebb1ab8b9700aefae959',1,'gemmi::BidirIterator']]]
 ];

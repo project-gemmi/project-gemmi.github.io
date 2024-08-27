@@ -1,7 +1,7 @@
 var searchData=
 [
   ['n_0',['N',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a8d9c307cb7f3c4a32822a51922d1ceaa',1,'gemmi']]],
-  ['na_1',['na',['../structgemmi_1_1Assembly.html#adfb4b84e9b0eb16fe30c68a00ca9d046ad4cd0dabcf4caa22ad92fab40844c786',1,'gemmi::Assembly::NA'],['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a91fbc1ffc46dc5e768f6b154bb548e37',1,'gemmi::Na']]],
+  ['na_1',['na',['../structgemmi_1_1Assembly.html#a7e62833ef381d520e2d1b7ae9e08a985ad4cd0dabcf4caa22ad92fab40844c786',1,'gemmi::Assembly::NA'],['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a91fbc1ffc46dc5e768f6b154bb548e37',1,'gemmi::Na']]],
   ['nb_2',['Nb',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a04d25f81d9337b5b5c640de788559d87',1,'gemmi']]],
   ['nd_3',['Nd',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a0f685c57363a378127e7487e5b670d40',1,'gemmi']]],
   ['ne_4',['Ne',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a4dec99baa99738721da9c9b0c1a92498',1,'gemmi']]],

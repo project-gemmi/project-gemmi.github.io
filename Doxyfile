@@ -6,7 +6,6 @@ INPUT                  = main.md \
                          ../gemmi/include/gemmi/
 FILE_PATTERNS          = *.hpp
 EXCLUDE_SYMBOLS        = gemmi::impl* \
-                         gemmi::pdb_impl* \
                          tao::* \
                          gemmi::cif::*Action* \
                          gemmi::cif::rule* \

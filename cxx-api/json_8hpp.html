@@ -75,19 +75,12 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">json.hpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;algorithm&gt;</code><br />
-<code>#include &lt;cstdio&gt;</code><br />
-<code>#include &lt;memory&gt;</code><br />
-<code>#include &lt;string&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
-<code>#include &quot;third_party/sajson.h&quot;</code><br />
+<div class="textblock"><code>#include &lt;utility&gt;</code><br />
 <code>#include &quot;<a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="fail_8hpp_source.html">fail.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="fileutil_8hpp_source.html">fileutil.hpp</a>&quot;</code><br />
 </div>
 <p><a href="json_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -99,62 +92,16 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespacegemmi_1_1cif" id="r_namespacegemmi_1_1cif"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi_1_1cif.html">gemmi::cif</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:aa875b9a6ffc0a004a2473f505dee80f0" id="r_aa875b9a6ffc0a004a2473f505dee80f0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="json_8hpp.html#aa875b9a6ffc0a004a2473f505dee80f0">SAJSON_UNSORTED_OBJECT_KEYS</a></td></tr>
-<tr class="separator:aa875b9a6ffc0a004a2473f505dee80f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a874cc60a1ca1acf559213310e0a7f9" id="r_a8a874cc60a1ca1acf559213310e0a7f9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="json_8hpp.html#a8a874cc60a1ca1acf559213310e0a7f9">SAJSON_NUMBERS_AS_STRINGS</a></td></tr>
-<tr class="separator:a8a874cc60a1ca1acf559213310e0a7f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a9f1d369d74a52b78570733fab5ea64d5" id="r_a9f1d369d74a52b78570733fab5ea64d5"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi_1_1cif.html#a9f1d369d74a52b78570733fab5ea64d5">gemmi::cif::json_type_as_string</a> (sajson::type <a class="el" href="structgemmi_1_1HklValue.html">t</a>)</td></tr>
-<tr class="separator:a9f1d369d74a52b78570733fab5ea64d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08f4ab3166941f615e692be4d552dfbb" id="r_a08f4ab3166941f615e692be4d552dfbb"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi_1_1cif.html#a08f4ab3166941f615e692be4d552dfbb">gemmi::cif::as_cif_value</a> (<a class="el" href="structgemmi_1_1HklValue.html">const</a> sajson::value &amp;val)</td></tr>
-<tr class="separator:a08f4ab3166941f615e692be4d552dfbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47432a894a92fd607b8f7d9561994a88" id="r_a47432a894a92fd607b8f7d9561994a88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1HklValue.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi_1_1cif.html#a47432a894a92fd607b8f7d9561994a88">gemmi::cif::fill_document_from_sajson</a> (<a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> &amp;<a class="el" href="structgemmi_1_1HklValue.html">d</a>, <a class="el" href="structgemmi_1_1HklValue.html">const</a> sajson::document &amp;s)</td></tr>
-<tr class="separator:a47432a894a92fd607b8f7d9561994a88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4dc7f7ce7c5ec81c1543ca651d95c675" id="r_a4dc7f7ce7c5ec81c1543ca651d95c675"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi_1_1cif.html#a4dc7f7ce7c5ec81c1543ca651d95c675">gemmi::cif::read_mmjson_insitu</a> (<a class="el" href="structgemmi_1_1HklValue.html">char</a> *<a class="el" href="structgemmi_1_1HklValue.html">buffer</a>, size_t size, <a class="el" href="structgemmi_1_1HklValue.html">const</a> std::string &amp;name=&quot;mmJSON&quot;)</td></tr>
-<tr class="separator:a4dc7f7ce7c5ec81c1543ca651d95c675"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a926cb74828d4dc248ede3a7dce4c3ae3" id="r_a926cb74828d4dc248ede3a7dce4c3ae3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="fail_8hpp.html#a1669245a173e1e01c886ce838ee44fbf">GEMMI_DLL</a> <a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi_1_1cif.html#a926cb74828d4dc248ede3a7dce4c3ae3">gemmi::cif::read_mmjson_insitu</a> (<a class="el" href="structgemmi_1_1HklValue.html">char</a> *<a class="el" href="structgemmi_1_1HklValue.html">buffer</a>, std::size_t size, <a class="el" href="structgemmi_1_1HklValue.html">const</a> std::string &amp;name=&quot;mmJSON&quot;)</td></tr>
+<tr class="separator:a926cb74828d4dc248ede3a7dce4c3ae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f1bdb13be6dc8ae3f024fa45208cf59" id="r_a5f1bdb13be6dc8ae3f024fa45208cf59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi_1_1cif.html#a5f1bdb13be6dc8ae3f024fa45208cf59">gemmi::cif::read_mmjson_file</a> (<a class="el" href="structgemmi_1_1HklValue.html">const</a> std::string &amp;path)</td></tr>
 <tr class="separator:a5f1bdb13be6dc8ae3f024fa45208cf59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d93cdcdd461424a7dfe1f5ab29c1ffd" id="r_a5d93cdcdd461424a7dfe1f5ab29c1ffd"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="structgemmi_1_1HklValue.html">typename</a> <a class="el" href="namespacegemmi.html#a40476b27b97bc7ac8284d3b077b36cbfab9ece18c950afbfa6b0fdbfa4ff731d3">T</a> &gt; </td></tr>
 <tr class="memitem:a5d93cdcdd461424a7dfe1f5ab29c1ffd"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegemmi_1_1cif.html#a5d93cdcdd461424a7dfe1f5ab29c1ffd">gemmi::cif::read_mmjson</a> (<a class="el" href="namespacegemmi.html#a40476b27b97bc7ac8284d3b077b36cbfab9ece18c950afbfa6b0fdbfa4ff731d3">T</a> &amp;&amp;<a class="el" href="structgemmi_1_1HklValue.html">input</a>)</td></tr>
 <tr class="separator:a5d93cdcdd461424a7dfe1f5ab29c1ffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="aa875b9a6ffc0a004a2473f505dee80f0" name="aa875b9a6ffc0a004a2473f505dee80f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa875b9a6ffc0a004a2473f505dee80f0">&#9670;&#160;</a></span>SAJSON_UNSORTED_OBJECT_KEYS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SAJSON_UNSORTED_OBJECT_KEYS</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="json_8hpp_source.html#l00013">13</a> of file <a class="el" href="json_8hpp_source.html">json.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a8a874cc60a1ca1acf559213310e0a7f9" name="a8a874cc60a1ca1acf559213310e0a7f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a874cc60a1ca1acf559213310e0a7f9">&#9670;&#160;</a></span>SAJSON_NUMBERS_AS_STRINGS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SAJSON_NUMBERS_AS_STRINGS</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="json_8hpp_source.html#l00014">14</a> of file <a class="el" href="json_8hpp_source.html">json.hpp</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['spacegroup_5ftables_0',['spacegroup_tables',['../namespacegemmi.html#af56cc4cb150b34018aade256e92cb4d4',1,'gemmi']]],
-  ['strideiter_1',['StrideIter',['../namespacegemmi.html#acc17d2711897cb3fa2e5cf1387ad5334',1,'gemmi']]]
+  ['tran_0',['Tran',['../structgemmi_1_1Op.html#a96919b7802b8f7335eb80c507621e51c',1,'gemmi::Op']]],
+  ['tsum_1',['Tsum',['../structgemmi_1_1GridBase.html#a3ba70ec0d67eca7543d588bc8afb9077',1,'gemmi::GridBase']]]
 ];

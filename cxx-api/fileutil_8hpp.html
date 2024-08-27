@@ -74,6 +74,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
@@ -90,6 +91,12 @@ $(function() {
 </div>
 <p><a href="fileutil_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1needs__fclose.html">gemmi::needs_fclose</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">deleter for fileptr_t  <a href="structgemmi_1_1needs__fclose.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacegemmi" id="r_namespacegemmi"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html">gemmi</a></td></tr>
@@ -97,16 +104,16 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a1db51501fe2c995dd1c6b0ab8b21e80c" id="r_a1db51501fe2c995dd1c6b0ab8b21e80c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1HklValue.html">typedef</a> std::unique_ptr&lt; std::FILE, <a class="el" href="structgemmi_1_1HklValue.html">decltype</a>(&amp;std::fclose)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a1db51501fe2c995dd1c6b0ab8b21e80c">gemmi::fileptr_t</a></td></tr>
-<tr class="separator:a1db51501fe2c995dd1c6b0ab8b21e80c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea01c1a3235ef3a81214da96acfe071d" id="r_aea01c1a3235ef3a81214da96acfe071d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1HklValue.html">typedef</a> std::unique_ptr&lt; std::FILE, <a class="el" href="structgemmi_1_1needs__fclose.html">needs_fclose</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#aea01c1a3235ef3a81214da96acfe071d">gemmi::fileptr_t</a></td></tr>
+<tr class="separator:aea01c1a3235ef3a81214da96acfe071d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a76da2ac1db08309fd1cb775d884d2cfd" id="r_a76da2ac1db08309fd1cb775d884d2cfd"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a76da2ac1db08309fd1cb775d884d2cfd">gemmi::path_basename</a> (<a class="el" href="structgemmi_1_1HklValue.html">const</a> std::string &amp;path, std::initializer_list&lt; <a class="el" href="structgemmi_1_1HklValue.html">const</a> <a class="el" href="structgemmi_1_1HklValue.html">char</a> * &gt; <a class="el" href="structgemmi_1_1HklValue.html">exts</a>)</td></tr>
 <tr class="separator:a76da2ac1db08309fd1cb775d884d2cfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f9a3deb004360f66caa5cbf6551e69c" id="r_a8f9a3deb004360f66caa5cbf6551e69c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegemmi.html#a1db51501fe2c995dd1c6b0ab8b21e80c">fileptr_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a8f9a3deb004360f66caa5cbf6551e69c">gemmi::file_open</a> (<a class="el" href="structgemmi_1_1HklValue.html">const</a> <a class="el" href="structgemmi_1_1HklValue.html">char</a> *path, <a class="el" href="structgemmi_1_1HklValue.html">const</a> <a class="el" href="structgemmi_1_1HklValue.html">char</a> *<a class="el" href="structgemmi_1_1HklValue.html">mode</a>)</td></tr>
+<tr class="memitem:a8f9a3deb004360f66caa5cbf6551e69c" id="r_a8f9a3deb004360f66caa5cbf6551e69c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegemmi.html#aea01c1a3235ef3a81214da96acfe071d">fileptr_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a8f9a3deb004360f66caa5cbf6551e69c">gemmi::file_open</a> (<a class="el" href="structgemmi_1_1HklValue.html">const</a> <a class="el" href="structgemmi_1_1HklValue.html">char</a> *path, <a class="el" href="structgemmi_1_1HklValue.html">const</a> <a class="el" href="structgemmi_1_1HklValue.html">char</a> *<a class="el" href="structgemmi_1_1HklValue.html">mode</a>)</td></tr>
 <tr class="separator:a8f9a3deb004360f66caa5cbf6551e69c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae431e75c38ef9511f98cb5b991204d21" id="r_ae431e75c38ef9511f98cb5b991204d21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegemmi.html#a1db51501fe2c995dd1c6b0ab8b21e80c">fileptr_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#ae431e75c38ef9511f98cb5b991204d21">gemmi::file_open_or</a> (<a class="el" href="structgemmi_1_1HklValue.html">const</a> <a class="el" href="structgemmi_1_1HklValue.html">char</a> *path, <a class="el" href="structgemmi_1_1HklValue.html">const</a> <a class="el" href="structgemmi_1_1HklValue.html">char</a> *<a class="el" href="structgemmi_1_1HklValue.html">mode</a>, std::FILE *<a class="el" href="structgemmi_1_1HklValue.html">dash_stream</a>)</td></tr>
+<tr class="memitem:ae431e75c38ef9511f98cb5b991204d21" id="r_ae431e75c38ef9511f98cb5b991204d21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegemmi.html#aea01c1a3235ef3a81214da96acfe071d">fileptr_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#ae431e75c38ef9511f98cb5b991204d21">gemmi::file_open_or</a> (<a class="el" href="structgemmi_1_1HklValue.html">const</a> <a class="el" href="structgemmi_1_1HklValue.html">char</a> *path, <a class="el" href="structgemmi_1_1HklValue.html">const</a> <a class="el" href="structgemmi_1_1HklValue.html">char</a> *<a class="el" href="structgemmi_1_1HklValue.html">mode</a>, std::FILE *<a class="el" href="structgemmi_1_1HklValue.html">dash_stream</a>)</td></tr>
 <tr class="separator:ae431e75c38ef9511f98cb5b991204d21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54eba4a2aabbfa399df2ac746688ef0d" id="r_a54eba4a2aabbfa399df2ac746688ef0d"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a54eba4a2aabbfa399df2ac746688ef0d">gemmi::file_size</a> (std::FILE *f, <a class="el" href="structgemmi_1_1HklValue.html">const</a> std::string &amp;path)</td></tr>
 <tr class="separator:a54eba4a2aabbfa399df2ac746688ef0d"><td class="memSeparator" colspan="2">&#160;</td></tr>

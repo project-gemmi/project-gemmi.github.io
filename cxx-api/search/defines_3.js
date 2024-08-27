@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['sajson_5fnumbers_5fas_5fstrings_0',['SAJSON_NUMBERS_AS_STRINGS',['../json_8hpp.html#a8a874cc60a1ca1acf559213310e0a7f9',1,'json.hpp']]],
-  ['sajson_5funsorted_5fobject_5fkeys_1',['SAJSON_UNSORTED_OBJECT_KEYS',['../json_8hpp.html#aa875b9a6ffc0a004a2473f505dee80f0',1,'json.hpp']]]
+  ['serialize_0',['SERIALIZE',['../serialize_8hpp.html#affb1afccc384be5dd561697043459a03',1,'serialize.hpp']]],
+  ['serialize_5fp_1',['SERIALIZE_P',['../serialize_8hpp.html#a402ca201d108f7a6f3d15a59b212f26f',1,'serialize.hpp']]],
+  ['serialize_5ft1_2',['SERIALIZE_T1',['../serialize_8hpp.html#a7715064b528de0a1b131a501eeaaaba7',1,'serialize.hpp']]]
 ];

@@ -71,6 +71,11 @@
               order: int) -&gt; None</span>
             </dt>
             <dd></dd>
+            <dt id="add_entity_ids">
+              <span class="m-doc-wrap-bumper">def <a href="#add_entity_ids" class="m-doc-self">add_entity_ids</a>(</span><span class="m-doc-wrap">self,
+              overwrite: bool = False) -&gt; None</span>
+            </dt>
+            <dd></dd>
             <dt id="add_entity_types">
               <span class="m-doc-wrap-bumper">def <a href="#add_entity_types" class="m-doc-self">add_entity_types</a>(</span><span class="m-doc-wrap">self,
               overwrite: bool = False) -&gt; None</span>
@@ -84,7 +89,12 @@
             <dd></dd>
             <dt id="assign_best_sequences">
               <span class="m-doc-wrap-bumper">def <a href="#assign_best_sequences" class="m-doc-self">assign_best_sequences</a>(</span><span class="m-doc-wrap">self,
-              fasta_sequences: typing.List[str]) -&gt; None</span>
+              fasta_sequences: list[str]) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="assign_het_flags">
+              <span class="m-doc-wrap-bumper">def <a href="#assign_het_flags" class="m-doc-self">assign_het_flags</a>(</span><span class="m-doc-wrap">self,
+              flag: str = &#x27;R&#x27;) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="assign_label_seq_id">
@@ -227,12 +237,20 @@
               <span class="m-doc-wrap-bumper">def <a href="#renumber_models" class="m-doc-self">renumber_models</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
             <dd></dd>
+            <dt id="restore_full_ccd_codes">
+              <span class="m-doc-wrap-bumper">def <a href="#restore_full_ccd_codes" class="m-doc-self">restore_full_ccd_codes</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
             <dt id="setup_cell_images">
               <span class="m-doc-wrap-bumper">def <a href="#setup_cell_images" class="m-doc-self">setup_cell_images</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="setup_entities">
               <span class="m-doc-wrap-bumper">def <a href="#setup_entities" class="m-doc-self">setup_entities</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
+            </dt>
+            <dd></dd>
+            <dt id="shorten_ccd_codes">
+              <span class="m-doc-wrap-bumper">def <a href="#shorten_ccd_codes" class="m-doc-self">shorten_ccd_codes</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
             <dd></dd>
             <dt id="shorten_chain_names">
@@ -314,7 +332,7 @@
             </dt>
             <dd></dd>
             <dt id="__iter__">
-              <span class="m-doc-wrap-bumper">def <a href="#__iter__" class="m-doc-self">__iter__</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; typing.Iterator</span>
+              <span class="m-doc-wrap-bumper">def <a href="#__iter__" class="m-doc-self">__iter__</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; typing.Iterator[<a href="gemmi.Model.html" class="m-doc">Model</a>]</span>
             </dt>
             <dd></dd>
             <dt id="__len__">
@@ -345,7 +363,7 @@
             </dt>
             <dd></dd>
             <dt id="cispeps">
-              <a href="#cispeps" class="m-doc-self">cispeps</a>: typing.List[<a href="gemmi.CisPep.html" class="m-doc">CisPep</a>] <span class="m-label m-flat m-success">get set</span>
+              <a href="#cispeps" class="m-doc-self">cispeps</a>: list[<a href="gemmi.CisPep.html" class="m-doc">CisPep</a>] <span class="m-label m-flat m-success">get set</span>
             </dt>
             <dd></dd>
             <dt id="connections">
@@ -381,7 +399,7 @@
             </dt>
             <dd></dd>
             <dt id="mod_residues">
-              <a href="#mod_residues" class="m-doc-self">mod_residues</a>: typing.List[<a href="gemmi.ModRes.html" class="m-doc">ModRes</a>] <span class="m-label m-flat m-success">get set</span>
+              <a href="#mod_residues" class="m-doc-self">mod_residues</a>: list[<a href="gemmi.ModRes.html" class="m-doc">ModRes</a>] <span class="m-label m-flat m-success">get set</span>
             </dt>
             <dd></dd>
             <dt id="name">
@@ -397,7 +415,7 @@
             </dt>
             <dd></dd>
             <dt id="raw_remarks">
-              <a href="#raw_remarks" class="m-doc-self">raw_remarks</a>: typing.List[str] <span class="m-label m-flat m-success">get set</span>
+              <a href="#raw_remarks" class="m-doc-self">raw_remarks</a>: list[str] <span class="m-label m-flat m-success">get set</span>
             </dt>
             <dd></dd>
             <dt id="resolution">
@@ -406,6 +424,10 @@
             <dd></dd>
             <dt id="sheets">
               <a href="#sheets" class="m-doc-self">sheets</a>: <a href="gemmi.SheetList.html" class="m-doc">SheetList</a> <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
+            <dt id="shortened_ccd_codes">
+              <a href="#shortened_ccd_codes" class="m-doc-self">shortened_ccd_codes</a>: list[tuple[str, str]] <span class="m-label m-flat m-success">get set</span>
             </dt>
             <dd></dd>
             <dt id="spacegroup_hm">

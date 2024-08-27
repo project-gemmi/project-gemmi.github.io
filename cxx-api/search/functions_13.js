@@ -15,9 +15,10 @@ var searchData=
   ['update_5fold_5fatom_5fnames_12',['update_old_atom_names',['../structgemmi_1_1MonLib.html#acdc45df8188848022ba2df26a39114fe',1,'gemmi::MonLib']]],
   ['update_5freso_13',['update_reso',['../structgemmi_1_1Mtz.html#aedcb337954d1a0f8e3c97e7d54be3e0a',1,'gemmi::Mtz']]],
   ['uppertriangularmat33_14',['UpperTriangularMat33',['../structgemmi_1_1UpperTriangularMat33.html#ab00acb9a6f9a5271b9094e4be61a27cf',1,'gemmi::UpperTriangularMat33']]],
-  ['use_5fpoints_5faround_15',['use_points_around',['../structgemmi_1_1Grid.html#ae05765ef37293f8357f58f2abbc077ae',1,'gemmi::Grid']]],
-  ['use_5fpoints_5fin_5fbox_16',['use_points_in_box',['../structgemmi_1_1Grid.html#a9589dd3e912dcb566d7cc07452aa5875',1,'gemmi::Grid']]],
-  ['use_5funmerged_17',['use_unmerged',['../structgemmi_1_1ReflnBlock.html#a2f5f99dc9b4fdb8b2bb3228d617ead56',1,'gemmi::ReflnBlock']]],
-  ['utf8_5fto_5fwchar_18',['UTF8_to_wchar',['../namespacegemmi.html#a5892f07314c03ebef8269433bcbe4f8c',1,'gemmi']]],
-  ['uvw_5fend_19',['uvw_end',['../structgemmi_1_1AsuBrick.html#ad41cab3b7ad1c5589d0cd7f35a216836',1,'gemmi::AsuBrick']]]
+  ['use_5fhetatm_15',['use_hetatm',['../namespacegemmi.html#a9e223ce507c0c84fcf2c54109cf9a4f1',1,'gemmi']]],
+  ['use_5fpoints_5faround_16',['use_points_around',['../structgemmi_1_1Grid.html#ae05765ef37293f8357f58f2abbc077ae',1,'gemmi::Grid']]],
+  ['use_5fpoints_5fin_5fbox_17',['use_points_in_box',['../structgemmi_1_1Grid.html#a9589dd3e912dcb566d7cc07452aa5875',1,'gemmi::Grid']]],
+  ['use_5funmerged_18',['use_unmerged',['../structgemmi_1_1ReflnBlock.html#a2f5f99dc9b4fdb8b2bb3228d617ead56',1,'gemmi::ReflnBlock']]],
+  ['utf8_5fto_5fwchar_19',['UTF8_to_wchar',['../namespacegemmi.html#a5892f07314c03ebef8269433bcbe4f8c',1,'gemmi']]],
+  ['uvw_5fend_20',['uvw_end',['../structgemmi_1_1AsuBrick.html#ad41cab3b7ad1c5589d0cd7f35a216836',1,'gemmi::AsuBrick']]]
 ];

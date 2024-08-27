@@ -10,5 +10,5 @@ var searchData=
   ['ho_7',['Ho',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a71aafd38484f3160708c6a6d2d5f736b',1,'gemmi']]],
   ['hoh_8',['HOH',['../namespacegemmi.html#ad10bcdb4f472563c9e5a1f305dde35b4abf120bd90ec434c556aafe7860c0c4c4',1,'gemmi']]],
   ['hs_9',['Hs',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5adf7fda987a7c290c43ff688f805f5949',1,'gemmi']]],
-  ['hydrog_10',['Hydrog',['../structgemmi_1_1Connection.html#aac819b0270d9598d999c4ecf4b93d029aa70ef27b73d1a03606156ec9d2104b35',1,'gemmi::Connection']]]
+  ['hydrog_10',['Hydrog',['../structgemmi_1_1Connection.html#a11e7ddd857ab5baaaee5a158a1723098aa70ef27b73d1a03606156ec9d2104b35',1,'gemmi::Connection']]]
 ];

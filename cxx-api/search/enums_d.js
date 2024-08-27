@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['type_0',['Type',['../structgemmi_1_1Connection.html#aac819b0270d9598d999c4ecf4b93d029',1,'gemmi::Connection']]]
+  ['type_0',['Type',['../structgemmi_1_1Connection.html#a11e7ddd857ab5baaaee5a158a1723098',1,'gemmi::Connection']]]
 ];

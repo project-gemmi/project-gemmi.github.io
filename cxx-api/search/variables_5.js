@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['f_0',['f',['../structgemmi_1_1FileStream.html#aa18c12bc1541392b0be55b5d9a8da49e',1,'gemmi::FileStream::f'],['../structgemmi_1_1MaybeGzipped_1_1GzStream.html#a48438393b47f9a1847d9b5ef67ec247b',1,'gemmi::MaybeGzipped::GzStream::f']]],
+  ['f_0',['f',['../structgemmi_1_1FileStream.html#aa18c12bc1541392b0be55b5d9a8da49e',1,'gemmi::FileStream::f'],['../structgemmi_1_1GzStream.html#a223e4059af0118e859780f2e0ed3802f',1,'gemmi::GzStream::f']]],
   ['fcmol_1',['fcmol',['../structgemmi_1_1Scaling_1_1Point.html#ae48006b0ab077be19086f6c26a6fd057',1,'gemmi::Scaling::Point']]],
   ['filter_2',['filter',['../classgemmi_1_1DirWalk.html#a9a7af098c6b7e47b9de296a7ac99693d',1,'gemmi::DirWalk::filter'],['../structgemmi_1_1FilterProxy.html#aa4c8a4f884d39eed084e867e81630b22',1,'gemmi::FilterProxy::filter'],['../structgemmi_1_1ConstFilterProxy.html#a24124833cfd8d62461f0cbec52ef8c30',1,'gemmi::ConstFilterProxy::filter']]],
   ['fix_5fb_5fsol_3',['fix_b_sol',['../structgemmi_1_1Scaling.html#abbc41657f5ac06e3ad7d3c492fdd42d2',1,'gemmi::Scaling']]],

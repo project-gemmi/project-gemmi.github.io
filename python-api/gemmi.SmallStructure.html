@@ -86,8 +86,8 @@
               max_dist: float = 0.4) -&gt; None</span>
             </dt>
             <dd></dd>
-            <dt id="find_spacegroup">
-              <span class="m-doc-wrap-bumper">def <a href="#find_spacegroup" class="m-doc-self">find_spacegroup</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; <a href="gemmi.SpaceGroup.html" class="m-doc">SpaceGroup</a></span>
+            <dt id="check_spacegroup">
+              <span class="m-doc-wrap-bumper">def <a href="#check_spacegroup" class="m-doc-self">check_spacegroup</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; str</span>
             </dt>
             <dd></dd>
             <dt id="get_all_unit_cell_sites">
@@ -107,8 +107,9 @@
               <span class="m-doc-wrap-bumper">def <a href="#remove_hydrogens" class="m-doc-self">remove_hydrogens</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
             </dt>
             <dd></dd>
-            <dt id="setup_cell_images">
-              <span class="m-doc-wrap-bumper">def <a href="#setup_cell_images" class="m-doc-self">setup_cell_images</a>(</span><span class="m-doc-wrap">self<span class="m-text m-dim">, /</span>) -&gt; None</span>
+            <dt id="set_spacegroup">
+              <span class="m-doc-wrap-bumper">def <a href="#set_spacegroup" class="m-doc-self">set_spacegroup</a>(</span><span class="m-doc-wrap">self,
+              order: str) -&gt; None</span>
             </dt>
             <dd></dd>
           </dl>
@@ -130,7 +131,7 @@
           <h2><a href="#properties">Properties</a></h2>
           <dl class="m-doc">
             <dt id="atom_types">
-              <a href="#atom_types" class="m-doc-self">atom_types</a>: typing.List[<a href="gemmi.SmallStructure.AtomType.html" class="m-doc">AtomType</a>] <span class="m-label m-flat m-warning">get</span>
+              <a href="#atom_types" class="m-doc-self">atom_types</a>: list[<a href="gemmi.SmallStructure.AtomType.html" class="m-doc">AtomType</a>] <span class="m-label m-flat m-warning">get</span>
             </dt>
             <dd></dd>
             <dt id="cell">
@@ -145,8 +146,24 @@
               <a href="#sites" class="m-doc-self">sites</a>: <a href="gemmi.SmallStructure.SiteList.html" class="m-doc">SiteList</a> <span class="m-label m-flat m-warning">get</span>
             </dt>
             <dd></dd>
+            <dt id="spacegroup">
+              <a href="#spacegroup" class="m-doc-self">spacegroup</a>: <a href="gemmi.SpaceGroup.html" class="m-doc">SpaceGroup</a> <span class="m-label m-flat m-warning">get</span>
+            </dt>
+            <dd></dd>
+            <dt id="spacegroup_hall">
+              <a href="#spacegroup_hall" class="m-doc-self">spacegroup_hall</a>: str <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
             <dt id="spacegroup_hm">
               <a href="#spacegroup_hm" class="m-doc-self">spacegroup_hm</a>: str <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
+            <dt id="spacegroup_number">
+              <a href="#spacegroup_number" class="m-doc-self">spacegroup_number</a>: int <span class="m-label m-flat m-success">get set</span>
+            </dt>
+            <dd></dd>
+            <dt id="symops">
+              <a href="#symops" class="m-doc-self">symops</a>: list[str] <span class="m-label m-flat m-success">get set</span>
             </dt>
             <dd></dd>
             <dt id="wavelength">
