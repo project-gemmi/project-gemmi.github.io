@@ -79,9 +79,7 @@ $(function() {
   <div class="headertitle"><div class="title">fprime.hpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;cassert&gt;</code><br />
-<code>#include &lt;cmath&gt;</code><br />
-<code>#include &lt;algorithm&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="fail_8hpp_source.html">fail.hpp</a>&quot;</code><br />
 </div>
 <p><a href="fprime_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -92,13 +90,12 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6b116b774035704cba60d2227d9f0ce9" id="r_a6b116b774035704cba60d2227d9f0ce9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1HklValue.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a6b116b774035704cba60d2227d9f0ce9">gemmi::cromer_liberman_for_array</a> (<a class="el" href="structgemmi_1_1HklValue.html">int</a> z, <a class="el" href="structgemmi_1_1HklValue.html">int</a> <a class="el" href="structgemmi_1_1HklValue.html">npts</a>, <a class="el" href="structgemmi_1_1HklValue.html">const</a> <a class="el" href="structgemmi_1_1HklValue.html">double</a> *<a class="el" href="structgemmi_1_1HklValue.html">energy</a>, <a class="el" href="structgemmi_1_1HklValue.html">double</a> *<a class="el" href="structgemmi_1_1HklValue.html">fp</a>, <a class="el" href="structgemmi_1_1HklValue.html">double</a> *<a class="el" href="structgemmi_1_1HklValue.html">fpp</a>)</td></tr>
-<tr class="separator:a6b116b774035704cba60d2227d9f0ce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e8350a54721b78698ef9a5dc045bf2e" id="r_a1e8350a54721b78698ef9a5dc045bf2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="fail_8hpp.html#a1669245a173e1e01c886ce838ee44fbf">GEMMI_DLL</a> <a class="el" href="structgemmi_1_1HklValue.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a1e8350a54721b78698ef9a5dc045bf2e">gemmi::cromer_liberman_for_array</a> (<a class="el" href="structgemmi_1_1HklValue.html">int</a> z, <a class="el" href="structgemmi_1_1HklValue.html">int</a> <a class="el" href="structgemmi_1_1HklValue.html">npts</a>, <a class="el" href="structgemmi_1_1HklValue.html">const</a> <a class="el" href="structgemmi_1_1HklValue.html">double</a> *<a class="el" href="structgemmi_1_1HklValue.html">energy</a>, <a class="el" href="structgemmi_1_1HklValue.html">double</a> *<a class="el" href="structgemmi_1_1HklValue.html">fp</a>, <a class="el" href="structgemmi_1_1HklValue.html">double</a> *<a class="el" href="structgemmi_1_1HklValue.html">fpp</a>)</td></tr>
+<tr class="memdesc:a1e8350a54721b78698ef9a5dc045bf2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cromer-Liberman calculation of anomalous scattering factors.  <br /></td></tr>
+<tr class="separator:a1e8350a54721b78698ef9a5dc045bf2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae97f413f615233e9a3ef34ef7c591184" id="r_ae97f413f615233e9a3ef34ef7c591184"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1HklValue.html">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#ae97f413f615233e9a3ef34ef7c591184">gemmi::cromer_liberman</a> (<a class="el" href="structgemmi_1_1HklValue.html">int</a> z, <a class="el" href="structgemmi_1_1HklValue.html">double</a> <a class="el" href="structgemmi_1_1HklValue.html">energy</a>, <a class="el" href="structgemmi_1_1HklValue.html">double</a> *<a class="el" href="structgemmi_1_1HklValue.html">fpp</a>)</td></tr>
+<tr class="memdesc:ae97f413f615233e9a3ef34ef7c591184"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns fp, fpp is returned through the last argument.  <br /></td></tr>
 <tr class="separator:ae97f413f615233e9a3ef34ef7c591184"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa202417a35b36a9fad73144a03f551ff" id="r_aa202417a35b36a9fad73144a03f551ff"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="structgemmi_1_1HklValue.html">typename</a> Iter &gt; </td></tr>
-<tr class="memitem:aa202417a35b36a9fad73144a03f551ff"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1HklValue.html">void</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#aa202417a35b36a9fad73144a03f551ff">gemmi::add_cl_fprime_for_all_elements</a> (Iter <a class="el" href="structgemmi_1_1HklValue.html">out</a>, <a class="el" href="structgemmi_1_1HklValue.html">double</a> <a class="el" href="structgemmi_1_1HklValue.html">energy</a>)</td></tr>
-<tr class="separator:aa202417a35b36a9fad73144a03f551ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

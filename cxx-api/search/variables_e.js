@@ -1,7 +1,7 @@
 var searchData=
 [
   ['pair_0',['pair',['../structgemmi_1_1cif_1_1Item.html#ad06a3ea3906f75ab5eba19fab3a0a491',1,'gemmi::cif::Item']]],
-  ['parent_1',['parent',['../structgemmi_1_1MaskedGrid_1_1iterator.html#a1d11c92c1e1ff0996187c83d8721e76f',1,'gemmi::MaskedGrid::iterator::parent'],['../structgemmi_1_1Mtz_1_1Column.html#a864b79100ad52e9395b86b5073d8d3b8',1,'gemmi::Mtz::Column::parent'],['../structgemmi_1_1cif_1_1Table_1_1iterator.html#a4ac1f871a0e65f101e2f7d1df97a59ff',1,'gemmi::cif::Table::iterator::parent'],['../structgemmi_1_1GridBase_1_1iterator.html#ab9534d2bd98b26dbe98d3938adfa2eaa',1,'gemmi::GridBase::iterator::parent']]],
+  ['parent_1',['parent',['../structgemmi_1_1cif_1_1Table_1_1iterator.html#a4ac1f871a0e65f101e2f7d1df97a59ff',1,'gemmi::cif::Table::iterator::parent'],['../structgemmi_1_1Mtz_1_1Column.html#a864b79100ad52e9395b86b5073d8d3b8',1,'gemmi::Mtz::Column::parent'],['../structgemmi_1_1GridBase_1_1iterator.html#ab9534d2bd98b26dbe98d3938adfa2eaa',1,'gemmi::GridBase::iterator::parent']]],
   ['parent_5fcomp_5fid_2',['parent_comp_id',['../structgemmi_1_1ModRes.html#a3d00e1b929cf42d6637b348882862b2c',1,'gemmi::ModRes']]],
   ['partner1_3',['partner1',['../structgemmi_1_1ContactSearch_1_1Result.html#a9387bb6130ee708f60242b6d1677c03c',1,'gemmi::ContactSearch::Result::partner1'],['../structgemmi_1_1Connection.html#a2a948d4eb0b8c1aa0f786c60ae9a67cc',1,'gemmi::Connection::partner1']]],
   ['partner2_4',['partner2',['../structgemmi_1_1ContactSearch_1_1Result.html#a6dada26d6800cf1b6bf5ea29c146fceb',1,'gemmi::ContactSearch::Result::partner2'],['../structgemmi_1_1Connection.html#aad868abd301ae6bb46112ed9cf0d47e9',1,'gemmi::Connection::partner2']]],
@@ -17,7 +17,7 @@ var searchData=
   ['ph_14',['ph',['../structgemmi_1_1CrystalInfo.html#aca75ba778aa24588bd4df04e90667d7c',1,'gemmi::CrystalInfo']]],
   ['ph_5frange_15',['ph_range',['../structgemmi_1_1CrystalInfo.html#a32acd43bb477ce69f1bc42e9369176f7',1,'gemmi::CrystalInfo']]],
   ['plane_5findex_16',['plane_index',['../structgemmi_1_1Topo.html#af8e07b0f4ae2638e5909ffffade242f4',1,'gemmi::Topo']]],
-  ['planes_17',['planes',['../structgemmi_1_1Topo.html#a32d6378ccbbdd4fb1c45bef97212dc4d',1,'gemmi::Topo::planes'],['../structgemmi_1_1Restraints.html#ad9fbdcfd6b47941c31015f92fa4387b0',1,'gemmi::Restraints::planes']]],
+  ['planes_17',['planes',['../structgemmi_1_1Restraints.html#ad9fbdcfd6b47941c31015f92fa4387b0',1,'gemmi::Restraints::planes'],['../structgemmi_1_1Topo.html#a32d6378ccbbdd4fb1c45bef97212dc4d',1,'gemmi::Topo::planes']]],
   ['points_18',['points',['../structgemmi_1_1Scaling.html#aeb95a3d6c6107f1bd23dc62261f3ef39',1,'gemmi::Scaling']]],
   ['polymer_19',['polymer',['../structgemmi_1_1Topo_1_1ChainInfo.html#a4854acca73cd4e51a0e249c36056a99c',1,'gemmi::Topo::ChainInfo']]],
   ['polymer_5ftype_20',['polymer_type',['../structgemmi_1_1Entity.html#a4163ed83a3b08324cde2070be467b5e5',1,'gemmi::Entity::polymer_type'],['../structgemmi_1_1Topo_1_1ChainInfo.html#a20c9f6f5dabd96f5bf9ad9fa022a8efa',1,'gemmi::Topo::ChainInfo::polymer_type']]],

@@ -18,7 +18,7 @@ var searchData=
   ['rgamma_15',['RGamma',['../structgemmi_1_1Helix.html#a9c9b50bf17a8580f277a4fb7bc68b008aef107e16324536a39d0b473dbff3e5e2',1,'gemmi::Helix']]],
   ['rh_16',['Rh',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a6148fe1f88038beee78fbaf681419d60',1,'gemmi']]],
   ['rn_17',['Rn',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5ab102860774a4a4dd7a3737076df55605',1,'gemmi']]],
-  ['rna_18',['rna',['../namespacegemmi.html#a33fb770bef0a75f26a5ba5daf3f36e27ae31be40b34190037c7e70600308b1585',1,'gemmi::Rna'],['../structgemmi_1_1ChemComp.html#ae0ba1c368e01fda599a4b28f8708776eae31be40b34190037c7e70600308b1585',1,'gemmi::ChemComp::Rna'],['../namespacegemmi.html#ad10bcdb4f472563c9e5a1f305dde35b4a78c4454135cafc53f3fc50daf7213847',1,'gemmi::RNA']]],
+  ['rna_18',['rna',['../namespacegemmi.html#ad10bcdb4f472563c9e5a1f305dde35b4a78c4454135cafc53f3fc50daf7213847',1,'gemmi::RNA'],['../structgemmi_1_1ChemComp.html#ae0ba1c368e01fda599a4b28f8708776eae31be40b34190037c7e70600308b1585',1,'gemmi::ChemComp::Rna'],['../namespacegemmi.html#a33fb770bef0a75f26a5ba5daf3f36e27ae31be40b34190037c7e70600308b1585',1,'gemmi::Rna']]],
   ['romega_19',['ROmega',['../structgemmi_1_1Helix.html#a9c9b50bf17a8580f277a4fb7bc68b008a26c6aeabd3702ab054a35f2fb5f46377',1,'gemmi::Helix']]],
   ['rpi_20',['RPi',['../structgemmi_1_1Helix.html#a9c9b50bf17a8580f277a4fb7bc68b008aee959ce9d9f60a0a47ddae573c2a36a8',1,'gemmi::Helix']]],
   ['ru_21',['Ru',['../namespacegemmi.html#a94546274ac42b2449734db86790c2cb5aabe295e74fbc82f9450d6537bcfebbed',1,'gemmi']]]

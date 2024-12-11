@@ -20,7 +20,9 @@ var searchData=
   ['frame_5fnumber_5fmin_17',['frame_number_min',['../structgemmi_1_1XdsAscii_1_1Iset.html#aa969f91df9088f84cd9f5a155443a0e8',1,'gemmi::XdsAscii::Iset']]],
   ['free_5fflag_5fvalue_18',['free_flag_value',['../classgemmi_1_1MtzToCif.html#a399e8ca72d675bc2ca78c243f779a9c0',1,'gemmi::MtzToCif']]],
   ['from_5fseqid_19',['from_seqid',['../structgemmi_1_1Selection.html#a6398e7a77bee199502f071ad53e7f47a',1,'gemmi::Selection']]],
-  ['full_5fsequence_20',['full_sequence',['../structgemmi_1_1Entity.html#a7911c85201bb370dcbeaaad64b507683',1,'gemmi::Entity']]],
-  ['func_21',['func',['../structgemmi_1_1ChemMod_1_1AtomMod.html#acab2777767397d6699c82bb5c7dca803',1,'gemmi::ChemMod::AtomMod']]],
-  ['function_22',['function',['../structgemmi_1_1RefinementInfo_1_1Restr.html#a03c82181624157be63b8d70ef9d6e0f0',1,'gemmi::RefinementInfo::Restr']]]
+  ['fsc_5ffree_20',['fsc_free',['../structgemmi_1_1BasicRefinementInfo.html#af2d10340970108efaabb3cfdf5fb93c6',1,'gemmi::BasicRefinementInfo']]],
+  ['fsc_5fwork_21',['fsc_work',['../structgemmi_1_1BasicRefinementInfo.html#aeb0eab25cb46bb5999719a17072b137a',1,'gemmi::BasicRefinementInfo']]],
+  ['full_5fsequence_22',['full_sequence',['../structgemmi_1_1Entity.html#a7911c85201bb370dcbeaaad64b507683',1,'gemmi::Entity']]],
+  ['func_23',['func',['../structgemmi_1_1ChemMod_1_1AtomMod.html#acab2777767397d6699c82bb5c7dca803',1,'gemmi::ChemMod::AtomMod']]],
+  ['function_24',['function',['../structgemmi_1_1RefinementInfo_1_1Restr.html#a03c82181624157be63b8d70ef9d6e0f0',1,'gemmi::RefinementInfo::Restr']]]
 ];

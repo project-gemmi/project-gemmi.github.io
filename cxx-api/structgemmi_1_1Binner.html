@@ -113,6 +113,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9337d0e814a91b7f8a00e1f61ba96137" id="r_a9337d0e814a91b7f8a00e1f61ba96137"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="structgemmi_1_1HklValue.html">typename</a> DataProxy &gt; </td></tr>
 <tr class="memitem:a9337d0e814a91b7f8a00e1f61ba96137"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structgemmi_1_1HklValue.html">int</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structgemmi_1_1Binner.html#a9337d0e814a91b7f8a00e1f61ba96137">get_bins</a> (<a class="el" href="structgemmi_1_1HklValue.html">const</a> DataProxy &amp;<a class="el" href="structgemmi_1_1HklValue.html">proxy</a>) <a class="el" href="structgemmi_1_1HklValue.html">const</a></td></tr>
 <tr class="separator:a9337d0e814a91b7f8a00e1f61ba96137"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59f9b30643d40319cead623bbfdeef0e" id="r_a59f9b30643d40319cead623bbfdeef0e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structgemmi_1_1HklValue.html">int</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1Binner.html#a59f9b30643d40319cead623bbfdeef0e">get_bins_from_1_d2</a> (<a class="el" href="structgemmi_1_1HklValue.html">const</a> <a class="el" href="structgemmi_1_1HklValue.html">double</a> *<a class="el" href="structgemmi_1_1HklValue.html">inv_d2</a>, size_t <a class="el" href="structgemmi_1_1Binner.html#a581308688375d46388ad07a995ecc073">size</a>) <a class="el" href="structgemmi_1_1HklValue.html">const</a></td></tr>
+<tr class="separator:a59f9b30643d40319cead623bbfdeef0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0d570a2cff143fea646d3b40b594ddc" id="r_ac0d570a2cff143fea646d3b40b594ddc"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structgemmi_1_1HklValue.html">int</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1Binner.html#ac0d570a2cff143fea646d3b40b594ddc">get_bins_from_1_d2</a> (<a class="el" href="structgemmi_1_1HklValue.html">const</a> std::vector&lt; <a class="el" href="structgemmi_1_1HklValue.html">double</a> &gt; &amp;<a class="el" href="structgemmi_1_1HklValue.html">inv_d2</a>) <a class="el" href="structgemmi_1_1HklValue.html">const</a></td></tr>
 <tr class="separator:ac0d570a2cff143fea646d3b40b594ddc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47bffdb4e180985006e2e67c025738f5" id="r_a47bffdb4e180985006e2e67c025738f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1HklValue.html">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1Binner.html#a47bffdb4e180985006e2e67c025738f5">dmin_of_bin</a> (<a class="el" href="structgemmi_1_1HklValue.html">int</a> n) <a class="el" href="structgemmi_1_1HklValue.html">const</a></td></tr>
@@ -473,8 +475,46 @@ template&lt;<a class="el" href="structgemmi_1_1HklValue.html">typename</a> DataP
 
 </div>
 </div>
+<a id="a59f9b30643d40319cead623bbfdeef0e" name="a59f9b30643d40319cead623bbfdeef0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59f9b30643d40319cead623bbfdeef0e">&#9670;&#160;</a></span>get_bins_from_1_d2() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="structgemmi_1_1HklValue.html">int</a> &gt; gemmi::Binner::get_bins_from_1_d2 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structgemmi_1_1HklValue.html">const</a> <a class="el" href="structgemmi_1_1HklValue.html">double</a> *&#160;</td>
+          <td class="paramname"><em>inv_d2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00151">151</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
+
+</div>
+</div>
 <a id="ac0d570a2cff143fea646d3b40b594ddc" name="ac0d570a2cff143fea646d3b40b594ddc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0d570a2cff143fea646d3b40b594ddc">&#9670;&#160;</a></span>get_bins_from_1_d2()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0d570a2cff143fea646d3b40b594ddc">&#9670;&#160;</a></span>get_bins_from_1_d2() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -497,7 +537,7 @@ template&lt;<a class="el" href="structgemmi_1_1HklValue.html">typename</a> DataP
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00151">151</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00160">160</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
 
 </div>
 </div>
@@ -525,7 +565,7 @@ template&lt;<a class="el" href="structgemmi_1_1HklValue.html">typename</a> DataP
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00160">160</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00164">164</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
 
 </div>
 </div>
@@ -553,7 +593,7 @@ template&lt;<a class="el" href="structgemmi_1_1HklValue.html">typename</a> DataP
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00163">163</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00167">167</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
 
 </div>
 </div>
@@ -580,7 +620,7 @@ template&lt;<a class="el" href="structgemmi_1_1HklValue.html">typename</a> DataP
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00167">167</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00171">171</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
 
 </div>
 </div>
@@ -597,7 +637,7 @@ template&lt;<a class="el" href="structgemmi_1_1HklValue.html">typename</a> DataP
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00169">169</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00173">173</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
 
 </div>
 </div>
@@ -613,7 +653,7 @@ template&lt;<a class="el" href="structgemmi_1_1HklValue.html">typename</a> DataP
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00170">170</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00174">174</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
 
 </div>
 </div>
@@ -629,7 +669,7 @@ template&lt;<a class="el" href="structgemmi_1_1HklValue.html">typename</a> DataP
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00171">171</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00175">175</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
 
 </div>
 </div>
@@ -645,7 +685,7 @@ template&lt;<a class="el" href="structgemmi_1_1HklValue.html">typename</a> DataP
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00172">172</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00176">176</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
 
 </div>
 </div>
@@ -661,7 +701,7 @@ template&lt;<a class="el" href="structgemmi_1_1HklValue.html">typename</a> DataP
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00173">173</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="binner_8hpp_source.html#l00177">177</a> of file <a class="el" href="binner_8hpp_source.html">binner.hpp</a>.</p>
 
 </div>
 </div>

@@ -84,58 +84,25 @@ $(document).ready(function() { init_codefold(0); });
 <a href="read__map_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">// Copyright 2021 Global Phasing Ltd.</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">//</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">// Functions for reading possibly gzipped CCP4 map files.</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">// Trivial wrappers that can make compilation faster.</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">//</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">// The definitions are guarded by #ifdef *_IMPLEMENTATION.</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">// If you use this header in your program, you need in exactly one file:</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment">// #define GEMMI_READ_MAP_IMPLEMENTATION</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment">// #include &lt;gemmi/read_map.hpp&gt;</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#ifndef GEMMI_GZREAD_MAP_HPP_</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#define GEMMI_GZREAD_MAP_HPP_</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="ccp4_8hpp.html">ccp4.hpp</a>&quot;</span>  <span class="comment">// for Ccp4</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacegemmi.html">gemmi</a> {</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="namespacegemmi.html#acd687c41d013b6f5658b5d00406c1967">   18</a></span><a class="code hl_struct" href="structgemmi_1_1HklValue.html">Ccp4&lt;float&gt;</a> <a class="code hl_function" href="namespacegemmi.html#acd687c41d013b6f5658b5d00406c1967">read_ccp4_map</a>(<span class="keyword">const</span> std::string&amp; path, <span class="keywordtype">bool</span> setup);</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="namespacegemmi.html#a94e414a5763120be05d625b7e3922c6a">   19</a></span><a class="code hl_struct" href="structgemmi_1_1HklValue.html">Ccp4&lt;int8_t&gt;</a> <a class="code hl_function" href="namespacegemmi.html#a94e414a5763120be05d625b7e3922c6a">read_ccp4_mask</a>(<span class="keyword">const</span> std::string&amp; path, <span class="keywordtype">bool</span> setup);</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>} <span class="comment">// namespace gemmi</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#ifdef GEMMI_READ_MAP_IMPLEMENTATION</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#include &quot;<a class="code" href="gz_8hpp.html">gz.hpp</a>&quot;</span>  <span class="comment">// for MaybeGzipped</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacegemmi.html">gemmi</a> {</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>Ccp4&lt;float&gt; <a class="code hl_function" href="namespacegemmi.html#acd687c41d013b6f5658b5d00406c1967">read_ccp4_map</a>(<span class="keyword">const</span> std::string&amp; path, <span class="keywordtype">bool</span> setup) {</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>  Ccp4&lt;float&gt; ccp4;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>  ccp4.read_ccp4(MaybeGzipped(path));</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  <span class="keywordflow">if</span> (setup)</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    ccp4.setup(NAN);</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>  <span class="keywordflow">return</span> ccp4;</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>}</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>Ccp4&lt;int8_t&gt; <a class="code hl_function" href="namespacegemmi.html#a94e414a5763120be05d625b7e3922c6a">read_ccp4_mask</a>(<span class="keyword">const</span> std::string&amp; path, <span class="keywordtype">bool</span> setup) {</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  Ccp4&lt;int8_t&gt; ccp4;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  ccp4.read_ccp4(MaybeGzipped(path));</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>  <span class="keywordflow">if</span> (setup)</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    ccp4.setup(-1);</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  <span class="keywordflow">return</span> ccp4;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>}</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>} <span class="comment">// namespace gemmi</span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#ifndef GEMMI_READ_MAP_HPP_</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#define GEMMI_READ_MAP_HPP_</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="ccp4_8hpp.html">ccp4.hpp</a>&quot;</span>  <span class="comment">// for Ccp4</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacegemmi.html">gemmi</a> {</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="namespacegemmi.html#a3817bc2a522fe94e0730af0c3fe9db24">   12</a></span><a class="code hl_define" href="fail_8hpp.html#a1669245a173e1e01c886ce838ee44fbf">GEMMI_DLL</a> <a class="code hl_struct" href="structgemmi_1_1HklValue.html">Ccp4&lt;float&gt;</a> <a class="code hl_function" href="namespacegemmi.html#a3817bc2a522fe94e0730af0c3fe9db24">read_ccp4_map</a>(<span class="keyword">const</span> std::string&amp; path, <span class="keywordtype">bool</span> setup);</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="namespacegemmi.html#acca8313ce1b09e603189f96f6895405a">   13</a></span><a class="code hl_define" href="fail_8hpp.html#a1669245a173e1e01c886ce838ee44fbf">GEMMI_DLL</a> <a class="code hl_struct" href="structgemmi_1_1HklValue.html">Ccp4&lt;int8_t&gt;</a> <a class="code hl_function" href="namespacegemmi.html#acca8313ce1b09e603189f96f6895405a">read_ccp4_mask</a>(<span class="keyword">const</span> std::string&amp; path, <span class="keywordtype">bool</span> setup);</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>} <span class="comment">// namespace gemmi</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="accp4_8hpp_html"><div class="ttname"><a href="ccp4_8hpp.html">ccp4.hpp</a></div></div>
-<div class="ttc" id="agz_8hpp_html"><div class="ttname"><a href="gz_8hpp.html">gz.hpp</a></div></div>
+<div class="ttc" id="afail_8hpp_html_a1669245a173e1e01c886ce838ee44fbf"><div class="ttname"><a href="fail_8hpp.html#a1669245a173e1e01c886ce838ee44fbf">GEMMI_DLL</a></div><div class="ttdeci">#define GEMMI_DLL</div><div class="ttdef"><b>Definition</b> <a href="fail_8hpp_source.html#l00053">fail.hpp:53</a></div></div>
 <div class="ttc" id="anamespacegemmi_html"><div class="ttname"><a href="namespacegemmi.html">gemmi</a></div><div class="ttdef"><b>Definition</b> <a href="addends_8hpp_source.html#l00012">addends.hpp:12</a></div></div>
-<div class="ttc" id="anamespacegemmi_html_a94e414a5763120be05d625b7e3922c6a"><div class="ttname"><a href="namespacegemmi.html#a94e414a5763120be05d625b7e3922c6a">gemmi::read_ccp4_mask</a></div><div class="ttdeci">Ccp4&lt; int8_t &gt; read_ccp4_mask(const std::string &amp;path, bool setup)</div></div>
-<div class="ttc" id="anamespacegemmi_html_acd687c41d013b6f5658b5d00406c1967"><div class="ttname"><a href="namespacegemmi.html#acd687c41d013b6f5658b5d00406c1967">gemmi::read_ccp4_map</a></div><div class="ttdeci">Ccp4&lt; float &gt; read_ccp4_map(const std::string &amp;path, bool setup)</div></div>
+<div class="ttc" id="anamespacegemmi_html_a3817bc2a522fe94e0730af0c3fe9db24"><div class="ttname"><a href="namespacegemmi.html#a3817bc2a522fe94e0730af0c3fe9db24">gemmi::read_ccp4_map</a></div><div class="ttdeci">GEMMI_DLL Ccp4&lt; float &gt; read_ccp4_map(const std::string &amp;path, bool setup)</div></div>
+<div class="ttc" id="anamespacegemmi_html_acca8313ce1b09e603189f96f6895405a"><div class="ttname"><a href="namespacegemmi.html#acca8313ce1b09e603189f96f6895405a">gemmi::read_ccp4_mask</a></div><div class="ttdeci">GEMMI_DLL Ccp4&lt; int8_t &gt; read_ccp4_mask(const std::string &amp;path, bool setup)</div></div>
 <div class="ttc" id="astructgemmi_1_1HklValue_html"><div class="ttname"><a href="structgemmi_1_1HklValue.html">gemmi::HklValue</a></div><div class="ttdef"><b>Definition</b> <a href="asudata_8hpp_source.html#l00098">asudata.hpp:98</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

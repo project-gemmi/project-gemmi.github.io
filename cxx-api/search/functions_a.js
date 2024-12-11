@@ -11,10 +11,11 @@ var searchData=
   ['length_8',['length',['../structgemmi_1_1cif_1_1Loop.html#a690bebc92bdf9fb316e1a25587359562',1,'gemmi::cif::Loop::length()'],['../classgemmi_1_1cif_1_1Column.html#a2fd07c8bcca95602e53102cf12ab0b37',1,'gemmi::cif::Column::length()'],['../structgemmi_1_1cif_1_1Table.html#a80a82015ca4b36dd9b0d21b4228343e9',1,'gemmi::cif::Table::length()'],['../structgemmi_1_1ConstResidueSpan.html#a02b583165d4324a5adc895ed6507dbd6',1,'gemmi::ConstResidueSpan::length()'],['../structgemmi_1_1ResidueSpan.html#a706652921c26a1c22b6308183543edfb',1,'gemmi::ResidueSpan::length()']]],
   ['lexicographic_5fstr_9',['lexicographic_str',['../structgemmi_1_1Restraints.html#aeef3a3e016e3d3846379cf52e9d9f639',1,'gemmi::Restraints::lexicographic_str()'],['../structgemmi_1_1Restraints_1_1Bond.html#af6cf9b7c1fbbc53f84dd8929943fe4cb',1,'gemmi::Restraints::Bond::lexicographic_str()']]],
   ['likely_5fin_5fhouse_5fsource_10',['likely_in_house_source',['../namespacegemmi.html#aba42a9469d505ced8684bb6e37a170d4',1,'gemmi']]],
-  ['link_5fside_5fmatches_5fresidue_11',['link_side_matches_residue',['../structgemmi_1_1MonLib.html#a8a46ecc63aecd8f9d07c4c0c2e00a4db',1,'gemmi::MonLib']]],
-  ['load_5fvalues_12',['load_values',['../structgemmi_1_1AsuData.html#a739c6274addd1e1b54771a4d89e22493',1,'gemmi::AsuData::load_values(const DataProxy &amp;proxy, const std::string &amp;label, bool as_is=false)'],['../structgemmi_1_1AsuData.html#afe1a7dfdfd5f95658134352cac6986bc',1,'gemmi::AsuData::load_values(const DataProxy &amp;proxy, const std::array&lt; std::string, N &gt; &amp;labels, bool as_is=false)']]],
-  ['log_5fbessel_5fi0_13',['log_bessel_i0',['../namespacegemmi.html#af197e12a36c5e0fa1cfa220f69776c0b',1,'gemmi']]],
-  ['log_5fcosh_14',['log_cosh',['../namespacegemmi.html#adf5000b8db8b56db1f86e066d9768c1a',1,'gemmi']]],
-  ['lower_15',['lower',['../namespacegemmi.html#a1a69eee4f09023bed8993518769c266e',1,'gemmi']]],
-  ['lsq_5fk_5foverall_16',['lsq_k_overall',['../structgemmi_1_1Scaling.html#a931c24f6ee56e91eda30fafdf195d00a',1,'gemmi::Scaling']]]
+  ['linereader_11',['LineReader',['../classgemmi_1_1LineReader.html#a9ceb4ebf154863cc5578a9a49cb95d1d',1,'gemmi::LineReader']]],
+  ['link_5fside_5fmatches_5fresidue_12',['link_side_matches_residue',['../structgemmi_1_1MonLib.html#a8a46ecc63aecd8f9d07c4c0c2e00a4db',1,'gemmi::MonLib']]],
+  ['load_5fvalues_13',['load_values',['../structgemmi_1_1AsuData.html#a739c6274addd1e1b54771a4d89e22493',1,'gemmi::AsuData::load_values(const DataProxy &amp;proxy, const std::string &amp;label, bool as_is=false)'],['../structgemmi_1_1AsuData.html#afe1a7dfdfd5f95658134352cac6986bc',1,'gemmi::AsuData::load_values(const DataProxy &amp;proxy, const std::array&lt; std::string, N &gt; &amp;labels, bool as_is=false)']]],
+  ['log_5fbessel_5fi0_14',['log_bessel_i0',['../namespacegemmi.html#af197e12a36c5e0fa1cfa220f69776c0b',1,'gemmi']]],
+  ['log_5fcosh_15',['log_cosh',['../namespacegemmi.html#adf5000b8db8b56db1f86e066d9768c1a',1,'gemmi']]],
+  ['lower_16',['lower',['../namespacegemmi.html#a1a69eee4f09023bed8993518769c266e',1,'gemmi']]],
+  ['lsq_5fk_5foverall_17',['lsq_k_overall',['../structgemmi_1_1Scaling.html#a931c24f6ee56e91eda30fafdf195d00a',1,'gemmi::Scaling']]]
 ];

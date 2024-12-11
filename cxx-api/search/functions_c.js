@@ -14,5 +14,6 @@ var searchData=
   ['nonzero_11',['nonzero',['../structgemmi_1_1SMat33.html#aab5604b4fd47a41368daaaea2168d774',1,'gemmi::SMat33']]],
   ['nonzero_5finversion_5fcenter_12',['nonzero_inversion_center',['../namespacegemmi.html#a9377ac31821253b52cfc75ae9d17e88e',1,'gemmi']]],
   ['normalize_13',['normalize',['../structgemmi_1_1GruberVector.html#a287f97ae02371e77d2161a51cd45c5ff',1,'gemmi::GruberVector::normalize()'],['../structgemmi_1_1Grid.html#a9e9c40f925315b682dba65734cfca666',1,'gemmi::Grid::normalize()'],['../structgemmi_1_1IT92.html#a2538c357a48298f6a9fb73b8758ab216',1,'gemmi::IT92::normalize()']]],
-  ['normalize_5fone_14',['normalize_one',['../structgemmi_1_1IT92.html#a4f409d1227c497d7d28de063bbee596c',1,'gemmi::IT92']]]
+  ['normalize_5fone_14',['normalize_one',['../structgemmi_1_1IT92.html#a4f409d1227c497d7d28de063bbee596c',1,'gemmi::IT92']]],
+  ['note_15',['note',['../structgemmi_1_1Logger.html#aeeb2078437e6a7520b8e2aeb8f6b6407',1,'gemmi::Logger']]]
 ];

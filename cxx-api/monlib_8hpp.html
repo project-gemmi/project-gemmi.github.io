@@ -76,7 +76,6 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">monlib.hpp File Reference</div></div>
 </div><!--header-->
@@ -86,10 +85,10 @@ $(function() {
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &quot;<a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="elem_8hpp_source.html">elem.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="numb_8hpp_source.html">numb.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="fail_8hpp_source.html">fail.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="model_8hpp_source.html">model.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="chemcomp_8hpp_source.html">chemcomp.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="logger_8hpp_source.html">logger.hpp</a>&quot;</code><br />
 </div>
 <p><a href="monlib_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -117,19 +116,14 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespacegemmi" id="r_namespacegemmi"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html">gemmi</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:ae28b2ba66592836355cf3cebb839ca44" id="r_ae28b2ba66592836355cf3cebb839ca44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1HklValue.html">typedef</a> <a class="el" href="structgemmi_1_1cif_1_1Document.html">cif::Document</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#ae28b2ba66592836355cf3cebb839ca44">gemmi::read_cif_func</a>) (<a class="el" href="structgemmi_1_1HklValue.html">const</a> std::string &amp;)</td></tr>
-<tr class="separator:ae28b2ba66592836355cf3cebb839ca44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a70e0705966b9d904514fd23cdeb99a0c" id="r_a70e0705966b9d904514fd23cdeb99a0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1HklValue.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a70e0705966b9d904514fd23cdeb99a0c">gemmi::add_distinct_altlocs</a> (<a class="el" href="structgemmi_1_1HklValue.html">const</a> <a class="el" href="structgemmi_1_1Residue.html">Residue</a> &amp;res, std::string &amp;altlocs)</td></tr>
 <tr class="separator:a70e0705966b9d904514fd23cdeb99a0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a809dd16940cfca93586554974ce5db87" id="r_a809dd16940cfca93586554974ce5db87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1HklValue.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a809dd16940cfca93586554974ce5db87">gemmi::atom_match_with_alias</a> (<a class="el" href="structgemmi_1_1HklValue.html">const</a> std::string &amp;<a class="el" href="structgemmi_1_1HklValue.html">atom_id</a>, <a class="el" href="structgemmi_1_1HklValue.html">const</a> std::string &amp;atom, <a class="el" href="structgemmi_1_1HklValue.html">const</a> <a class="el" href="structgemmi_1_1ChemComp_1_1Aliasing.html">ChemComp::Aliasing</a> *<a class="el" href="structgemmi_1_1HklValue.html">aliasing</a>)</td></tr>
 <tr class="separator:a809dd16940cfca93586554974ce5db87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee2e20fbb1d7d81d4bfd4fdf9820baf6" id="r_aee2e20fbb1d7d81d4bfd4fdf9820baf6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1MonLib.html">MonLib</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#aee2e20fbb1d7d81d4bfd4fdf9820baf6">gemmi::read_monomer_lib</a> (<a class="el" href="structgemmi_1_1HklValue.html">const</a> std::string &amp;monomer_dir, <a class="el" href="structgemmi_1_1HklValue.html">const</a> std::vector&lt; std::string &gt; &amp;<a class="el" href="structgemmi_1_1HklValue.html">resnames</a>, <a class="el" href="namespacegemmi.html#ae28b2ba66592836355cf3cebb839ca44">read_cif_func</a> <a class="el" href="structgemmi_1_1HklValue.html">read_cif</a>, <a class="el" href="structgemmi_1_1HklValue.html">const</a> std::string &amp;<a class="el" href="structgemmi_1_1HklValue.html">libin</a>=&quot;&quot;, <a class="el" href="structgemmi_1_1HklValue.html">bool</a> <a class="el" href="structgemmi_1_1HklValue.html">ignore_missing</a>=<a class="el" href="structgemmi_1_1HklValue.html">false</a>)</td></tr>
-<tr class="separator:aee2e20fbb1d7d81d4bfd4fdf9820baf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a238e63e520a98783637a5e4c1d2b4fcc" id="r_a238e63e520a98783637a5e4c1d2b4fcc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1MonLib.html">MonLib</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi.html#a238e63e520a98783637a5e4c1d2b4fcc">gemmi::read_monomer_lib</a> (<a class="el" href="structgemmi_1_1HklValue.html">const</a> std::string &amp;monomer_dir, <a class="el" href="structgemmi_1_1HklValue.html">const</a> std::vector&lt; std::string &gt; &amp;<a class="el" href="structgemmi_1_1HklValue.html">resnames</a>, <a class="el" href="structgemmi_1_1HklValue.html">const</a> std::string &amp;<a class="el" href="structgemmi_1_1HklValue.html">libin</a>=&quot;&quot;, <a class="el" href="structgemmi_1_1HklValue.html">bool</a> <a class="el" href="structgemmi_1_1HklValue.html">ignore_missing</a>=<a class="el" href="structgemmi_1_1HklValue.html">false</a>)</td></tr>
+<tr class="separator:a238e63e520a98783637a5e4c1d2b4fcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
