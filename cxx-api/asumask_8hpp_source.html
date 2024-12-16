@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Gemmi C++ API: /home/wojdyr/gemmi/gemmi/include/gemmi/asumask.hpp Source File</title>
+<title>Gemmi C++ API: include/gemmi/asumask.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -74,7 +74,7 @@ $(document).ready(function() { init_codefold(0); });
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_c5b8fc87970ee713285cf5bc9d6a8cb4.html">gemmi</a></li><li class="navelem"><a class="el" href="dir_43e4b0c8c232c2116c35cb27587a3d7e.html">include</a></li><li class="navelem"><a class="el" href="dir_f2d8f33d6739e7520ac414e2006066cc.html">gemmi</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_97b7d6895b0e578738d3a33b6e429156.html">gemmi</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -453,7 +453,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span> </div>
 <div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span>} <span class="comment">// namespace gemmi</span></div>
 <div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="agrid_8hpp_html"><div class="ttname"><a href="grid_8hpp.html">grid.hpp</a></div></div>
+<div class="ttc" id="agrid_8hpp_html"><div class="ttname"><a href="grid_8hpp.html">grid.hpp</a></div><div class="ttdoc">3d grids used by CCP4 maps, cell-method search and hkl data.</div></div>
 <div class="ttc" id="anamespacegemmi_html"><div class="ttname"><a href="namespacegemmi.html">gemmi</a></div><div class="ttdef"><b>Definition</b> <a href="addends_8hpp_source.html#l00012">addends.hpp:12</a></div></div>
 <div class="ttc" id="anamespacegemmi_html_a08c1cf2e7f12b5ebcea7e4cba808d1f7ae65075d550f9b5bf9992fa1d71a131be"><div class="ttname"><a href="namespacegemmi.html#a08c1cf2e7f12b5ebcea7e4cba808d1f7ae65075d550f9b5bf9992fa1d71a131be">gemmi::AxisOrder::XYZ</a></div><div class="ttdeci">@ XYZ</div></div>
 <div class="ttc" id="anamespacegemmi_html_a149bd197ba17a0d8a904c4b35fd02b85"><div class="ttname"><a href="namespacegemmi.html#a149bd197ba17a0d8a904c4b35fd02b85">gemmi::masked_asu</a></div><div class="ttdeci">MaskedGrid&lt; T &gt; masked_asu(Grid&lt; T &gt; &amp;grid)</div><div class="ttdef"><b>Definition</b> <a href="asumask_8hpp_source.html#l00265">asumask.hpp:265</a></div></div>
@@ -481,8 +481,8 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="astructgemmi_1_1GridBase_html_af2d8f4e62cf348b55d224c6be5268526"><div class="ttname"><a href="structgemmi_1_1GridBase.html#af2d8f4e62cf348b55d224c6be5268526">gemmi::GridBase::begin</a></div><div class="ttdeci">iterator begin()</div><div class="ttdef"><b>Definition</b> <a href="grid_8hpp_source.html#l00304">grid.hpp:304</a></div></div>
 <div class="ttc" id="astructgemmi_1_1GridMeta_html"><div class="ttname"><a href="structgemmi_1_1GridMeta.html">gemmi::GridMeta</a></div><div class="ttdoc">The base of Grid classes that does not depend on stored data type.</div><div class="ttdef"><b>Definition</b> <a href="grid_8hpp_source.html#l00168">grid.hpp:168</a></div></div>
 <div class="ttc" id="astructgemmi_1_1GridMeta_html_a15c86f3a95f3f330c962140bc2b76ec1"><div class="ttname"><a href="structgemmi_1_1GridMeta.html#a15c86f3a95f3f330c962140bc2b76ec1">gemmi::GridMeta::nu</a></div><div class="ttdeci">int nu</div><div class="ttdef"><b>Definition</b> <a href="grid_8hpp_source.html#l00171">grid.hpp:171</a></div></div>
-<div class="ttc" id="astructgemmi_1_1GridMeta_html_a5c858985d572f6abc933e930cf284dec"><div class="ttname"><a href="structgemmi_1_1GridMeta.html#a5c858985d572f6abc933e930cf284dec">gemmi::GridMeta::index_n</a></div><div class="ttdeci">size_t index_n(int u, int v, int w) const</div><div class="ttdoc">Faster than index_s(), but works only if -nu &lt;= u &lt; 2*nu, etc.</div><div class="ttdef"><b>Definition</b> <a href="grid_8hpp_source.html#l00218">grid.hpp:218</a></div></div>
-<div class="ttc" id="astructgemmi_1_1GridMeta_html_a80d4ef8416736ea8cd36bf8debad52dd"><div class="ttname"><a href="structgemmi_1_1GridMeta.html#a80d4ef8416736ea8cd36bf8debad52dd">gemmi::GridMeta::index_q</a></div><div class="ttdeci">size_t index_q(int u, int v, int w) const</div><div class="ttdoc">Quick(est) index function, but works only if 0 &lt;= u &lt; nu, etc.</div><div class="ttdef"><b>Definition</b> <a href="grid_8hpp_source.html#l00210">grid.hpp:210</a></div></div>
+<div class="ttc" id="astructgemmi_1_1GridMeta_html_a5c858985d572f6abc933e930cf284dec"><div class="ttname"><a href="structgemmi_1_1GridMeta.html#a5c858985d572f6abc933e930cf284dec">gemmi::GridMeta::index_n</a></div><div class="ttdeci">size_t index_n(int u, int v, int w) const</div><div class="ttdoc">Faster than index_s(), but works only if `-nu &lt;= u &lt; 2*nu`, etc.</div><div class="ttdef"><b>Definition</b> <a href="grid_8hpp_source.html#l00218">grid.hpp:218</a></div></div>
+<div class="ttc" id="astructgemmi_1_1GridMeta_html_a80d4ef8416736ea8cd36bf8debad52dd"><div class="ttname"><a href="structgemmi_1_1GridMeta.html#a80d4ef8416736ea8cd36bf8debad52dd">gemmi::GridMeta::index_q</a></div><div class="ttdeci">size_t index_q(int u, int v, int w) const</div><div class="ttdoc">Quick(est) index function, but works only if `0 &lt;= u &lt; nu`, etc.</div><div class="ttdef"><b>Definition</b> <a href="grid_8hpp_source.html#l00210">grid.hpp:210</a></div></div>
 <div class="ttc" id="astructgemmi_1_1GridMeta_html_a9d75b361e1e6d74038d6e71ff661375f"><div class="ttname"><a href="structgemmi_1_1GridMeta.html#a9d75b361e1e6d74038d6e71ff661375f">gemmi::GridMeta::axis_order</a></div><div class="ttdeci">AxisOrder axis_order</div><div class="ttdef"><b>Definition</b> <a href="grid_8hpp_source.html#l00172">grid.hpp:172</a></div></div>
 <div class="ttc" id="astructgemmi_1_1GridMeta_html_aab8b270880e0e99e00d78c534346a0aa"><div class="ttname"><a href="structgemmi_1_1GridMeta.html#aab8b270880e0e99e00d78c534346a0aa">gemmi::GridMeta::spacegroup</a></div><div class="ttdeci">const SpaceGroup * spacegroup</div><div class="ttdef"><b>Definition</b> <a href="grid_8hpp_source.html#l00170">grid.hpp:170</a></div></div>
 <div class="ttc" id="astructgemmi_1_1GridMeta_html_ab7494e888e1244ca3ea3e4aee2e3b9bd"><div class="ttname"><a href="structgemmi_1_1GridMeta.html#ab7494e888e1244ca3ea3e4aee2e3b9bd">gemmi::GridMeta::get_scaled_ops_except_id</a></div><div class="ttdeci">std::vector&lt; GridOp &gt; get_scaled_ops_except_id() const</div><div class="ttdef"><b>Definition</b> <a href="grid_8hpp_source.html#l00184">grid.hpp:184</a></div></div>
@@ -507,7 +507,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="astructgemmi_1_1MaskedGrid_html_a3c2ffc28efcc411b010c97ddd350e697"><div class="ttname"><a href="structgemmi_1_1MaskedGrid.html#a3c2ffc28efcc411b010c97ddd350e697">gemmi::MaskedGrid::end</a></div><div class="ttdeci">iterator end()</div><div class="ttdef"><b>Definition</b> <a href="asumask_8hpp_source.html#l00236">asumask.hpp:236</a></div></div>
 <div class="ttc" id="astructgemmi_1_1MaskedGrid_html_ab9344535a48d328930f5a89d4d50c532"><div class="ttname"><a href="structgemmi_1_1MaskedGrid.html#ab9344535a48d328930f5a89d4d50c532">gemmi::MaskedGrid::mask</a></div><div class="ttdeci">std::vector&lt; V &gt; mask</div><div class="ttdef"><b>Definition</b> <a href="asumask_8hpp_source.html#l00217">asumask.hpp:217</a></div></div>
 <div class="ttc" id="astructgemmi_1_1SpaceGroup_html"><div class="ttname"><a href="structgemmi_1_1SpaceGroup.html">gemmi::SpaceGroup</a></div><div class="ttdef"><b>Definition</b> <a href="symmetry_8hpp_source.html#l01108">symmetry.hpp:1108</a></div></div>
-<div class="ttc" id="autil_8hpp_html"><div class="ttname"><a href="util_8hpp.html">util.hpp</a></div></div>
+<div class="ttc" id="autil_8hpp_html"><div class="ttname"><a href="util_8hpp.html">util.hpp</a></div><div class="ttdoc">Utilities. Mostly for working with strings and vectors.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

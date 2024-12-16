@@ -24,5 +24,5 @@ var searchData=
   ['loop_21',['loop',['../structgemmi_1_1cif_1_1Item.html#a76e89fedc040cd87d174be78f3bf56c4',1,'gemmi::cif::Item']]],
   ['loop_5fitem_22',['loop_item',['../structgemmi_1_1cif_1_1Table.html#a5cfd1449bcadbcd760c23bd17d3c00fb',1,'gemmi::cif::Table']]],
   ['lowercase_5fnames_23',['lowercase_names',['../structgemmi_1_1cif_1_1JsonWriteOptions.html#a2472dd27e5275c80a7d44383ac1def73',1,'gemmi::cif::JsonWriteOptions']]],
-  ['luzzati_5ferror_24',['luzzati_error',['../structgemmi_1_1RefinementInfo.html#a63730a372cbf52467f2d2845645df71f',1,'gemmi::RefinementInfo::luzzati_error'],['../namespacegemmi.html#a4c5bb4aae7c6b3eaef313a8129e19567',1,'gemmi::luzzati_error']]]
+  ['luzzati_5ferror_24',['luzzati_error',['../structgemmi_1_1RefinementInfo.html#a63730a372cbf52467f2d2845645df71f',1,'gemmi::RefinementInfo']]]
 ];

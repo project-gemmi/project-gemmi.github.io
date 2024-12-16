@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Gemmi C++ API: /home/wojdyr/gemmi/gemmi/include/gemmi/cifdoc.hpp File Reference</title>
+<title>Gemmi C++ API: include/gemmi/cifdoc.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -69,7 +69,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_c5b8fc87970ee713285cf5bc9d6a8cb4.html">gemmi</a></li><li class="navelem"><a class="el" href="dir_43e4b0c8c232c2116c35cb27587a3d7e.html">include</a></li><li class="navelem"><a class="el" href="dir_f2d8f33d6739e7520ac414e2006066cc.html">gemmi</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_97b7d6895b0e578738d3a33b6e429156.html">gemmi</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -82,6 +82,9 @@ $(function() {
   <div class="headertitle"><div class="title">cifdoc.hpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>struct Document that represents the CIF file (but can also be read from a different representation, such as CIF-JSON or mmJSON).  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="atox_8hpp_source.html">atox.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="fail_8hpp_source.html">fail.hpp</a>&quot;</code><br />
@@ -176,9 +179,9 @@ Functions</h2></td></tr>
 <tr class="separator:a20b5c32fa619ae2bc2a351a9c06e5ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57270553cefbeb2cf8a8029bd8787c45" id="r_a57270553cefbeb2cf8a8029bd8787c45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1HklValue.html">char</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi_1_1cif.html#a57270553cefbeb2cf8a8029bd8787c45">gemmi::cif::as_any</a> (<a class="el" href="structgemmi_1_1HklValue.html">const</a> std::string &amp;s, <a class="el" href="structgemmi_1_1HklValue.html">char</a> <a class="el" href="structgemmi_1_1HklValue.html">null</a>)</td></tr>
 <tr class="separator:a57270553cefbeb2cf8a8029bd8787c45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3757d24a9e40b15ead6550a579161da" id="r_ac3757d24a9e40b15ead6550a579161da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1HklValue.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi_1_1cif.html#ac3757d24a9e40b15ead6550a579161da">gemmi::cif::cif_fail</a> (<a class="el" href="structgemmi_1_1HklValue.html">const</a> std::string &amp;<a class="el" href="namespacegemmi.html#adfe76239f13b46e7755d0f2b4f395232">source</a>, <a class="el" href="structgemmi_1_1HklValue.html">const</a> <a class="el" href="structgemmi_1_1cif_1_1Block.html">Block</a> &amp;b, <a class="el" href="structgemmi_1_1HklValue.html">const</a> <a class="el" href="structgemmi_1_1cif_1_1Item.html">Item</a> &amp;item, <a class="el" href="structgemmi_1_1HklValue.html">const</a> std::string &amp;s)</td></tr>
+<tr class="memitem:ac3757d24a9e40b15ead6550a579161da" id="r_ac3757d24a9e40b15ead6550a579161da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1HklValue.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi_1_1cif.html#ac3757d24a9e40b15ead6550a579161da">gemmi::cif::cif_fail</a> (<a class="el" href="structgemmi_1_1HklValue.html">const</a> std::string &amp;source, <a class="el" href="structgemmi_1_1HklValue.html">const</a> <a class="el" href="structgemmi_1_1cif_1_1Block.html">Block</a> &amp;b, <a class="el" href="structgemmi_1_1HklValue.html">const</a> <a class="el" href="structgemmi_1_1cif_1_1Item.html">Item</a> &amp;item, <a class="el" href="structgemmi_1_1HklValue.html">const</a> std::string &amp;s)</td></tr>
 <tr class="separator:ac3757d24a9e40b15ead6550a579161da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3eede62357cb085275d5101d8716afb1" id="r_a3eede62357cb085275d5101d8716afb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1HklValue.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi_1_1cif.html#a3eede62357cb085275d5101d8716afb1">gemmi::cif::check_for_missing_values_in_block</a> (<a class="el" href="structgemmi_1_1HklValue.html">const</a> <a class="el" href="structgemmi_1_1cif_1_1Block.html">Block</a> &amp;block, <a class="el" href="structgemmi_1_1HklValue.html">const</a> std::string &amp;<a class="el" href="namespacegemmi.html#adfe76239f13b46e7755d0f2b4f395232">source</a>)</td></tr>
+<tr class="memitem:a3eede62357cb085275d5101d8716afb1" id="r_a3eede62357cb085275d5101d8716afb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1HklValue.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi_1_1cif.html#a3eede62357cb085275d5101d8716afb1">gemmi::cif::check_for_missing_values_in_block</a> (<a class="el" href="structgemmi_1_1HklValue.html">const</a> <a class="el" href="structgemmi_1_1cif_1_1Block.html">Block</a> &amp;block, <a class="el" href="structgemmi_1_1HklValue.html">const</a> std::string &amp;source)</td></tr>
 <tr class="separator:a3eede62357cb085275d5101d8716afb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c4b9a2b379489c8830e07efdc7d363e" id="r_a0c4b9a2b379489c8830e07efdc7d363e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1HklValue.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi_1_1cif.html#a0c4b9a2b379489c8830e07efdc7d363e">gemmi::cif::check_for_missing_values</a> (<a class="el" href="structgemmi_1_1HklValue.html">const</a> <a class="el" href="structgemmi_1_1cif_1_1Document.html">Document</a> &amp;<a class="el" href="structgemmi_1_1HklValue.html">d</a>)</td></tr>
 <tr class="separator:a0c4b9a2b379489c8830e07efdc7d363e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -189,7 +192,11 @@ Functions</h2></td></tr>
 <tr class="memitem:a49ff21e9d31f14246867656307117677" id="r_a49ff21e9d31f14246867656307117677"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegemmi_1_1cif.html#a49ff21e9d31f14246867656307117677">gemmi::cif::quote</a> (std::string v)</td></tr>
 <tr class="separator:a49ff21e9d31f14246867656307117677"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-</div><!-- contents -->
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>struct Document that represents the CIF file (but can also be read from a different representation, such as CIF-JSON or mmJSON). </p>
+
+<p class="definition">Definition in file <a class="el" href="cifdoc_8hpp_source.html">cifdoc.hpp</a>.</p>
+</div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8

@@ -1,5 +1,5 @@
 <map id="gemmi::Fractional" name="gemmi::Fractional">
-<area shape="rect" id="Node000001" title="Fractional coordinates." alt="" coords="5,79,132,104"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="43,5,95,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,44,71,79,66,79,66,44"/>
+<area shape="rect" id="Node000001" title="Fractional coordinates." alt="" coords="5,79,145,104"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="49,5,102,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,44,78,79,73,79,73,44"/>
 </map>

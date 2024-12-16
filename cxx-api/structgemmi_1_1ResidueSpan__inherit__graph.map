@@ -1,9 +1,9 @@
 <map id="gemmi::ResidueSpan" name="gemmi::ResidueSpan">
-<area shape="rect" id="Node000001" title=" " alt="" coords="23,167,170,192"/>
-<area shape="rect" id="Node000004" href="$structgemmi_1_1ResidueGroup.html" title=" " alt="" coords="21,240,173,265"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="99,206,99,240,94,240,94,206"/>
-<area shape="rect" id="Node000002" href="$structgemmi_1_1MutableVectorSpan.html" title=" " alt="" coords="5,79,188,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,132,99,166,94,166,94,132"/>
-<area shape="rect" id="Node000003" href="$structgemmi_1_1Span.html" title=" " alt="" coords="22,5,171,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="99,44,99,79,94,79,94,44"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="27,167,187,192"/>
+<area shape="rect" id="Node000004" href="$structgemmi_1_1ResidueGroup.html" title=" " alt="" coords="23,240,190,265"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="109,206,109,240,104,240,104,206"/>
+<area shape="rect" id="Node000002" href="$structgemmi_1_1MutableVectorSpan.html" title=" " alt="" coords="5,79,208,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,132,109,166,104,166,104,132"/>
+<area shape="rect" id="Node000003" href="$structgemmi_1_1Span.html" title=" " alt="" coords="23,5,191,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="109,44,109,79,104,79,104,44"/>
 </map>

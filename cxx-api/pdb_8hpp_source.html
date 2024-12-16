@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Gemmi C++ API: /home/wojdyr/gemmi/gemmi/include/gemmi/pdb.hpp Source File</title>
+<title>Gemmi C++ API: include/gemmi/pdb.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -74,7 +74,7 @@ $(document).ready(function() { init_codefold(0); });
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_c5b8fc87970ee713285cf5bc9d6a8cb4.html">gemmi</a></li><li class="navelem"><a class="el" href="dir_43e4b0c8c232c2116c35cb27587a3d7e.html">include</a></li><li class="navelem"><a class="el" href="dir_f2d8f33d6739e7520ac414e2006066cc.html">gemmi</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_97b7d6895b0e578738d3a33b6e429156.html">gemmi</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -118,7 +118,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="namespacegemmi.html#a986ed0b2ec30c742e5b5e02074874dcf">   35</a></span><a class="code hl_define" href="fail_8hpp.html#a1669245a173e1e01c886ce838ee44fbf">GEMMI_DLL</a> std::vector&lt;Op&gt; <a class="code hl_function" href="namespacegemmi.html#a986ed0b2ec30c742e5b5e02074874dcf">read_remark_290</a>(<span class="keyword">const</span> std::vector&lt;std::string&gt;&amp; raw_remarks);</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="namespacegemmi.html#a115e21f74bcf17b9509a8a7ac19ec409">   37</a></span><a class="code hl_define" href="fail_8hpp.html#a1669245a173e1e01c886ce838ee44fbf">GEMMI_DLL</a> <a class="code hl_struct" href="structgemmi_1_1Structure.html">Structure</a> <a class="code hl_function" href="namespacegemmi.html#a115e21f74bcf17b9509a8a7ac19ec409">read_pdb_from_stream</a>(<a class="code hl_class" href="classgemmi_1_1LineReaderBase.html">LineReaderBase</a>&amp;&amp; <a class="code hl_struct" href="structgemmi_1_1HklValue.html">line_reader</a>,</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>                                         <span class="keyword">const</span> std::string&amp; <a class="code hl_variable" href="namespacegemmi.html#adfe76239f13b46e7755d0f2b4f395232">source</a>,</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>                                         <span class="keyword">const</span> std::string&amp; source,</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>                                         <a class="code hl_struct" href="structgemmi_1_1PdbReadOptions.html">PdbReadOptions</a> <a class="code hl_struct" href="structgemmi_1_1HklValue.html">options</a>);</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
 <div class="foldopen" id="foldopen00041" data-start="{" data-end="}">
@@ -165,9 +165,9 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="aclassgemmi_1_1LineReaderBase_html"><div class="ttname"><a href="classgemmi_1_1LineReaderBase.html">gemmi::LineReaderBase</a></div><div class="ttdoc">type-erased line-based reader</div><div class="ttdef"><b>Definition</b> <a href="input_8hpp_source.html#l00155">input.hpp:155</a></div></div>
 <div class="ttc" id="aclassgemmi_1_1LineReader_html"><div class="ttname"><a href="classgemmi_1_1LineReader.html">gemmi::LineReader</a></div><div class="ttdef"><b>Definition</b> <a href="input_8hpp_source.html#l00161">input.hpp:161</a></div></div>
 <div class="ttc" id="afail_8hpp_html_a1669245a173e1e01c886ce838ee44fbf"><div class="ttname"><a href="fail_8hpp.html#a1669245a173e1e01c886ce838ee44fbf">GEMMI_DLL</a></div><div class="ttdeci">#define GEMMI_DLL</div><div class="ttdef"><b>Definition</b> <a href="fail_8hpp_source.html#l00053">fail.hpp:53</a></div></div>
-<div class="ttc" id="afileutil_8hpp_html"><div class="ttname"><a href="fileutil_8hpp.html">fileutil.hpp</a></div></div>
-<div class="ttc" id="ainput_8hpp_html"><div class="ttname"><a href="input_8hpp.html">input.hpp</a></div></div>
-<div class="ttc" id="amodel_8hpp_html"><div class="ttname"><a href="model_8hpp.html">model.hpp</a></div></div>
+<div class="ttc" id="afileutil_8hpp_html"><div class="ttname"><a href="fileutil_8hpp.html">fileutil.hpp</a></div><div class="ttdoc">File-related utilities.</div></div>
+<div class="ttc" id="ainput_8hpp_html"><div class="ttname"><a href="input_8hpp.html">input.hpp</a></div><div class="ttdoc">Input abstraction. Used to decouple file reading and decompression.</div></div>
+<div class="ttc" id="amodel_8hpp_html"><div class="ttname"><a href="model_8hpp.html">model.hpp</a></div><div class="ttdoc">Data structures to store macromolecular structure models.</div></div>
 <div class="ttc" id="anamespacegemmi_html"><div class="ttname"><a href="namespacegemmi.html">gemmi</a></div><div class="ttdef"><b>Definition</b> <a href="addends_8hpp_source.html#l00012">addends.hpp:12</a></div></div>
 <div class="ttc" id="anamespacegemmi_html_a115e21f74bcf17b9509a8a7ac19ec409"><div class="ttname"><a href="namespacegemmi.html#a115e21f74bcf17b9509a8a7ac19ec409">gemmi::read_pdb_from_stream</a></div><div class="ttdeci">GEMMI_DLL Structure read_pdb_from_stream(LineReaderBase &amp;&amp;line_reader, const std::string &amp;source, PdbReadOptions options)</div></div>
 <div class="ttc" id="anamespacegemmi_html_a385108c2c3d9a46013cef9c4edd22bbe"><div class="ttname"><a href="namespacegemmi.html#a385108c2c3d9a46013cef9c4edd22bbe">gemmi::read_pdb_file</a></div><div class="ttdeci">Structure read_pdb_file(const std::string &amp;path, PdbReadOptions options=PdbReadOptions())</div><div class="ttdef"><b>Definition</b> <a href="pdb_8hpp_source.html#l00041">pdb.hpp:41</a></div></div>
@@ -177,7 +177,6 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="anamespacegemmi_html_a986ed0b2ec30c742e5b5e02074874dcf"><div class="ttname"><a href="namespacegemmi.html#a986ed0b2ec30c742e5b5e02074874dcf">gemmi::read_remark_290</a></div><div class="ttdeci">GEMMI_DLL std::vector&lt; Op &gt; read_remark_290(const std::vector&lt; std::string &gt; &amp;raw_remarks)</div><div class="ttdoc">Returns operations corresponding to 1555, 2555, ... N555.</div></div>
 <div class="ttc" id="anamespacegemmi_html_ac0655b7e11b1e8c0e8981310ab4645b9"><div class="ttname"><a href="namespacegemmi.html#ac0655b7e11b1e8c0e8981310ab4645b9">gemmi::is_record_type3</a></div><div class="ttdeci">bool is_record_type3(const char *s, const char *record)</div><div class="ttdoc">for record &quot;TER&quot;: &quot;TER &quot;, TER , TER\r, TER\t match, TERE, TER1 don't</div><div class="ttdef"><b>Definition</b> <a href="pdb_8hpp_source.html#l00030">pdb.hpp:30</a></div></div>
 <div class="ttc" id="anamespacegemmi_html_ac3116f39df6a05657092360f413743d3"><div class="ttname"><a href="namespacegemmi.html#ac3116f39df6a05657092360f413743d3">gemmi::read_pdb</a></div><div class="ttdeci">Structure read_pdb(T &amp;&amp;input, PdbReadOptions options=PdbReadOptions())</div><div class="ttdef"><b>Definition</b> <a href="pdb_8hpp_source.html#l00061">pdb.hpp:61</a></div></div>
-<div class="ttc" id="anamespacegemmi_html_adfe76239f13b46e7755d0f2b4f395232"><div class="ttname"><a href="namespacegemmi.html#adfe76239f13b46e7755d0f2b4f395232">gemmi::source</a></div><div class="ttdeci">o o o o o o o o remark_300_detail o o o o o o o mean_I_over_sigma o o o source</div><div class="ttdef"><b>Definition</b> <a href="serialize_8hpp_source.html#l00076">serialize.hpp:76</a></div></div>
 <div class="ttc" id="anamespacegemmi_html_af2cd823a72270dc2d3e8afbae50622d1"><div class="ttname"><a href="namespacegemmi.html#af2cd823a72270dc2d3e8afbae50622d1">gemmi::is_record_type4</a></div><div class="ttdeci">bool is_record_type4(const char *s, const char *record)</div><div class="ttdoc">Compare the first 4 letters of s, ignoring case, with uppercase record.</div><div class="ttdef"><b>Definition</b> <a href="pdb_8hpp_source.html#l00026">pdb.hpp:26</a></div></div>
 <div class="ttc" id="anamespacegemmi_html_af64d0c3f9fa35a76dcea724f677f1790"><div class="ttname"><a href="namespacegemmi.html#af64d0c3f9fa35a76dcea724f677f1790">gemmi::ialpha4_id</a></div><div class="ttdeci">constexpr int ialpha4_id(const char *s)</div><div class="ttdef"><b>Definition</b> <a href="util_8hpp_source.html#l00305">util.hpp:305</a></div></div>
 <div class="ttc" id="anamespacegemmi_html_af7ff2f7bf4d7574dbda2b29ddc369670"><div class="ttname"><a href="namespacegemmi.html#af7ff2f7bf4d7574dbda2b29ddc369670">gemmi::read_pdb_from_memory</a></div><div class="ttdeci">Structure read_pdb_from_memory(const char *data, size_t size, const std::string &amp;name, PdbReadOptions options=PdbReadOptions())</div><div class="ttdef"><b>Definition</b> <a href="pdb_8hpp_source.html#l00047">pdb.hpp:47</a></div></div>

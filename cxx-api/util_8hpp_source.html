@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Gemmi C++ API: /home/wojdyr/gemmi/gemmi/include/gemmi/util.hpp Source File</title>
+<title>Gemmi C++ API: include/gemmi/util.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -74,7 +74,7 @@ $(document).ready(function() { init_codefold(0); });
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_c5b8fc87970ee713285cf5bc9d6a8cb4.html">gemmi</a></li><li class="navelem"><a class="el" href="dir_43e4b0c8c232c2116c35cb27587a3d7e.html">include</a></li><li class="navelem"><a class="el" href="dir_f2d8f33d6739e7520ac414e2006066cc.html">gemmi</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_97b7d6895b0e578738d3a33b6e429156.html">gemmi</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -437,9 +437,9 @@ $(document).ready(function() { init_codefold(0); });
 <div class="foldopen" id="foldopen00292" data-start="{" data-end="}">
 <div class="line"><a id="l00292" name="l00292"></a><span class="lineno"><a class="line" href="namespacegemmi.html#ae0a5aff65d4eb022e050c6995780aa02">  292</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacegemmi.html#ae0a5aff65d4eb022e050c6995780aa02">vector_remove_column</a>(std::vector&lt;T&gt;&amp; data, <span class="keywordtype">size_t</span> <a class="code hl_struct" href="structgemmi_1_1HklValue.html">new_width</a>, <span class="keywordtype">size_t</span> pos) {</div>
 <div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>  <a class="code hl_struct" href="structgemmi_1_1HklValue.html">assert</a>(pos &lt;= <a class="code hl_struct" href="structgemmi_1_1HklValue.html">new_width</a>);</div>
-<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>  <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> <a class="code hl_variable" href="namespacegemmi.html#adfe76239f13b46e7755d0f2b4f395232">source</a> = pos + 1; <a class="code hl_variable" href="namespacegemmi.html#adfe76239f13b46e7755d0f2b4f395232">source</a> &lt; data.size(); ++<a class="code hl_variable" href="namespacegemmi.html#adfe76239f13b46e7755d0f2b4f395232">source</a>)</div>
-<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> <a class="code hl_struct" href="structgemmi_1_1HklValue.html">i</a> = 0; <a class="code hl_struct" href="structgemmi_1_1HklValue.html">i</a> &lt; <a class="code hl_struct" href="structgemmi_1_1HklValue.html">new_width</a> &amp;&amp; <a class="code hl_variable" href="namespacegemmi.html#adfe76239f13b46e7755d0f2b4f395232">source</a> &lt; data.size(); ++<a class="code hl_struct" href="structgemmi_1_1HklValue.html">i</a>)</div>
-<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>      data[pos++] = data[<a class="code hl_variable" href="namespacegemmi.html#adfe76239f13b46e7755d0f2b4f395232">source</a>++];</div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>  <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> source = pos + 1; source &lt; data.size(); ++source)</div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> <a class="code hl_struct" href="structgemmi_1_1HklValue.html">i</a> = 0; <a class="code hl_struct" href="structgemmi_1_1HklValue.html">i</a> &lt; <a class="code hl_struct" href="structgemmi_1_1HklValue.html">new_width</a> &amp;&amp; source &lt; data.size(); ++<a class="code hl_struct" href="structgemmi_1_1HklValue.html">i</a>)</div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>      data[pos++] = data[source++];</div>
 <div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>  data.resize(pos);</div>
 <div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>}</div>
 </div>
@@ -495,7 +495,6 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="anamespacegemmi_html_ac4b9324deb8e7200a8140399b6e40776"><div class="ttname"><a href="namespacegemmi.html#ac4b9324deb8e7200a8140399b6e40776">gemmi::starts_with</a></div><div class="ttdeci">bool starts_with(const std::string &amp;str, const std::string &amp;prefix)</div><div class="ttdef"><b>Definition</b> <a href="util_8hpp_source.html#l00038">util.hpp:38</a></div></div>
 <div class="ttc" id="anamespacegemmi_html_addecc4877dacba60bb103d0f6b8cf2da"><div class="ttname"><a href="namespacegemmi.html#addecc4877dacba60bb103d0f6b8cf2da">gemmi::split_str_multi</a></div><div class="ttdeci">std::vector&lt; std::string &gt; split_str_multi(const std::string &amp;str, const char *seps=&quot; \t&quot;)</div><div class="ttdef"><b>Definition</b> <a href="util_8hpp_source.html#l00174">util.hpp:174</a></div></div>
 <div class="ttc" id="anamespacegemmi_html_adef0d64f3bac830e6a361e92f036176d"><div class="ttname"><a href="namespacegemmi.html#adef0d64f3bac830e6a361e92f036176d">gemmi::split_str</a></div><div class="ttdeci">std::vector&lt; std::string &gt; split_str(const std::string &amp;str, S sep)</div><div class="ttdef"><b>Definition</b> <a href="util_8hpp_source.html#l00156">util.hpp:156</a></div></div>
-<div class="ttc" id="anamespacegemmi_html_adfe76239f13b46e7755d0f2b4f395232"><div class="ttname"><a href="namespacegemmi.html#adfe76239f13b46e7755d0f2b4f395232">gemmi::source</a></div><div class="ttdeci">o o o o o o o o remark_300_detail o o o o o o o mean_I_over_sigma o o o source</div><div class="ttdef"><b>Definition</b> <a href="serialize_8hpp_source.html#l00076">serialize.hpp:76</a></div></div>
 <div class="ttc" id="anamespacegemmi_html_ae0a5aff65d4eb022e050c6995780aa02"><div class="ttname"><a href="namespacegemmi.html#ae0a5aff65d4eb022e050c6995780aa02">gemmi::vector_remove_column</a></div><div class="ttdeci">void vector_remove_column(std::vector&lt; T &gt; &amp;data, size_t new_width, size_t pos)</div><div class="ttdef"><b>Definition</b> <a href="util_8hpp_source.html#l00292">util.hpp:292</a></div></div>
 <div class="ttc" id="anamespacegemmi_html_ae1b80849f7831ee9a1ee54f6e714889b"><div class="ttname"><a href="namespacegemmi.html#ae1b80849f7831ee9a1ee54f6e714889b">gemmi::split_str_into</a></div><div class="ttdeci">void split_str_into(const std::string &amp;str, S sep, std::vector&lt; std::string &gt; &amp;result)</div><div class="ttdef"><b>Definition</b> <a href="util_8hpp_source.html#l00145">util.hpp:145</a></div></div>
 <div class="ttc" id="anamespacegemmi_html_aead2c8d05718c75005302bb96662d2ee"><div class="ttname"><a href="namespacegemmi.html#aead2c8d05718c75005302bb96662d2ee">gemmi::iequal</a></div><div class="ttdeci">bool iequal(const std::string &amp;str, const std::string &amp;low)</div><div class="ttdef"><b>Definition</b> <a href="util_8hpp_source.html#l00089">util.hpp:89</a></div></div>

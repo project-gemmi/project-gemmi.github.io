@@ -8,7 +8,7 @@ var searchData=
   ['only_5faltloc_5',['only_altloc',['../structgemmi_1_1CisPep.html#a9772f4a8144803b2b3bda34855ba1b92',1,'gemmi::CisPep']]],
   ['only_5fbonds_6',['only_bonds',['../structgemmi_1_1Topo.html#a0bd98d8a8d2595d03c89bf3a2eb74666',1,'gemmi::Topo']]],
   ['operators_7',['operators',['../structgemmi_1_1Assembly_1_1Gen.html#a325b1ad53155fb277fbab5eb546eacb1',1,'gemmi::Assembly::Gen']]],
-  ['optics_8',['optics',['../namespacegemmi.html#a027c814a669ad2aceb07f83fabfe5555',1,'gemmi::optics'],['../structgemmi_1_1DiffractionInfo.html#a2f7a6815bc19e2264a3e4f0e2cdd4f3c',1,'gemmi::DiffractionInfo::optics']]],
+  ['optics_8',['optics',['../structgemmi_1_1DiffractionInfo.html#a2f7a6815bc19e2264a3e4f0e2cdd4f3c',1,'gemmi::DiffractionInfo']]],
   ['orgx_9',['orgx',['../structgemmi_1_1XdsAscii.html#a646ea08a15f37d12a30332cdbf82d6aa',1,'gemmi::XdsAscii']]],
   ['orgy_10',['orgy',['../structgemmi_1_1XdsAscii.html#a3f4c73409ac368bb740a65964e17720b',1,'gemmi::XdsAscii']]],
   ['orig_5fchemcomp_11',['orig_chemcomp',['../structgemmi_1_1Topo_1_1ResInfo.html#afcb594bd13a9e261ad2c3250faea9269',1,'gemmi::Topo::ResInfo']]],

@@ -90,7 +90,7 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for gemmi::Grid&lt; T &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structgemmi_1_1Grid__inherit__graph.svg" width="166" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structgemmi_1_1Grid__inherit__graph.svg" width="184" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
@@ -123,10 +123,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9d54fcff622392d8b4bc4c47ede858be"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1HklValue.html">void</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structgemmi_1_1Grid.html#a9d54fcff622392d8b4bc4c47ede858be">setup_from</a> (<a class="el" href="structgemmi_1_1HklValue.html">const</a> <a class="el" href="namespacegemmi.html#a94546274ac42b2449734db86790c2cb5a5dbc98dcc983a70728bd082d1a47546e">S</a> &amp;<a class="el" href="structgemmi_1_1HklValue.html">st</a>, <a class="el" href="structgemmi_1_1HklValue.html">double</a> <a class="el" href="structgemmi_1_1HklValue.html">approx_spacing</a>=0)</td></tr>
 <tr class="separator:a9d54fcff622392d8b4bc4c47ede858be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6fb44f5443c196506d4cf58b0c68a1a" id="r_ae6fb44f5443c196506d4cf58b0c68a1a"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1Grid.html#ae6fb44f5443c196506d4cf58b0c68a1a">index_s</a> (<a class="el" href="structgemmi_1_1HklValue.html">int</a> u, <a class="el" href="structgemmi_1_1HklValue.html">int</a> v, <a class="el" href="structgemmi_1_1HklValue.html">int</a> w) <a class="el" href="structgemmi_1_1HklValue.html">const</a></td></tr>
-<tr class="memdesc:ae6fb44f5443c196506d4cf58b0c68a1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns index in data array for (u,v,w). Safe but slower than <a class="el" href="structgemmi_1_1GridMeta.html#a80d4ef8416736ea8cd36bf8debad52dd" title="Quick(est) index function, but works only if 0 &lt;= u &lt; nu, etc.">index_q()</a>.  <br /></td></tr>
+<tr class="memdesc:ae6fb44f5443c196506d4cf58b0c68a1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns index in data array for (u,v,w). Safe but slower than <a class="el" href="structgemmi_1_1GridMeta.html#a80d4ef8416736ea8cd36bf8debad52dd" title="Quick(est) index function, but works only if `0 &lt;= u &lt; nu`, etc.">index_q()</a>.  <br /></td></tr>
 <tr class="separator:ae6fb44f5443c196506d4cf58b0c68a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54b010c57af600ebd95aa62acbfe9b55" id="r_a54b010c57af600ebd95aa62acbfe9b55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegemmi.html#a40476b27b97bc7ac8284d3b077b36cbfab9ece18c950afbfa6b0fdbfa4ff731d3">T</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1Grid.html#a54b010c57af600ebd95aa62acbfe9b55">get_value</a> (<a class="el" href="structgemmi_1_1HklValue.html">int</a> u, <a class="el" href="structgemmi_1_1HklValue.html">int</a> v, <a class="el" href="structgemmi_1_1HklValue.html">int</a> w) <a class="el" href="structgemmi_1_1HklValue.html">const</a></td></tr>
-<tr class="memdesc:a54b010c57af600ebd95aa62acbfe9b55"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns <code>data[index_s(u, v, w)]</code>  <br /></td></tr>
+<tr class="memdesc:a54b010c57af600ebd95aa62acbfe9b55"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns `data[index_s(u, v, w)]`  <br /></td></tr>
 <tr class="separator:a54b010c57af600ebd95aa62acbfe9b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f242a92a63a561753899e9741b7c72d" id="r_a0f242a92a63a561753899e9741b7c72d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgemmi_1_1HklValue.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1Grid.html#a0f242a92a63a561753899e9741b7c72d">set_value</a> (<a class="el" href="structgemmi_1_1HklValue.html">int</a> u, <a class="el" href="structgemmi_1_1HklValue.html">int</a> v, <a class="el" href="structgemmi_1_1HklValue.html">int</a> w, <a class="el" href="namespacegemmi.html#a40476b27b97bc7ac8284d3b077b36cbfab9ece18c950afbfa6b0fdbfa4ff731d3">T</a> x)</td></tr>
 <tr class="separator:a0f242a92a63a561753899e9741b7c72d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -240,18 +240,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab7494e888e1244ca3ea3e4aee2e3b9bd inherit pub_methods_structgemmi_1_1GridMeta" id="r_ab7494e888e1244ca3ea3e4aee2e3b9bd"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structgemmi_1_1GridOp.html">GridOp</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridMeta.html#ab7494e888e1244ca3ea3e4aee2e3b9bd">get_scaled_ops_except_id</a> () <a class="el" href="structgemmi_1_1HklValue.html">const</a></td></tr>
 <tr class="separator:ab7494e888e1244ca3ea3e4aee2e3b9bd inherit pub_methods_structgemmi_1_1GridMeta"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80d4ef8416736ea8cd36bf8debad52dd inherit pub_methods_structgemmi_1_1GridMeta" id="r_a80d4ef8416736ea8cd36bf8debad52dd"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridMeta.html#a80d4ef8416736ea8cd36bf8debad52dd">index_q</a> (<a class="el" href="structgemmi_1_1HklValue.html">int</a> u, <a class="el" href="structgemmi_1_1HklValue.html">int</a> v, <a class="el" href="structgemmi_1_1HklValue.html">int</a> w) <a class="el" href="structgemmi_1_1HklValue.html">const</a></td></tr>
-<tr class="memdesc:a80d4ef8416736ea8cd36bf8debad52dd inherit pub_methods_structgemmi_1_1GridMeta"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quick(est) index function, but works only if <code>0 &lt;= u &lt; nu</code>, etc.  <br /></td></tr>
+<tr class="memdesc:a80d4ef8416736ea8cd36bf8debad52dd inherit pub_methods_structgemmi_1_1GridMeta"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quick(est) index function, but works only if `0 &lt;= u &lt; nu`, etc.  <br /></td></tr>
 <tr class="separator:a80d4ef8416736ea8cd36bf8debad52dd inherit pub_methods_structgemmi_1_1GridMeta"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f7e6a8dc823e915942cd1c390987af6 inherit pub_methods_structgemmi_1_1GridMeta" id="r_a5f7e6a8dc823e915942cd1c390987af6"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridMeta.html#a5f7e6a8dc823e915942cd1c390987af6">index_q</a> (size_t u, size_t v, size_t w) <a class="el" href="structgemmi_1_1HklValue.html">const</a></td></tr>
 <tr class="separator:a5f7e6a8dc823e915942cd1c390987af6 inherit pub_methods_structgemmi_1_1GridMeta"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c858985d572f6abc933e930cf284dec inherit pub_methods_structgemmi_1_1GridMeta" id="r_a5c858985d572f6abc933e930cf284dec"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridMeta.html#a5c858985d572f6abc933e930cf284dec">index_n</a> (<a class="el" href="structgemmi_1_1HklValue.html">int</a> u, <a class="el" href="structgemmi_1_1HklValue.html">int</a> v, <a class="el" href="structgemmi_1_1HklValue.html">int</a> w) <a class="el" href="structgemmi_1_1HklValue.html">const</a></td></tr>
-<tr class="memdesc:a5c858985d572f6abc933e930cf284dec inherit pub_methods_structgemmi_1_1GridMeta"><td class="mdescLeft">&#160;</td><td class="mdescRight">Faster than index_s(), but works only if <code>-nu &lt;= u &lt; 2*nu</code>, etc.  <br /></td></tr>
+<tr class="memdesc:a5c858985d572f6abc933e930cf284dec inherit pub_methods_structgemmi_1_1GridMeta"><td class="mdescLeft">&#160;</td><td class="mdescRight">Faster than index_s(), but works only if `-nu &lt;= u &lt; 2*nu`, etc.  <br /></td></tr>
 <tr class="separator:a5c858985d572f6abc933e930cf284dec inherit pub_methods_structgemmi_1_1GridMeta"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b2a8b520e8d461e4d067b47a53a7eb1 inherit pub_methods_structgemmi_1_1GridMeta" id="r_a9b2a8b520e8d461e4d067b47a53a7eb1"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridMeta.html#a9b2a8b520e8d461e4d067b47a53a7eb1">index_n_ref</a> (<a class="el" href="structgemmi_1_1HklValue.html">int</a> &amp;u, <a class="el" href="structgemmi_1_1HklValue.html">int</a> &amp;v, <a class="el" href="structgemmi_1_1HklValue.html">int</a> &amp;w) <a class="el" href="structgemmi_1_1HklValue.html">const</a></td></tr>
-<tr class="memdesc:a9b2a8b520e8d461e4d067b47a53a7eb1 inherit pub_methods_structgemmi_1_1GridMeta"><td class="mdescLeft">&#160;</td><td class="mdescRight">The same as <a class="el" href="structgemmi_1_1GridMeta.html#a5c858985d572f6abc933e930cf284dec" title="Faster than index_s(), but works only if -nu &lt;= u &lt; 2*nu, etc.">index_n()</a>, but modifies arguments.  <br /></td></tr>
+<tr class="memdesc:a9b2a8b520e8d461e4d067b47a53a7eb1 inherit pub_methods_structgemmi_1_1GridMeta"><td class="mdescLeft">&#160;</td><td class="mdescRight">The same as <a class="el" href="structgemmi_1_1GridMeta.html#a5c858985d572f6abc933e930cf284dec" title="Faster than index_s(), but works only if `-nu &lt;= u &lt; 2*nu`, etc.">index_n()</a>, but modifies arguments.  <br /></td></tr>
 <tr class="separator:a9b2a8b520e8d461e4d067b47a53a7eb1 inherit pub_methods_structgemmi_1_1GridMeta"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70367b6049589c5af4124f78e14c8867 inherit pub_methods_structgemmi_1_1GridMeta" id="r_a70367b6049589c5af4124f78e14c8867"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgemmi_1_1GridMeta.html#a70367b6049589c5af4124f78e14c8867">index_near_zero</a> (<a class="el" href="structgemmi_1_1HklValue.html">int</a> u, <a class="el" href="structgemmi_1_1HklValue.html">int</a> v, <a class="el" href="structgemmi_1_1HklValue.html">int</a> w) <a class="el" href="structgemmi_1_1HklValue.html">const</a></td></tr>
-<tr class="memdesc:a70367b6049589c5af4124f78e14c8867 inherit pub_methods_structgemmi_1_1GridMeta"><td class="mdescLeft">&#160;</td><td class="mdescRight">Faster than <a class="el" href="structgemmi_1_1GridMeta.html#a5c858985d572f6abc933e930cf284dec" title="Faster than index_s(), but works only if -nu &lt;= u &lt; 2*nu, etc.">index_n()</a>, but works only if -nu &lt;= u &lt; nu, etc.  <br /></td></tr>
+<tr class="memdesc:a70367b6049589c5af4124f78e14c8867 inherit pub_methods_structgemmi_1_1GridMeta"><td class="mdescLeft">&#160;</td><td class="mdescRight">Faster than <a class="el" href="structgemmi_1_1GridMeta.html#a5c858985d572f6abc933e930cf284dec" title="Faster than index_s(), but works only if `-nu &lt;= u &lt; 2*nu`, etc.">index_n()</a>, but works only if -nu &lt;= u &lt; nu, etc.  <br /></td></tr>
 <tr class="separator:a70367b6049589c5af4124f78e14c8867 inherit pub_methods_structgemmi_1_1GridMeta"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
@@ -683,7 +683,7 @@ template&lt;<a class="el" href="structgemmi_1_1HklValue.html">typename</a> <a cl
 </table>
 </div><div class="memdoc">
 
-<p>Returns index in data array for (u,v,w). Safe but slower than <a class="el" href="structgemmi_1_1GridMeta.html#a80d4ef8416736ea8cd36bf8debad52dd" title="Quick(est) index function, but works only if 0 &lt;= u &lt; nu, etc.">index_q()</a>. </p>
+<p>Returns index in data array for (u,v,w). Safe but slower than <a class="el" href="structgemmi_1_1GridMeta.html#a80d4ef8416736ea8cd36bf8debad52dd" title="Quick(est) index function, but works only if `0 &lt;= u &lt; nu`, etc.">index_q()</a>. </p>
 
 <p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00387">387</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
 
@@ -731,7 +731,7 @@ template&lt;<a class="el" href="structgemmi_1_1HklValue.html">typename</a> <a cl
 </table>
 </div><div class="memdoc">
 
-<p>returns <code>data[index_s(u, v, w)]</code> </p>
+<p>returns `data[index_s(u, v, w)]` </p>
 
 <p class="definition">Definition at line <a class="el" href="grid_8hpp_source.html#l00393">393</a> of file <a class="el" href="grid_8hpp_source.html">grid.hpp</a>.</p>
 
@@ -2173,7 +2173,7 @@ template&lt;<a class="el" href="structgemmi_1_1HklValue.html">typename</a> <a cl
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>/home/wojdyr/gemmi/gemmi/include/gemmi/<a class="el" href="grid_8hpp_source.html">grid.hpp</a></li>
+<li>include/gemmi/<a class="el" href="grid_8hpp_source.html">grid.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

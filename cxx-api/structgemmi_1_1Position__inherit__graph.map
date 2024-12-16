@@ -1,5 +1,5 @@
 <map id="gemmi::Position" name="gemmi::Position">
-<area shape="rect" id="Node000001" title="Coordinates in Angstroms &#45; orthogonal (Cartesian) coordinates." alt="" coords="5,79,121,104"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="37,5,89,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="66,44,66,79,61,79,61,44"/>
+<area shape="rect" id="Node000001" title="Coordinates in Angstroms &#45; orthogonal (Cartesian) coordinates." alt="" coords="5,79,133,104"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="43,5,96,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="72,44,72,79,67,79,67,44"/>
 </map>

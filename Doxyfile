@@ -2,8 +2,9 @@
 PROJECT_NAME           = "Gemmi C++ API"
 EXTRACT_ALL            = YES
 WARN_IF_UNDOCUMENTED   = NO
-INPUT                  = main.md \
-                         ../gemmi/include/gemmi/
+INPUT                  = main.md headers.dox \
+                         include/gemmi/
+EXCLUDE                = include/gemmi/third_party/
 FILE_PATTERNS          = *.hpp
 EXCLUDE_SYMBOLS        = gemmi::impl* \
                          tao::* \
@@ -23,3 +24,12 @@ DIRECTORY_GRAPH        = NO
 DOT_IMAGE_FORMAT       = svg
 JAVADOC_AUTOBRIEF      = YES
 SORT_MEMBER_DOCS       = NO
+
+# Do we need markdown? Disabled, as it printed warnings about underscores.
+MARKDOWN_SUPPORT       = NO
+
+# macros in serialize.hpp confuse doxygen
+PREDEFINED             = GEMMI_SERIALIZE_HPP_
+
+# File List has ~100 headers, with default 100 they were not shown initially
+HTML_INDEX_NUM_ENTRIES = 120

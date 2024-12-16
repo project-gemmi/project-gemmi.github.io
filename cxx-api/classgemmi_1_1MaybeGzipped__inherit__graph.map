@@ -1,5 +1,5 @@
 <map id="gemmi::MaybeGzipped" name="gemmi::MaybeGzipped">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,79,161,104"/>
-<area shape="rect" id="Node000002" href="$classgemmi_1_1BasicInput.html" title=" " alt="" coords="18,5,149,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,44,86,79,81,79,81,44"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,79,179,104"/>
+<area shape="rect" id="Node000002" href="$classgemmi_1_1BasicInput.html" title=" " alt="" coords="20,5,164,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,44,95,79,89,79,89,44"/>
 </map>

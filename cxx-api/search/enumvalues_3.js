@@ -22,7 +22,7 @@ var searchData=
   ['determined_19',['Determined',['../namespacegemmi.html#acda4e949df56e1ade66401b3d0a37932a9eab843b7bbe513c36aebb9bc36bc209',1,'gemmi']]],
   ['different_20',['Different',['../namespacegemmi.html#a65e7681e3e9fe9932bf272f91607a355a10989754eb9c7a4dfb1092f693ed9e69',1,'gemmi']]],
   ['disulf_21',['Disulf',['../structgemmi_1_1Connection.html#a11e7ddd857ab5baaaee5a158a1723098a3d4f46f337e25f0195bd0b4a0559d22e',1,'gemmi::Connection']]],
-  ['dna_22',['dna',['../structgemmi_1_1ChemComp.html#ae0ba1c368e01fda599a4b28f8708776ea3ae0984c26afbbcde0ee8d44d089645a',1,'gemmi::ChemComp::Dna'],['../namespacegemmi.html#ad10bcdb4f472563c9e5a1f305dde35b4a396c983d4290901e4060ffe25e7c0eb3',1,'gemmi::DNA'],['../namespacegemmi.html#a33fb770bef0a75f26a5ba5daf3f36e27a3ae0984c26afbbcde0ee8d44d089645a',1,'gemmi::Dna']]],
+  ['dna_22',['dna',['../structgemmi_1_1ChemComp.html#ae0ba1c368e01fda599a4b28f8708776ea3ae0984c26afbbcde0ee8d44d089645a',1,'gemmi::ChemComp::Dna'],['../namespacegemmi.html#a33fb770bef0a75f26a5ba5daf3f36e27a3ae0984c26afbbcde0ee8d44d089645a',1,'gemmi::Dna'],['../namespacegemmi.html#ad10bcdb4f472563c9e5a1f305dde35b4a396c983d4290901e4060ffe25e7c0eb3',1,'gemmi::DNA']]],
   ['dnarna_23',['DnaRna',['../structgemmi_1_1ChemComp.html#ae0ba1c368e01fda599a4b28f8708776ea581253c89bcad746da369824fa3aab20',1,'gemmi::ChemComp']]],
   ['dnarnahybrid_24',['DnaRnaHybrid',['../namespacegemmi.html#a33fb770bef0a75f26a5ba5daf3f36e27a65b659aeef8d7b8d9c926f4588d964c6',1,'gemmi']]],
   ['double_25',['Double',['../namespacegemmi.html#ae924d6b4137d52b14f2dee82fe3a1df1ad909d38d705ce75386dd86e611a82f5b',1,'gemmi']]],

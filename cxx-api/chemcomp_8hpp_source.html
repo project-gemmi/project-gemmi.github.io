@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Gemmi C++ API: /home/wojdyr/gemmi/gemmi/include/gemmi/chemcomp.hpp Source File</title>
+<title>Gemmi C++ API: include/gemmi/chemcomp.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -74,7 +74,7 @@ $(document).ready(function() { init_codefold(0); });
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_c5b8fc87970ee713285cf5bc9d6a8cb4.html">gemmi</a></li><li class="navelem"><a class="el" href="dir_43e4b0c8c232c2116c35cb27587a3d7e.html">include</a></li><li class="navelem"><a class="el" href="dir_f2d8f33d6739e7520ac414e2006066cc.html">gemmi</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_97b7d6895b0e578738d3a33b6e429156.html">gemmi</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -422,7 +422,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span> </div>
 <div class="foldopen" id="foldopen00267" data-start="{" data-end="}">
 <div class="line"><a id="l00267" name="l00267"></a><span class="lineno"><a class="line" href="structgemmi_1_1Restraints.html#a593fa453f6aac18d1eb391c8e72baff1">  267</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="structgemmi_1_1Restraints.html#a593fa453f6aac18d1eb391c8e72baff1">rename_atom</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structgemmi_1_1Restraints_1_1AtomId.html">AtomId</a>&amp; <a class="code hl_struct" href="structgemmi_1_1HklValue.html">atom_id</a>, <span class="keyword">const</span> std::string&amp; <a class="code hl_struct" href="structgemmi_1_1HklValue.html">new_name</a>) {</div>
-<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>    <span class="keyword">auto</span> <a class="code hl_function" href="structgemmi_1_1Restraints.html#a593fa453f6aac18d1eb391c8e72baff1">rename_atom</a> = [&amp;](<a class="code hl_struct" href="structgemmi_1_1Restraints_1_1AtomId.html">AtomId</a>&amp; <a class="code hl_variable" href="namespacegemmi.html#aed18f4879fc08df3014c74620a9d8aab">id</a>) {</div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>    <span class="keyword">auto</span> <a class="code hl_function" href="structgemmi_1_1Restraints.html#a593fa453f6aac18d1eb391c8e72baff1">rename_atom</a> = [&amp;](<a class="code hl_struct" href="structgemmi_1_1Restraints_1_1AtomId.html">AtomId</a>&amp; id) {</div>
 <div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>      <span class="keywordflow">if</span> (<span class="keywordtype">id</span> == <a class="code hl_struct" href="structgemmi_1_1HklValue.html">atom_id</a>)</div>
 <div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>        <span class="keywordtype">id</span>.atom = <a class="code hl_struct" href="structgemmi_1_1HklValue.html">new_name</a>;</div>
 <div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>    };</div>
@@ -898,11 +898,11 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00679" name="l00679"></a><span class="lineno">  679</span> </div>
 <div class="line"><a id="l00680" name="l00680"></a><span class="lineno">  680</span>} <span class="comment">// namespace gemmi</span></div>
 <div class="line"><a id="l00681" name="l00681"></a><span class="lineno">  681</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="acifdoc_8hpp_html"><div class="ttname"><a href="cifdoc_8hpp.html">cifdoc.hpp</a></div></div>
+<div class="ttc" id="acifdoc_8hpp_html"><div class="ttname"><a href="cifdoc_8hpp.html">cifdoc.hpp</a></div><div class="ttdoc">struct Document that represents the CIF file (but can also be read from a different representation,...</div></div>
 <div class="ttc" id="aclassgemmi_1_1cif_1_1Column_html"><div class="ttname"><a href="classgemmi_1_1cif_1_1Column.html">gemmi::cif::Column</a></div><div class="ttdef"><b>Definition</b> <a href="cifdoc_8hpp_source.html#l00234">cifdoc.hpp:234</a></div></div>
-<div class="ttc" id="aelem_8hpp_html"><div class="ttname"><a href="elem_8hpp.html">elem.hpp</a></div></div>
-<div class="ttc" id="afail_8hpp_html"><div class="ttname"><a href="fail_8hpp.html">fail.hpp</a></div></div>
-<div class="ttc" id="amodel_8hpp_html"><div class="ttname"><a href="model_8hpp.html">model.hpp</a></div></div>
+<div class="ttc" id="aelem_8hpp_html"><div class="ttname"><a href="elem_8hpp.html">elem.hpp</a></div><div class="ttdoc">Elements from the periodic table.</div></div>
+<div class="ttc" id="afail_8hpp_html"><div class="ttname"><a href="fail_8hpp.html">fail.hpp</a></div><div class="ttdoc">fail(), unreachable() and __declspec/__attribute__ macros</div></div>
+<div class="ttc" id="amodel_8hpp_html"><div class="ttname"><a href="model_8hpp.html">model.hpp</a></div><div class="ttdoc">Data structures to store macromolecular structure models.</div></div>
 <div class="ttc" id="anamespacegemmi_1_1cif_html_a29cf3f2d1194a7f53dc598e56184c085"><div class="ttname"><a href="namespacegemmi_1_1cif.html#a29cf3f2d1194a7f53dc598e56184c085">gemmi::cif::as_number</a></div><div class="ttdeci">double as_number(const std::string &amp;s, double nan=NAN)</div><div class="ttdef"><b>Definition</b> <a href="numb_8hpp_source.html#l00019">numb.hpp:19</a></div></div>
 <div class="ttc" id="anamespacegemmi_1_1cif_html_a4812498831f81a091de7c5248ae2d09a"><div class="ttname"><a href="namespacegemmi_1_1cif.html#a4812498831f81a091de7c5248ae2d09a">gemmi::cif::is_null</a></div><div class="ttdeci">bool is_null(const std::string &amp;value)</div><div class="ttdef"><b>Definition</b> <a href="cifdoc_8hpp_source.html#l00077">cifdoc.hpp:77</a></div></div>
 <div class="ttc" id="anamespacegemmi_1_1cif_html_ae351c8cc0971a7ce253a4ff6a93432eb"><div class="ttname"><a href="namespacegemmi_1_1cif.html#ae351c8cc0971a7ce253a4ff6a93432eb">gemmi::cif::as_int</a></div><div class="ttdeci">int as_int(const std::string &amp;str)</div><div class="ttdef"><b>Definition</b> <a href="cifdoc_8hpp_source.html#l00108">cifdoc.hpp:108</a></div></div>
@@ -940,10 +940,9 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="anamespacegemmi_html_ae924d6b4137d52b14f2dee82fe3a1df1ad909d38d705ce75386dd86e611a82f5b"><div class="ttname"><a href="namespacegemmi.html#ae924d6b4137d52b14f2dee82fe3a1df1ad909d38d705ce75386dd86e611a82f5b">gemmi::BondType::Double</a></div><div class="ttdeci">@ Double</div></div>
 <div class="ttc" id="anamespacegemmi_html_ae924d6b4137d52b14f2dee82fe3a1df1aeaa57a9b4248ce3968e718895e1c2f04"><div class="ttname"><a href="namespacegemmi.html#ae924d6b4137d52b14f2dee82fe3a1df1aeaa57a9b4248ce3968e718895e1c2f04">gemmi::BondType::Metal</a></div><div class="ttdeci">@ Metal</div></div>
 <div class="ttc" id="anamespacegemmi_html_ae924d6b4137d52b14f2dee82fe3a1df1af041c0cf25180682f440e4f9c194c5b0"><div class="ttname"><a href="namespacegemmi.html#ae924d6b4137d52b14f2dee82fe3a1df1af041c0cf25180682f440e4f9c194c5b0">gemmi::BondType::Aromatic</a></div><div class="ttdeci">@ Aromatic</div></div>
-<div class="ttc" id="anamespacegemmi_html_aed18f4879fc08df3014c74620a9d8aab"><div class="ttname"><a href="namespacegemmi.html#aed18f4879fc08df3014c74620a9d8aab">gemmi::id</a></div><div class="ttdeci">o o o o o o o o remark_300_detail o o o o o o o mean_I_over_sigma o id</div><div class="ttdef"><b>Definition</b> <a href="serialize_8hpp_source.html#l00076">serialize.hpp:76</a></div></div>
 <div class="ttc" id="anamespacegemmi_html_af64d0c3f9fa35a76dcea724f677f1790"><div class="ttname"><a href="namespacegemmi.html#af64d0c3f9fa35a76dcea724f677f1790">gemmi::ialpha4_id</a></div><div class="ttdeci">constexpr int ialpha4_id(const char *s)</div><div class="ttdef"><b>Definition</b> <a href="util_8hpp_source.html#l00305">util.hpp:305</a></div></div>
 <div class="ttc" id="anamespacegemmi_html_affb83a00638bf7314fa4ffdbf8962579"><div class="ttname"><a href="namespacegemmi.html#affb83a00638bf7314fa4ffdbf8962579">gemmi::bond_type_from_string</a></div><div class="ttdeci">BondType bond_type_from_string(const std::string &amp;s)</div><div class="ttdef"><b>Definition</b> <a href="chemcomp_8hpp_source.html#l00509">chemcomp.hpp:509</a></div></div>
-<div class="ttc" id="anumb_8hpp_html"><div class="ttname"><a href="numb_8hpp.html">numb.hpp</a></div></div>
+<div class="ttc" id="anumb_8hpp_html"><div class="ttname"><a href="numb_8hpp.html">numb.hpp</a></div><div class="ttdoc">Utilities for parsing CIF numbers (the CIF spec calls them 'numb').</div></div>
 <div class="ttc" id="astructgemmi_1_1Atom_html"><div class="ttname"><a href="structgemmi_1_1Atom.html">gemmi::Atom</a></div><div class="ttdoc">Represents atom site in macromolecular structure (~100 bytes).</div><div class="ttdef"><b>Definition</b> <a href="model_8hpp_source.html#l00119">model.hpp:119</a></div></div>
 <div class="ttc" id="astructgemmi_1_1ChemComp_1_1Aliasing_html"><div class="ttname"><a href="structgemmi_1_1ChemComp_1_1Aliasing.html">gemmi::ChemComp::Aliasing</a></div><div class="ttdef"><b>Definition</b> <a href="chemcomp_8hpp_source.html#l00356">chemcomp.hpp:356</a></div></div>
 <div class="ttc" id="astructgemmi_1_1ChemComp_1_1Aliasing_html_a0513e4e96a322eecd2a2ace6ed60ff0b"><div class="ttname"><a href="structgemmi_1_1ChemComp_1_1Aliasing.html#a0513e4e96a322eecd2a2ace6ed60ff0b">gemmi::ChemComp::Aliasing::name_from_alias</a></div><div class="ttdeci">const std::string * name_from_alias(const std::string &amp;atom_id) const</div><div class="ttdef"><b>Definition</b> <a href="chemcomp_8hpp_source.html#l00361">chemcomp.hpp:361</a></div></div>
@@ -1091,7 +1090,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="astructgemmi_1_1cif_1_1Block_html_a2ef7efc20e67043bcd9534c87352602a"><div class="ttname"><a href="structgemmi_1_1cif_1_1Block.html#a2ef7efc20e67043bcd9534c87352602a">gemmi::cif::Block::find_values</a></div><div class="ttdeci">Column find_values(const std::string &amp;tag)</div><div class="ttdef"><b>Definition</b> <a href="cifdoc_8hpp_source.html#l00850">cifdoc.hpp:850</a></div></div>
 <div class="ttc" id="astructgemmi_1_1cif_1_1Block_html_a568dd4077997b7289c7df413c4d13ac4"><div class="ttname"><a href="structgemmi_1_1cif_1_1Block.html#a568dd4077997b7289c7df413c4d13ac4">gemmi::cif::Block::find</a></div><div class="ttdeci">Table find(const std::string &amp;prefix, const std::vector&lt; std::string &gt; &amp;tags)</div><div class="ttdef"><b>Definition</b> <a href="cifdoc_8hpp_source.html#l00963">cifdoc.hpp:963</a></div></div>
 <div class="ttc" id="astructgemmi_1_1cif_1_1Table_html"><div class="ttname"><a href="structgemmi_1_1cif_1_1Table.html">gemmi::cif::Table</a></div><div class="ttdef"><b>Definition</b> <a href="cifdoc_8hpp_source.html#l00285">cifdoc.hpp:285</a></div></div>
-<div class="ttc" id="autil_8hpp_html"><div class="ttname"><a href="util_8hpp.html">util.hpp</a></div></div>
+<div class="ttc" id="autil_8hpp_html"><div class="ttname"><a href="util_8hpp.html">util.hpp</a></div><div class="ttdoc">Utilities. Mostly for working with strings and vectors.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Gemmi C++ API: /home/wojdyr/gemmi/gemmi/include/gemmi/align.hpp Source File</title>
+<title>Gemmi C++ API: include/gemmi/align.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -74,7 +74,7 @@ $(document).ready(function() { init_codefold(0); });
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_c5b8fc87970ee713285cf5bc9d6a8cb4.html">gemmi</a></li><li class="navelem"><a class="el" href="dir_43e4b0c8c232c2116c35cb27587a3d7e.html">include</a></li><li class="navelem"><a class="el" href="dir_f2d8f33d6739e7520ac414e2006066cc.html">gemmi</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_97b7d6895b0e578738d3a33b6e429156.html">gemmi</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -226,7 +226,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>          res_group++;</div>
 <div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>        <span class="keywordflow">break</span>;</div>
 <div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;M&#39;</span>:  <span class="comment">// not checking for mismatches</span></div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>        <span class="keywordflow">for</span> (uint32_t i = 0; i &lt; item.len(); ++i, ++<a class="code hl_variable" href="namespacegemmi.html#aed18f4879fc08df3014c74620a9d8aab">id</a>)</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>        <span class="keywordflow">for</span> (uint32_t i = 0; i &lt; item.len(); ++i, ++id)</div>
 <div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>          <span class="keywordflow">for</span> (<a class="code hl_struct" href="structgemmi_1_1Residue.html">Residue</a>* res = &amp;*res_group++; res != &amp;*res_group; ++res)</div>
 <div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>            res-&gt;label_seq = <span class="keywordtype">id</span>;</div>
 <div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>        <span class="keywordflow">break</span>;</div>
@@ -423,7 +423,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span>} <span class="comment">// namespace gemmi</span></div>
 <div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="afail_8hpp_html_a1669245a173e1e01c886ce838ee44fbf"><div class="ttname"><a href="fail_8hpp.html#a1669245a173e1e01c886ce838ee44fbf">GEMMI_DLL</a></div><div class="ttdeci">#define GEMMI_DLL</div><div class="ttdef"><b>Definition</b> <a href="fail_8hpp_source.html#l00053">fail.hpp:53</a></div></div>
-<div class="ttc" id="amodel_8hpp_html"><div class="ttname"><a href="model_8hpp.html">model.hpp</a></div></div>
+<div class="ttc" id="amodel_8hpp_html"><div class="ttname"><a href="model_8hpp.html">model.hpp</a></div><div class="ttdoc">Data structures to store macromolecular structure models.</div></div>
 <div class="ttc" id="anamespacegemmi_html"><div class="ttname"><a href="namespacegemmi.html">gemmi</a></div><div class="ttdef"><b>Definition</b> <a href="addends_8hpp_source.html#l00012">addends.hpp:12</a></div></div>
 <div class="ttc" id="anamespacegemmi_html_a03602c4acc3b09b51c876ac18e01f5c9"><div class="ttname"><a href="namespacegemmi.html#a03602c4acc3b09b51c876ac18e01f5c9">gemmi::clear_sequences</a></div><div class="ttdeci">void clear_sequences(Structure &amp;st)</div><div class="ttdef"><b>Definition</b> <a href="align_8hpp_source.html#l00085">align.hpp:85</a></div></div>
 <div class="ttc" id="anamespacegemmi_html_a14c5e118283c54582213022a2ed9e44e"><div class="ttname"><a href="namespacegemmi.html#a14c5e118283c54582213022a2ed9e44e">gemmi::assign_label_seq_id</a></div><div class="ttdeci">void assign_label_seq_id(Structure &amp;st, bool force)</div><div class="ttdef"><b>Definition</b> <a href="align_8hpp_source.html#l00152">align.hpp:152</a></div></div>
@@ -453,11 +453,10 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="anamespacegemmi_html_ac89c6488f890ac28a13a075bfc0580fdab1c94ca2fbc3e78fc30069c8d0f01680"><div class="ttname"><a href="namespacegemmi.html#ac89c6488f890ac28a13a075bfc0580fdab1c94ca2fbc3e78fc30069c8d0f01680">gemmi::SupSelect::All</a></div><div class="ttdeci">@ All</div></div>
 <div class="ttc" id="anamespacegemmi_html_ac89c6488f890ac28a13a075bfc0580fdacfa9c3ebc8b1f6aa7098461cd7a05842"><div class="ttname"><a href="namespacegemmi.html#ac89c6488f890ac28a13a075bfc0580fdacfa9c3ebc8b1f6aa7098461cd7a05842">gemmi::SupSelect::MainChain</a></div><div class="ttdeci">@ MainChain</div></div>
 <div class="ttc" id="anamespacegemmi_html_ace5bd65601f8e51653de63a7afa7f380"><div class="ttname"><a href="namespacegemmi.html#ace5bd65601f8e51653de63a7afa7f380">gemmi::fail</a></div><div class="ttdeci">void fail(const std::string &amp;msg)</div><div class="ttdef"><b>Definition</b> <a href="fail_8hpp_source.html#l00059">fail.hpp:59</a></div></div>
-<div class="ttc" id="anamespacegemmi_html_aed18f4879fc08df3014c74620a9d8aab"><div class="ttname"><a href="namespacegemmi.html#aed18f4879fc08df3014c74620a9d8aab">gemmi::id</a></div><div class="ttdeci">o o o o o o o o remark_300_detail o o o o o o o mean_I_over_sigma o id</div><div class="ttdef"><b>Definition</b> <a href="serialize_8hpp_source.html#l00076">serialize.hpp:76</a></div></div>
 <div class="ttc" id="anamespacegemmi_html_af9ee13aad3422d86b037ed7bc2328f13"><div class="ttname"><a href="namespacegemmi.html#af9ee13aad3422d86b037ed7bc2328f13">gemmi::prepare_target_gapo</a></div><div class="ttdeci">std::vector&lt; int &gt; prepare_target_gapo(const ConstResidueSpan &amp;polymer, PolymerType polymer_type, const AlignmentScoring *scoring=nullptr)</div><div class="ttdef"><b>Definition</b> <a href="align_8hpp_source.html#l00018">align.hpp:18</a></div></div>
-<div class="ttc" id="apolyheur_8hpp_html"><div class="ttname"><a href="polyheur_8hpp.html">polyheur.hpp</a></div></div>
-<div class="ttc" id="aqcp_8hpp_html"><div class="ttname"><a href="qcp_8hpp.html">qcp.hpp</a></div></div>
-<div class="ttc" id="aseqalign_8hpp_html"><div class="ttname"><a href="seqalign_8hpp.html">seqalign.hpp</a></div></div>
+<div class="ttc" id="apolyheur_8hpp_html"><div class="ttname"><a href="polyheur_8hpp.html">polyheur.hpp</a></div><div class="ttdoc">Heuristic methods for working with chains and polymers. Also includes a few well-defined functions,...</div></div>
+<div class="ttc" id="aqcp_8hpp_html"><div class="ttname"><a href="qcp_8hpp.html">qcp.hpp</a></div><div class="ttdoc">Structural superposition, the QCP method.</div></div>
+<div class="ttc" id="aseqalign_8hpp_html"><div class="ttname"><a href="seqalign_8hpp.html">seqalign.hpp</a></div><div class="ttdoc">Simple pairwise sequence alignment.</div></div>
 <div class="ttc" id="astructgemmi_1_1AlignmentResult_1_1Item_html"><div class="ttname"><a href="structgemmi_1_1AlignmentResult_1_1Item.html">gemmi::AlignmentResult::Item</a></div><div class="ttdef"><b>Definition</b> <a href="seqalign_8hpp_source.html#l00072">seqalign.hpp:72</a></div></div>
 <div class="ttc" id="astructgemmi_1_1AlignmentResult_html"><div class="ttname"><a href="structgemmi_1_1AlignmentResult.html">gemmi::AlignmentResult</a></div><div class="ttdef"><b>Definition</b> <a href="seqalign_8hpp_source.html#l00071">seqalign.hpp:71</a></div></div>
 <div class="ttc" id="astructgemmi_1_1AlignmentResult_html_a77bf1cfe8bd5bc4900109d92c1b4ad24"><div class="ttname"><a href="structgemmi_1_1AlignmentResult.html#a77bf1cfe8bd5bc4900109d92c1b4ad24">gemmi::AlignmentResult::push_cigar</a></div><div class="ttdeci">void push_cigar(std::uint32_t op, int len)</div><div class="ttdef"><b>Definition</b> <a href="seqalign_8hpp_source.html#l00184">seqalign.hpp:184</a></div></div>

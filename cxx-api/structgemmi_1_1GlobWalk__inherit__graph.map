@@ -1,5 +1,5 @@
 <map id="gemmi::GlobWalk" name="gemmi::GlobWalk">
-<area shape="rect" id="Node000001" title=" " alt="" coords="20,93,145,119"/>
-<area shape="rect" id="Node000002" href="$classgemmi_1_1DirWalk.html" title=" " alt="" coords="5,5,160,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,59,85,93,80,93,80,59"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="22,93,161,119"/>
+<area shape="rect" id="Node000002" href="$classgemmi_1_1DirWalk.html" title=" " alt="" coords="5,5,177,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,59,94,93,89,93,89,59"/>
 </map>

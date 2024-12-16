@@ -1,7 +1,7 @@
 var searchData=
 [
   ['d_5fmin_0',['d_min',['../structgemmi_1_1DensityCalculator.html#a9d6b490e1157f17081033238f86ded1d',1,'gemmi::DensityCalculator']]],
-  ['data_1',['data',['../structgemmi_1_1C4322.html#a298ed594e48f7005ab25606fe8c66eb5',1,'gemmi::C4322::data'],['../structgemmi_1_1GridBase.html#a15eec6a898a6d90dd311fc12099d46fe',1,'gemmi::GridBase::data'],['../structgemmi_1_1Intensities.html#afc37f64807bf33aa0a395320a9366986',1,'gemmi::Intensities::data'],['../structgemmi_1_1IT92.html#aab9a50f91d446a19e03963ccfe4f922c',1,'gemmi::IT92::data'],['../structgemmi_1_1Mtz.html#af6e9a163aa30509db657e23b80ad7949',1,'gemmi::Mtz::data'],['../structgemmi_1_1Neutron92.html#a23932540c0cfe0a6a3a341c50a3487a1',1,'gemmi::Neutron92::data'],['../structgemmi_1_1XdsAscii.html#aafa9b8a0c214ae4f8f32c6c9696a1a5f',1,'gemmi::XdsAscii::data']]],
+  ['data_1',['data',['../structgemmi_1_1C4322.html#a298ed594e48f7005ab25606fe8c66eb5',1,'gemmi::C4322::data'],['../structgemmi_1_1XdsAscii.html#aafa9b8a0c214ae4f8f32c6c9696a1a5f',1,'gemmi::XdsAscii::data'],['../structgemmi_1_1Neutron92.html#a23932540c0cfe0a6a3a341c50a3487a1',1,'gemmi::Neutron92::data'],['../structgemmi_1_1Mtz.html#af6e9a163aa30509db657e23b80ad7949',1,'gemmi::Mtz::data'],['../structgemmi_1_1Intensities.html#afc37f64807bf33aa0a395320a9366986',1,'gemmi::Intensities::data'],['../structgemmi_1_1GridBase.html#a15eec6a898a6d90dd311fc12099d46fe',1,'gemmi::GridBase::data'],['../structgemmi_1_1IT92.html#aab9a50f91d446a19e03963ccfe4f922c',1,'gemmi::IT92::data']]],
   ['database_5fstatus_2',['database_status',['../structgemmi_1_1MmcifOutputGroups.html#a06feba4d322f47c9da6c00872cdc8456',1,'gemmi::MmcifOutputGroups']]],
   ['dataset_5fid_3',['dataset_id',['../structgemmi_1_1CifToMtz_1_1Entry.html#a8a9b8e50614c848fcea94dae55d57f5b',1,'gemmi::CifToMtz::Entry::dataset_id'],['../structgemmi_1_1Mtz_1_1Column.html#af69f1fde4271252ee75b50268b3cc91e',1,'gemmi::Mtz::Column::dataset_id']]],
   ['dataset_5fname_4',['dataset_name',['../structgemmi_1_1Mtz_1_1Dataset.html#a5227cce099bf939b2fbdb989cb6f155d',1,'gemmi::Mtz::Dataset']]],
@@ -15,8 +15,8 @@ var searchData=
   ['den_12',['DEN',['../structgemmi_1_1Op.html#a94d1b4ebddba4dbbbb0215d6dcba3e04',1,'gemmi::Op']]],
   ['denom_13',['denom',['../structgemmi_1_1AsuBrick.html#a9f33caf6d42fa0114a9270075b57a87b',1,'gemmi::AsuBrick']]],
   ['description_14',['description',['../structgemmi_1_1SoftwareItem.html#a56aa998e78adaf3a1a5c876f97944148',1,'gemmi::SoftwareItem::description'],['../structgemmi_1_1CrystalInfo.html#aef33d18e07fc6d4d8d3fb56ce229d0cb',1,'gemmi::CrystalInfo::description']]],
-  ['details_15',['details',['../structgemmi_1_1TlsGroup_1_1Selection.html#a7f8c3e5104d9af3f273dd2f7e725c3cd',1,'gemmi::TlsGroup::Selection::details'],['../structgemmi_1_1ModRes.html#a652f148052c88f0160caaa442fb40f9a',1,'gemmi::ModRes::details']]],
-  ['detector_16',['detector',['../structgemmi_1_1DiffractionInfo.html#af345aec405806dfea487a8b5db703efe',1,'gemmi::DiffractionInfo::detector'],['../namespacegemmi.html#a023289b1a7ce2179e526dad37311dadf',1,'gemmi::detector']]],
+  ['details_15',['details',['../structgemmi_1_1ModRes.html#a652f148052c88f0160caaa442fb40f9a',1,'gemmi::ModRes::details'],['../structgemmi_1_1TlsGroup_1_1Selection.html#a7f8c3e5104d9af3f273dd2f7e725c3cd',1,'gemmi::TlsGroup::Selection::details']]],
+  ['detector_16',['detector',['../structgemmi_1_1DiffractionInfo.html#af345aec405806dfea487a8b5db703efe',1,'gemmi::DiffractionInfo']]],
   ['detector_5fdistance_17',['detector_distance',['../structgemmi_1_1XdsAscii.html#a31869c1eba4b0b35976fa10ab6243ddf',1,'gemmi::XdsAscii']]],
   ['detector_5fmake_18',['detector_make',['../structgemmi_1_1DiffractionInfo.html#aec1e6a363d6a02bae307876b512c57e6',1,'gemmi::DiffractionInfo']]],
   ['dev_5fideal_19',['dev_ideal',['../structgemmi_1_1RefinementInfo_1_1Restr.html#aa553eb591f276a55a44e5f80a3183e66',1,'gemmi::RefinementInfo::Restr']]],
@@ -29,12 +29,12 @@ var searchData=
   ['disorder_5fgroup_26',['disorder_group',['../structgemmi_1_1SmallStructure_1_1Site.html#a791242ab172e64570b437257152647d2',1,'gemmi::SmallStructure::Site']]],
   ['dispersion_5fimag_27',['dispersion_imag',['../structgemmi_1_1SmallStructure_1_1AtomType.html#a72d2f42d42637747623b3e613e19177a',1,'gemmi::SmallStructure::AtomType']]],
   ['dispersion_5freal_28',['dispersion_real',['../structgemmi_1_1SmallStructure_1_1AtomType.html#ac456b1eb7764f12cd550dd47f4e7e472',1,'gemmi::SmallStructure::AtomType']]],
-  ['dist_5fsq_29',['dist_sq',['../structgemmi_1_1NearestImage.html#ab94c43bce4424451b96f939f09274397',1,'gemmi::NearestImage::dist_sq'],['../structgemmi_1_1NodeInfo.html#ab5e8a45e0ddda45b5cd9a64242927581',1,'gemmi::NodeInfo::dist_sq'],['../structgemmi_1_1ContactSearch_1_1Result.html#a96804dd42c1f2663f77e4bb6372b1077',1,'gemmi::ContactSearch::Result::dist_sq']]],
+  ['dist_5fsq_29',['dist_sq',['../structgemmi_1_1ContactSearch_1_1Result.html#a96804dd42c1f2663f77e4bb6372b1077',1,'gemmi::ContactSearch::Result::dist_sq'],['../structgemmi_1_1NodeInfo.html#ab5e8a45e0ddda45b5cd9a64242927581',1,'gemmi::NodeInfo::dist_sq'],['../structgemmi_1_1NearestImage.html#ab94c43bce4424451b96f939f09274397',1,'gemmi::NearestImage::dist_sq']]],
   ['dmax_30',['dmax',['../structgemmi_1_1DataStats.html#a8a615e1c2d4b23b2975975b760a7b2ed',1,'gemmi::DataStats']]],
   ['dmean_31',['dmean',['../structgemmi_1_1DataStats.html#a93248133c23ca2763df40e7e0577e01a',1,'gemmi::DataStats']]],
   ['dmin_32',['dmin',['../structgemmi_1_1DataStats.html#ac9d85410268f9e33f6eb92ccf328a709',1,'gemmi::DataStats']]],
-  ['dpi_5fblow_5fr_33',['dpi_blow_r',['../structgemmi_1_1RefinementInfo.html#a3814e4ea1c0f5a6ca37268bcfecc9656',1,'gemmi::RefinementInfo::dpi_blow_r'],['../namespacegemmi.html#a5fd83a24f55fc1fdee67726142adb5a3',1,'gemmi::dpi_blow_r']]],
-  ['dpi_5fblow_5frfree_34',['dpi_blow_rfree',['../structgemmi_1_1RefinementInfo.html#a453bec1a3ebf972cc86b29a21b835b60',1,'gemmi::RefinementInfo::dpi_blow_rfree'],['../namespacegemmi.html#a00ae4f82ee71176d3120d31ec624be51',1,'gemmi::dpi_blow_rfree']]],
-  ['dpi_5fcruickshank_5fr_35',['dpi_cruickshank_r',['../structgemmi_1_1RefinementInfo.html#afc9ac9fb6d3d4a2b50527c3d8893d89a',1,'gemmi::RefinementInfo::dpi_cruickshank_r'],['../namespacegemmi.html#aa9044b892a620bf64356b70d11c31612',1,'gemmi::dpi_cruickshank_r']]],
-  ['dpi_5fcruickshank_5frfree_36',['dpi_cruickshank_rfree',['../structgemmi_1_1RefinementInfo.html#a821ffc3b871631c51bd1b3357ce6ec91',1,'gemmi::RefinementInfo::dpi_cruickshank_rfree'],['../namespacegemmi.html#ab0515b5e6d352989c8c87344288d1c29',1,'gemmi::dpi_cruickshank_rfree']]]
+  ['dpi_5fblow_5fr_33',['dpi_blow_r',['../structgemmi_1_1RefinementInfo.html#a3814e4ea1c0f5a6ca37268bcfecc9656',1,'gemmi::RefinementInfo']]],
+  ['dpi_5fblow_5frfree_34',['dpi_blow_rfree',['../structgemmi_1_1RefinementInfo.html#a453bec1a3ebf972cc86b29a21b835b60',1,'gemmi::RefinementInfo']]],
+  ['dpi_5fcruickshank_5fr_35',['dpi_cruickshank_r',['../structgemmi_1_1RefinementInfo.html#afc9ac9fb6d3d4a2b50527c3d8893d89a',1,'gemmi::RefinementInfo']]],
+  ['dpi_5fcruickshank_5frfree_36',['dpi_cruickshank_rfree',['../structgemmi_1_1RefinementInfo.html#a821ffc3b871631c51bd1b3357ce6ec91',1,'gemmi::RefinementInfo']]]
 ];
